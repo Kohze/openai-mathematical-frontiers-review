@@ -42,5 +42,5 @@
   "disclosure": "Approved disclosure appears once, in its dedicated section; absent from abstract.",
   "illustrative_examples_record": "audit/illustrative-examples.json",
   "validation_scope": "Bibliographic identity, source-statement comparison, elementary illustrative examples, internal exposition cross-review, compilation and rendered layout. Underlying release proofs and formal dependency builds are outside these checks.",
-  "publication_status": "Prepared locally; no submission or publication performed for this review."
+  "record_type": "Reproduction and internal-audit result; public release status is maintained in publication records."
 }

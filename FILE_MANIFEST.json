@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "release": "v1.0.0",
+  "release": "v1.0.1",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,8 +19,8 @@
     },
     {
       "path": "audit/artifact-manifest.json",
-      "bytes": 9826,
-      "sha256": "27a9aef9f7c8ea8999b602c25c9ee22e417e1b0a01858909b9e233da4c964e39"
+      "bytes": 9703,
+      "sha256": "75d87a43ff4b8927d02e6eb8c400ebceb2545dff413dc78ce508732235cda56e"
     },
     {
       "path": "audit/build.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "audit/final-audit.json",
-      "bytes": 2823,
-      "sha256": "92de7dc27f3dbaefe38795f7fb90e07bb4924763a111596faa38d584f0ad2616"
+      "bytes": 2842,
+      "sha256": "33b9a31a0995a80c85898cade43918f69c81a53cacabaa92dd8a3eac23f01e2d"
     },
     {
       "path": "audit/geometry-cross-review.json",
@@ -169,8 +169,8 @@
     },
     {
       "path": "reproduce/package_review.py",
-      "bytes": 8924,
-      "sha256": "c686f4848c414369759071a8fc5c36de5c88dd62cc1758bbf49d80745e0861fe"
+      "bytes": 9006,
+      "sha256": "eeabe4fc4764e0df9c96ca1506181b38fb70952d0979d82ee7d81c41b07512d3"
     },
     {
       "path": "reproduce/verify_reference_metadata.py",

@@ -1,5 +1,5 @@
 {
-  "scope": "Curated own-review sources, PDF, evidence ledgers and reproduction scripts; excludes build intermediates and downloaded third-party papers. This manifest excludes its own hash.",
+  "scope": "Curated own-review sources, PDF, evidence ledgers and reproduction scripts; excludes build intermediates and downloaded third-party papers. Generated manifests are excluded to keep checksum dependencies acyclic.",
   "files": [
     {
       "path": ".gitattributes",
@@ -53,8 +53,8 @@
     },
     {
       "path": "audit/final-audit.json",
-      "bytes": 2823,
-      "sha256": "92de7dc27f3dbaefe38795f7fb90e07bb4924763a111596faa38d584f0ad2616"
+      "bytes": 2842,
+      "sha256": "33b9a31a0995a80c85898cade43918f69c81a53cacabaa92dd8a3eac23f01e2d"
     },
     {
       "path": "audit/geometry-cross-review.json",
@@ -112,11 +112,6 @@
       "sha256": "3ece61a883c534788a88960c7ea44499880bc94cdac1fff5b00b7ed1d973e538"
     },
     {
-      "path": "FILE_MANIFEST.json",
-      "bytes": 9403,
-      "sha256": "6cb118fdffcd44f46af8e0a6f1cd566dd5d955bc6d9dc7048823c245368535da"
-    },
-    {
       "path": "LICENSE-CODE",
       "bytes": 1240,
       "sha256": "f4ddc24d80676246212fff18a29675af6596b7bec94e018baa3de66c34667e9c"
@@ -168,8 +163,8 @@
     },
     {
       "path": "reproduce/package_review.py",
-      "bytes": 8924,
-      "sha256": "c686f4848c414369759071a8fc5c36de5c88dd62cc1758bbf49d80745e0861fe"
+      "bytes": 9006,
+      "sha256": "eeabe4fc4764e0df9c96ca1506181b38fb70952d0979d82ee7d81c41b07512d3"
     },
     {
       "path": "reproduce/verify_reference_metadata.py",

@@ -130,7 +130,7 @@ def main():
         "disclosure": "Approved disclosure appears once, in its dedicated section; absent from abstract.",
         "illustrative_examples_record": "audit/illustrative-examples.json",
         "validation_scope": "Bibliographic identity, source-statement comparison, elementary illustrative examples, internal exposition cross-review, compilation and rendered layout. Underlying release proofs and formal dependency builds are outside these checks.",
-        "publication_status": "Prepared locally; no submission or publication performed for this review.",
+        "record_type": "Reproduction and internal-audit result; public release status is maintained in publication records.",
     })
     files = sorted(
         p for p in PAPER.rglob("*") if p.is_file()
@@ -139,10 +139,10 @@ def main():
         and p.relative_to(PAPER).parts[0] not in ('venv', '.pytest_cache', '.mypy_cache', '.ruff_cache')
         and "build" not in p.relative_to(PAPER).parts
         and "__pycache__" not in p.relative_to(PAPER).parts
-        and p.name != "artifact-manifest.json"
+        and p.name not in ("artifact-manifest.json", "FILE_MANIFEST.json")
     )
     save_json("audit/artifact-manifest.json", {
-        "scope": "Curated own-review sources, PDF, evidence ledgers and reproduction scripts; excludes build intermediates and downloaded third-party papers. This manifest excludes its own hash.",
+        "scope": "Curated own-review sources, PDF, evidence ledgers and reproduction scripts; excludes build intermediates and downloaded third-party papers. Generated manifests are excluded to keep checksum dependencies acyclic.",
         "files": [{"path": p.relative_to(PAPER).as_posix(), "bytes": p.stat().st_size, "sha256": digest(p)} for p in files],
     })
     pdf_output = WORKSPACE / "output" / "pdf"
