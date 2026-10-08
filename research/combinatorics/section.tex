@@ -1,0 +1,223 @@
+\section{Counting, sampling, and the limits of local positivity}
+\label{sec:frontier-counting}
+
+Families 113--115 form an integrated case study in converting structural
+inequalities into algorithms. Their common question is how to count or sample
+a constrained family when positive weights and feasible local moves alone give
+little quantitative information. Three different missing implications are
+addressed: an energy bound for a restricted class of functions must control
+the functions used by an algorithm; an approximate law must have a tractable
+exact description before it can be corrected; and a polynomial operation count
+must remain polynomial when integer data are written in binary.
+A fully polynomial randomized approximation scheme (FPRAS) estimates a
+count to relative error $\varepsilon$ with high probability, in time
+polynomial in input size and $1/\varepsilon$. The question here is which
+new mathematical estimate would make such guarantees possible for the
+unrestricted families.
+
+\subsection{General perfect matchings: enlarge the space, then amplify the inequality}
+
+The older matching literature supplies both a method and a precise obstacle.
+Jerrum and Sinclair established approximation results through matching walks
+\cite{FrontJS1989}; Jerrum, Sinclair and Vigoda obtained the permanent FPRAS by
+balancing hole-pattern weights \cite{FrontJSV2004}. The nonbipartite extension
+requires additional mathematics: \v{S}tefankovi\v{c}, Vigoda and Wilmes show
+torpid mixing for the JSV-type chain under arbitrary hole-pattern weighting
+\cite{FrontSVW2017}. Their obstruction concerns that specified state space
+and transition mechanism. It is therefore compatible with an algorithm that
+changes both.
+
+The release's Theorem 1.1 covers finite simple undirected graphs, rational
+\(0<\varepsilon<1\), and \(0<\delta<1/2\), with relative-error failure at most
+\(\delta\), exact zero output on empty instances, and polynomial bit time on
+every random tape \cite{FrontOpenAIMatching}. Its key sequence is Theorem 3.1's
+hole-capacity bound, a weighted subdivision and colored tree-bag enlargement,
+and a sampler with local switches and exchanges between two matching
+coordinates. Theorem 6.1 bounds additive pair functions, rather than arbitrary
+pair functions. Lemma 7.2 supplies the missing upgrade: ordered product
+decomposition assigns each interaction residual to at most one coordinate
+pair, while replicated adjacent weight tiers make their accumulated energy
+absorbable. The replication count is \(32L\), where \(L\) is the large
+polynomial comparison bound carried from the pair estimate.
+The manuscript derives its claimed polynomial-complexity bound using
+deliberately large parameters.
+
+The distinctive review target is this change of analytic scale. A signed
+cycle identity is a comparison device, not a path of legal Markov moves;
+the full product-space inequality requires its own argument. Reading a
+two-coordinate estimate as full mixing would discard the step that makes
+the proposed construction unusual. The scope document lists the graph FPRAS,
+but only selected accompanying entropy and face statements
+\cite{FrontScope113}. Thus the algorithmic theorem and every geometric companion
+should retain their separate evidence status.
+
+\subsection{Common bases: restricted observables can be enough}
+
+A matroid abstracts the exchange properties of linear independence.
+Its bases are maximal independent sets; a common base must be a base of
+each of two matroids on the same ground set. An independence oracle
+answers whether a specified set is independent. For a single matroid,
+high-dimensional walks already yield an independence-oracle
+FPRAS \cite{FrontALOV2024}. Earlier common-base approximations included a
+deterministic \(2^{O(r)}\) factor \cite{FrontAOV2021}. Their algebraic framework
+does not automatically survive intersection. On the four edges of \(K_{2,2}\),
+the common bases of its two vertex-partition matroids have generating
+polynomial
+\[
+g(x)=x_1x_4+x_2x_3.
+\]
+Its Hessian has eigenvalues \(1,1,-1,-1\); consequently it fails the
+one-positive-direction condition for a nonnegative quadratic Lorentzian
+polynomial. This elementary example isolates a structural obstruction,
+rather than a hardness conclusion.
+
+The September manuscript's Theorem 1.1 uses arbitrary equal-rank matroids
+on an explicitly enumerated ground set, with exact independence oracles.
+It bounds oracle calls and additional bit work polynomially on every
+execution \cite{FrontOpenAICommon}. A paired reduction uses
+\(M_1\oplus M_2^*\), then positive rank-deficiency weights and one-empty/one-full
+pair defects. Br\"and\'en--Huh quadratic signatures \cite{FrontBH2020} control
+a recursively balanced signed current. Lemma 4.1 bounds transport between
+missing-slot conditional laws. Proposition 5.3 controls transversal values
+and defect-class means, leaving within-defect fluctuations uncontrolled.
+Lemma 6.2 separately bounds the transversal trace. Fresh warm restarts and
+observable variance estimates then support annealing and learned defect
+multipliers. The scope document specifies the independence-oracle matroid
+theorem \cite{FrontScope114}; it does not identify the later binary-capacity
+integer-polymatroid extension as part of that coverage.
+
+Chen, Vigoda, and Yang already use partition-restricted Poincar\'e
+control to estimate hole-pattern frequencies for the permanent
+\cite[Definition~4 and Theorem~5(ii)]{FrontCVY2026}. Their framework
+bounds stationary empirical averages of block-constant observables
+under the specified reversible-chain hypotheses. The common-base
+manuscript explicitly adopts this framework. Its candidate advance is
+the matroid-specific transport estimate together with compatible
+transversal trace and warm-start control. These additional estimates
+must connect the restricted inequality to the observables and returns
+used by the counting algorithm.
+
+A contemporaneous comparison is also essential:
+Chen and Liu's 5 October 2026 preprint also gives a common-base FPRAS
+and develops a nonnegative-curvature framework for Hadamard products of
+measures \cite{FrontChenLiu2026}. Its field-selection and curvature mechanism
+provides a separate comparison route. Manuscript dates alone therefore
+do not establish priority, and the September construction should be assessed
+through its specific transport and simulation arguments.
+
+\subsection{Contingency tables: make exactness affordable in expectation}
+
+The target law here is uniform over nonnegative integer tables with prescribed
+margins. Dense-margin sampling has longstanding geometric predecessors
+\cite{FrontDKM1997,FrontMorris2002}, while perfect sampling was already available
+for two-row tables \cite{FrontKijimaMatsui2003}. These restrictions matter:
+a result for fixed row count or sufficiently large margins does not give
+a polynomial bound jointly in both dimensions and the margin bit length.
+
+The release's Theorem 1.1 allows arbitrary nonnegative equal-total margins,
+both dimensions variable, and no cell restrictions. It supplies error
+\(2^{-k}\) in worst-case polynomial bit time and exact uniform sampling in
+expected polynomial bit time \cite{FrontOpenAITables}. Small-margin cells
+form explicit defect states; padding makes the remaining rectangular
+completion problems dense. Conditional transport and repair lead to the
+small-state Poincar\'e inequality in Theorem 4.3. The exactness bottleneck
+is Proposition 6.3: the actual bounded sampler's law, including fallbacks,
+is tabulated with an exponential input-size factor but polynomial dependence
+on precision. Theorem 6.4 applies the earlier residual-mixture construction
+of G\"obel, Liu, Manurangsi and Pappik \cite{FrontGLMP2024}.
+Their method requires usable output-law computation, not merely a small
+total-variation error.
+
+For any proposed exact correction, write \(\delta\) for the actual
+correction-branch probability and \(T_{\rm ordinary}\) for the mean work
+conditioned on the ordinary branch. The decisive accounting is
+\[
+\mathbb E[T]=(1-\delta)T_{\rm ordinary}
++\delta\,\mathbb E[T_{\rm correction}].
+\]
+The correction branch may be expensive while its contribution to the
+expectation remains controlled. An implementation that instead enumerates
+all precision-dependent random tapes can destroy that accounting. This
+distinguishes a probability identity from an efficient sampler.
+The scope document likewise separates unrestricted exact sampling from
+cell-bounded approximate counting \cite{FrontScope115}; forbidden cells
+cannot simply be inserted into the unrestricted sampler's guarantee.
+
+\subsection{From algorithmic guarantees to implementations}
+
+The three constructions repair different interfaces between analysis and
+computation. Matching replication upgrades a restricted inequality;
+common-base trace simulation exploits a restricted inequality without
+that upgrade; table-law tabulation makes a rare exact correction computable.
+Calling all three \emph{rapid mixing from positivity} would obscure the
+specific work.
+
+A useful research program would isolate these interfaces as reusable
+lemmas with independently checked hypotheses. For common bases, one could
+compare conditional transport and curvature on the same oracle families,
+measuring which quantities each certificate controls. For tables, the
+natural implementation task is a finite-kernel law evaluator whose state
+enumeration is separated from its requested precision. For matchings, a
+small-instance prototype should report enlarged graph size, replication,
+and acceptance probabilities before extrapolating runtime. These are
+proposals motivated by the proof structures, not performance conclusions.
+
+The theorem statements concern explicitly enumerated graphs or ground sets,
+exact oracles, and binary integer input. They provide an algorithmic frontier
+if the proposed proofs hold. Practical utility additionally requires feasible
+constants, a faithful target distribution, and measured cost against existing
+restricted-family algorithms. The scope documents identify the supplied
+formalization targets; assessing the supplied proof architecture and
+running a proof checker are distinct verification activities.
+
+\section{Unique Games and the completeness barrier}
+\label{sec:frontier-unique-games}
+
+A Unique Game assigns labels to vertices, with each edge requiring
+one label to be a specified bijective function of the other. The goal
+is to satisfy as many edges as possible. Completeness describes the
+fraction achievable in the yes instances of a reduction; soundness
+bounds the fraction achievable in its no instances. Family 102 claims
+hardness even when these fractions are near one and near zero,
+respectively. The established shortcode and Grassmann-expansion line gives
+imperfect-completeness hardness \cite{FrontBKS2019,FrontKMS2023}. Near-one
+completeness is a separate requirement. Ordinary repetition multiplies
+completeness as well as reducing soundness, so it does not itself repair a
+one-half completeness barrier. Khot's survey states the independent-error
+quantifiers of Unique Games \cite{FrontKhot2010}, and Raghavendra's
+SDP-optimality framework gives consequences conditional on that hypothesis
+\cite{FrontRaghavendra2008}.
+
+The release's Theorem 1.1 asserts a deterministic polynomial-time reduction
+from 3SAT, for every fixed \(0<\varepsilon,\delta<1/2\), to simple unweighted
+bipartite translation games over \(\mathbb F_2^s\), where
+\(s=s(\varepsilon,\delta)\) depends only on the fixed error parameters,
+with completeness
+at least \(1-\varepsilon\) and soundness at most \(\delta\)
+\cite{FrontOpenAIUGC}. Lemma 3.1 proposes a latent-alphabet gadget: an equivariant
+nonlinear observable is stable under noise, while families of linear
+observations with sufficiently high restriction rank on the gadget's
+distinguished output subspace \(K\) detect that noise with probability at least
+\(1/8\). Section 5 uses Fourier comparison to return to the ordinary
+degree-two shortcode inverse theorem. A correlated-advice decoder and
+clean-coordinate repetition supply the soundness bridge.
+The scope document describes the translation-game theorem and separately
+lists Max-Cut, cover and deletion reductions \cite{FrontScope102}.
+
+The gadget seeks to keep a nonlinear signal stable while making a
+sufficiently rich family of linear probes detect the perturbation.
+This is the proposed way to preserve high completeness without losing
+the soundness argument. The new object is that simultaneous separation,
+while the consequences for SDP thresholds have an established conditional
+theory. Its evaluation should concentrate on uniformity over adaptive
+linear lifts, the row-fiber transfer, and the information actually visible to
+each decoded strategy. H{\aa}stad's earlier Fourier decoding explains why
+extracting a strategy need not mean recovering a nearby codeword
+\cite{FrontHastad2001}; the new gadget must still preserve the particular
+completeness and soundness required here.
+
+The distinction from a routine amplification step is thus mathematical:
+ordinary repetition reduces both completeness and soundness, whereas
+this gadget is intended to separate their behavior. That gain depends
+on stability under adaptive linear lifts and on a decoder that uses
+only the information available to a valid strategy.

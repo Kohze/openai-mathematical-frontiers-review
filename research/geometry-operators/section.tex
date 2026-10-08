@@ -1,0 +1,287 @@
+\section{Convex duality and sharp operator bounds}
+\label{sec:geometry-operators}
+
+The Mahler and Crouzeix families are useful tests of the release's proposed
+mathematical mechanisms: both seek sharp universal inequalities, but the
+obstruction is not simply estimating another integral more accurately.
+For Mahler it is retaining enough information about polar geometry to
+identify the extremizers; for complete Crouzeix it is preserving
+noncommutative multiplication under arbitrary matrix amplification.
+The discussion below follows the released proof passages and identifies
+the transitions on which the claimed advances depend.
+
+\subsection{Mahler: boundary feasibility and Gaussian spectral comparison}
+\label{subsec:go-mahler}
+
+A volume product measures how a convex body and its polar constrain one
+another; it is unchanged by invertible linear changes of coordinates.
+Sharp lower bounds therefore identify geometric shapes rather than a
+preferred coordinate system. For a compact convex body
+\(K\subset\mathbb R^n\) with nonempty interior,
+write \(K^\circ=\{y:\langle y,x\rangle\le1\ (x\in K)\}\) when the origin is
+interior. The symmetric manuscript claims, for every \(n\ge1\),
+\[
+ K=-K
+ \quad\Longrightarrow\quad
+ |K|\,|K^\circ|\ge\frac{4^n}{n!},
+\]
+with equality precisely for invertible linear images of Hanner bodies:
+bodies generated from centered intervals by Cartesian products and
+convex-hull joins. The general manuscript separately claims
+\[
+ \inf_{z\in\operatorname{int}K}|K|\,|(K-z)^\circ|
+ \ge\frac{(n+1)^{n+1}}{(n!)^2},
+ \qquad
+ \text{equality if and only if \(K\) is a simplex}.
+\]
+Neither statement assumes smoothness or strict convexity
+\cite{GOOpenAISymmetricMahler2026,GOOpenAIGeneralMahler2026}.
+The constants and extremal classes differ; the general inequality does
+not recover the sharp symmetric one by restriction.
+
+The symmetric proof starts with a strip polytope
+\(A=\{X:|b_iX|\le1\}\), using nonzero, pairwise nonproportional rows
+that span the dual space after removing redundant parallel strips.
+Its unusual connecting device is a conformal lens. A disk map \(F\)
+has boundary law
+\[
+ F(e^{i\Theta})\overset{\rm law}{=}\varepsilon\lambda(T)+iT,
+ \qquad T\sim\operatorname{Unif}[-1,1],
+\]
+with an independent fair sign \(\varepsilon\), and a strictly concave
+half-width \(\lambda\). The manuscript explicitly obtains this map by
+rotating Gross's uniform-distribution example
+\cite[Section~3.2]{GOGross2019}. Thus the conformal lens is a prior
+construction; the proposed advance is its use to convert complex
+feasibility probabilities into sharp real volume information.
+
+For each independent row basis \(I\), a boundary sample determines a
+point \(Z_I=B_I^{-1}(F(e^{i\theta_i}))_{i\in I}\). Let \(P_I\) be the
+probability that every remaining strip coordinate belongs to the closed
+lens. The boundary-feasibility lemma claims \(\sum_I P_I\ge1\).
+Its proof applies a holomorphic isolated-zero mass estimate to the
+high powers \(g(b_i z)^k\), with \(g=F^{-1}\). The lower mass grows as
+\(k^n\); the substitution \(u_i=\rho_i^{1/k}e^{i\theta_i}\) removes
+that factor and upper Fatou passes to closed boundary feasibility.
+This mass estimate belongs to the generalized Lelong-number framework
+\cite[Sections~3 and~5]{GODemailly1993}; complex-analytic approaches
+to reverse volume-product bounds also precede the release
+\cite{GOBerndtsson2021}. The noteworthy proposed step is the
+dimension-independent feasibility inequality with its exact normalization.
+
+The next transition is more geometric. For fixed \(X\), feasible signed
+bases give simplices in \(A^\circ\). Additional boundary ties are shown
+to have probability zero, and a supporting-functional argument proves
+that the simplex interiors are disjoint. The resulting identity is
+\[
+ \sum_I P_I
+ =\frac{n!}{4^n}\int_A|\Sigma_X|\,dX
+ \le\frac{n!}{4^n}|A|\,|A^\circ|,
+\]
+where \(\Sigma_X\) is their union. This exposes where the sharp constant
+enters. Approximation of arbitrary symmetric bodies by polars of inner
+polytopes then extends the bound. Compared with the established
+three-dimensional theorem and equality classification of Iriyeh--Shibata
+\cite{GOIriyehShibata2020}, the claimed scope is all dimensions through
+an analytic feasibility identity rather than a dimension-specific
+partition argument.
+All-dimensional nonsharp lower bounds also precede the release, including
+Kuperberg's indefinite-geometric and linking-integral approach
+\cite{GOKuperberg2008}. The proposed qualitative gain is the conjectured
+sharp endpoint together with full rigidity, rather than a first
+all-dimensional reverse volume-product estimate.
+
+\begin{example}[A geometric transfer calibrated on the square]
+Take $A=[-1,1]^2$ with rows $e_1,e_2$. There is one indexed basis,
+its feasibility probability is $1$, and the four signed polar triangles
+fill the diamond $A^\circ$, of area $2$. Hence
+$(2!/4^2)\int_A|\Sigma_X|\,dX=(1/8)\cdot4\cdot2=1$.
+Representing the same square by rows $e_1,e_1,e_2$ instead gives two
+indexed bases, $\{1,3\}$ and $\{2,3\}$, each with probability $1$.
+Their geometric union remains the same diamond. Thus the probability
+sum is $2$ while the normalized union volume is $1$.
+Removing proportional rows is consequently part of the sharp geometric
+transfer: preserving the body alone does not preserve the indexed
+probability accounting. This checks the distinction between the
+feasibility inequality and the disjoint-simplex identity under their
+respective hypotheses.
+\end{example}
+
+Equality requires a separate mechanism. After adjoining an
+\(\ell_1\)-segment, vanishing integrated uncovered volume is tested on
+product neighborhoods of a prescribed interior point and direction.
+Compactness gives a single feasibility witness, even when limiting
+row bases become dependent. The lens endpoint asymptotic
+\(\lambda(1-\eta)\sim(2/\pi)\eta\log(1/\eta)\) converts minimum
+representation costs into the existence of metric medians for every
+triple in the polar norm. The final three-ball classification is the
+classical Hansen--Lima theorem
+\cite[Corollary~7.4]{GOHansenLima1981}. Hence the proposed rigidity
+advance lies in deriving that classical norm property from sharp
+volume equality. Checking the mass normalization, disjointness identity,
+and integral-to-universal-witness passage is more decisive than checking
+the concluding classification alone.
+
+The general proof uses a substantially different structure. Lift the
+body to a closed, convex, solid, pointed cone \(C\subset\mathbb R^m\),
+\(m=n+1\), and use its positive dual \(D\). With interior vectors
+\(U\in C,V\in D\) normalized by \(\langle U,V\rangle=m\), define
+\(\chi_C(V)=\int_Ce^{-\langle V,x\rangle}\,dx\).
+The desired statement becomes
+\(\chi_C(V)\chi_D(U)\ge1\). This cone--Laplace correspondence is
+already explicit in Klartag's work
+\cite[Lemma~2.1 and Corollary~4.1]{GOKlartag2018}.
+The new claim concerns the estimate after that reduction, rather than
+the reduction itself.
+
+Biased Gaussian projections onto the two cones supply cone-valued
+maps and projection derivatives \(0\preceq P_z\preceq I\).
+A simultaneous normalization chooses both linear coordinates and
+covariance feedback through a fixed-point argument, including a
+noncommuting matrix quadratic. Gaussian smoothing, injectivity, change
+of variables, and log-determinant concavity lower-bound the normalized
+logarithm of the Laplace product by \(-\mathcal E\). Hermite-degree
+separation and inverse Ornstein--Uhlenbeck covariance representations
+then compare the entire layer field with spectral thresholds of a
+linear Gaussian matrix. The covariance machinery has primary precedents
+in Houdr\'e--Privault
+\cite[Proposition~2.1]{GOHoudrePrivault2002}.
+
+The purpose of \(\mathcal E\) is to collect the remaining terms in
+this lower bound. Proving \(\mathcal E\le0\) makes the logarithmic
+lower bound nonnegative and hence gives the desired product at least
+one. The hard step is therefore controlling these terms together,
+including those caused by noncommuting matrices.
+
+A particularly distinctive ingredient is the tuned auxiliary curve:
+one component rotates with phase \(4.6\operatorname{arsinh}(x/3.6)\);
+another is chosen so the scalar profile plus the curve's squared norm
+is affine in that component. A strict inequality for every nontrivial real segment
+absorbs divided-difference, layer, and commutator errors and establishes
+\(\mathcal E\le0\). Equality forces commuting deterministic matrices,
+then diagonal cone-projection derivatives and an orthant cone,
+yielding a simplex section. This is global rigidity, beyond the prior
+local simplex minimality and stability theorem
+\cite{GOKimReisner2011}. The delicate proposed advance is the
+simultaneous matrix normalization and all-segment absorption inequality,
+not Gaussian integration by parts in isolation.
+The June 2026 Chen--Li--Xi--Xu preprint already claims the general
+three-dimensional inequality and equality classification using shadow
+flows \cite{GOChenLiXiXu2026}; the release's proposed extension is
+dimension-independent and follows a different proof architecture.
+
+The scalar appendices provide exact rational node enclosures together
+with analytic interpolation and tail bounds. Their finite
+arithmetic certificates and the whole-real-line interpolation and tail
+arguments supply complementary checks: the former enclose specified
+nodes, while the latter connect those enclosures to the all-segment
+estimate used in the noncommuting matrix comparison.
+
+\subsection{Crouzeix: retaining order under matrix amplification}
+\label{subsec:go-crouzeix}
+
+For \(A\in M_n(\mathbb C)\), let
+\(W(A)=\{x^*Ax:\|x\|_2=1\}\).
+The direct manuscript claims, for all positive \(n,m\), all degrees
+\(d\ge0\), and arbitrary \(B_k\in M_m(\mathbb C)\),
+\[
+ \left\|\sum_{k=0}^d A^k\otimes B_k\right\|_2
+ \le2\max_{z\in W(A)}
+       \left\|\sum_{k=0}^d z^kB_k\right\|_2 .
+\]
+The coefficient dimension is independent of the base dimension.
+Scalar polynomials correspond to \(m=1\); allowing every \(m\) with
+the same constant is what makes the assertion \emph{complete}. It
+controls matrix-valued functions of \(A\), whose coefficient products
+need not commute. Points and segments are included \cite{GOOpenAIDirectCrouzeix2026}.
+For a concrete sharpness control, take
+\[
+ A=\begin{pmatrix}0&2\\0&0\end{pmatrix},\qquad p(z)=z.
+\]
+For a unit vector \((x_1,x_2)\),
+\(x^*Ax=2\overline{x_1}x_2\); its possible values fill the closed
+unit disk, while \(\|A\|_2=2\). Thus constant two is already necessary
+for scalar coefficients. Sharpness and matrix amplification are
+separate parts of the proposed theorem. The established complete bound
+\(1+\sqrt2\) supplies the unconditional comparison
+\cite{GOCrouzeixPalencia2017}. Positive double-layer representations
+and convex spectral-set methods are older ingredients
+\cite{GODelyonDelyon1999,GOBadeaCrouzeixDelyon2006}.
+
+The direct proof works first on an analytic convex enclosing domain
+\(\Omega\), with the matrix-valued analytic test normalized by
+\(\sup_{z\in\Omega}\|F(z)\|\le1\).
+An exterior conformal coordinate produces Faber coefficients and a
+nonnegative boundary kernel having unit mass in both angular variables.
+The associated Fourier map is an \(L^2\) contraction: the negative
+Fourier part is controlled by the positive part. This yields a
+Hilbert--Schmidt coefficient estimate with weight one for the constant
+coefficient and weight two for all positive degrees.
+
+The decisive algebraic passage selects a top singular pair \(x,y\)
+of \(F[A]\), compresses the positive Hermitian resolvent field, and tests
+the coefficient functional separately on \(FG\) and \(GF\).
+These ordered tests bound both diagonal blocks using reciprocal Fourier
+weights. The off-diagonal block retains the constant term and has a
+matching lower bound. Positivity of the resulting \(2\)-by-\(2\) block
+forces \(\|F[A]\|\le2\). The final block inequality is elementary;
+the substantive proposed improvement is obtaining its compatible
+diagonal and cross estimates uniformly in coefficient size.
+
+This scope matters for current positioning. Lorist--Schwenninger's
+August 2026 manuscript claims scalar constant two using uniformly
+bounded perturbations of \(2\)-dilations and all powers \(f^j\).
+Its Section~3(iv) explicitly identifies the commutativity obstruction
+to direct matrix amplification
+\cite{GOLoristSchwenninger2026}. The September version of
+\AA hag--Czy\.z--Virtanen claims the complete inequality for base
+matrices of order at most three
+\cite{GOAhagCzyzVirtanen2026}. Those preceding claims preclude
+describing every constant-two statement as new here; they do not by
+themselves supply the release's arbitrary-dimensional complete theorem.
+
+Two earlier scalar preprints are also close at the level of mechanism.
+Jin's August version uses positive-real completion and ordered weighted
+Gramians; Luo's August version uses top singular vectors, positive double
+layers, and Fourier or defect-Gram boundary certificates
+\cite{GOJin2026,GOLuo2026}. Both claim scalar endpoints and expressly
+distinguish their scope from complete matrix-coefficient estimates.
+They narrow the novelty judgement: positive kernels, Gram certificates,
+and boundary cancellation already occur in preceding proposed routes.
+The release's distinctive target is the compatibility of its ordered
+estimates under arbitrary matrix amplification.
+
+The structural companion formulates the same sharp target through an
+attained minimum similarity: for a finite matrix whose numerical range
+lies inside a bounded convex domain with regular analytic Jordan
+boundary, the disk-coordinate operator is similar to a contraction
+with condition number at most two. A common continuous positive
+boundary density of mass \(I\) represents all independently chosen
+matrix-valued analytic tests \cite{GOOpenAIStructuralCrouzeix2026}.
+Paulsen's completely bounded similarity theorem already supplies the
+matching condition number and attained similarity for a unital
+completely bounded homomorphism \cite{GOPaulsen1984}.
+The companion also derives its common density before establishing
+the sharp condition-number bound, using the classical contraction
+resolvent representation and crediting Delyon--Delyon.
+Similarity, attainment, and density existence are therefore inherited
+parts of this architecture. The candidate advance is the bound on the
+optimal condition number through the ordered density-comparison
+lemma; separate left and right
+multiplication estimates again preserve amplification. The companion
+also claims extension to bounded operators on arbitrary complex
+Hilbert spaces and functions holomorphic near the closed numerical
+range, extending the target beyond finite-dimensional matrices.
+
+Across both families, the proposed sharp constants depend on a
+compatibility that the classical ingredients do not separately supply:
+complex mass must match the disjoint polar simplices, scalar enclosures
+must control a global matrix comparison, and ordered Fourier estimates
+must survive amplification. This locates the mathematical contribution
+more precisely than attributing novelty to the use of positivity itself.
+The supplied formal targets describe the corresponding sharp
+statements.\footnote{The scope documents link comparator templates
+\cite{GOOpenAIScope0872026,GOOpenAIScope3252026}. In family 087, a
+sentence excluding nonsymmetric Mahler conflicts with the linked
+general-Mahler target; the target declares the general inequality and
+simplex equality. The comparison follows the target statement.}

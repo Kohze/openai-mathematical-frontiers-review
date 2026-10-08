@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-07",
+  "pdf_sha256": "518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f",
+  "overall_editorial_rating": 7.8,
+  "scores_out_of_10": {
+    "reader_value": 8.0,
+    "review_owned_mathematics": 9.0,
+    "source_hypothesis_fidelity": 8.5,
+    "literature_positioning": 8.0,
+    "novelty_analysis": 8.2,
+    "review_originality": 6.8,
+    "cross_field_synthesis": 7.4,
+    "structure": 8.0,
+    "natural_prose": 7.5,
+    "accessibility": 7.0,
+    "reproducibility": 8.5,
+    "demonstrated_practical_impact": 5.5,
+    "survey_journal_suitability": 7.2
+  },
+  "worth_reading": true,
+  "audience": "Mathematically trained interdisciplinary reader",
+  "scope": "Internal critical assessment with prior authoring involvement; scores assess review exposition, source comparison and elementary deductions.",
+  "delivered_pages": 25,
+  "cited_references": 83,
+  "published_non_release_scholarly_works": 43,
+  "new_precision_repairs": [
+    "Direct restricted-variance predecessor attribution",
+    "Unique Games restriction rank on K",
+    "Normalized analytic operator test"
+  ],
+  "remaining_opportunity": {
+    "id": "DMR4",
+    "priority": "major journal-oriented extension",
+    "status": "open_opportunity",
+    "source_review": "audit/deep-mathematics-review.json",
+    "description": "Extract a central proposed interface with complete numerical hypotheses, source locator and a nontrivial hypothesis check.",
+    "disposition": "Retained explicitly in the reader audit. The new shared-residue miniature improves explanation but does not complete this stronger extraction. The reviewer identifies it as an extension rather than a demonstrated mathematical error or a requirement to validate all source proofs."
+  },
+  "report": "audit/deep-audit-report.md",
+  "source_reports": [
+    "audit/deep-reader-value-review.json",
+    "audit/deep-mathematics-review.json",
+    "audit/deep-prose-credibility-review.json"
+  ],
+  "content_review_pdf_sha256": "19c54f6a513872783de057efddd9f21ff0d935f0c7ce608768341df7cfc6e7b0",
+  "layout_revision": "Thin horizontal separators and extra padding between Table 1 rows."
+}

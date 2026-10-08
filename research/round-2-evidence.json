@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-07",
+  "scope": "Additional primary-source baselines inspected in the second internal review; bibliographic identity and theorem scope are distinct from acceptance of release proofs.",
+  "records": [
+    {
+      "bibkey": "arithKMT2023",
+      "title": "On Elliott's conjecture and applications",
+      "authors": [
+        "Oleksiy Klurman",
+        "Alexander P. Mangerel",
+        "Joni Teräväinen"
+      ],
+      "inspected_version_year": 2023,
+      "version": "arXiv:2304.05344v2, 2023-05-26",
+      "primary_url": "https://arxiv.org/abs/2304.05344v2",
+      "pdf_url": "https://arxiv.org/pdf/2304.05344v2",
+      "pdf_pages": 55,
+      "pdf_sha256": "82b6b6b8290c7f36115794cbfcc987e8df4ac2447bd41232d740198fdef8e6a5",
+      "identity_verification": "Primary arXiv record and actual PDF title page inspected.",
+      "theorem_locations": [
+        {
+          "name": "Definition 1.1",
+          "pdf_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Theorem 1.2",
+          "pdf_page": 3
+        },
+        {
+          "name": "Proposition 1.3",
+          "pdf_page": 3
+        }
+      ],
+      "exact_scope": "For arbitrary unit-disc multiplicative f1,f2, one fixed f1 nonpretentious gives ordinary binary correlation cancellation on a set X with upper logarithmic density 1, for distinct fixed shifts.",
+      "hypothesis": "Nonpretentious means for every fixed Dirichlet character chi and every fixed real t, D(f1,chi*n^{it};infinity)=infinity. This is weaker than requiring inf_{|t|<=N} D(f1,chi*n^{it};N)->infinity for every fixed chi.",
+      "sharpness_caution": "Proposition 1.3 gives a nonpretentious function whose absolute two-point correlation tends to 1 along a set of full upper log-log density. The weak hypothesis is not interchangeable with the corrected growing-twist hypothesis and does not permit an every-cutoff conclusion.",
+      "journal_publication_asserted": false
+    },
+    {
+      "bibkey": "arithTT2026",
+      "title": "Quantitative correlations and some problems on prime factors of consecutive integers",
+      "authors": [
+        "Terence Tao",
+        "Joni Teräväinen"
+      ],
+      "inspected_version_year": 2026,
+      "version": "arXiv:2512.01739v2, 2026-04-25; first version 2025-12-01",
+      "primary_url": "https://arxiv.org/abs/2512.01739v2",
+      "pdf_url": "https://arxiv.org/pdf/2512.01739v2",
+      "pdf_pages": 61,
+      "pdf_sha256": "ce10e83b10c6544e1dbff037a5e4efa0e387892e0fc596ae09dce76025d7b41e",
+      "identity_verification": "Primary arXiv record and actual PDF title page inspected.",
+      "theorem_locations": [
+        {
+          "name": "Theorem 3.1",
+          "pdf_page": 24
+        },
+        {
+          "name": "Remarks 3.2, affine Liouville consequence",
+          "pdf_page": 25
+        }
+      ],
+      "general_hypotheses": "1-bounded multiplicative g1,g2; 1<=L<=log X; either the stated quantitative equidistribution axiom plus technical prime-value condition, or delta_N=0 with exp(M(g1;X^2,(log X)^(1/125))) >> L. The conclusion is outside E subset [sqrt X,X] with logarithmic measure/log X << L^(-c).",
+      "liouville_consequence": "For some small absolute c>0 and integers a1,a2,b1,b2 between 1 and (log N)^c with a1*b2!=a2*b1, the normalized ordinary Liouville correlation is <<(log N)^(-c) for all N outside E; E obeys (1/log X) integral_[1,X] intersect E dt/t <<(log X)^(-c).",
+      "comparison_limit": "This prior Liouville estimate permits slowly growing positive coefficients but retains an exceptional scale set. The release's inspected affine Liouville assertion fixes coefficients (also permits b_i=0) and removes the exceptional scale set. Neither scope should be casually described as containing every aspect of the other.",
+      "journal_publication_asserted": false
+    },
+    {
+      "key": "GOPaulsen1984",
+      "bibtex": "@article{GOPaulsen1984,\n  author = {Paulsen, Vern I.},\n  title = {Completely bounded homomorphisms of operator algebras},\n  journal = {Proceedings of the American Mathematical Society},\n  volume = {92},\n  number = {2},\n  pages = {225--228},\n  year = {1984},\n  doi = {10.1090/S0002-9939-1984-0754708-X},\n  url = {https://doi.org/10.1090/S0002-9939-1984-0754708-X}\n}",
+      "metadata_status": "Verified from the original AMS article header and author-uploaded original pages; DOI matches the original AMS record.",
+      "primary_content_url": "https://www.researchgate.net/publication/318015254_Completely_bounded_homomorphisms_of_operator_algebras",
+      "author_provenance": "The page marks the complete text as content uploaded by Vern Paulsen on 25 June 2021.",
+      "publisher_url": "https://doi.org/10.1090/S0002-9939-1984-0754708-X",
+      "access_limit": "Direct AMS content was blocked; original author-uploaded published pages and the primary Davidson–Paulsen–Woerdeman manuscript independently support the theorem.",
+      "locator": "p. 225 introduction and p. 226 THEOREM",
+      "scope": "Any unital completely bounded homomorphism of an operator algebra into B(H); matching condition number and completely contractive similarity. Supplies attainment, not a new universal numerical-range constant."
+    },
+    {
+      "key": "GOJin2026",
+      "bibtex": "@misc{GOJin2026,\n  author = {Jin, Shanmu},\n  title = {The Numerical Range Is a {2}-Spectral Set},\n  year = {2026},\n  howpublished = {Preprints.org preprint 202607.1919},\n  note = {Version 4, posted 7 August 2026; not peer-reviewed},\n  doi = {10.20944/preprints202607.1919.v4},\n  url = {https://www.preprints.org/manuscript/202607.1919/v4}\n}",
+      "metadata_status": "Primary Preprints.org version record verifies author/title/version and submitted 6 August versus posted 7 August 2026; the DOI link is explicitly present in Luo's primary reference list and resolves to the correct Jin title/version.",
+      "primary_content_url": "https://www.preprints.org/manuscript/202607.1919/v4",
+      "locator": "Theorem 1; Section 3 Theorem 2; Section 7 last paragraph",
+      "scope": "Scalar polynomial/holomorphic numerical-range endpoint for arbitrary finite base size, with a scalar Hilbert-space extension. Its matrix-valued Herglotz kernel is an auxiliary base-space object, not a complete matrix-coefficient Crouzeix theorem.",
+      "publication_status": "Version 4 is expressly not peer-reviewed; no correctness or priority judgment is adopted."
+    },
+    {
+      "key": "GOLuo2026",
+      "bibtex": "@misc{GOLuo2026,\n  author = {Luo, Qinyu},\n  title = {Two Boundary-Certificate Proofs of the {Crouzeix} Theorem: Fiberwise {Fourier} Recurrence and Defect-{Gram} Telescoping},\n  year = {2026},\n  howpublished = {Preprints.org preprint 202608.1661},\n  note = {Version 2, posted 28 August 2026; not peer-reviewed},\n  url = {https://www.preprints.org/manuscript/202608.1661/v2}\n}",
+      "metadata_status": "Primary Preprints.org version record verifies author/title/version and submitted 27 August versus posted 28 August 2026.",
+      "primary_content_url": "https://www.preprints.org/manuscript/202608.1661/v2",
+      "locator": "Theorem 1; Sections 3, 4 and 5; Section 10 final scope statement",
+      "scope": "Finite-dimensional scalar polynomial and pole-free rational endpoint. The primary text explicitly excludes infinite-dimensional, matrix-valued and completely bounded endpoints.",
+      "publication_status": "Version 2 is expressly not peer-reviewed; kernel-check claims in its text were not independently executed in this review.",
+      "doi_handling": "No version-2 DOI was inserted without direct version-2 metadata verification."
+    },
+    {
+      "key": "GOKuperberg2008",
+      "bibtex": "@article{GOKuperberg2008,\n  author = {Kuperberg, Greg},\n  title = {From the {Mahler} Conjecture to {Gauss} Linking Integrals},\n  journal = {Geometric and Functional Analysis},\n  volume = {18},\n  number = {3},\n  pages = {870--892},\n  year = {2008},\n  doi = {10.1007/s00039-008-0669-4},\n  eprint = {math/0610904},\n  archivePrefix = {arXiv},\n  url = {https://link.springer.com/article/10.1007/s00039-008-0669-4}\n}",
+      "primary_metadata_url": "https://link.springer.com/article/10.1007/s00039-008-0669-4",
+      "primary_content_url": "https://arxiv.org/pdf/math/0610904v2",
+      "metadata": "Publisher verifies Geometric and Functional Analysis 18(3), 870–892, 2008, DOI 10.1007/s00039-008-0669-4; original version 2 source is dated 14 December 2006.",
+      "locator": "Corollary 1.5; Theorem 1.4",
+      "scope": "All-dimensional symmetric reverse volume-product bound with explicit exponential gap from the sharp cube factor, using indefinite geometry and linking integrals. Optional comparison, not citation-count padding."
+    }
+  ]
+}

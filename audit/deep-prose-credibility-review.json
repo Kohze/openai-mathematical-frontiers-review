@@ -1,0 +1,466 @@
+{
+  "schema": "openai-math-review/prose-credibility-audit-1",
+  "date": "2026-10-07",
+  "reviewer": "Internal software/arithmetic agent",
+  "reviewer_involvement": "I drafted the arithmetic section and previously audited some algebra/PDE statements. This is an internal critique by a participant in the project, not external peer review or independent validation of the release's proofs.",
+  "scope": {
+    "purpose": "Assess whether the review is worth reading, reads naturally, and earns its novelty judgements through precise comparisons.",
+    "read": "All main, synthesis, arithmetic, geometry/operator, combinatorics and contrastive-test TeX sections; full text of the original 25-page PDF including references; comparison register, citation coverage and identity metadata; selected domain evidence records. Re-read the revised TeX after editorial changes and checked the rebuilt PDF's opening and specific corrected passages.",
+    "not_performed": "No new proof build, full independent checking of release manuscripts, exhaustive priority search, external referee review or final visual-layout inspection.",
+    "manuscript_edits_by_this_agent": false,
+    "approved_ai_disclosure": "OpenAI Codex agents contributed substantially to source discovery, literature synthesis, and mathematical exposition.",
+    "disclosure_action": "Preserved without recommending a change.",
+    "version_note": "Root revised the source during this audit. Original PDF findings and subsequent source recheck are separated below; unresolved status is not inferred from the old PDF."
+  },
+  "snapshots": {
+    "original_pdf": {
+      "path": "papers/openai-mathematical-frontiers/openai-mathematical-frontiers.pdf",
+      "pages": 25,
+      "bytes": 567854,
+      "sha256": "ba34bff8128aa1bbcfee18a4a118aa2aea3a1dacd2c5ee0807bdaee117b57a64",
+      "read_extent": "All extracted text."
+    },
+    "revised_pdf_observed": {
+      "pages": 26,
+      "bytes": 606877,
+      "sha256": "44eaa00fff3e9c94067c662a280a95cc86369285cb1c32562c5dd8166eae5f15",
+      "read_extent": "Opening and targeted corrected passages only; full revised TeX read."
+    },
+    "bibliography": {
+      "path": "papers/openai-mathematical-frontiers/references.bib",
+      "sha256": "42956c6d5fc0592d8e0b74c7b3d8c4d9fe1b14467edb0e3b638e7b0e8ef5d8d4",
+      "records": 82,
+      "distinct_doi_fields": 42
+    },
+    "line_number_note": "Locations refer to the source as inspected during the revision. Text anchors are provided because later editing can move lines."
+  },
+  "verdict": {
+    "worth_reading": true,
+    "audience": "Research mathematicians and graduate readers seeking a guided map of proposed advances outside their own specialism; some sections still assume substantial technical background.",
+    "original_pdf": "A useful, careful review with a distinctive mechanism-level focus, weakened by a catalogue-like rhythm, dense proof roadmaps and repeated methodological framing.",
+    "revised_source": "The earlier overview, clearer definitions, shorter method, more specific application comparisons and sharper conclusion materially improve orientation. The source now reads as a solid specialist narrative review. Dense domain paragraphs and limited explanation of the central new constructions still keep it below an authoritative, unusually engaging survey.",
+    "naturalness": "Mostly conventional scholarly prose. Some repeated sentence templates and strings of technical nouns feel assembled. This is a stylistic judgement, not an authorship detector or a reason to alter the disclosure.",
+    "research_contribution": "Its value is locating candidate decisive steps, preserving important quantifiers, and comparing them with close antecedents. It contributes synthesis and diagnostic examples rather than new proofs or established cross-field transfer theorems.",
+    "publication_recommendation": "Suitable for circulation as a comparative narrative review after final build and layout checks. Remaining suggestions are editorial or depth improvements; this audit found no new substantive contradiction in its mathematical claims. External subject-specialist scrutiny would be needed for authoritative assessments of the proposed proofs."
+  },
+  "score_interpretation": "Scores are editorial judgements within the stated comparative-narrative-review genre, not probabilities that the release claims are correct. Eight means useful and credible specialist reading with remaining improvements; ten would require unusually illuminating exposition, stronger independent insight and authoritative coverage.",
+  "scores": [
+    {
+      "category": "Reader value and interest",
+      "original_25_page_pdf": 8,
+      "revised_source": 8,
+      "reason": "The chosen cases concern major barriers and the review points to specific objects that a reader could investigate."
+    },
+    {
+      "category": "Reader orientation and structure",
+      "original_25_page_pdf": 6,
+      "revised_source": 7.5,
+      "reason": "The original table arrived after the case studies and the method occupied much of the opening. The revised overview and shorter method now orient the reader before details."
+    },
+    {
+      "category": "Natural flow and sentence variety",
+      "original_25_page_pdf": 6.5,
+      "revised_source": 7.5,
+      "reason": "Less audit vocabulary and fewer formulaic application lists improve flow. Several paragraphs still repeat the same distinction between inherited tools and proposed compatibility."
+    },
+    {
+      "category": "Technical accessibility across fields",
+      "original_25_page_pdf": 6.5,
+      "revised_source": 7.5,
+      "reason": "Jets, common bases, FPRAS, completeness/soundness and complete operator bounds are now introduced. Some machinery-heavy paragraphs remain difficult without specialist context."
+    },
+    {
+      "category": "Primary-literature positioning",
+      "original_25_page_pdf": 8,
+      "revised_source": 8,
+      "reason": "Close comparisons, including contemporaneous preprints and their different hypotheses, prevent several easy novelty exaggerations. Coverage is purposefully selected rather than exhaustive."
+    },
+    {
+      "category": "Novelty reasoning",
+      "original_25_page_pdf": 7.5,
+      "revised_source": 8,
+      "reason": "The review distinguishes a major endpoint from a new method and identifies the extra quantifier or compatibility at issue. A deeper worked account of one claimed bridge would make those judgements more persuasive."
+    },
+    {
+      "category": "Scholarly credibility and evidence discipline",
+      "original_25_page_pdf": 8,
+      "revised_source": 8,
+      "reason": "Established results, preprint claims, documented statement scope and executed proof validation are kept distinct. Bibliographic identity alone is not offered as proof of correctness."
+    },
+    {
+      "category": "Cross-case synthesis",
+      "original_25_page_pdf": 7,
+      "revised_source": 7.5,
+      "reason": "Cancellation, different positivity structures and representation changes form a coherent comparison. These are broad familiar mathematical themes; the diagnostic boundaries carry more original value than the theme names."
+    },
+    {
+      "category": "Original contribution of the review itself",
+      "original_25_page_pdf": 6.5,
+      "revised_source": 6.5,
+      "reason": "The synthesis and worked controls are useful, but no genuinely new cross-domain theorem or demonstrated method transfer is established. This is an assessment of review originality, not of the magnitude of the underlying proposed results."
+    },
+    {
+      "category": "Application discussion",
+      "original_25_page_pdf": 6,
+      "revised_source": 7,
+      "reason": "The revised text gives concrete input-enlargement, exact-law cost and same-enclosure comparisons. It remains a research agenda without measured practical implementation evidence."
+    },
+    {
+      "category": "Overall as a specialist comparative narrative review",
+      "original_25_page_pdf": 7.5,
+      "revised_source": 8,
+      "reason": "Worth reading and now substantially better oriented; its main remaining limitation is explanatory depth in the most unusual mechanisms."
+    }
+  ],
+  "strengths": [
+    {
+      "location": "Arithmetic section, KMT/TT comparison; original PDF pages 3–4",
+      "value": "The fixed-twist versus growing-twist hypothesis and exceptional-cutoff versus coefficient-uniformity distinctions are mathematically useful, not merely bibliographic decoration."
+    },
+    {
+      "location": "Main averaging example; geometry square example; finite-field example; contrastive-tests.tex",
+      "value": "The elementary examples show an actual failure of a tempting inference. They give the review more value than a catalogue of theorem statements."
+    },
+    {
+      "location": "Geometry/operator section, prior lens, similarity and 2026 preprint comparisons",
+      "value": "Explicitly identifying familiar ingredients makes the proposed new compatibility easier to assess."
+    },
+    {
+      "location": "PDE section, energy-doubling calculation",
+      "value": "The displayed estimate is connected to a concrete consequence, including the last-crossing interval and reciprocal-scale divergence criterion. This is among the clearest cause-and-effect passages."
+    },
+    {
+      "location": "Revised synthesis application and conclusion sections",
+      "value": "The updated discussion identifies measurable comparisons and names the mathematical conditions that carry the potential advance."
+    }
+  ],
+  "findings": [
+    {
+      "id": "DP1",
+      "priority": "major editorial",
+      "title": "Reader orientation was delayed",
+      "original_location": {
+        "path": "main.tex",
+        "lines": "99–161 in original snapshot",
+        "pdf_pages": [
+          2,
+          3
+        ]
+      },
+      "original_evidence": "The method preceded the first mathematical case, while the overview table appeared on page 15. Readers had to retain many family identifiers and methodological distinctions without a map.",
+      "remedy": "Put the overview immediately after the introduction, explain how its columns should be read, and shorten the method before detailed cases.",
+      "status": "addressed in revised source",
+      "recheck": {
+        "path": "main.tex / overview.tex",
+        "anchor": "\\input{overview}",
+        "observed": "Overview precedes method; caption states its role; LTpre=18pt and LTpost=22pt. The final table spacing still belongs to the root's rendered-PDF check."
+      }
+    },
+    {
+      "id": "DP2",
+      "priority": "major editorial",
+      "title": "Technical noun chains sometimes replace explanation",
+      "original_location": {
+        "path": "research/geometry-operators/section.tex",
+        "lines": "133–151 in original snapshot",
+        "pdf_pages": [
+          7
+        ]
+      },
+      "original_evidence": "Gaussian projection, covariance feedback, noncommuting quadratics, Hermite separation, inverse Ornstein–Uhlenbeck covariance and a tuned curve were introduced before explaining why the error term mattered.",
+      "remedy": "Lead with the objective and explain what the error term measures before naming the tools. Keep enough terminology for specialists to find the source passage.",
+      "status": "substantially addressed; optional further improvement",
+      "recheck": {
+        "path": "research/geometry-operators/section.tex",
+        "lines": "137–167",
+        "anchor": "The purpose of \\(\\mathcal E\\) is to collect",
+        "observed": "The new paragraph explains why E<=0 gives the product bound. Placing it before the machinery paragraph would make the causal order even easier to follow."
+      }
+    },
+    {
+      "id": "DP3",
+      "priority": "major editorial",
+      "title": "Cross-field terms need an accessible first meaning",
+      "original_location": {
+        "paths": [
+          "research/arithmetic/section.tex",
+          "research/combinatorics/section.tex",
+          "research/geometry-operators/section.tex"
+        ],
+        "anchors": [
+          "finite-law comparison",
+          "separated-weight interpolation",
+          "Common bases",
+          "Unique Games",
+          "complete Crouzeix"
+        ]
+      },
+      "original_evidence": "CRT, jets, FPRAS/common bases and completeness/soundness were assumed. A reader expert in one field could not reconstruct why the proposed object was surprising in another.",
+      "remedy": "Give brief first-use explanations, then introduce technical hypotheses. Avoid turning every paragraph into a glossary.",
+      "status": "addressed at the principal hotspots",
+      "recheck": {
+        "observed": "The revised source explains the Chinese remainder period, irrationality exponent and jets; defines FPRAS/common bases/oracles; introduces Unique Games and its yes/no fractions; explains completeness of the operator bound. The later latent-alphabet, trace and covariance arguments still appropriately require specialist reading."
+      }
+    },
+    {
+      "id": "DP4",
+      "priority": "moderate editorial",
+      "title": "Administrative source details interrupted the mathematical story",
+      "original_location": {
+        "paths": [
+          "research/arithmetic/section.tex",
+          "research/geometry-operators/section.tex"
+        ],
+        "pdf_pages": [
+          4,
+          5,
+          7,
+          9
+        ],
+        "anchors": [
+          "OAI.NumberTheory.TwoPointCorrelations.FinalMain",
+          "ten-program runner",
+          "sentence excluding nonsymmetric Mahler"
+        ]
+      },
+      "original_evidence": "Literal Lean module names, JSON exit-status distinctions and a scope-document conflict interrupted the proof explanation.",
+      "remedy": "Keep scientifically material scope limits but move file/module bookkeeping to footnotes or ledgers. Retain the distinction between inspected bindings and an executed proof check.",
+      "status": "addressed in revised source",
+      "recheck": {
+        "observed": "Arithmetic module names and the Mahler scope-document conflict are footnoted; runner bookkeeping is removed from the body; the method still accurately separates bindings and execution status."
+      }
+    },
+    {
+      "id": "DP5",
+      "priority": "moderate editorial",
+      "title": "Repeated assessment templates flatten the narrative",
+      "original_location": {
+        "paths": [
+          "main.tex",
+          "synthesis.tex",
+          "research/combinatorics/section.tex"
+        ],
+        "anchors": [
+          "The proposed advance",
+          "The decisive",
+          "rather than",
+          "A useful research program"
+        ]
+      },
+      "original_evidence": "Many paragraphs end by saying which interface requires review. Repeated lists of what each field invites readers to check make the text resemble an audit checklist.",
+      "remedy": "Use an assessment sentence once per case, make preceding sentences explain the actual mathematical obstruction, and consolidate generic follow-up lists in the synthesis.",
+      "status": "partially addressed",
+      "recheck": {
+        "observed": "The revised abstract, method, application section and conclusion are clearer and less procedural. Combinatorics subsection 5.4 still overlaps with the final application section. The second cancellation paragraph in synthesis remains abstract enough to shorten or replace with a concrete error-budget comparison."
+      }
+    },
+    {
+      "id": "DP6",
+      "priority": "moderate scholarly depth",
+      "title": "The most unusual proposed mechanisms are usually named rather than demonstrated",
+      "original_location": {
+        "paths": [
+          "research/arithmetic/section.tex",
+          "research/geometry-operators/section.tex",
+          "research/combinatorics/section.tex"
+        ],
+        "anchors": [
+          "finite-law lemma",
+          "separated-weight interpolation",
+          "latent-alphabet gadget"
+        ]
+      },
+      "original_evidence": "The worked examples mostly demonstrate why weaker statements fail. They rarely show even a miniature version of the central proposed construction actually working. The reader learns where novelty would lie more readily than how the unusual mechanism behaves.",
+      "remedy": "If a further substantive addition is desired, choose one mechanism and give a short schematic calculation with its preserved quantity and parameter cost. For example, explain the shared-prime dependence in a tiny residue model, or give the simplest logarithmic-jet interpolation conditions. State precisely which part of the main lemma this illustrates.",
+      "status": "optional improvement; not a required correction",
+      "reason": "A narrative review need not reproduce the new proofs. One worked central mechanism would nevertheless raise its explanatory and originality scores more than extra citation count."
+    },
+    {
+      "id": "DP7",
+      "priority": "minor mathematical exposition",
+      "title": "The proof-sketch normalization of F was implicit",
+      "original_location": {
+        "path": "research/geometry-operators/section.tex",
+        "lines": "219–225 before targeted correction",
+        "anchor": "forces \\(\\|F[A]\\|\\le2\\)"
+      },
+      "original_evidence": "Without first imposing sup ||F(z)||<=1, the bound can be read as a statement about arbitrary unscaled tests. The main displayed theorem itself had the correct homogeneous bound.",
+      "remedy": "State the analytic enclosing domain and normalization of F before the block-positivity argument.",
+      "status": "resolved and independently re-read",
+      "recheck": {
+        "path": "research/geometry-operators/section.tex",
+        "lines": "211–229",
+        "observed": "Omega and sup_{z in Omega}||F(z)||<=1 are now explicit."
+      }
+    },
+    {
+      "id": "DP8",
+      "priority": "minor editorial",
+      "title": "Adjacent repetition in the matrix-to-scalar comparison",
+      "original_location": {
+        "path": "main.tex",
+        "lines": "236–240 before targeted correction",
+        "anchor": "therefore has a classical explanation"
+      },
+      "original_evidence": "The established conceptual predecessor was immediately restated as a classical explanation.",
+      "remedy": "Keep one predecessor sentence and move directly to the incidence construction.",
+      "status": "resolved and independently re-read",
+      "recheck": {
+        "path": "main.tex",
+        "lines": "233–242",
+        "observed": "The repeated sentence has been removed; the paragraph now explains the separate roles of regularity and high girth."
+      }
+    }
+  ],
+  "citation_assessment": {
+    "bibliographic_identity": {
+      "observed_records": 82,
+      "distinct_doi_fields": 42,
+      "metadata_status_counts": {
+        "matched": 40,
+        "primary_record_in_research_ledger": 40,
+        "verified_primary_fallback": 1,
+        "resolved_title_completion": 1
+      },
+      "interpretation": "Forty DOI-bearing records have a matched status, and two DOI-bearing records use documented primary-source resolutions. The remaining forty records have primary-record ledger status. This is identity evidence, not eighty-two independent theorem validations.",
+      "important_distinctions": [
+        "A DOI identifies a scholarly object; a preprint DOI does not establish journal peer review.",
+        "An arXiv or author-hosted primary manuscript can be a valid source without a DOI.",
+        "A correct title/author/year match does not show that the cited passage supports the asserted theorem scope.",
+        "A supporting theorem does not, by itself, establish that no earlier equivalent mechanism exists."
+      ],
+      "metadata_cautions": "The source-ledger resolutions matter: Demailly's author name is misspelled in the DOI provider's raw metadata, and Braverman's date fields contain a misleading 2008 entry alongside the journal's 2010 print year. The manuscript bibliography uses the correct primary-source identities. Raw automated 'matched' status should not replace those resolutions."
+    },
+    "claim_matching_hotspots": [
+      {
+        "case": "007 ordinary correlations",
+        "location": "Arithmetic section paragraphs comparing KMT and TT2026",
+        "assessment": "Strong comparison: every-cutoff conclusions, full upper logarithmic-density statements, growing versus fixed twists, and coefficient growth are not collapsed into a single stronger/weaker ranking.",
+        "support_keys": [
+          "arithKMT2023",
+          "arithTT2026",
+          "arithTT2019",
+          "arithPilatte2026"
+        ],
+        "boundary": "Those sources establish the comparison baselines, not the validity of the release's every-cutoff proof."
+      },
+      {
+        "case": "017 logarithmic jets and determinant collision",
+        "location": "Arithmetic pi section",
+        "assessment": "Demailly, Farhi and Laurent are appropriately used as geometric/arithmetic antecedents. They do not establish the released centre-independent weighted interpolation theorem or its ordinary-ideal-power passage.",
+        "support_keys": [
+          "arithDemailly1992",
+          "arithFarhi2006",
+          "arithLaurent2000"
+        ],
+        "boundary": "The conclusion mu(pi)=2 remains a release claim; the references support inherited machinery and consequences."
+      },
+      {
+        "case": "087 Mahler",
+        "location": "Geometry section lens, cone product and equality paragraphs",
+        "assessment": "Gross, Klartag and Hansen–Lima are tied to identifiable constructions or reductions, while exact feasibility normalization, all-segment absorption and global rigidity remain proposed new steps.",
+        "support_keys": [
+          "GOGross2019",
+          "GOKlartag2018",
+          "GOHansenLima1981",
+          "GOKuperberg2008"
+        ],
+        "boundary": "Familiar covariance or positivity tools do not independently justify the new sharp endpoint."
+      },
+      {
+        "case": "325 complete Crouzeix",
+        "location": "Geometry/operator complete-bound and 2026-prior paragraphs",
+        "assessment": "The complete 1+sqrt(2) baseline and inherited similarity theory are clearly credited. Scalar claims and small-base complete claims are distinguished from arbitrary base and coefficient dimensions.",
+        "support_keys": [
+          "GOCrouzeixPalencia2017",
+          "GOPaulsen1984",
+          "GOLoristSchwenninger2026",
+          "GOAhagCzyzVirtanen2026",
+          "GOJin2026",
+          "GOLuo2026"
+        ],
+        "boundary": "Version records and DOI identities do not settle these preprints' proof correctness or priority. The current text properly calls them claims."
+      },
+      {
+        "case": "113–115 counting and sampling",
+        "location": "Combinatorics mechanism comparisons",
+        "assessment": "The chain-specific torpid-mixing obstruction is not presented as a general impossibility; the new common-base route is compared with contemporaneous work; residual exact correction is credited to prior work rather than claimed as newly invented.",
+        "support_keys": [
+          "FrontSVW2017",
+          "FrontChenLiu2026",
+          "FrontGLMP2024"
+        ],
+        "boundary": "A usable output-law computation and expected-cost calculation are extra obligations beyond citing exact-correction theory."
+      },
+      {
+        "case": "197 direct finiteness",
+        "location": "Main algebra section",
+        "assessment": "Stable-versus-direct finiteness and the matrix-to-scalar predecessor are now explicit. The finite-field example illustrates an algebraic compatibility rather than validating the full incidence construction.",
+        "support_keys": [
+          "DykemaJuschenko2015",
+          "ElekSzabo2004",
+          "Montgomery1969"
+        ],
+        "boundary": "The nonsofic consequence depends on a genuine scalar defect in the actual group algebra, not a surrogate matrix example."
+      },
+      {
+        "case": "362 kinetic regularity",
+        "location": "Main PDE baseline and terminal calculation",
+        "assessment": "The July 2026 comparison is restricted to cylindrical symmetry and the signed-impulse implication states its uniformity and band hypotheses. This supports a specific novelty contrast.",
+        "support_keys": [
+          "Wang2026I",
+          "Wang2026II",
+          "GlasseyStrauss1986",
+          "LukStrain2014Continuation"
+        ],
+        "boundary": "The elementary doubling calculation validates a conditional inference; it does not validate the central impulse estimate."
+      }
+    ],
+    "overall": "No new citation identity defect or unsupported first/breakthrough assertion was established in this audit. The novelty judgements are credible as scoped, comparative hypotheses. They should not be promoted to verified proof acceptance through DOI counts or completed reference ledgers."
+  },
+  "replacement_passages": [
+    {
+      "id": "RP1",
+      "target": "research/geometry-operators/section.tex, general Mahler machinery paragraph",
+      "purpose": "Explain the objective before naming machinery; optional rearrangement after the added E paragraph.",
+      "latex": "The Gaussian comparison is designed to bound the logarithm of the cone--Laplace product from below. After normalization, the manuscript collects its remaining terms in an error quantity \\(\\mathcal E\\); proving \\(\\mathcal E\\le0\\) therefore gives the desired product bound. The difficulty is that the two cone projections produce matrices that need not commute. The proof chooses coordinates and covariance together, then separates the resulting terms by Hermite degree. Classical covariance representations supply part of this analysis \\cite[Proposition~2.1]{GOHoudrePrivault2002}; the proposed new step is controlling the noncommuting terms within the same sharp budget. Its auxiliary curve is tuned to make that control hold on every nontrivial real segment.",
+      "qualification": "Retains the reviewed proof architecture; no new theorem or independent validation is asserted. Keep exact curve information and equality discussion in the following paragraph."
+    },
+    {
+      "id": "RP2",
+      "target": "research/geometry-operators/section.tex, normalized ordered-test paragraph",
+      "purpose": "Make noncommutative order and normalization understandable in fewer technical labels.",
+      "latex": "Normalize the matrix-valued analytic test \\(F\\) by \\(\\sup_{z\\in\\Omega}\\|F(z)\\|\\le1\\), and choose a top singular pair of \\(F[A]\\). The proof tests the coefficient functional on both \\(FG\\) and \\(GF\\): their order matters because the coefficient matrices need not commute. These two tests supply compatible bounds for the diagonal blocks, while a cross estimate supplies the off-diagonal block. Positivity of the resulting \\(2\\)-by-\\(2\\) block then forces \\(\\|F[A]\\|\\le2\\). The proposed advance is the compatibility of these estimates in every coefficient dimension.",
+      "qualification": "The actual normalization correction is already present. This is an optional stylistic replacement, not a request to remove the coefficient-weight detail if needed for the target audience."
+    },
+    {
+      "id": "RP3",
+      "target": "synthesis.tex, second paragraph of Cancellation before irreversible estimates",
+      "purpose": "Replace a general research recommendation with a concrete cross-case comparison.",
+      "latex": "The relevant question in both settings is how much error the cancellation can tolerate. In the correlation problem, the comparison must remain effective as the number of prime supplies grows like \\(\\log\\log X\\); otherwise its cost can consume the logarithmic saving. In the kinetic problem, the residual force estimate must keep constants uniform over solution prefixes and leave a momentum loss whose reciprocal-scale series diverges. These are different quantitative tests. They show why a cancellation identity is only the beginning of the argument, and where a sharper bound could change the final conclusion.",
+      "qualification": "Both comparisons are already developed in the domain sections. This passage makes their relation explicit without claiming a transferable theorem."
+    }
+  ],
+  "remaining_priorities": [
+    "Keep the final rendered overview readable at its new location; this report checks placement and source spacing, not the rebuilt table's visual geometry.",
+    "Consider moving the purpose of E ahead of its machinery paragraph and shortening the overlapping research-program material in combinatorics subsection 5.4.",
+    "If a substantive expansion is wanted, add one small worked demonstration of a central proposed mechanism rather than more general recommendations or reference-count padding.",
+    "Preserve precise conditional status, close contemporary baselines, and the approved dedicated AI disclosure while improving the prose."
+  ],
+  "late_recheck": {
+    "date": "2026-10-07",
+    "read_again": [
+      "main.tex matrix-to-scalar paragraph",
+      "geometry/operators analytic-test normalization",
+      "combinatorics Unique Games opening and restricted-rank clause"
+    ],
+    "observed_fixes": "The duplicate predecessor sentence is removed; F is explicitly normalized on Omega; the linear-observation rank is restricted to the distinguished output subspace K.",
+    "current_bibliography_counts": {
+      "records": 83,
+      "doi_fields": 43
+    },
+    "count_explanation": "Root added the CVY partition-restricted Poincare and empirical-average predecessor after the original 82-record/42-DOI snapshot. GLMP is the distinct residual exact-correction predecessor. The earlier numbers in this report are historical snapshot counts, not the final bibliography size. The extra DOI is identity metadata, not an increase in proof-validation or novelty evidence.",
+    "late_source_scope": "The added citation attribution was observed in the revised source; its primary proof was not independently re-read in this prose audit.",
+    "remaining_specific_defect": "No further substantive mathematical or citation defect was identified in these targeted passages. Optional explanation-depth recommendations remain."
+  }
+}

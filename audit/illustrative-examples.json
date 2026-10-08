@@ -1,0 +1,709 @@
+{
+  "scope": "Elementary exposition checks; release theorems are separate",
+  "gf4": {
+    "encoding": "0,1,alpha,1+alpha",
+    "squared_interpolant_values": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "full_sum": 0,
+    "punctured_sum": 1,
+    "passed": true
+  },
+  "jordan_example": {
+    "matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "operator_norm": 2,
+    "numerical_radius": 1,
+    "squared_radius_witness": "1",
+    "passed": true
+  },
+  "common_base_hessian": {
+    "matrix": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "square_is_identity": true,
+    "trace": 0,
+    "eigenvalues": [
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "passed": true
+  },
+  "restricted_observable_chain": {
+    "checks": [
+      {
+        "tau": "0",
+        "eigenvalues": [
+          "0",
+          "2",
+          "0",
+          "2"
+        ],
+        "restricted_energy_for_first_coordinate": "2",
+        "second_coordinate_energy": "0",
+        "passed": true
+      },
+      {
+        "tau": "1/8",
+        "eigenvalues": [
+          "0",
+          "2",
+          "1/4",
+          "9/4"
+        ],
+        "restricted_energy_for_first_coordinate": "2",
+        "second_coordinate_energy": "1/4",
+        "passed": true
+      },
+      {
+        "tau": "1",
+        "eigenvalues": [
+          "0",
+          "2",
+          "2",
+          "4"
+        ],
+        "restricted_energy_for_first_coordinate": "2",
+        "second_coordinate_energy": "2",
+        "passed": true
+      },
+      {
+        "tau": "2",
+        "eigenvalues": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "restricted_energy_for_first_coordinate": "2",
+        "second_coordinate_energy": "4",
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "finite_mesh": {
+    "h": "1",
+    "node_values": [
+      "3/16",
+      "3/16"
+    ],
+    "midpoint_value": "-1/16",
+    "passed": true
+  },
+  "shared_residue_pair": {
+    "checks": [
+      {
+        "p": 2,
+        "h": 0,
+        "shared_covariance": "1/4",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 2,
+        "h": 1,
+        "shared_covariance": "-1/4",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 2,
+        "h": 2,
+        "shared_covariance": "1/4",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 2,
+        "h": 3,
+        "shared_covariance": "-1/4",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 3,
+        "h": 0,
+        "shared_covariance": "2/9",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 3,
+        "h": 1,
+        "shared_covariance": "-1/9",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 3,
+        "h": 2,
+        "shared_covariance": "-1/9",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 3,
+        "h": 3,
+        "shared_covariance": "2/9",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 3,
+        "h": 4,
+        "shared_covariance": "-1/9",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 3,
+        "h": 5,
+        "shared_covariance": "-1/9",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 0,
+        "shared_covariance": "4/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 1,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 2,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 3,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 4,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 5,
+        "shared_covariance": "4/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 6,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 7,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 8,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 5,
+        "h": 9,
+        "shared_covariance": "-1/25",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 0,
+        "shared_covariance": "6/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 1,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 2,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 3,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 4,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 5,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 6,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 7,
+        "shared_covariance": "6/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 8,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 9,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 10,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 11,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 12,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 7,
+        "h": 13,
+        "shared_covariance": "-1/49",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 0,
+        "shared_covariance": "10/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 1,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 2,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 3,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 4,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 5,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 6,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 7,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 8,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 9,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 10,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 11,
+        "shared_covariance": "10/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 12,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 13,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 14,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 15,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 16,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 17,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 18,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 19,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 20,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 11,
+        "h": 21,
+        "shared_covariance": "-1/121",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 0,
+        "shared_covariance": "12/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 1,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 2,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 3,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 4,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 5,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 6,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 7,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 8,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 9,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 10,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 11,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 12,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 13,
+        "shared_covariance": "12/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 14,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 15,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 16,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 17,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 18,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 19,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 20,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 21,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 22,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 23,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 24,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      },
+      {
+        "p": 13,
+        "h": 25,
+        "shared_covariance": "-1/169",
+        "independent_covariance": "0",
+        "passed": true
+      }
+    ],
+    "passed": true
+  }
+}

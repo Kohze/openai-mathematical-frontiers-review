@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "paper_type": "Comparative narrative review",
+  "pages": 25,
+  "grouped_case_studies": 8,
+  "result_families": 10,
+  "cited_references": 83,
+  "non_release_published_scholarly_references": 43,
+  "metadata_status_counts": {
+    "matched": 40,
+    "primary_record_in_research_ledger": 41,
+    "resolved_title_completion": 1,
+    "verified_primary_fallback": 1
+  },
+  "missing_citations": [],
+  "unused_references": [],
+  "duplicate_keys": [],
+  "domain_evidence_ledgers": [
+    "research/arithmetic/evidence.json",
+    "research/combinatorics/deep-audit-additions.evidence.json",
+    "research/combinatorics/evidence.json",
+    "research/geometry-operators/evidence.json",
+    "research/root-evidence.json",
+    "research/round-2-evidence.json"
+  ],
+  "internal_findings_resolved": 35,
+  "remaining_reviewer_opportunities": [
+    {
+      "id": "DMR4",
+      "priority": "major journal-oriented extension",
+      "status": "open_opportunity",
+      "source_review": "audit/deep-mathematics-review.json",
+      "description": "Extract a central proposed interface with complete numerical hypotheses, source locator and a nontrivial hypothesis check.",
+      "disposition": "Retained explicitly in the reader audit. The new shared-residue miniature improves explanation but does not complete this stronger extraction. The reviewer identifies it as an extension rather than a demonstrated mathematical error or a requirement to validate all source proofs."
+    }
+  ],
+  "deep_audit_report": "audit/deep-audit-report.md",
+  "build_issues": [],
+  "pdf_sha256": "518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f",
+  "visual_review": "Latest 25 pages rendered with Poppler at 1200-pixel scale and inspected in three contact sheets. Both Table 1 pages and following text inspected separately at 1600-pixel scale: all eight rows clearly separated, rules span all four columns, no split row, and no overlap with the caption or following section. This supersedes the earlier layout review.",
+  "novelty_assessment": "The magnitude of proposed conclusions, inherited machinery, and specific newly proposed bridges are assessed separately. Contrastive tests and a comparison register operationalize the synthesis.",
+  "disclosure": "Approved disclosure appears once, in its dedicated section; absent from abstract.",
+  "illustrative_examples_record": "audit/illustrative-examples.json",
+  "validation_scope": "Bibliographic identity, source-statement comparison, elementary illustrative examples, internal exposition cross-review, compilation and rendered layout. Underlying release proofs and formal dependency builds are outside these checks.",
+  "publication_status": "Prepared locally; no submission or publication performed for this review."
+}

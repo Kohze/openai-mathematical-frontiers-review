@@ -1,0 +1,191 @@
+% Arithmetic contribution fragment. Reviewed source snapshot:
+% openai/math adc7f1241b42e322a6451854ab7e4b4c146bf78a (accessed 2026-10-07).
+% Claims attributed to the release are distinguished from established antecedents.
+
+\subsection{Ordinary multiplicative correlations: retaining the terminal scale}
+\label{sec:frontiers-ordinary-correlations}
+
+Family 007 addresses the difference between cancellation at a specified cutoff
+and cancellation after averaging over scales. Write $\lambda(n)=(-1)^{\Omega(n)}$
+for the Liouville function, where $\Omega(n)$ counts prime factors with
+multiplicity. Its manuscript states that an
+absolute $c>0$ gives, for each fixed pair of nonproportional affine forms
+$a_1n+b_1,a_2n+b_2$ with integer $a_i\geq1$ and $b_i\geq0$,
+\[
+ \left|\sum_{n\leq X}\lambda(a_1n+b_1)\lambda(a_2n+b_2)\right|
+ \leq C_{a_1,a_2,b_1,b_2}\,X(\log X)^{-c},\qquad X\geq3.
+\]
+The coefficient-dependent constant can be ineffective; the statement fixes
+the forms before $X$ grows \cite{arithOpenAI007}. The companion corrected
+Elliott statement concerns unit-disc-valued multiplicative functions.
+The obstruction is imitation of a periodic character multiplied by the
+oscillatory factor $n^{it}$; the distance below measures this imitation
+on primes. One fixed factor must satisfy, for every fixed Dirichlet character $\chi$,
+$\inf_{|t|\leq N}\mathbb D(f,\chi n^{it};N)\to\infty$, where
+$\mathbb D^2(f,g;N)=\sum_{p\leq N}(1-\Re(f(p)\overline{g(p)}))/p$.
+Under this hypothesis the ordinary two-point mean tends to zero, including
+fixed nonproportional affine forms. This second assertion supplies no rate
+uniform over that function class \cite{arithOpenAI007}.
+
+These are substantial changes of quantifiers relative to several established
+results. Matom\"aki and Radziwi\l\l\ control multiplicative means in most
+short intervals \cite{arithMR2016}; Matom\"aki, Radziwi\l\l\ and Tao prove
+Chowla cancellation averaged over shifts \cite{arithMRT2015}. Tao's
+two-point theorem controls logarithmically weighted affine correlations
+\cite{arithTao2016}. Tao and Ter\"av\"ainen obtain ordinary correlations
+outside an exceptional set of scales of logarithmic density zero
+\cite{arithTT2019}. Helfgott--Radziwi\l\l\ divisibility graphs and
+Pilatte's subsequent prime-product construction deliver increasingly strong
+logarithmic cancellation \cite{arithHR2021,arithPilatte2026}. Pilatte already
+uses composite steps, centred prime factors and nonbacktracking walks.
+Consequently, the distinctive object of review is how the release combines
+these ingredients to reach every cutoff with controlled error.
+
+Two closer comparisons sharpen the remaining barrier. Klurman, Mangerel
+and Ter\"av\"ainen obtain ordinary binary cancellation on a set of full
+\emph{upper} logarithmic density when one fixed factor is nonpretentious
+against every fixed character and fixed real twist
+\cite[Definition~1.1 and Theorem~1.2]{arithKMT2023}.
+Tao and Ter\"av\"ainen also obtain a logarithmic-power saving for slowly
+growing affine Liouville forms outside a quantitatively controlled
+exceptional set of scales \cite[Theorem~3.1 and Remarks~3.2]{arithTT2026}.
+The release's quantitative assertion removes the exceptional cutoffs for
+fixed forms; the latter comparison retains greater coefficient uniformity.
+The release's qualitative assertion combines every-cutoff cancellation with the
+stronger growing-twist hypothesis stated above. These are distinct changes
+of scope and hypothesis. The prospective breakthrough is completing the
+cutoff argument with its error budget intact, rather than obtaining an
+ordinary average or logarithmic saving in isolation.
+
+One unusual bridge is a finite-law comparison through circuit complexity.
+The graph step uses products from disjoint prime supplies, with factors
+$\mathbf1_{p\mid n}-1/p$. When the number of supplies grows like
+$\log\log X$, the joint residue pattern repeats only after the product
+of all participating primes, by the Chinese remainder theorem. That
+period is too large for direct uniform sampling. The manuscript instead encodes residue observables by binary
+variables and tests only bounded-depth circuits. Its finite-law lemma first
+corrects small low-order biases to obtain an \emph{exactly} bounded-wise
+independent distribution, then applies Braverman's circuit-fooling theorem.
+The correction has the established almost-independence precedent of Alon,
+Goldreich and Mansour \cite{arithAGM2003,arithBraverman2010}. Crucially,
+translated sites retain the same residue for each prime. The comparison is
+applied to the signed trace expansion before absolute values; treating
+translated sites as independently resampled would change the arithmetic
+model. The manuscript's finite-law, nonbacktracking-moment and
+mixed-difference lemmas give separately inspectable checkpoints
+\cite{arithOpenAI007}.
+
+\begin{example}[Why translated sites share a prime residue]
+Let $U$ be uniform modulo a prime $p$, and set
+$c_0=\mathbf1_{U=0}-1/p$ and $c_h=\mathbf1_{U+h=0}-1/p$.
+The same residue determines both translated sites, giving
+\[
+ \mathbb E[c_0c_h]=
+ \begin{cases}
+ (p-1)/p^2,&p\mid h,\\
+ -1/p^2,&p\nmid h.
+ \end{cases}
+\]
+Indeed, the two divisibility events coincide when $p\mid h$ and are
+disjoint otherwise. Independently resampling the residue at the second
+site would give zero in both cases, despite retaining each marginal
+law. This small calculation explains why the manuscript's finite-law
+comparison keeps shared residues inside the signed trace: independence
+at the wrong level would erase the correlations being estimated.
+\end{example}
+
+The decisive quantitative bottleneck is uniformity of this comparison and
+the high-trace count as the number of prime supplies grows, including all
+squarefree padding choices. Repeated prime labels, rank witnesses and forest
+encodings must produce a saving with absolute constants rather than costs
+that erase the eventual logarithmic gain. A second, qualitative mechanism
+fixes its graph scale before taking the averaging cutoff to infinity.
+Its centre factors $\mathbf1_{p\mid n}-\theta/p$ need not have zero uniform
+mean. Vertex normalization and signed singleton integration provide the
+replacement cancellation; first-visit tree bookkeeping retains return
+factors until averaging. This explains the order of limits and why the
+qualitative theorem need not assume a rate of nonpretentiousness
+\cite{arithOpenAI007}.
+
+The documented formal targets cover both the quantitative fixed-form
+assertion and the qualitative growing-twist assertion.\footnote{The
+comparator configuration selects three final declarations:
+\texttt{liouville\_log\_saving}, \texttt{binary\_corrected\_elliott} and
+\texttt{affine\_corrected\_elliott}. The inspected Lean wrappers bind them to
+the solution module \texttt{OAI.NumberTheory.TwoPointCorrelations.FinalMain}.
+Their assumptions match the stated fixed-form and nonpretentiousness scope.
+These declarations record the corresponding quantitative and qualitative
+conclusions.}
+
+\subsection{The exponent of $\pi$: logarithmic jets and determinant collisions}
+\label{sec:frontiers-pi-exponent}
+
+The irrationality exponent measures how well a real number can be
+approximated by rationals: larger exponents allow infinitely many
+unusually small approximation errors. Family 017 asserts the endpoint
+$\mu(\pi)=2$. Its precise upper-bound statement is that, for every $\nu>2$, some
+$Q(\nu)$ satisfies
+\[
+ |\pi-p/q|\geq q^{-\nu}\quad(p\in\mathbb Z,\ q\in\mathbb N,\ q\geq Q(\nu)).
+\]
+The threshold is ineffective. The assertion concerns $\pi$, not $\pi^2$, and
+does not imply a fixed lower bound $c/q^2$ or bounded partial quotients
+\cite{arithOpenAI017}. The contrast with established quantitative work is
+sharp: Zeilberger and Zudilin's variant of Salikhov's integral method proves
+the upper bound $7.103205334137\ldots$ \cite{arithZZ2020}. The released
+manuscript seeks the endpoint through a different geometric and arithmetic
+organization rather than optimizing those integrals.
+
+Its central intermediate assertion is a separated-weight interpolation
+theorem. A jet is a finite collection of Taylor coefficients, so jet
+interpolation means prescribing values and derivatives at several
+points. The question is whether enough polynomials remain available
+after imposing the arithmetic constraints needed later in the proof.
+Polynomials use a full weighted simplex degree budget; after
+substituting $Y=1+t$ and $X_i=c_{ji}+u_i+\log(1+t)$, they must prescribe
+specified jets at several coordinatewise distinct centres. The weights are
+selected successively, \emph{before} the centres are known. The required
+degree threshold may subsequently depend on the centres. This asymmetry is
+essential: rational approximations determine centres later, so an argument
+choosing weights from those approximations would not supply the needed
+quantifier order \cite{arithOpenAI017}.
+
+Dimension counting alone does not establish this surjectivity. The
+manuscript proceeds through weighted transverse multiplicity, a curve-contact
+inequality, and positivity on an ordinary blow-up of finite-colength jet
+ideals. It then uses sufficiently large ordinary ideal powers and Serre
+vanishing to produce the prescribed jets. Roth-type zero estimates on
+products of commutative algebraic groups provide a relevant antecedent in
+Farhi \cite{arithFarhi2006}; Demailly relates curve positivity, blow-ups and
+asymptotic jet generation \cite{arithDemailly1992}. The release's proposed
+bridge combines these themes for logarithmic curves with separated weights.
+The decisive geometric checkpoint is its curve inequality and the resulting
+centre-independent weight selection. The passage to ordinary ideal powers,
+rather than integral closures, is another exact point requiring review
+\cite{arithOpenAI017}.
+
+The arithmetic half constructs a nonzero rational-Gaussian interpolation
+minor whose denominator-clearing estimate supplies a lower bound. Translating
+its rows expresses entries through entire exponential-polynomial functions.
+Taylor degrees that coincide within a fixed transverse-index class create
+equal rows and annihilate that determinant term. Taylor-degree cancellation
+already underlies Laurent's interpolation-determinant estimates
+\cite{arithLaurent2000}. Here the manuscript groups collisions by transverse
+indices and combines them with full-simplex counts: with $m$ logarithmic
+coordinates, the growth exponents in the degree parameter are $m+1$ for
+the polynomial-space dimension and $m$ for the index-set cardinality.
+Many low indices yield collision savings; few yield powers of small
+approximation errors. The stated collision and determinant-comparison
+lemmas expose the analytic upper bound that must contradict the arithmetic
+lower bound \cite{arithOpenAI017}.
+
+A concrete mathematical consequence would be convergence of the Flint Hills
+series $\sum_{n\geq1}(n^3\sin^2 n)^{-1}$. Alekseyev proves that convergence
+requires $\mu(\pi)\leq5/2$ \cite{arithAlekseyev2011}; Meiburg proves a
+sufficient strict inequality $\mu(\pi)<5/2$ using sparsity of good rational
+approximations \cite{arithMeiburg2022}. Thus the released exponent theorem
+would settle this convergence question without a borderline argument. The
+selected formal target records the approximation inequality and
+exponent identity.\footnote{The comparator selects
+\texttt{OAI.PiExponent.main}. A separate, unselected declaration in
+\texttt{Main.lean} records Flint Hills summability.}

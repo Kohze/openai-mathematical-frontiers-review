@@ -1,0 +1,411 @@
+{
+  "schema": "openai-mathematical-frontiers/round-2-arithmetic-review-1",
+  "review_date": "2026-10-07",
+  "review_type": "Skeptical internal second-round narrative-review audit",
+  "reviewer_limitation": "This agent drafted the initial arithmetic section. This is an internal cross-check with potential author involvement bias, not external human peer review or independent validation of the release proofs.",
+  "files_reviewed": [
+    "main.tex",
+    "synthesis.tex",
+    "research/arithmetic/section.tex",
+    "research/arithmetic/evidence.json",
+    "research/arithmetic/cross-review.json",
+    "research/root-evidence.json"
+  ],
+  "source_snapshot_sha256": {
+    "main.tex": "95b786aa5b7aad8e49ac4e3c78a269595c988f5974b7e901b7ab39a7e4a51c50",
+    "synthesis.tex": "55c4abe799690faa21a59a43ba86ce87b01e2c95affbb47846673ec07a91c83c",
+    "research/arithmetic/section.tex": "b2ea808273e7ce731db54509d1340b2e792e46e6f042816140acf3e0c0ecca00",
+    "research/arithmetic/evidence.json": "1c3ed6211e758c66c5427c99e13fbd01aae82b08d40f65ac9392734a0318e9ae",
+    "research/root-evidence.json": "5659609053c53d866d559a6d835659083d97e372a0f2d62e7591f7c5ff8b3f4e"
+  },
+  "snapshot_note": "Hashes were collected during report assembly; the root may subsequently revise the manuscript. Findings identify both lines and text anchors.",
+  "assessed_genre": "Purposive comparative narrative review of selected release claims and their proof interfaces; not a systematic survey, a new mathematical proof, or a completed formal-verification report.",
+  "overall_assessment": {
+    "score_out_of_10": 7.5,
+    "calibration": "Useful and technically careful developing narrative review. Exact quantifier comparisons and concrete interfaces are its strongest contribution. Its synthesis is interpretive rather than a demonstrated unifying theory; two recent ordinary-correlation baselines should be integrated before claiming a close novelty comparison.",
+    "recommendation": "Suitable for a carefully framed scholarly preprint after the limited positioning revisions below. A specialist review venue would benefit from deeper independent reconstruction of at least one central interface, with clear source-validation boundaries.",
+    "no_new_mathematical_contract_error_found_in_revised_algebra_or_pde": true,
+    "release_proofs_independently_validated": false,
+    "fresh_lean_comparator_executed": false,
+    "external_peer_review_performed": false
+  },
+  "categories": [
+    {
+      "category": "Mathematical precision of reviewed exposition",
+      "score": 8.5,
+      "rationale": "Fixed forms, one-factor quantifier, every-cutoff versus exceptional-scale scope, pi's nu>2 endpoint, ordinary ideal powers and the repaired PDE band/prefix/last-crossing conditions are handled accurately. This score concerns exposition, not truth of the underlying release claims."
+    },
+    {
+      "category": "Closest prior-literature positioning",
+      "score": 7,
+      "rationale": "Strong primary antecedents cover short intervals, log weighting, divisibility graphs, exact-independence repair, interpolation determinants, jet positivity and algebraic transfer. KMT2023 and TT2026 are the two closest missing ordinary-correlation baselines."
+    },
+    {
+      "category": "Review method and selection transparency",
+      "score": 7,
+      "rationale": "Purposive narrative design and primary-source ledgers are appropriate. Theme-guided selection and source-inspection versus executed verification should be stated operationally, so the themes are read as a contrastive lens rather than a discovered frequency pattern."
+    },
+    {
+      "category": "Novelty judgment and qualification",
+      "score": 7.5,
+      "rationale": "The arithmetic text credits known composite graphs, circuit fooling, bias repair, determinant cancellation and positivity-to-jets. It identifies additional uniformity/compatibility rather than asserting priority. The selected ordinary and pi claims would be major conclusions if validated; the review itself contributes synthesis rather than a new theorem."
+    },
+    {
+      "category": "Cross-disciplinary explanatory synthesis",
+      "score": 6.5,
+      "rationale": "Cancellation, positivity and representation are useful organizing principles but broad features of existing mathematics. Value comes from the specific failure points and quantifier contrasts, not from identifying these themes alone. Explicit contrastive selection strengthens the argument."
+    },
+    {
+      "category": "Reader value and clarity",
+      "score": 8,
+      "rationale": "The log-versus-ordinary illustration, finite-field puncturing example and repaired conditional energy-doubling argument make otherwise opaque claims intelligible. Geometry of logarithmic jets remains dense but identifies a concrete review target."
+    },
+    {
+      "category": "Reproducibility and evidence integrity",
+      "score": 8,
+      "rationale": "Pinned release commit, precise primary locators, source/PDF hashes and explicit nonexecuted comparator status support retracing the narrative. Complete dependency/kernel proof checking and release-proof reproduction are not performed or claimed."
+    },
+    {
+      "category": "Research-transfer usefulness",
+      "score": 7,
+      "rationale": "Finite-law arithmetic observables and centre-uniform log jets are sensible separate research objects; algebra/PDE compatibility checkpoints focus follow-up work. Transfer to other results remains a proposed research direction."
+    },
+    {
+      "category": "Practical application evidence",
+      "score": 4,
+      "rationale": "The review offers pathways and a series-convergence consequence, not implemented workloads or demonstrated engineering gains. This is proportionate to the narrative-review genre and is not included as a decisive defect in the overall score."
+    }
+  ],
+  "findings": [
+    {
+      "id": "R2-A1",
+      "severity": "major",
+      "status": "revision_recommended",
+      "category": "Novelty baseline",
+      "locations": [
+        {
+          "path": "research/arithmetic/section.tex",
+          "lines": [
+            28,
+            40
+          ]
+        },
+        {
+          "path": "synthesis.tex",
+          "lines": [
+            23,
+            28
+          ]
+        }
+      ],
+      "finding": "The historical comparison is accurate as far as it goes, but omits the closest recent ordinary-correlation results. Without them, a reader may overestimate how much of the advance consists of obtaining ordinary averages or a logarithmic-power saving at all.",
+      "evidence": "KMT2023 Theorem 1.2 obtains ordinary binary cancellation under weaker fixed-twist nonpretentiousness on a set of full upper logarithmic density. TT2026 Theorem 3.1 and Remarks 3.2 already give power-saving ordinary Liouville affine correlations outside quantitatively controlled exceptional scales, with slowly growing coefficients.",
+      "concrete_revision": "Add the single compact comparison paragraph proposed below. State the actual trade: all cutoffs for fixed affine forms versus exceptional cutoffs with growing-form uniformity, and the corrected stronger growing-twist hypothesis versus weaker fixed-twist nonpretentiousness. Do not describe the release as simply dominating every aspect of the earlier results.",
+      "proof_error": false
+    },
+    {
+      "id": "R2-A2",
+      "severity": "minor",
+      "status": "revision_recommended",
+      "category": "Methodological inference",
+      "locations": [
+        {
+          "path": "main.tex",
+          "lines": [
+            75,
+            105
+          ]
+        },
+        {
+          "path": "synthesis.tex",
+          "lines": [
+            169,
+            175
+          ]
+        }
+      ],
+      "finding": "The three themes are partly built into case selection. The present conclusion already says 'selected release manuscripts', so it does not literally claim a measured result over all 372 families. Nevertheless, 'is concentrated' can suggest an empirical discovery stronger than the purposive design supports.",
+      "concrete_revision": "State that selection is theme-guided and contrastive, using the finite-field pairing as a contrast to ordered/operator positivity and the ordinary/logarithmic laws as a quantifier contrast. Phrase the conclusion as the interfaces highlighted by these case studies rather than a concentration theorem or prevalence finding.",
+      "proof_error": false
+    },
+    {
+      "id": "R2-A3",
+      "severity": "minor",
+      "status": "revision_recommended",
+      "category": "Standalone abstract",
+      "locations": [
+        {
+          "path": "main.tex",
+          "lines": [
+            42,
+            44
+          ]
+        }
+      ],
+      "finding": "The opening already refers to stated conclusions and proposed structures, but 'distinguish new conclusions, new combinations' could be read in isolation as an independent novelty adjudication.",
+      "concrete_revision": "Use 'distinguish proposed novelty of conclusions, combinations of known tools, and uniformity or representation guarantees'. This preserves positive scholarly language while matching the actual evidence level.",
+      "proof_error": false
+    },
+    {
+      "id": "R2-A4",
+      "severity": "minor",
+      "status": "revision_recommended",
+      "category": "Verification method transparency",
+      "locations": [
+        {
+          "path": "main.tex",
+          "lines": [
+            107,
+            115
+          ]
+        }
+      ],
+      "finding": "The text appropriately separates statement correspondence from reproducible verification. It should additionally identify the completed stage explicitly; source ledgers show no fresh comparator or dependency-axiom run.",
+      "concrete_revision": "A compact methodological sentence can say 'Formal artifacts enter the comparison through their documented statements and inspected source bindings; execution status is recorded separately in the evidence ledgers.' Avoid suggesting a new full-library validation.",
+      "proof_error": false
+    },
+    {
+      "id": "R2-A5",
+      "severity": "minor",
+      "status": "optional_editorial_fix",
+      "category": "Elementary example indexing",
+      "locations": [
+        {
+          "path": "main.tex",
+          "lines": [
+            121,
+            122
+          ]
+        }
+      ],
+      "finding": "Specify j>=1 in the sparse-interval example. If indexing starts at zero, [M0,2M0]=[2,4] and [M1,2M1]=[4,8] share the endpoint 4, contradicting 'disjoint integer intervals' although the averaging conclusion remains true.",
+      "concrete_revision": "Write 'For j>=1, let M_j=2^{2^j}'.",
+      "proof_error": false
+    }
+  ],
+  "substantive_additions": [
+    {
+      "id": "R2-ADD1",
+      "type": "One arithmetic comparison paragraph",
+      "candidate_text": "Klurman, Mangerel and Teräväinen obtain ordinary two-point cancellation along a set of full upper logarithmic density under fixed-twist nonpretentiousness. Tao and Teräväinen also give a logarithmic-power saving for slowly growing affine Liouville forms outside a quantitatively controlled exceptional set of scales. The release's quantitative assertion removes that exceptional set for fixed forms; it does not claim the growing-coefficient uniformity of the latter result. Its qualitative assertion instead combines every-cutoff cancellation with the corrected stronger growing-twist hypothesis. These are distinct changes of cutoff scope and hypothesis, rather than an undifferentiated extension of all previous guarantees.",
+      "bibkeys": [
+        "arithKMT2023",
+        "arithTT2026"
+      ],
+      "candidate_bib_file": "research/arithmetic/round-2-additions.bib",
+      "citation_locations": [
+        "KMT2023 Definition 1.1, pp.1-2; Theorem 1.2 and Proposition 1.3, p.3",
+        "TT2026 Theorem 3.1, p.24; Remarks 3.2, p.25"
+      ],
+      "source_requirement": "Use the verified primary versions below; no claims of publication in a journal are supplied for these candidate records."
+    },
+    {
+      "id": "R2-ADD2",
+      "type": "Compact method clarification, no additional factual literature claim",
+      "candidate_text": "Case selection was guided by the three themes and by contrasts between superficially similar proof obligations. The comparison therefore evaluates how the selected interfaces preserve their required hypotheses, rather than estimating the frequency of those themes in the catalogue. Formal artifacts enter through documented statements and inspected source bindings, with execution status recorded separately in the evidence ledgers.",
+      "purpose": "Operationalize the narrative design and completed evidence stage. This is a review-method addition, not a mathematical theorem or an exhaustive search claim."
+    }
+  ],
+  "added_primary_sources": [
+    {
+      "bibkey": "arithKMT2023",
+      "title": "On Elliott's conjecture and applications",
+      "authors": [
+        "Oleksiy Klurman",
+        "Alexander P. Mangerel",
+        "Joni Teräväinen"
+      ],
+      "inspected_version_year": 2023,
+      "version": "arXiv:2304.05344v2, 2023-05-26",
+      "primary_url": "https://arxiv.org/abs/2304.05344v2",
+      "pdf_url": "https://arxiv.org/pdf/2304.05344v2",
+      "pdf_pages": 55,
+      "pdf_sha256": "82b6b6b8290c7f36115794cbfcc987e8df4ac2447bd41232d740198fdef8e6a5",
+      "identity_verification": "Primary arXiv record and actual PDF title page inspected.",
+      "theorem_locations": [
+        {
+          "name": "Definition 1.1",
+          "pdf_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Theorem 1.2",
+          "pdf_page": 3
+        },
+        {
+          "name": "Proposition 1.3",
+          "pdf_page": 3
+        }
+      ],
+      "exact_scope": "For arbitrary unit-disc multiplicative f1,f2, one fixed f1 nonpretentious gives ordinary binary correlation cancellation on a set X with upper logarithmic density 1, for distinct fixed shifts.",
+      "hypothesis": "Nonpretentious means for every fixed Dirichlet character chi and every fixed real t, D(f1,chi*n^{it};infinity)=infinity. This is weaker than requiring inf_{|t|<=N} D(f1,chi*n^{it};N)->infinity for every fixed chi.",
+      "sharpness_caution": "Proposition 1.3 gives a nonpretentious function whose absolute two-point correlation tends to 1 along a set of full upper log-log density. The weak hypothesis is not interchangeable with the corrected growing-twist hypothesis and does not permit an every-cutoff conclusion.",
+      "journal_publication_asserted": false
+    },
+    {
+      "bibkey": "arithTT2026",
+      "title": "Quantitative correlations and some problems on prime factors of consecutive integers",
+      "authors": [
+        "Terence Tao",
+        "Joni Teräväinen"
+      ],
+      "inspected_version_year": 2026,
+      "version": "arXiv:2512.01739v2, 2026-04-25; first version 2025-12-01",
+      "primary_url": "https://arxiv.org/abs/2512.01739v2",
+      "pdf_url": "https://arxiv.org/pdf/2512.01739v2",
+      "pdf_pages": 61,
+      "pdf_sha256": "ce10e83b10c6544e1dbff037a5e4efa0e387892e0fc596ae09dce76025d7b41e",
+      "identity_verification": "Primary arXiv record and actual PDF title page inspected.",
+      "theorem_locations": [
+        {
+          "name": "Theorem 3.1",
+          "pdf_page": 24
+        },
+        {
+          "name": "Remarks 3.2, affine Liouville consequence",
+          "pdf_page": 25
+        }
+      ],
+      "general_hypotheses": "1-bounded multiplicative g1,g2; 1<=L<=log X; either the stated quantitative equidistribution axiom plus technical prime-value condition, or delta_N=0 with exp(M(g1;X^2,(log X)^(1/125))) >> L. The conclusion is outside E subset [sqrt X,X] with logarithmic measure/log X << L^(-c).",
+      "liouville_consequence": "For some small absolute c>0 and integers a1,a2,b1,b2 between 1 and (log N)^c with a1*b2!=a2*b1, the normalized ordinary Liouville correlation is <<(log N)^(-c) for all N outside E; E obeys (1/log X) integral_[1,X] intersect E dt/t <<(log X)^(-c).",
+      "comparison_limit": "This prior Liouville estimate permits slowly growing positive coefficients but retains an exceptional scale set. The release's inspected affine Liouville assertion fixes coefficients (also permits b_i=0) and removes the exceptional scale set. Neither scope should be casually described as containing every aspect of the other.",
+      "journal_publication_asserted": false
+    }
+  ],
+  "unchanged_positive_checks": [
+    "The corrected Elliott one-factor-before-every-character order is now explicit.",
+    "The pi endpoint is not confused with bounded partial quotients, a c/q^2 inequality or pi squared.",
+    "Braverman/AGM and Laurent/Demailly/Farhi antecedents are credited; the release's proposed additional interface is identified separately.",
+    "The characteristic-two incidence criterion now includes the primitive ell-th root needed for character idempotents.",
+    "Finite-field example and incidence-degree-zero calculation remain correct.",
+    "Dykema–Juschenko matrix-to-scalar transfer is presented as established; the claimed novelty is joint realization of the conditions.",
+    "The nonsofic consequence remains conditional on a genuine scalar group-algebra defect.",
+    "The PDE proof sketch now includes fixed-horizon dependence, receiver band and last crossing; the harmonic-doubling implication is valid conditionally.",
+    "Application pathways are described as proposed rather than completed implementations or engineering validations."
+  ],
+  "revision_budget": "At most two substantive additions are proposed. The other suggestions are short wording or indexing corrections, not additional research sections.",
+  "next_audit": "After root integration, recheck the new paragraph's fixed versus uniform twist condition and upper-log-density versus full-log-density terminology. No new proof-validation claim should appear.",
+  "per_case_breakthrough_assessment": [
+    {
+      "family": "007",
+      "conclusion_and_barrier": "Ordinary two-point Chowla cancellation for Liouville at every cutoff, with an absolute logarithmic-power saving for fixed affine forms, plus corrected binary Elliott cancellation under the growing-twist hypothesis. Prior logarithmic averages or exceptional-scale results leave the specified terminal cutoff uncontrolled.",
+      "conclusion_size_if_valid_out_of_10": 9.5,
+      "established_or_terminal_steps": [
+        "Short-interval multiplicative estimates and log-averaged correlation theory.",
+        "Centred divisibility/prime-product graphs, composite steps and nonbacktracking walks (Helfgott–Radziwiłł, Pilatte).",
+        "Braverman AC0 fooling and almost-to-exact independence repair (Alon–Goldreich–Mansour).",
+        "Fixed-form affine/progression reductions once the core correlation estimate is available."
+      ],
+      "proposed_breakthrough_making_bridge": "A finite-law comparison for growing graph complexity that retains common prime-residue dependence, together with signed high-trace/rank/forest estimates uniform over padding and with absolute constants as the prime-supply count grows like log log X. The qualitative version must replace mean-zero centering by normalized signed singleton integration without assuming a divergence rate.",
+      "reusable_research_object": "A quantitative finite-interval-to-product-residue comparison for bounded-complexity arithmetic observables, and its compatible signed trace budget.",
+      "why_familiar_tools_do_not_make_it_incremental": "Existing graph and circuit theorems alone do not remove exceptional terminal scales. If the uniform comparison and trace budget close with the stated quantifiers, using established components to establish the every-cutoff endpoint is a major advance, not merely routine application of the components.",
+      "main_independent_review_target": "Finite-law error, shared-residue modeling and high-trace constants throughout the growing-parameter/padding argument.",
+      "novelty_scope_limit": "The fixed-form every-cutoff result should not be conflated with growing-coefficient uniformity; the stronger growing-twist hypothesis should not be conflated with KMT's weaker fixed-twist class.",
+      "supporting_release_locations": [
+        "quantitative/02-finite-law.tex q:finite-law",
+        "quantitative/04-paths-trace.tex q:trace and q:mixed-difference",
+        "qualitative/trace-count.tex singleton/return-factor integration"
+      ],
+      "prior_bibkeys": [
+        "arithHR2021",
+        "arithPilatte2026",
+        "arithBraverman2010",
+        "arithAGM2003",
+        "arithKMT2023",
+        "arithTT2026"
+      ],
+      "epistemic_status": "Conditional magnitude and source-comparison judgment; not validation or priority certification."
+    },
+    {
+      "family": "017",
+      "conclusion_and_barrier": "The optimal irrationality exponent mu(pi)=2: for every nu>2, eventual q^(-nu) lower bounds. This crosses from specific quantitative integral-method exponents above 2 to the conjectured endpoint for a transcendental constant.",
+      "conclusion_size_if_valid_out_of_10": 10,
+      "established_or_terminal_steps": [
+        "Roth-type multiplicity/zero estimates on products of algebraic groups.",
+        "Curve positivity, blow-up and vanishing routes to asymptotic jet generation.",
+        "Interpolation determinants, denominator clearing and Taylor-degree collision cancellation (Laurent).",
+        "Dirichlet's lower exponent 2 and the existing strict Flint Hills convergence criterion."
+      ],
+      "proposed_breakthrough_making_bridge": "Centre-independent separated-weight interpolation for logarithmic jets, realized using the correct ordinary ideal powers, followed by a dimension-sensitive collision/error-power determinant budget. Weights must be chosen before the rational centres; the sufficiently divisible degree threshold may depend on centres afterwards.",
+      "reusable_research_object": "The separated-weight logarithmic-jet surjectivity theorem, with exact quantifier order, and the transverse-index collision estimate.",
+      "why_familiar_tools_do_not_make_it_incremental": "Positivity-to-jets and repeated-row cancellation are established principles; the centre-uniform compatibility and full-simplex collision budget required to reach every exponent nu>2 are not supplied by invoking those principles. If valid, a new compatible interpolation theorem reaching the endpoint is a major contribution even though the proof architecture has classical antecedents.",
+      "main_independent_review_target": "Weighted curve inequality, centre-independent weight thresholds, ordinary-ideal-power vanishing and compatibility of the nonzero arithmetic minor with the uniform analytic upper bound.",
+      "novelty_scope_limit": "No c/q^2 bound, bounded partial quotients, effective threshold, result about pi squared, or independent endpoint verification follows from the review.",
+      "supporting_release_locations": [
+        "sections/interpolation.tex geom:interpolation and geom:curve-inequality, ordinary blow-up passage",
+        "sections/determinant.tex det:arithmetic, det:collision and det:comparison"
+      ],
+      "prior_bibkeys": [
+        "arithZZ2020",
+        "arithFarhi2006",
+        "arithDemailly1992",
+        "arithLaurent2000",
+        "arithMeiburg2022"
+      ],
+      "epistemic_status": "Conditional magnitude and source-comparison judgment; not validation or priority certification."
+    },
+    {
+      "family": "197",
+      "conclusion_and_barrier": "A scalar direct-finiteness counterexample in a finite-characteristic-two group algebra of a finitely presented group with odd-prime torsion; established sofic-group results then imply nonsoficity. A generic one-sided inverse in an abstract infinite ring or only a matrix defect is not the group-algebra endpoint.",
+      "conclusion_size_if_valid_out_of_10": 10,
+      "established_or_terminal_steps": [
+        "Finite-dimensional direct finiteness and the characteristic-zero finite-trace argument.",
+        "Finite-field polynomial interpolation, subgroup averages and character idempotents.",
+        "Matrix-to-scalar transfer using finite auxiliary groups (Dykema–Juschenko).",
+        "Nonsoficity deduced from an actual scalar defect using Elek–Szabó's theorem."
+      ],
+      "proposed_breakthrough_making_bridge": "Simultaneously realize nonzero total pairings and vanishing local pairings in a regular high-girth incidence system; preserve honest local subgroup embeddings while packing the rectangular inverse into square matrices whose reverse defect survives in an embedded subgroup algebra, then into scalar group-ring elements.",
+      "reusable_research_object": "The finite incidence criterion and the explicit compatible geometric/local-group construction, including its defect certificate.",
+      "why_familiar_tools_do_not_make_it_incremental": "Rank deficiency detects a reverse defect only after the incidence and embedded subgroup models genuinely exist. The new burden is satisfying all those constraints inside an actual finitely presented group algebra; the established rank argument and matrix-to-scalar transfer do not construct that compatible input.",
+      "main_independent_review_target": "Regular high-girth line construction and planar local-group embedding, plus preservation of the defect under packing; a smaller exact finite incidence witness would aid scrutiny if feasible.",
+      "novelty_scope_limit": "The inspected September characteristic-two construction is not itself the later torsion-free/F2 catalogue claim. No practical execution of the terminating construction or independent word-problem/group-algebra validation is performed here.",
+      "supporting_release_locations": [
+        "02-criterion.tex thm:criterion and reverse-defect argument",
+        "02a-embedding.tex lem:embedding",
+        "03-pairing.tex prop:pairing",
+        "04-hypergraph.tex thm:hypergraph"
+      ],
+      "prior_bibkeys": [
+        "Montgomery1969",
+        "ElekSzabo2004",
+        "DykemaJuschenko2015"
+      ],
+      "epistemic_status": "Conditional magnitude and source-comparison judgment; not validation or priority certification."
+    },
+    {
+      "family": "362",
+      "conclusion_and_barrier": "Global smooth classical one-species 3D relativistic Vlasov–Maxwell for the stated arbitrarily large nonsymmetric smooth data class. Global weak existence and large-data cylindrical-symmetry results do not supply this regularity/general-data endpoint.",
+      "conclusion_size_if_valid_out_of_10": 10,
+      "established_or_terminal_steps": [
+        "Characteristics, Maxwell evolution, energy and constraint propagation.",
+        "Bounded-momentum continuation criteria (Glassey–Strauss and subsequent formulations).",
+        "Existing physical-space division/null-structure analysis and symmetry-based large-data estimates.",
+        "The final Lipschitz energy comparison and harmonic sum of energy-doubling times."
+      ],
+      "proposed_breakthrough_making_bridge": "A signed retarded-force/source-trajectory identity and occupation improvement that close the receiver-band impulse estimate uniformly in the solution prefix and maximal momentum: MP*sqrt(Delta)+A*Delta*P^2*log(2+P)/w, with only datum/fixed-horizon dependence.",
+      "reusable_research_object": "The signed characteristic-impulse estimate together with a complete boundary/cutoff/receiver-acceleration budget and its receiver-band contract.",
+      "why_familiar_tools_do_not_make_it_incremental": "Continuation from bounded momentum is established and the harmonic summation is elementary. The claimed large-data endpoint depends on controlling the signed impulse with the critical uniform momentum/logarithm budget; standard absolute-force estimates and the continuation criterion alone do not supply it.",
+      "critical_budget_observation": "At energy doubling, P is proportional to w, so the stated logarithm yields Delta >= c/(n+1). Replacing that logarithmic factor by (log P)^(1+epsilon) would yield only a potentially summable c/(n+1)^(1+epsilon) scale through this argument. This observation concerns this terminal implication, not a theorem that any stronger logarithmic bound rules out global regularity.",
+      "main_independent_review_target": "Signed identity, source-time change of variables, angular/cutoff/acceleration errors and uniform bootstrap closure; the corrected last-crossing construction only supplies the legitimate terminal application.",
+      "novelty_scope_limit": "Claims concern the stated classical data class and finite-horizon support/regularity. The review does not establish numerical-method stability or independently prove the kinetic estimates.",
+      "supporting_release_locations": [
+        "setup.tex prop:increment and energy-doubling proof",
+        "cancellation.tex can:identity",
+        "direction.tex occupation improvement",
+        "selection.tex signed-force selection",
+        "closure.tex strict bootstrap improvement"
+      ],
+      "prior_bibkeys": [
+        "GlasseyStrauss1986",
+        "BouchutGolsePallard2003",
+        "LukStrain2014Continuation",
+        "Wang2026I",
+        "Wang2026II"
+      ],
+      "epistemic_status": "Conditional magnitude and source-comparison judgment; not validation or priority certification."
+    }
+  ],
+  "breakthrough_scale_note": "The high per-case conclusion-size scores are explicitly conditional on correctness and validation of the release claims. They measure the size of the stated barrier crossed, not the probability the proof is correct, historical priority, or the quality/novelty of this review. The review's own overall score remains 7.5/10."
+}

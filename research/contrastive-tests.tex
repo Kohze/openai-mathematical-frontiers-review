@@ -1,0 +1,58 @@
+\subsection{Elementary tests of the mathematical distinctions}
+\label{subsec:contrastive-tests}
+The following elementary examples make the comparison concrete. Each
+isolates a boundary between a useful intermediate statement and a stronger
+conclusion required by one of the reviewed arguments.
+
+\begin{example}[Restricted energy control and the full spectral gap]
+On $\{-1,1\}^2$ with uniform law, consider the continuous-time chain
+that flips the first coordinate at rate $1$ and the second at rate
+$\tau>0$. Its Dirichlet form is
+\[
+ \mathcal E_\tau(f)=\frac12\mathbb E\!\left[
+ (f(-a,b)-f(a,b))^2+\tau(f(a,-b)-f(a,b))^2\right].
+\]
+For every observable $f=g(a)$, one has
+$\mathcal E_\tau(f)=2\operatorname{Var}(f)$, uniformly in $\tau$.
+For $f(a,b)=b$, however, the variance is $1$ and the energy is $2\tau$.
+The functions $1,a,b,ab$ diagonalize the negative generator, with
+eigenvalues $0,2,2\tau,2(1+\tau)$. Thus the full spectral gap is
+$2\min\{1,\tau\}$, although the restricted inequality remains fixed.
+At $\tau=0$ the restricted inequality even coexists with reducibility.
+This locates the exact distinction between the matching argument's
+upgrade to a full inequality and the common-base argument's separate
+use of selected observables and return control. A restricted estimate
+must be paired with the additional property the algorithm actually uses.
+\end{example}
+
+\begin{example}[The dimension loss in an entrywise operator estimate]
+Suppose the scalar inequality
+$\|p(A)\|\le C\max_{z\in W(A)}|p(z)|$ is available, and let
+$Q(z)=[q_{ij}(z)]_{i,j=1}^m$ be a matrix polynomial. Viewing $Q[A]$
+as a block matrix gives the elementary estimate
+\[
+ \|Q[A]\|\le m\max_{i,j}\|q_{ij}(A)\|
+ \le mC\max_{z\in W(A)}\|Q(z)\|.
+\]
+Indeed, bound each output block by the largest block norm times
+$\sum_j\|x_j\|$, then apply Cauchy--Schwarz to input and output blocks.
+This argument retains a factor $m$. The complete Crouzeix claim seeks
+constant $2$ independently of $m$; its ordered product tests must remove
+the dimensional loss that this entrywise route leaves behind. The
+distinction concerns the strength of the argument, even when its scalar
+inputs are already sharp.
+\end{example}
+
+\begin{example}[Positive nodes and a continuum inequality]
+For $h>0$, the polynomial
+$r_h(t)=(t-h/2)^2-h^2/16$ is positive at every node $t\in h\mathbb Z$,
+where $r_h(t)\ge3h^2/16$, but $r_h(h/2)=-h^2/16$.
+A positive node certificate therefore needs a separate argument between
+nodes. For example, on a covered compact interval, a derivative bound
+$|r'|\le L$ and node lower bounds $r\ge Lh/2$ imply $r\ge0$ whenever
+every point is within $h/2$ of a node. An all-real conclusion additionally
+needs control beyond the covered interval. This explains the distinct
+roles of rational node enclosures, interpolation, and tail estimates in
+the general Mahler manuscript. The proposed advance is their compatibility
+with the scalar error budget needed by the matrix comparison.
+\end{example}

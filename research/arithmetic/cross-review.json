@@ -1,0 +1,119 @@
+{
+  "schema": "openai-mathematical-frontiers/arithmetic-cross-review-1",
+  "date": "2026-10-07",
+  "reviewer_role": "Internal agent cross-review; not external human peer review",
+  "scope": [
+    "Current root main.tex algebra and PDE sections",
+    "Current abstract and synthesis.tex quantifier wording",
+    "Exact pinned release introduction, algebra criterion, PDE setup/continuation and formal challenge statements",
+    "Primary Dykema–Juschenko abstract and current Wang preprint records"
+  ],
+  "proof_validation_scope": "Exposition, mathematical elementary implications, source-statement alignment and novelty attribution; no full release-proof verification or Lean comparator execution.",
+  "findings": [
+    {
+      "id": "AR-X1",
+      "severity": "major",
+      "status": "resolved_and_reinspected",
+      "location": "main.tex PDE impulse estimate and energy-doubling argument",
+      "issue": "The earlier exposition omitted the receiver energy-band and prefix conditions, and did not identify the last crossing needed to preserve the band.",
+      "source_locations": [
+        {
+          "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/setup.tex",
+          "lines": [
+            35,
+            46
+          ]
+        },
+        {
+          "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/setup.tex",
+          "lines": [
+            79,
+            100
+          ]
+        }
+      ],
+      "remedy": "State fixed datum/horizon dependence; dyadic P>=P0 with P>=1024 max prefix energy; receiver band w/8<=q<=8w. For first maximum hit t_n choose the maximizing label and its last crossing s_n of 2^(n-1), so s_n>=t_(n-1), use Delta=t_n-s_n and t_n-t_(n-1)>=Delta.",
+      "verification": "Actual revised main.tex was reread: all these conditions are now present; the subsequent harmonic lower bound is correct."
+    },
+    {
+      "id": "AR-X2",
+      "severity": "minor",
+      "status": "resolved_and_reinspected",
+      "location": "main.tex algebra incidence/character-packing paragraph",
+      "issue": "The finite field in the exact incidence criterion must contain a primitive ell-th root of unity; adding this hypothesis explains availability of the character idempotents.",
+      "source_locations": [
+        {
+          "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02-criterion.tex",
+          "lines": [
+            11,
+            12
+          ]
+        }
+      ],
+      "remedy": "Add 'with K chosen to contain a primitive ell-th root of unity' near the odd-prime ell/regularity description.",
+      "qualification": "The earlier text said the inputs 'include' the displayed conditions, so this was an incomplete explanation rather than a false claim for all finite characteristic-two fields.",
+      "verification": "Revised main.tex explicitly specifies K containing a primitive ell-th root of unity."
+    },
+    {
+      "id": "AR-X3",
+      "severity": "minor",
+      "status": "resolved_and_reinspected",
+      "location": "main.tex algebra phrase 'principal new interfaces proposed in the construction'",
+      "issue": "The interface list includes matrix-to-scalar transfer, for which the text subsequently identifies the Dykema–Juschenko antecedent.",
+      "remedy": "Use 'principal interfaces emphasized in the construction' or attribute novelty to their joint compatibility.",
+      "evidence_url": "https://admjournal.luguniv.edu.ua/index.php/adm/article/view/1174",
+      "evidence_location": "Official abstract: stable finiteness of K[G] equivalent to direct finiteness of K[G x H] for all finite H.",
+      "verification": "Revised main.tex uses 'principal interfaces emphasized in the construction'."
+    },
+    {
+      "id": "AR-X4",
+      "severity": "major",
+      "status": "resolved_and_reinspected",
+      "location": "research/arithmetic/section.tex, corrected Elliott hypothesis",
+      "issue": "An internal reviewer identified ambiguous quantifier order in the original sentence 'For each fixed character, one factor must satisfy': this could allow the factor to change with the character. The exact statement requires one fixed factor satisfying the growing-twist divergence for every fixed character.",
+      "source_location": "Pinned family007 introduction.tex lines 56-72, uniformly nonpretentious definition and thm:elliott",
+      "remedy": "Write 'One fixed factor must satisfy, for every fixed Dirichlet character chi, ...'.",
+      "verification": "Actual revised section.tex line 21 has this exact quantifier order. evidence.json exact_claims A007-C2 already records at least one factor satisfying the condition for every character."
+    }
+  ],
+  "positive_checks": [
+    {
+      "id": "AR-C1",
+      "description": "Finite-field miniature is correct: Frobenius additivity in F4 gives sum (1+t)^2=0 and removing t=0 leaves 1. No real positivity interpretation is used."
+    },
+    {
+      "id": "AR-C2",
+      "description": "For characteristic two and odd ell, incidence degree D=ell+1 is zero as a field scalar; summed local vanishing is compatible with total -I_m."
+    },
+    {
+      "id": "AR-C3",
+      "description": "The matrix-to-scalar stable/direct-finiteness distinction and nonsofic consequence conditional on the scalar defect are correctly stated."
+    },
+    {
+      "id": "AR-C4",
+      "description": "CONTENTS.md lines 4518-4527 identify the later torsion-free/F2 claim; inspected lean/docs/197 and KaplanskyFinitelyPresented challenge retain odd-prime torsion. The review distinguishes these scopes."
+    },
+    {
+      "id": "AR-C5",
+      "description": "PDE data class and formal challenge agree on one species, smooth compact nonnegative particle density, finite-energy fields with all bounded derivatives, Gauss constraints, smoothness and compact phase support on finite horizons, and classical uniqueness."
+    },
+    {
+      "id": "AR-C6",
+      "description": "The revised doubling algebra gives a uniform c/(n+1) lower bound, conditional on the signed impulse estimate and bounded-momentum continuation, with datum and fixed horizon dependence preserved."
+    },
+    {
+      "id": "AR-C7",
+      "description": "Wang's actual July 2026 v2/v1 primary abstracts support the comparison to arbitrarily large cylindrically symmetric localized data; the review identifies removal of symmetry within its stated data class rather than generic priority in large-data existence."
+    },
+    {
+      "id": "AR-C8",
+      "description": "Abstract and synthesis keep conclusions within the defined release-claim framework; pi endpoint is explained in the arithmetic body as every nu>2, not c/q^2. No new substantive quantifier mismatch was found in the arithmetic/algebra/PDE synthesis rows."
+    }
+  ],
+  "limitations": [
+    "Other agents own the exact geometry/operator/counting statement audits; this cross-review does not replace them.",
+    "No algebraic witness was generated and no kinetic estimate was independently proved.",
+    "No comparator or dependency-axiom audit was run."
+  ],
+  "recommendation": "The repaired PDE, algebra and arithmetic exposition is ready for narrative integration. All four recorded wording/contract findings have been corrected and reread in actual files. Retain the source-level verification scope and complete the root's full cross-discipline and bibliography checks."
+}

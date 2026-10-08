@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-07",
+  "reviewer": "Geometry/operator subagent; separate exposition cross-review within the same AI-assisted authoring workflow.",
+  "scope": "Exposition, exact statement boundaries, novelty language, cross-field analogies and selected citation/primary-source comparisons. Not a complete proof audit of the underlying arithmetic, combinatorial, algebraic or kinetic manuscripts.",
+  "files_reviewed": [
+    {
+      "path": "papers/openai-mathematical-frontiers/research/arithmetic/section.tex",
+      "sha256": "01cbee867cd07aa44388fc54e08d6f9a765fe51f2f7abb543bdcf90c55730899"
+    },
+    {
+      "path": "papers/openai-mathematical-frontiers/research/combinatorics/section.tex",
+      "sha256": "38db0299c900213222837a04fce1e9e11bc34392374022fed521c0194daea415"
+    },
+    {
+      "path": "papers/openai-mathematical-frontiers/synthesis.tex",
+      "sha256": "3e8262fbbc2bfc44095fce2d0b47faec37c68f46b6ed309c82073d30e601370f"
+    }
+  ],
+  "overall": {
+    "recommendation": "Exposition is suitable for integration after the remaining local precision fixes. No critical exposition defect or unsupported claim of a proved cross-field transfer was identified. Two initial scope ambiguities have already been corrected during this review.",
+    "underlying_solution_acceptance": "Not assessed; specialist proof reconstruction and formal execution remain distinct tasks.",
+    "not_a_quality_proxy": "Reference count was checked only for missing keys, not treated as evidence of mathematical quality."
+  },
+  "findings": [
+    {
+      "id": "GXR1",
+      "severity": "major",
+      "type": "Quantifier ambiguity in review exposition",
+      "status": "resolved_during_review",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/research/arithmetic/section.tex",
+        "lines": [
+          20,
+          24
+        ]
+      },
+      "evidence": "The initial text said 'for each fixed Dirichlet character, one factor', permitting an unintended factor choice depending on the character. The released introduction first defines uniform nonpretentiousness for one function for every fixed character, then requires at least one factor to satisfy that property.",
+      "primary_source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+      "source_labels": [
+        "eq:unp",
+        "thm:elliott",
+        "cor:affine"
+      ],
+      "required_fix": "Name one fixed factor before the character quantifier.",
+      "resolution": "Current line 21 now states 'One fixed factor must satisfy, for every fixed Dirichlet character ...', which resolves the ambiguity."
+    },
+    {
+      "id": "GXR2",
+      "severity": "major",
+      "type": "Alphabet-size quantifier ambiguity",
+      "status": "open_at_review_snapshot",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/research/combinatorics/section.tex",
+        "lines": [
+          167,
+          170
+        ]
+      },
+      "evidence": "A globally fixed alphabet F_2^s cannot support arbitrary soundness delta<2^(-s), since uniformly random independent labels satisfy every translation constraint with probability 2^(-s). The supplied scope explicitly states that the alphabet depends only on the errors.",
+      "primary_source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/102.md",
+      "source_location": "Scope, first two paragraphs",
+      "required_fix": "State s=s(epsilon,delta), fixed independently of input size. For example: 'over F_2^{s(epsilon,delta)}, with alphabet dimension depending only on the errors'."
+    },
+    {
+      "id": "GXR3",
+      "severity": "minor",
+      "type": "Novelty-scope compression in synthesis table",
+      "status": "resolved_during_review",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/synthesis.tex",
+        "lines": [
+          46,
+          49
+        ]
+      },
+      "evidence": "The initial table mentioned all coefficient dimensions without all base dimensions. The preceding Åhag--Czyż--Virtanen preprint already claims complete C2 for arbitrary coefficient size when base order is at most three; the release's additional scope is arbitrary base order too.",
+      "primary_source": "https://arxiv.org/pdf/2608.27346v4",
+      "source_location": "Theorem 1.1",
+      "required_fix": "State both base and coefficient dimensions.",
+      "resolution": "Current table says 'every base and coefficient dimension', which resolves the omission."
+    },
+    {
+      "id": "GXR4",
+      "severity": "minor",
+      "type": "Expected-runtime identity needs conditional definitions",
+      "status": "open_at_review_snapshot",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/research/combinatorics/section.tex",
+        "lines": [
+          114,
+          121
+        ]
+      },
+      "evidence": "The displayed law-of-total-expectation identity is valid when delta is the actual correction-branch probability and T_ordinary denotes the ordinary branch's conditional mean or a deterministic cost. These are not defined. A TV error bound alone is not necessarily the branch probability. If ordinary work is performed on every execution before optional correction, the unconditional decomposition has a different apparent form.",
+      "required_fix": "Define C as the correction event, delta=Pr(C), and use E[T]=(1-delta)E[T|C^c]+delta E[T|C], or define the existing symbols explicitly. State that delta is the actual mixture probability rather than merely the TV error."
+    },
+    {
+      "id": "GXR5",
+      "severity": "minor",
+      "type": "Undefined construction parameters",
+      "status": "open_at_review_snapshot",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/research/combinatorics/section.tex",
+        "lines": [
+          35,
+          38
+        ]
+      },
+      "evidence": "N and D in L=(10^4ND)^100 are not introduced anywhere in this fragment. A reader cannot assess the asserted polynomial dependence or what is being replicated.",
+      "required_fix": "Define N and D with the source construction's meanings, or replace the formula with a descriptive sentence about the explicitly large polynomial replication. Do not guess these meanings."
+    },
+    {
+      "id": "GXR6",
+      "severity": "minor",
+      "type": "Growth-rate notation ambiguity",
+      "status": "open_at_review_snapshot",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/research/arithmetic/section.tex",
+        "lines": [
+          128,
+          131
+        ]
+      },
+      "evidence": "The expression 'dimension growth of order m+1' can mean O(m), whereas the intended distinction is polynomial-degree growth exponent m+1 versus m in full-simplex counts. The source states the comparison as row counts in dimension m+1 and transverse-index counts in dimension m.",
+      "primary_source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+      "source_location": "Paragraph 'Why full simplices and separated choices matter'",
+      "required_fix": "Say 'the full-simplex row count has degree-growth exponent m+1, whereas the transverse-index count has exponent m', defining m if helpful."
+    },
+    {
+      "id": "GXR7",
+      "severity": "minor",
+      "type": "Comparator role versus executed validation",
+      "status": "open_at_review_snapshot",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/research/arithmetic/section.tex",
+        "lines": [
+          141,
+          147
+        ]
+      },
+      "evidence": "'The selected Lean comparator checks ...' can suggest an executed validation. The supplied arithmetic evidence explicitly records that the comparator was not run; what was inspected was the configuration and solution bindings.",
+      "required_fix": "Use 'the comparator configuration selects the declaration ...'. This states the inspected fact precisely without another defensive disclaimer."
+    },
+    {
+      "id": "GXR8",
+      "severity": "minor",
+      "type": "Implicit integer-domain restrictions in displayed claims",
+      "status": "open_at_review_snapshot",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/research/arithmetic/section.tex",
+        "lines": [
+          10,
+          16,
+          88,
+          95
+        ]
+      },
+      "evidence": "The Liouville affine coefficients and approximation denominator are not explicitly declared integer in the review's displayed setup, though the released source restricts a_i,b_i and q to integers. Without those domains the expressions or the inequality are not the stated theorem.",
+      "primary_sources": [
+        "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+        "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex"
+      ],
+      "source_labels": [
+        "thm:q-affine",
+        "thm:main"
+      ],
+      "required_fix": "Declare a_i in Z_{>=1}, b_i in Z_{>=0}, and q in positive integers in the corresponding statement."
+    },
+    {
+      "id": "GXR9",
+      "severity": "minor",
+      "type": "Optional sharpening of novelty language",
+      "status": "advisory",
+      "location": {
+        "path": "papers/openai-mathematical-frontiers/synthesis.tex",
+        "lines": [
+          101,
+          104
+        ]
+      },
+      "evidence": "The operator case's movement from scalar to matrix-valued calculus is classical in complete spectral-set theory; the released claim seeks to retain the sharp constant two through that passage. The current wording is acceptable as a methodological description but could sound like the amplification concept itself is new.",
+      "primary_source": "https://epubs.siam.org/doi/10.1137/17M1116672",
+      "required_fix": "Prefer 'the operator argument must retain the sharp constant under passage to matrix-valued functional calculus'."
+    }
+  ],
+  "positive_checks": [
+    {
+      "item": "Flint Hills consequence",
+      "result": "The necessary <=5/2 and sufficient strict <5/2 directions are stated correctly; mu(pi)=2 would satisfy the strict criterion without an endpoint inference.",
+      "primary_source": "https://arxiv.org/abs/2208.13356v1"
+    },
+    {
+      "item": "Chen--Liu comparison",
+      "result": "Primary arXiv record confirms Xiaoyu Chen and Kuikui Liu, title, version 1 submitted 5 October 2026. Abstract and introduction support common-base FPRAS, nonnegative curvature for Hadamard products, integrated Bochner Poincare control and external-field selection. The fragment avoids a priority conclusion from manuscript dates.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2610.06724v1",
+        "https://arxiv.org/html/2610.06724v1"
+      ]
+    },
+    {
+      "item": "Lorentzian counterexample",
+      "result": "For g=x1*x4+x2*x3, the Hessian is the permutation matrix of two transpositions and has eigenvalues 1,1,-1,-1. The stated failure of the one-positive-direction condition is correct and is not misused as a hardness conclusion."
+    },
+    {
+      "item": "Oracle/bit/expected-time distinctions",
+      "result": "The fragment generally retains enumerated ground sets, exact oracles, binary-margin input, worst-case tape bounds versus expected exact sampling, and unrestricted sampling versus cell-bounded counting."
+    },
+    {
+      "item": "Cross-field analogies",
+      "result": "Synthesis compares preservation of cancellation, exact hypotheses, representation changes and quantifier uniformity. It does not assert a proved transfer theorem between arithmetic, kinetics, positivity or characteristic-two algebra."
+    },
+    {
+      "item": "Claims versus application evidence",
+      "result": "Research and implementation pathways are explicitly proposals; theoretical scope is not conflated with measured practical performance."
+    },
+    {
+      "item": "Citation-key completeness",
+      "result": "At review snapshot, all 16 arithmetic keys and 24 combinatorics keys exist in saved bibliographies. Synthesis has no citation commands and explicitly summarizes preceding source comparisons; this is acceptable, although section cross-references could help navigation."
+    }
+  ],
+  "verification_limits": [
+    "No execution of released Lean comparators, finite arithmetic runners or application benchmarks was performed in this cross-review.",
+    "No full reconstruction of the original multiplicative-correlation, interpolation, counting or Unique Games proof was attempted.",
+    "The bibliography audit here is targeted claim matching, not a complete re-verification of every bibliographic field."
+  ]
+}

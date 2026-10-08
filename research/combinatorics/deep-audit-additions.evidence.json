@@ -1,0 +1,48 @@
+{
+  "schema": "deep-audit-addition-v1",
+  "checked_utc_date": "2026-10-07",
+  "key": "FrontCVY2026",
+  "verified_identity": {
+    "title": "Faster FPRAS for the Permanent via Restricted Poincaré Inequalities and Coupled Flows",
+    "authors": [
+      "Xiaoyu Chen",
+      "Eric Vigoda",
+      "Xiongxin Yang"
+    ],
+    "version": "arXiv:2608.26599v1",
+    "submitted": "2026-08-27T04:27:54Z",
+    "doi": "10.48550/arXiv.2608.26599",
+    "primary_metadata_url": "https://arxiv.org/abs/2608.26599v1",
+    "primary_content_url": "https://arxiv.org/html/2608.26599v1"
+  },
+  "primary_support": [
+    {
+      "locator": "Section 3.2, Definition 4",
+      "supports": "Partition-restricted Poincaré control."
+    },
+    {
+      "locator": "Section 3.3, Theorem 5(ii); Section 3.6",
+      "supports": "Empirical-mean variance for block-constant observables; the stationary chain is finite, irreducible, reversible, and has nonnegative spectrum."
+    },
+    {
+      "locator": "Section 4.2, Lemma 12",
+      "supports": "Restricted relaxation bounds for the permanent's hole-pattern partition."
+    }
+  ],
+  "released_source_support": {
+    "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Approximate-counting-of-common-bases-of-two-matroids-September-23-2026/main.pdf",
+    "sha256": "7ed3dfdefcfa677a2b06e7fcde5efefc1a26d3ff774a4b604166e21082ac2607",
+    "locators": [
+      "PDF page 13, paragraph preceding Proposition 5.3",
+      "PDF page 14, Section 6.1"
+    ],
+    "evidence": "The common-base manuscript explicitly credits CVY26 Definition 4 and Theorem 5(ii), with its Section 3.6, for this framework."
+  },
+  "insertion": {
+    "file": "research/combinatorics/section.tex",
+    "suggested_location": "After the common-base proof-description paragraph, before the Chen–Liu comparison.",
+    "tex": "Chen, Vigoda, and Yang already use partition-restricted Poincar\\'e control to estimate hole-pattern frequencies for the permanent \\cite[Definition~4 and Theorem~5(ii)]{FrontCVY2026}. The common-base manuscript explicitly adopts this empirical-average framework. Its candidate advance is the matroid-specific transport estimate and its compatibility with the transversal trace and warm-start construction, rather than the general observation that selected observables can be controlled without a full-chain gap."
+  },
+  "scope_boundary": "The prior treats the permanent; this reference alone does not provide an arbitrary-matroid common-base FPRAS.",
+  "confidence": "high"
+}

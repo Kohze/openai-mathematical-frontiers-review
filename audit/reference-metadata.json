@@ -1,0 +1,3099 @@
+{
+  "scope": "Bibliographic DOI identity, separate from claim support and proof validity",
+  "accessed": "2026-10-07",
+  "reference_count": 83,
+  "records": [
+    {
+      "key": "BouchutGolsePallard2003",
+      "title": "Classical solutions and the {Glassey--Strauss} theorem for the {3D Vlasov--Maxwell} system",
+      "year": "2003",
+      "doi": "10.1007/s00205-003-0265-6",
+      "primary_url": "https://doi.org/10.1007/s00205-003-0265-6",
+      "crossref_title": "Classical Solutions and the Glassey-Strauss Theorem for the 3D Vlasov-Maxwell System",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Fran�ois",
+          "family": "Bouchut",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fran�ois",
+          "family": "Golse",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christophe",
+          "family": "Pallard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2003,
+            11,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2003,
+            11,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2003,
+            11,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Archive for Rational Mechanics and Analysis",
+      "crossref_volume": "170",
+      "crossref_pages": "1-15",
+      "crossref_doi": "10.1007/s00205-003-0265-6",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "DiPernaLions1989",
+      "title": "Global weak solutions of {Vlasov--Maxwell} systems",
+      "year": "1989",
+      "doi": "10.1002/cpa.3160420603",
+      "primary_url": "https://doi.org/10.1002/cpa.3160420603",
+      "crossref_title": "Global weak solutions of Vlasov‐Maxwell systems",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "R. J.",
+          "family": "Diperna",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P. L.",
+          "family": "Lions",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1989,
+            9
+          ]
+        ],
+        "published-print": [
+          [
+            1989,
+            9
+          ]
+        ],
+        "published-online": [
+          [
+            2006,
+            10,
+            18
+          ]
+        ],
+        "issued": [
+          [
+            1989,
+            9
+          ]
+        ]
+      },
+      "crossref_journal": "Communications on Pure and Applied Mathematics",
+      "crossref_volume": "42",
+      "crossref_pages": "729-757",
+      "crossref_doi": "10.1002/cpa.3160420603",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "DykemaJuschenko2015",
+      "title": "On stable finiteness of group rings",
+      "year": "2015",
+      "doi": null,
+      "primary_url": "https://admjournal.luguniv.edu.ua/index.php/adm/article/view/1174",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "ElekSzabo2004",
+      "title": "Sofic groups and direct finiteness",
+      "year": "2004",
+      "doi": "10.1016/j.jalgebra.2004.06.023",
+      "primary_url": "https://arxiv.org/abs/math/0305440v2",
+      "crossref_title": "Sofic groups and direct finiteness",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Gábor",
+          "family": "Elek",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Endre",
+          "family": "Szabó",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2004,
+            10
+          ]
+        ],
+        "published-print": [
+          [
+            2004,
+            10
+          ]
+        ],
+        "issued": [
+          [
+            2004,
+            10
+          ]
+        ]
+      },
+      "crossref_journal": "Journal of Algebra",
+      "crossref_volume": "280",
+      "crossref_pages": "426-434",
+      "crossref_doi": "10.1016/j.jalgebra.2004.06.023",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontALOV2024",
+      "title": "Log-concave polynomials {II}: High-dimensional walks and an {FPRAS} for counting bases of a matroid",
+      "year": "2024",
+      "doi": "10.4007/annals.2024.199.1.4",
+      "primary_url": "https://annals.math.princeton.edu/2024/199-1/p04",
+      "crossref_title": "Log-concave polynomials II: High-dimensional walks and an FPRAS for counting bases of a matroid",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Nima",
+          "family": "Anari",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Computer Science Department, Stanford University, Stanford, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kuikui",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shayan Oveis",
+          "family": "Gharan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Paul G. Allen School of Computer Science and Engineering, University of Washington, Seattle, WA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cynthia",
+          "family": "Vinzant",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics, University of Washington, Seattle, WA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2024,
+            1,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2024,
+            1,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2024,
+            1,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Annals of Mathematics",
+      "crossref_volume": "199",
+      "crossref_pages": null,
+      "crossref_doi": "10.4007/annals.2024.199.1.4",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontAOV2021",
+      "title": "Log-concave polynomials, {I}: Entropy and a deterministic approximation algorithm for counting bases of matroids",
+      "year": "2021",
+      "doi": "10.1215/00127094-2020-0091",
+      "primary_url": "https://arxiv.org/abs/1807.00929v2",
+      "crossref_title": "Log-concave polynomials, I: Entropy and a deterministic approximation algorithm for counting bases of matroids",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Nima",
+          "family": "Anari",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Computer Science Department, Stanford University, Stanford, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shayan Oveis",
+          "family": "Gharan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computer Science and Engineering, University of Washington, Seattle, Washington, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cynthia",
+          "family": "Vinzant",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics, North Carolina State University, Raleigh, North Carolina, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2021,
+            11,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2021,
+            11,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2021,
+            11,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Duke Mathematical Journal",
+      "crossref_volume": "170",
+      "crossref_pages": null,
+      "crossref_doi": "10.1215/00127094-2020-0091",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontBH2020",
+      "title": "Lorentzian polynomials",
+      "year": "2020",
+      "doi": "10.4007/annals.2020.192.3.4",
+      "primary_url": "https://annals.math.princeton.edu/2020/192-3/p04",
+      "crossref_title": "Lorentzian polynomials",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Petter",
+          "family": "Brändén",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "KTH Royal Institute of Technology, Stockholm, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "June",
+          "family": "Huh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Advanced Study and Princeton University, Princeton, NJ, USAKorea Institute for Advanced Study, Seoul, Korea"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2020,
+            11,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2020,
+            11,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2020,
+            11,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Annals of Mathematics",
+      "crossref_volume": "192",
+      "crossref_pages": null,
+      "crossref_doi": "10.4007/annals.2020.192.3.4",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontBKS2019",
+      "title": "Small-Set Expansion in Shortcode Graph and the 2-to-2 Conjecture",
+      "year": "2019",
+      "doi": "10.4230/LIPIcs.ITCS.2019.9",
+      "primary_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2019.9",
+      "crossref_title": "Small-Set Expansion in Shortcode Graph and the 2-to-2 Conjecture",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "family": "Barak",
+          "given": "Boaz"
+        },
+        {
+          "family": "Kothari",
+          "given": "Pravesh K."
+        },
+        {
+          "family": "Steurer",
+          "given": "David"
+        }
+      ],
+      "crossref_dates": {
+        "issued": [
+          [
+            2019
+          ]
+        ]
+      },
+      "crossref_journal": "LIPIcs, Volume 124, ITCS 2019",
+      "crossref_volume": "124",
+      "crossref_pages": "9:1-9:12",
+      "crossref_doi": "10.4230/LIPICS.ITCS.2019.9",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontCVY2026",
+      "title": "Faster {FPRAS} for the Permanent via Restricted {Poincar\\'e} Inequalities and Coupled Flows",
+      "year": "2026",
+      "doi": "10.48550/arXiv.2608.26599",
+      "primary_url": "https://arxiv.org/abs/2608.26599v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "support_ledger": "research/combinatorics/deep-audit-additions.evidence.json",
+      "identity_check": "Author, title, version, date and arXiv identifier checked against primary abstract and full HTML; identity status does not certify proof validity."
+    },
+    {
+      "key": "FrontChenLiu2026",
+      "title": "An {FPRAS} for Counting Common Bases of Two Matroids",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2610.06724v1",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontDKM1997",
+      "title": "Sampling contingency tables",
+      "year": "1997",
+      "doi": "10.1002/(SICI)1098-2418(199707)10:4<487::AID-RSA4>3.0.CO;2-Q",
+      "primary_url": "https://www.math.cmu.edu/~af1p/Teaching/MCC17/Papers/contingency.pdf",
+      "crossref_title": "Sampling contingency tables",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Martin",
+          "family": "Dyer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravi",
+          "family": "Kannan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John",
+          "family": "Mount",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1997,
+            7
+          ]
+        ],
+        "published-print": [
+          [
+            1997,
+            7
+          ]
+        ],
+        "issued": [
+          [
+            1997,
+            7
+          ]
+        ]
+      },
+      "crossref_journal": "Random Structures and Algorithms",
+      "crossref_volume": "10",
+      "crossref_pages": "487-506",
+      "crossref_doi": "10.1002/(sici)1098-2418(199707)10:4<487::aid-rsa4>3.0.co;2-q",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontGLMP2024",
+      "title": "Perfect sampling from rapidly mixing {Markov} chains",
+      "year": "2024",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2410.00882v2",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontHastad2001",
+      "title": "Some optimal inapproximability results",
+      "year": "2001",
+      "doi": "10.1145/502090.502098",
+      "primary_url": "https://people.kth.se/~johanh/optimalinap.pdf",
+      "crossref_title": "Some optimal inapproximability results",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Johan",
+          "family": "Håstad",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Royal Institute of Technology, Stockholm, Sweden"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2001,
+            7
+          ]
+        ],
+        "published-print": [
+          [
+            2001,
+            7
+          ]
+        ],
+        "published-online": [
+          [
+            2001,
+            7
+          ]
+        ],
+        "issued": [
+          [
+            2001,
+            7
+          ]
+        ]
+      },
+      "crossref_journal": "Journal of the ACM",
+      "crossref_volume": "48",
+      "crossref_pages": "798-859",
+      "crossref_doi": "10.1145/502090.502098",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontJS1989",
+      "title": "Approximating the Permanent",
+      "year": "1989",
+      "doi": "10.1137/0218077",
+      "primary_url": "https://people.eecs.berkeley.edu/~sinclair/perm.pdf",
+      "crossref_title": "Approximating the Permanent",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Mark",
+          "family": "Jerrum",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alistair",
+          "family": "Sinclair",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1989,
+            12
+          ]
+        ],
+        "published-print": [
+          [
+            1989,
+            12
+          ]
+        ],
+        "published-online": [
+          [
+            2006,
+            7,
+            13
+          ]
+        ],
+        "issued": [
+          [
+            1989,
+            12
+          ]
+        ]
+      },
+      "crossref_journal": "SIAM Journal on Computing",
+      "crossref_volume": "18",
+      "crossref_pages": "1149-1178",
+      "crossref_doi": "10.1137/0218077",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontJSV2004",
+      "title": "A polynomial-time approximation algorithm for the permanent of a matrix with nonnegative entries",
+      "year": "2004",
+      "doi": "10.1145/1008731.1008738",
+      "primary_url": null,
+      "crossref_title": "A polynomial-time approximation algorithm for the permanent of a matrix with nonnegative entries",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Mark",
+          "family": "Jerrum",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Edinburgh, Edinburgh, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alistair",
+          "family": "Sinclair",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California at Berkeley, Berkeley, California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric",
+          "family": "Vigoda",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Chicago, Chicago, Illinois"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2004,
+            7
+          ]
+        ],
+        "published-print": [
+          [
+            2004,
+            7
+          ]
+        ],
+        "published-online": [
+          [
+            2004,
+            7
+          ]
+        ],
+        "issued": [
+          [
+            2004,
+            7
+          ]
+        ]
+      },
+      "crossref_journal": "Journal of the ACM",
+      "crossref_volume": "51",
+      "crossref_pages": "671-697",
+      "crossref_doi": "10.1145/1008731.1008738",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontKMS2023",
+      "title": "Pseudorandom sets in {Grassmann} graph have near-perfect expansion",
+      "year": "2023",
+      "doi": "10.4007/annals.2023.198.1.1",
+      "primary_url": "https://annals.math.princeton.edu/2023/198-1/p01",
+      "crossref_title": "Pseudorandom sets in Grassmann graph have near-perfect expansion",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Subhash",
+          "family": "Khot",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Courant Institute of Mathematical Sciences, New York University, New York, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dor",
+          "family": "Minzer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics, Massachusetts Institute of Technology, Cambridge, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Muli",
+          "family": "Safra",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, Tel Aviv University, Tel Aviv, Israel"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2023,
+            7,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2023,
+            7,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2023,
+            7,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Annals of Mathematics",
+      "crossref_volume": "198",
+      "crossref_pages": null,
+      "crossref_doi": "10.4007/annals.2023.198.1.1",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontKhot2010",
+      "title": "On the {Unique Games Conjecture}",
+      "year": "2010",
+      "doi": "10.1109/CCC.2010.19",
+      "primary_url": "https://cs.nyu.edu/~khot/papers/UGCSurvey.pdf",
+      "crossref_title": "On the Unique Games Conjecture (Invited Survey)",
+      "title_similarity": 0.8,
+      "crossref_authors": [
+        {
+          "given": "Subhash",
+          "family": "Khot",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2010,
+            6
+          ]
+        ],
+        "published-print": [
+          [
+            2010,
+            6
+          ]
+        ],
+        "issued": [
+          [
+            2010,
+            6
+          ]
+        ]
+      },
+      "crossref_journal": "2010 IEEE 25th Annual Conference on Computational Complexity",
+      "crossref_volume": null,
+      "crossref_pages": "99-121",
+      "crossref_doi": "10.1109/ccc.2010.19",
+      "year_in_crossref_dates": true,
+      "metadata_status": "resolved_title_completion",
+      "resolution": {
+        "status": "Verified identity; bibliography title completed to match DOI record",
+        "authors_year_pages_agree": true
+      }
+    },
+    {
+      "key": "FrontKijimaMatsui2003",
+      "title": "Polynomial Time Perfect Sampling Algorithm for Two-rowed Contingency Tables",
+      "year": "2003",
+      "doi": null,
+      "primary_url": "https://shuji-kijima.com/papers/METR2003-15.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontMorris2002",
+      "title": "Improved bounds for sampling contingency tables",
+      "year": "2002",
+      "doi": "10.1002/rsa.10049",
+      "primary_url": "https://www.math.cmu.edu/~af1p/Teaching/MCC17/Papers/contingency1.pdf",
+      "crossref_title": "Improved bounds for sampling contingency tables",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Ben J.",
+          "family": "Morris",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2002,
+            7,
+            25
+          ]
+        ],
+        "published-print": [
+          [
+            2002,
+            9
+          ]
+        ],
+        "published-online": [
+          [
+            2002,
+            7,
+            25
+          ]
+        ],
+        "issued": [
+          [
+            2002,
+            7,
+            25
+          ]
+        ]
+      },
+      "crossref_journal": "Random Structures &amp; Algorithms",
+      "crossref_volume": "21",
+      "crossref_pages": "135-146",
+      "crossref_doi": "10.1002/rsa.10049",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontOpenAICommon",
+      "title": "Approximate counting of common bases of two matroids",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Approximate-counting-of-common-bases-of-two-matroids-September-23-2026/main.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontOpenAIMatching",
+      "title": "A Fully Polynomial Randomized Approximation Scheme for Perfect Matchings in General Graphs",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Fully-Polynomial-Randomized-Approximation-Scheme-for-Perfect-Matchings-in-General-Graphs-September-23-2026/main.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontOpenAITables",
+      "title": "Exact Uniform Sampling of Contingency Tables with Arbitrary Margins",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontOpenAIUGC",
+      "title": "The Unique Games Theorem",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Unique-Games-Theorem-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontRaghavendra2008",
+      "title": "Optimal algorithms and inapproximability results for every {CSP}?",
+      "year": "2008",
+      "doi": "10.1145/1374376.1374414",
+      "primary_url": "https://www.cs.cornell.edu/~abrahao/tdg/papers/p245.pdf",
+      "crossref_title": "Optimal algorithms and inapproximability results for every CSP?",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Prasad",
+          "family": "Raghavendra",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Washington, Seattle, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2008,
+            5,
+            17
+          ]
+        ],
+        "published-print": [
+          [
+            2008,
+            5,
+            17
+          ]
+        ],
+        "published-online": [
+          [
+            2008,
+            5,
+            17
+          ]
+        ],
+        "issued": [
+          [
+            2008,
+            5,
+            17
+          ]
+        ]
+      },
+      "crossref_journal": "Proceedings of the fortieth annual ACM symposium on Theory of computing",
+      "crossref_volume": null,
+      "crossref_pages": "245-254",
+      "crossref_doi": "10.1145/1374376.1374414",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "FrontSVW2017",
+      "title": "On Counting Perfect Matchings in General Graphs",
+      "year": "2017",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/1712.07504v1",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontScope102",
+      "title": "The Unique Games Conjecture and optimal approximation thresholds: {Lean} formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/102.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontScope113",
+      "title": "Approximate counting and entropy of perfect matchings: {Lean} formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/113.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontScope114",
+      "title": "Approximate counting of common integer polymatroid bases: {Lean} formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/114.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "FrontScope115",
+      "title": "Sampling and counting contingency tables with arbitrary margins: {Lean} formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/115.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOAhagCzyzVirtanen2026",
+      "title": "The Complete {Crouzeix} Conjecture in Dimension Three and the {Clou\\^atre--Ostermann--Ransford} conjecture",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2608.27346v4",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOBadeaCrouzeixDelyon2006",
+      "title": "Convex domains and {$K$}-spectral sets",
+      "year": "2006",
+      "doi": "10.1007/s00209-005-0857-y",
+      "primary_url": "https://link.springer.com/article/10.1007/s00209-005-0857-y",
+      "crossref_title": "Convex domains and K-spectral sets",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Catalin",
+          "family": "Badea",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michel",
+          "family": "Crouzeix",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bernard",
+          "family": "Delyon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2005,
+            8,
+            16
+          ]
+        ],
+        "published-print": [
+          [
+            2006,
+            2
+          ]
+        ],
+        "published-online": [
+          [
+            2005,
+            8,
+            16
+          ]
+        ],
+        "issued": [
+          [
+            2005,
+            8,
+            16
+          ]
+        ]
+      },
+      "crossref_journal": "Mathematische Zeitschrift",
+      "crossref_volume": "252",
+      "crossref_pages": "345-365",
+      "crossref_doi": "10.1007/s00209-005-0857-y",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOBerndtsson2021",
+      "title": "Complex integrals and {Kuperberg}'s proof of the {Bourgain--Milman} theorem",
+      "year": "2021",
+      "doi": "10.1016/j.aim.2021.107927",
+      "primary_url": "https://arxiv.org/abs/2008.00838",
+      "crossref_title": "Complex integrals and Kuperberg's proof of the Bourgain-Milman theorem",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Bo",
+          "family": "Berndtsson",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2021,
+            9
+          ]
+        ],
+        "published-print": [
+          [
+            2021,
+            9
+          ]
+        ],
+        "issued": [
+          [
+            2021,
+            9
+          ]
+        ]
+      },
+      "crossref_journal": "Advances in Mathematics",
+      "crossref_volume": "388",
+      "crossref_pages": "107927",
+      "crossref_doi": "10.1016/j.aim.2021.107927",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOChenLiXiXu2026",
+      "title": "The {Mahler} Conjecture in Three Dimensions",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2605.09334v3",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOCrouzeixPalencia2017",
+      "title": "The Numerical Range is a $(1+\\sqrt{2})$-Spectral Set",
+      "year": "2017",
+      "doi": "10.1137/17M1116672",
+      "primary_url": "https://epubs.siam.org/doi/10.1137/17M1116672",
+      "crossref_title": "The Numerical Range is a $(1+\\sqrt{2})$-Spectral Set",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "M.",
+          "family": "Crouzeix",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "C.",
+          "family": "Palencia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2017,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2017,
+            1
+          ]
+        ],
+        "published-online": [
+          [
+            2017,
+            6,
+            27
+          ]
+        ],
+        "issued": [
+          [
+            2017,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "SIAM Journal on Matrix Analysis and Applications",
+      "crossref_volume": "38",
+      "crossref_pages": "649-655",
+      "crossref_doi": "10.1137/17m1116672",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GODelyonDelyon1999",
+      "title": "Generalization of von {Neumann}'s spectral sets and integral representation of operators",
+      "year": "1999",
+      "doi": "10.24033/bsmf.2340",
+      "primary_url": "https://smf.emath.fr/node/42955",
+      "crossref_title": "Generalization of von Neumann's spectral sets and integral representation of operators",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Bernard",
+          "family": "Delyon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "François",
+          "family": "Delyon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1999
+          ]
+        ],
+        "published-print": [
+          [
+            1999
+          ]
+        ],
+        "issued": [
+          [
+            1999
+          ]
+        ]
+      },
+      "crossref_journal": "Bulletin de la Soci&amp;#233;t&amp;#233; math&amp;#233;matique de France",
+      "crossref_volume": "127",
+      "crossref_pages": "25-41",
+      "crossref_doi": "10.24033/bsmf.2340",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GODemailly1993",
+      "title": "{Monge--Amp\\`ere} operators, {Lelong} numbers and intersection theory",
+      "year": "1993",
+      "doi": "10.1007/978-1-4757-9771-8_4",
+      "primary_url": "https://link.springer.com/chapter/10.1007/978-1-4757-9771-8_4",
+      "crossref_title": "Monge-Ampère Operators, Lelong Numbers and Intersection Theory",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Jean-Pierre",
+          "family": "Demailly",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1993
+          ]
+        ],
+        "published-print": [
+          [
+            1993
+          ]
+        ],
+        "issued": [
+          [
+            1993
+          ]
+        ]
+      },
+      "crossref_journal": "Complex Analysis and Geometry",
+      "crossref_volume": null,
+      "crossref_pages": "115-193",
+      "crossref_doi": "10.1007/978-1-4757-9771-8_4",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOGross2019",
+      "title": "A conformal {Skorokhod} embedding",
+      "year": "2019",
+      "doi": "10.1214/19-ECP272",
+      "primary_url": "https://arxiv.org/abs/1905.00852",
+      "crossref_title": "A conformal Skorokhod embedding",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Renan",
+          "family": "Gross",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2019,
+            1,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2019,
+            1,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2019,
+            1,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Electronic Communications in Probability",
+      "crossref_volume": "24",
+      "crossref_pages": null,
+      "crossref_doi": "10.1214/19-ecp272",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOHansenLima1981",
+      "title": "The structure of finite dimensional {Banach} spaces\nwith the 3.2. intersection property",
+      "year": "1981",
+      "doi": "10.1007/BF02392457",
+      "primary_url": "https://doi.org/10.1007/BF02392457",
+      "crossref_title": "The structure of finite dimensional Banach spaces with the 3.2. Intersection property",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Allan B.",
+          "family": "Hansen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Åsvald",
+          "family": "Lima",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1981
+          ]
+        ],
+        "published-print": [
+          [
+            1981
+          ]
+        ],
+        "issued": [
+          [
+            1981
+          ]
+        ]
+      },
+      "crossref_journal": "Acta Mathematica",
+      "crossref_volume": "146",
+      "crossref_pages": "1-23",
+      "crossref_doi": "10.1007/bf02392457",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOHoudrePrivault2002",
+      "title": "Concentration and deviation inequalities in infinite dimensions via covariance representations",
+      "year": "2002",
+      "doi": null,
+      "primary_url": "https://houdre.math.gatech.edu/research/papers/mbernoulli7aout.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOIriyehShibata2020",
+      "title": "Symmetric {Mahler}'s conjecture for the volume product\nin the 3-dimensional case",
+      "year": "2020",
+      "doi": "10.1215/00127094-2019-0072",
+      "primary_url": "https://arxiv.org/abs/1706.01749v3",
+      "crossref_title": "Symmetric Mahler’s conjecture for the volume product in the 3-dimensional case",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Hiroshi",
+          "family": "Iriyeh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Masataka",
+          "family": "Shibata",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2020,
+            4,
+            15
+          ]
+        ],
+        "published-print": [
+          [
+            2020,
+            4,
+            15
+          ]
+        ],
+        "issued": [
+          [
+            2020,
+            4,
+            15
+          ]
+        ]
+      },
+      "crossref_journal": "Duke Mathematical Journal",
+      "crossref_volume": "169",
+      "crossref_pages": null,
+      "crossref_doi": "10.1215/00127094-2019-0072",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOJin2026",
+      "title": "The Numerical Range Is a {2}-Spectral Set",
+      "year": "2026",
+      "doi": "10.20944/preprints202607.1919.v4",
+      "primary_url": "https://www.preprints.org/manuscript/202607.1919/v4",
+      "metadata_status": "matched",
+      "support_ledger": "research/round-2-evidence.json",
+      "verification": "Primary Preprints.org version record verifies author/title/version and submitted 6 August versus posted 7 August 2026; the DOI link is explicitly present in Luo's primary reference list and resolves to the correct Jin title/version.",
+      "round_2_doi_lookup": {
+        "title": "The Numerical Range Is a 2-Spectral Set",
+        "authors": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-5346-753X",
+            "authenticated-orcid": false,
+            "given": "Shanmu",
+            "family": "Jin",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "dates": {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2026-08-10T01:31:11Z",
+            "timestamp": 1786325471561,
+            "version": "build-2736575974"
+          },
+          "posted": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                7
+              ]
+            ]
+          },
+          "accepted": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                6
+              ]
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2026-08-10T01:26:39Z",
+            "timestamp": 1786325199000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                10
+              ]
+            ],
+            "date-time": "2026-08-10T01:26:40Z",
+            "timestamp": 1786325200000
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                7
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                7
+              ]
+            ]
+          }
+        },
+        "doi": "10.20944/preprints202607.1919.v4",
+        "journal": [],
+        "pages": null
+      }
+    },
+    {
+      "key": "GOKimReisner2011",
+      "title": "Local minimality of the volume-product at the simplex",
+      "year": "2011",
+      "doi": "10.1112/S0025579310001555",
+      "primary_url": "https://arxiv.org/abs/1001.0217",
+      "crossref_title": "LOCAL MINIMALITY OF THE VOLUME‐PRODUCT AT THE SIMPLEX",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Jaegil",
+          "family": "Kim",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of MathematicsKent State UniversityKentOH44242U.S.A."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shlomo",
+          "family": "Reisner",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of MathematicsUniversity of HaifaHaifa31905Israel"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2010,
+            12,
+            13
+          ]
+        ],
+        "published-print": [
+          [
+            2011,
+            1
+          ]
+        ],
+        "published-online": [
+          [
+            2010,
+            12,
+            13
+          ]
+        ],
+        "issued": [
+          [
+            2010,
+            12,
+            13
+          ]
+        ]
+      },
+      "crossref_journal": "Mathematika",
+      "crossref_volume": "57",
+      "crossref_pages": "121-134",
+      "crossref_doi": "10.1112/s0025579310001555",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOKlartag2018",
+      "title": "Isotropic constants and {Mahler} volumes",
+      "year": "2018",
+      "doi": "10.1016/j.aim.2018.03.009",
+      "primary_url": "https://arxiv.org/abs/1710.08084",
+      "crossref_title": "Isotropic constants and Mahler volumes",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Bo'az",
+          "family": "Klartag",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2018,
+            5
+          ]
+        ],
+        "published-print": [
+          [
+            2018,
+            5
+          ]
+        ],
+        "issued": [
+          [
+            2018,
+            5
+          ]
+        ]
+      },
+      "crossref_journal": "Advances in Mathematics",
+      "crossref_volume": "330",
+      "crossref_pages": "74-108",
+      "crossref_doi": "10.1016/j.aim.2018.03.009",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "GOKuperberg2008",
+      "title": "From the {Mahler} Conjecture to {Gauss} Linking Integrals",
+      "year": "2008",
+      "doi": "10.1007/s00039-008-0669-4",
+      "primary_url": "https://arxiv.org/pdf/math/0610904v2",
+      "metadata_status": "matched",
+      "support_ledger": "research/round-2-evidence.json",
+      "verification": "Publisher verifies Geometric and Functional Analysis 18(3), 870–892, 2008, DOI 10.1007/s00039-008-0669-4; original version 2 source is dated 14 December 2006.",
+      "round_2_doi_lookup": {
+        "title": "From the Mahler Conjecture to Gauss Linking Integrals",
+        "authors": [
+          {
+            "given": "Greg",
+            "family": "Kuperberg",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "dates": {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                9,
+                26
+              ]
+            ],
+            "date-time": "2026-09-26T01:01:03Z",
+            "timestamp": 1790384463280,
+            "version": "4.1.0"
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2008,
+                9
+              ]
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2008,
+                7,
+                11
+              ]
+            ],
+            "date-time": "2008-07-11T03:40:53Z",
+            "timestamp": 1215747653000
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2008,
+                6,
+                30
+              ]
+            ]
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                5,
+                22
+              ]
+            ],
+            "date-time": "2019-05-22T15:17:07Z",
+            "timestamp": 1558538227000
+          },
+          "issued": {
+            "date-parts": [
+              [
+                2008,
+                6,
+                30
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                2008,
+                6,
+                30
+              ]
+            ]
+          }
+        },
+        "doi": "10.1007/s00039-008-0669-4",
+        "journal": "Geometric and Functional Analysis",
+        "pages": "870-892"
+      }
+    },
+    {
+      "key": "GOLoristSchwenninger2026",
+      "title": "A solution to {Crouzeix}'s conjecture",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2608.03841v2",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOLuo2026",
+      "title": "Two Boundary-Certificate Proofs of the {Crouzeix} Theorem: Fiberwise {Fourier} Recurrence and Defect-{Gram} Telescoping",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://www.preprints.org/manuscript/202608.1661/v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "support_ledger": "research/round-2-evidence.json",
+      "verification": "Primary Preprints.org version record verifies author/title/version and submitted 27 August versus posted 28 August 2026."
+    },
+    {
+      "key": "GOOpenAIDirectCrouzeix2026",
+      "title": "{A direct proof of the complete Crouzeix inequality}",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOOpenAIGeneralMahler2026",
+      "title": "{The Mahler Conjecture for General Convex Bodies}",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOOpenAIScope0872026",
+      "title": "The {Mahler} conjectures, functional inequalities and polar-product symplectic width: formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/087.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOOpenAIScope3252026",
+      "title": "The complete {Crouzeix} conjecture: formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/325.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOOpenAIStructuralCrouzeix2026",
+      "title": "{The complete Crouzeix theorem: optimal similarity and a common positive boundary representation}",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-complete-Crouzeix-theorem-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOOpenAISymmetricMahler2026",
+      "title": "{The symmetric Mahler conjecture and its equality cases}",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "GOPaulsen1984",
+      "title": "Completely bounded homomorphisms of operator algebras",
+      "year": "1984",
+      "doi": "10.1090/S0002-9939-1984-0754708-X",
+      "primary_url": "https://www.researchgate.net/publication/318015254_Completely_bounded_homomorphisms_of_operator_algebras",
+      "metadata_status": "matched",
+      "support_ledger": "research/round-2-evidence.json",
+      "verification": "Verified from the original AMS article header and author-uploaded original pages; DOI matches the original AMS record.",
+      "round_2_doi_lookup": {
+        "title": "Completely bounded homomorphisms of operator algebras",
+        "authors": [
+          {
+            "given": "Vern I.",
+            "family": "Paulsen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "dates": {
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                6
+              ]
+            ],
+            "date-time": "2026-04-06T12:02:19Z",
+            "timestamp": 1775476939123,
+            "version": "3.50.1"
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1984,
+                10
+              ]
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2010,
+                6,
+                30
+              ]
+            ],
+            "date-time": "2010-06-30T15:56:38Z",
+            "timestamp": 1277913398000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                6
+              ]
+            ],
+            "date-time": "2026-04-06T11:17:28Z",
+            "timestamp": 1775474248000
+          },
+          "issued": {
+            "date-parts": [
+              [
+                1984,
+                10
+              ]
+            ]
+          },
+          "published": {
+            "date-parts": [
+              [
+                1984,
+                10
+              ]
+            ]
+          }
+        },
+        "doi": "10.1090/s0002-9939-1984-0754708-x",
+        "journal": "Proceedings of the American Mathematical Society",
+        "pages": "225-228"
+      }
+    },
+    {
+      "key": "GlasseyStrauss1986",
+      "title": "Singularity formation in a collisionless plasma could\noccur only at high velocities",
+      "year": "1986",
+      "doi": "10.1007/BF00250732",
+      "primary_url": "https://link.springer.com/article/10.1007/BF00250732",
+      "crossref_title": "Singularity formation in a collisionless plasma could occur only at high velocities",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Robert T.",
+          "family": "Glassey",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Walter A.",
+          "family": "Strauss",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1986,
+            3
+          ]
+        ],
+        "published-print": [
+          [
+            1986,
+            3
+          ]
+        ],
+        "issued": [
+          [
+            1986,
+            3
+          ]
+        ]
+      },
+      "crossref_journal": "Archive for Rational Mechanics and Analysis",
+      "crossref_volume": "92",
+      "crossref_pages": "59-90",
+      "crossref_doi": "10.1007/bf00250732",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "LukStrain2014Continuation",
+      "title": "A new continuation criterion for the relativistic\n{Vlasov--Maxwell} system",
+      "year": "2014",
+      "doi": "10.1007/s00220-014-2108-8",
+      "primary_url": "https://arxiv.org/abs/1406.0165",
+      "crossref_title": "A New Continuation Criterion for the Relativistic Vlasov–Maxwell System",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Jonathan",
+          "family": "Luk",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert M.",
+          "family": "Strain",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2014,
+            7,
+            5
+          ]
+        ],
+        "published-print": [
+          [
+            2014,
+            11
+          ]
+        ],
+        "published-online": [
+          [
+            2014,
+            7,
+            5
+          ]
+        ],
+        "issued": [
+          [
+            2014,
+            7,
+            5
+          ]
+        ]
+      },
+      "crossref_journal": "Communications in Mathematical Physics",
+      "crossref_volume": "331",
+      "crossref_pages": "1005-1027",
+      "crossref_doi": "10.1007/s00220-014-2108-8",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "Montgomery1969",
+      "title": "Left and right inverses in group algebras",
+      "year": "1969",
+      "doi": "10.1090/S0002-9904-1969-12234-2",
+      "primary_url": null,
+      "crossref_title": "Left and right inverses in group algebras",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "M. Susan",
+          "family": "Montgomery",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1969
+          ]
+        ],
+        "published-print": [
+          [
+            1969
+          ]
+        ],
+        "issued": [
+          [
+            1969
+          ]
+        ]
+      },
+      "crossref_journal": "Bulletin of the American Mathematical Society",
+      "crossref_volume": "75",
+      "crossref_pages": "539-540",
+      "crossref_doi": "10.1090/s0002-9904-1969-12234-2",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "OAIDirectFinite",
+      "title": "A Counterexample to {Kaplansky}'s Direct-Finiteness Conjecture in Characteristic Two",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "OAIVlasov",
+      "title": "Global classical solutions of the three-dimensional relativistic {Vlasov--Maxwell} system",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "OpenAIComparator",
+      "title": "Comparator challenges: verification instructions",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/README.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "OpenAIRelease",
+      "title": "OpenAI mathematics research catalogue and manuscript collection",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "OpenAIScope197",
+      "title": "Family 197: documented formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/197.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "OpenAIScope362",
+      "title": "Family 362: documented formalization scope",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/362.md",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "Rein2004Weak",
+      "title": "Global weak solutions to the relativistic {Vlasov--Maxwell} system revisited",
+      "year": "2004",
+      "doi": "10.4310/CMS.2004.v2.n2.a1",
+      "primary_url": "https://arxiv.org/abs/math-ph/0403002",
+      "crossref_title": "Global Weak Solutions to the Relativistic Vlasov-Maxwell System Revisited",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Gerhard",
+          "family": "Rein",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2004
+          ]
+        ],
+        "published-print": [
+          [
+            2004
+          ]
+        ],
+        "issued": [
+          [
+            2004
+          ]
+        ]
+      },
+      "crossref_journal": "Communications in Mathematical Sciences",
+      "crossref_volume": "2",
+      "crossref_pages": "145-158",
+      "crossref_doi": "10.4310/cms.2004.v2.n2.a1",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "Wang2026I",
+      "title": "Large Data Global Solution of the {3D RVM} System with\nCylindrical Symmetry {I}: Iterative Smoothing Scheme",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2203.01199v2",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "Wang2026II",
+      "title": "Large Data Global Solution of the {3D RVM} System with\nCylindrical Symmetry {II}: Pointwise Estimates",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2607.14685v1",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "arithAGM2003",
+      "title": "Almost {$k$}-wise independence versus {$k$}-wise independence",
+      "year": "2003",
+      "doi": "10.1016/S0020-0190(03)00359-4",
+      "primary_url": "https://www.math.tau.ac.il/~nogaa/PDFS/agolman6.pdf",
+      "crossref_title": "Almost k-wise independence versus k-wise independence",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Noga",
+          "family": "Alon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Oded",
+          "family": "Goldreich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yishay",
+          "family": "Mansour",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2003,
+            11
+          ]
+        ],
+        "published-print": [
+          [
+            2003,
+            11
+          ]
+        ],
+        "issued": [
+          [
+            2003,
+            11
+          ]
+        ]
+      },
+      "crossref_journal": "Information Processing Letters",
+      "crossref_volume": "88",
+      "crossref_pages": "107-110",
+      "crossref_doi": "10.1016/s0020-0190(03)00359-4",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithAlekseyev2011",
+      "title": "On convergence of the {Flint Hills} series",
+      "year": "2011",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/1104.5100v1",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "arithBraverman2010",
+      "title": "Polylogarithmic independence fools {$AC^0$} circuits",
+      "year": "2010",
+      "doi": "10.1145/1754399.1754401",
+      "primary_url": "https://www.cs.toronto.edu/~mbraverm/Papers/FoolAC0v7.pdf",
+      "crossref_title": "Polylogarithmic independence fools\n            <i>AC</i>\n            <sup>0</sup>\n            circuits",
+      "title_similarity": 0.9149,
+      "crossref_authors": [
+        {
+          "given": "Mark",
+          "family": "Braverman",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Microsoft Research New England, Cambridge, Massachusetts, Cambridge, MA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2008,
+            6,
+            25
+          ]
+        ],
+        "published-print": [
+          [
+            2010,
+            6
+          ]
+        ],
+        "published-online": [
+          [
+            2008,
+            6,
+            25
+          ]
+        ],
+        "issued": [
+          [
+            2008,
+            6,
+            25
+          ]
+        ]
+      },
+      "crossref_journal": "Journal of the ACM",
+      "crossref_volume": "57",
+      "crossref_pages": "1-10",
+      "crossref_doi": "10.1145/1754399.1754401",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithDemailly1992",
+      "title": "Singular hermitian metrics on positive line bundles",
+      "year": "1992",
+      "doi": "10.1007/BFb0094512",
+      "primary_url": "https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/bayreuth.pdf",
+      "crossref_title": "Singular hermitian metrics on positive line bundles",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Jean-Pierre",
+          "family": "Damailly",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            1992
+          ]
+        ],
+        "published-print": [
+          [
+            1992
+          ]
+        ],
+        "published-online": [
+          [
+            2006,
+            10,
+            16
+          ]
+        ],
+        "issued": [
+          [
+            1992
+          ]
+        ]
+      },
+      "crossref_journal": "Lecture Notes in Mathematics",
+      "crossref_volume": null,
+      "crossref_pages": "87-104",
+      "crossref_doi": "10.1007/bfb0094512",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithFarhi2006",
+      "title": "Un lemme de {Roth} sur les groupes alg{\\'e}briques commutatifs",
+      "year": "2006",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/math/0603257v1",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "arithHR2021",
+      "title": "Expansion, divisibility and parity",
+      "year": "2021",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2103.06853v2",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "arithKMT2023",
+      "title": "On Elliott's conjecture and applications",
+      "year": "2023",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2304.05344v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "support_ledger": "research/round-2-evidence.json",
+      "verification": "Primary arXiv record and actual PDF title page inspected."
+    },
+    {
+      "key": "arithLaurent2000",
+      "title": "Interpolation determinants of exponential polynomials",
+      "year": "2000",
+      "doi": "10.5486/PMD.2000.2310",
+      "primary_url": "https://publi.math.unideb.hu/paper/599",
+      "crossref_title": "Interpolation determinants of exponential polynomials",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Michel",
+          "family": "Laurent",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2000,
+            4,
+            1
+          ]
+        ],
+        "published-online": [
+          [
+            2000,
+            4,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2000,
+            4,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Publicationes Mathematicae Debrecen",
+      "crossref_volume": "56",
+      "crossref_pages": "457-473",
+      "crossref_doi": "10.5486/pmd.2000.2310",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithMR2016",
+      "title": "Multiplicative functions in short intervals",
+      "year": "2016",
+      "doi": "10.4007/annals.2016.183.3.6",
+      "primary_url": "https://annals.math.princeton.edu/2016/183-3/p06",
+      "crossref_title": "Multiplicative functions in short intervals",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Kaisa",
+          "family": "Matomäki",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maksym",
+          "family": "Radziwiłł",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2016,
+            5,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2016,
+            5,
+            1
+          ]
+        ],
+        "published-online": [
+          [
+            2016,
+            5,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2016,
+            5,
+            1
+          ]
+        ]
+      },
+      "crossref_journal": "Annals of Mathematics",
+      "crossref_volume": "183",
+      "crossref_pages": "1015-1056",
+      "crossref_doi": "10.4007/annals.2016.183.3.6",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithMRT2015",
+      "title": "An averaged form of {Chowla}'s conjecture",
+      "year": "2015",
+      "doi": "10.2140/ant.2015.9.2167",
+      "primary_url": "https://arxiv.org/abs/1503.05121v3",
+      "crossref_title": "An averaged form of Chowla’s conjecture",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Kaisa",
+          "family": "Matomäki",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maksym",
+          "family": "Radziwiłł",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Terence",
+          "family": "Tao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2015,
+            11,
+            4
+          ]
+        ],
+        "published-online": [
+          [
+            2015,
+            11,
+            4
+          ]
+        ],
+        "issued": [
+          [
+            2015,
+            11,
+            4
+          ]
+        ]
+      },
+      "crossref_journal": "Algebra &amp; Number Theory",
+      "crossref_volume": "9",
+      "crossref_pages": "2167-2196",
+      "crossref_doi": "10.2140/ant.2015.9.2167",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithMeiburg2022",
+      "title": "Bounds on Irrationality Measures and the {Flint-Hills} Series",
+      "year": "2022",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2208.13356v1",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "arithOpenAI007",
+      "title": "Ordinary two-point correlations of multiplicative functions",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/final.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "arithOpenAI017",
+      "title": "The irrationality exponent of {$\\pi$} is {$2$}",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger"
+    },
+    {
+      "key": "arithPilatte2026",
+      "title": "Improved bounds for the two-point logarithmic {Chowla} conjecture",
+      "year": "2026",
+      "doi": "10.1090/jams/1084",
+      "primary_url": "https://arxiv.org/abs/2310.19357v3",
+      "crossref_title": "Improved bounds for the two-point logarithmic Chowla conjecture",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Cédric",
+          "family": "Pilatte",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2026,
+            9,
+            10
+          ]
+        ],
+        "published-online": [
+          [
+            2026,
+            9,
+            10
+          ]
+        ],
+        "issued": [
+          [
+            2026,
+            9,
+            10
+          ]
+        ]
+      },
+      "crossref_journal": "Journal of the American Mathematical Society",
+      "crossref_volume": null,
+      "crossref_pages": null,
+      "crossref_doi": "10.1090/jams/1084",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithTT2019",
+      "title": "The structure of correlations of multiplicative functions at almost all scales, with applications to the {Chowla} and {Elliott} conjectures",
+      "year": "2019",
+      "doi": "10.2140/ant.2019.13.2103",
+      "primary_url": "https://msp.org/ant/2019/13-9/ant-v13-n9-p06-s.pdf",
+      "crossref_title": "The structure of correlations of multiplicative functions at almost all scales, with applications to the Chowla and Elliott conjectures",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "Terence",
+          "family": "Tao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joni",
+          "family": "Teräväinen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2019,
+            12,
+            7
+          ]
+        ],
+        "published-online": [
+          [
+            2019,
+            12,
+            7
+          ]
+        ],
+        "issued": [
+          [
+            2019,
+            12,
+            7
+          ]
+        ]
+      },
+      "crossref_journal": "Algebra &amp; Number Theory",
+      "crossref_volume": "13",
+      "crossref_pages": "2103-2150",
+      "crossref_doi": "10.2140/ant.2019.13.2103",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithTT2026",
+      "title": "Quantitative correlations and some problems on prime factors of consecutive integers",
+      "year": "2026",
+      "doi": null,
+      "primary_url": "https://arxiv.org/abs/2512.01739v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "support_ledger": "research/round-2-evidence.json",
+      "verification": "Primary arXiv record and actual PDF title page inspected."
+    },
+    {
+      "key": "arithTao2016",
+      "title": "The logarithmically averaged {Chowla} and {Elliott} conjectures for two-point correlations",
+      "year": "2016",
+      "doi": "10.1017/fmp.2016.6",
+      "primary_url": "https://arxiv.org/abs/1509.05422v4",
+      "crossref_title": "THE LOGARITHMICALLY AVERAGED CHOWLA AND ELLIOTT CONJECTURES FOR TWO-POINT CORRELATIONS",
+      "title_similarity": 1.0,
+      "crossref_authors": [
+        {
+          "given": "TERENCE",
+          "family": "TAO",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "crossref_dates": {
+        "published": [
+          [
+            2016
+          ]
+        ],
+        "published-print": [
+          [
+            2016
+          ]
+        ],
+        "published-online": [
+          [
+            2016,
+            9,
+            27
+          ]
+        ],
+        "issued": [
+          [
+            2016
+          ]
+        ]
+      },
+      "crossref_journal": "Forum of Mathematics, Pi",
+      "crossref_volume": "4",
+      "crossref_pages": null,
+      "crossref_doi": "10.1017/fmp.2016.6",
+      "year_in_crossref_dates": true,
+      "metadata_status": "matched"
+    },
+    {
+      "key": "arithZZ2020",
+      "title": "The irrationality measure of {$\\pi$} is at most {$7.103205334137\\ldots$}",
+      "year": "2020",
+      "doi": "10.2140/moscow.2020.9.407",
+      "primary_url": "https://arxiv.org/abs/1912.06345v2",
+      "metadata_status": "verified_primary_fallback",
+      "error": "HTTP Error 429: Too Many Requests",
+      "resolution": {
+        "status": "Verified from primary arXiv record and journal reference",
+        "url": "https://arxiv.org/abs/1912.06345v2",
+        "title": "The Irrationality Measure of Pi is at most 7.103205334137...",
+        "authors": [
+          "Doron Zeilberger",
+          "Wadim Zudilin"
+        ],
+        "journal_reference": "Moscow J. Comb. Number Th. 9 (2020),407-419",
+        "doi": "10.2140/moscow.2020.9.407"
+      }
+    }
+  ]
+}

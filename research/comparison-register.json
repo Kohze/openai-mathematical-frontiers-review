@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-07",
+  "design": "Theme-guided contrastive narrative review",
+  "grouped_case_count": 8,
+  "unique_family_count": 10,
+  "organizing_categories": [
+    "cancellation",
+    "distinct positivity/signature structures",
+    "representation and preserved properties",
+    "quantifier order and loss budgets"
+  ],
+  "historical_rejected_candidate_register": null,
+  "history_note": "The initial workflow did not retain an exhaustive candidate/omission list. This register records the actual included cases and their comparison rationale; it does not reconstruct an exhaustive screen.",
+  "outside_scope": "Other catalogue families are outside this contrastive selection; no frequency, dominance or representativeness inference over the full release is made.",
+  "assessment_axes": [
+    "magnitude of the proposed conclusion",
+    "inherited machinery",
+    "newly proposed bridge and exact parameter dependence",
+    "scope of supporting evidence"
+  ],
+  "cases": [
+    {
+      "case": "Ordinary multiplicative correlations",
+      "families": [
+        "007"
+      ],
+      "included_for": "A comparison of ordinary, logarithmic, and exceptional-scale quantifiers with an identifiable finite-law transfer.",
+      "baseline_keys": [
+        "arithTao2016",
+        "arithTT2019",
+        "arithKMT2023",
+        "arithTT2026",
+        "arithPilatte2026"
+      ],
+      "input": "Shared-prime residue graph and signed trace observables.",
+      "target": "Ordinary binary cancellation at every cutoff for fixed affine forms.",
+      "preserved_property": "Arithmetic dependence among translated residues and a signed saving.",
+      "quantifiers": "Fixed forms before cutoff growth; one fixed factor before every character and growing-twist infimum.",
+      "loss_budget": "Uniform costs as prime-supply count grows like log log X.",
+      "contrastive_boundary": "Logarithmic or exceptional-scale control alone does not give every-cutoff control."
+    },
+    {
+      "case": "Irrationality exponent of pi",
+      "families": [
+        "017"
+      ],
+      "included_for": "An optimal endpoint proposed through a centre-uniform geometric/arithmetic bridge.",
+      "baseline_keys": [
+        "arithZZ2020",
+        "arithDemailly1992",
+        "arithFarhi2006",
+        "arithLaurent2000"
+      ],
+      "input": "Logarithmic-curve jets and rational-Gaussian interpolation minors.",
+      "target": "Every exponent nu>2 is eventually excluded as a rational-approximation exponent.",
+      "preserved_property": "Ordinary jet surjectivity and a nonzero determinant after denominator clearing.",
+      "quantifiers": "Weights are selected before approximation centres; thresholds may depend on centres.",
+      "loss_budget": "Degree-growth exponent m+1 versus m for transverse classes, coupled to collision savings.",
+      "contrastive_boundary": "Counting dimensions or selecting weights after seeing centres does not supply the stated interface."
+    },
+    {
+      "case": "Mahler inequalities",
+      "families": [
+        "087"
+      ],
+      "included_for": "Two different sharp geometric routes, with analytic, finite, and rigidity interfaces.",
+      "baseline_keys": [
+        "GOGross2019",
+        "GODemailly1993",
+        "GOIriyehShibata2020",
+        "GOKlartag2018",
+        "GOKimReisner2011",
+        "GOChenLiXiXu2026",
+        "GOKuperberg2008"
+      ],
+      "input": "Boundary feasibility for symmetric strip bodies; dual-cone Gaussian layers for general bodies.",
+      "target": "Sharp volume-product lower bounds and equality classification in all dimensions.",
+      "preserved_property": "Exact normalizations, disjoint simplex accounting, and an all-real scalar error inequality.",
+      "quantifiers": "All dimensions; every segment and limiting body, with equality handled separately.",
+      "loss_budget": "Feasibility mass and matrix/layer/commutator errors must fit the sharp constant.",
+      "contrastive_boundary": "A conformal lens or positive finite nodes needs the transfer and continuum extension."
+    },
+    {
+      "case": "Counting and sampling",
+      "families": [
+        "113",
+        "114",
+        "115"
+      ],
+      "included_for": "A contrast between a full-gap upgrade, sufficient restricted control, and exact-law cost conversion.",
+      "baseline_keys": [
+        "FrontJSV2004",
+        "FrontSVW2017",
+        "FrontALOV2024",
+        "FrontBH2020",
+        "FrontChenLiu2026",
+        "FrontDKM1997",
+        "FrontGLMP2024",
+        "FrontCVY2026"
+      ],
+      "input": "Enlarged matching products, paired matroid defects, and padded table completions.",
+      "target": "General matching/common-base FPRAS; exact arbitrary-margin uniform sampling.",
+      "preserved_property": "Full product control or explicitly sufficient observables/returns; the actual output law.",
+      "quantifiers": "Explicit input/oracles; worst-case tape bounds versus expected exact bit work; variable table dimensions.",
+      "loss_budget": "Replication and comparison polynomials; fresh warm restarts; exponentially expensive input-law tabulation with polynomial precision dependence.",
+      "contrastive_boundary": "A restricted gap does not give full mixing; accuracy alone does not make exact correction affordable.",
+      "inherited_framework": "Partition-restricted Poincare control and stationary empirical-average estimates have a directly credited antecedent in Chen, Vigoda and Yang (2026); the candidate common-base gain is its matroid-specific transport/trace/warm-start realization."
+    },
+    {
+      "case": "Unique Games",
+      "families": [
+        "102"
+      ],
+      "included_for": "A proposed qualitative hardness jump from imperfect to near-one completeness.",
+      "baseline_keys": [
+        "FrontBKS2019",
+        "FrontKMS2023",
+        "FrontKhot2010",
+        "FrontRaghavendra2008",
+        "FrontHastad2001"
+      ],
+      "input": "Latent nonlinear observable, linear lifts, shortcode transfer and advice-restricted decoding.",
+      "target": "Deterministic polynomial reductions with completeness 1-epsilon and soundness delta.",
+      "preserved_property": "Noise-response separation and permitted information for each decoded strategy.",
+      "quantifiers": "Each fixed error pair precedes alphabet selection; alphabet is independent of instance size.",
+      "loss_budget": "Soundness under adaptive lifts and repetition without eroding near-one completeness.",
+      "contrastive_boundary": "Ordinary repetition and an inherited inverse theorem do not themselves remove the completeness barrier."
+    },
+    {
+      "case": "Direct finiteness",
+      "families": [
+        "197"
+      ],
+      "included_for": "A finite-field contrast to real/operator positivity and a defect-preserving algebraic construction.",
+      "baseline_keys": [
+        "Montgomery1969",
+        "ElekSzabo2004",
+        "DykemaJuschenko2015"
+      ],
+      "input": "Characteristic-two incidence pairings, local groups, rectangular inverses and square packing.",
+      "target": "Scalar a,b in a genuine group algebra with ab=1 and ba!=1.",
+      "preserved_property": "The reverse defect and local subgroup embeddings.",
+      "quantifiers": "An actual finite field/group/witness, with primitive ell-th roots and stated incidence constraints.",
+      "loss_budget": "Regular high-girth construction, size inequality and compatible character packing.",
+      "contrastive_boundary": "Real positive semidefinite reasoning changes the coefficient field; an abstract rank defect needs realization in the group algebra."
+    },
+    {
+      "case": "Complete Crouzeix inequality",
+      "families": [
+        "325"
+      ],
+      "included_for": "A sharp endpoint whose complete scope distinguishes it from scalar and small-base claims.",
+      "baseline_keys": [
+        "GOCrouzeixPalencia2017",
+        "GOLoristSchwenninger2026",
+        "GOAhagCzyzVirtanen2026",
+        "GOPaulsen1984",
+        "GOJin2026",
+        "GOLuo2026"
+      ],
+      "input": "Ordered Fourier/Gram coefficient tests; structural ordered density comparison controlling the optimal similarity metric.",
+      "target": "Constant two for all base and coefficient dimensions.",
+      "preserved_property": "Noncommuting product order and a common bound under matrix amplification.",
+      "quantifiers": "Independent arbitrary base n and coefficient m; independent matrix-valued tests.",
+      "loss_budget": "Sharp diagonal/cross estimates with no coefficient-dimension factor.",
+      "contrastive_boundary": "Entrywise scalar bounds incur m; classical similarity does not establish the sharp complete bound."
+    },
+    {
+      "case": "Relativistic Vlasov-Maxwell",
+      "families": [
+        "362"
+      ],
+      "included_for": "Signed cancellation with an explicit scale-uniform budget needed for a global conclusion.",
+      "baseline_keys": [
+        "GlasseyStrauss1986",
+        "BouchutGolsePallard2003",
+        "LukStrain2014Continuation",
+        "Wang2026I",
+        "Wang2026II"
+      ],
+      "input": "Retarded signed force along source/receiver characteristics.",
+      "target": "Large-data global smooth solutions without symmetry in the stated class.",
+      "preserved_property": "Receiver energy band and constants uniform over compact solution prefixes and momentum scales.",
+      "quantifiers": "Fixed datum/horizon before dyadic P and the compact prefix; band holds throughout the interval.",
+      "loss_budget": "Logarithmic momentum growth permits harmonic divergence of doubling times.",
+      "contrastive_boundary": "Taking absolute values too early discards signed cancellation. A loss with convergent reciprocal dyadic-scale series does not suffice for this continuation inference; slightly superlogarithmic losses can still satisfy the divergence test."
+    }
+  ]
+}

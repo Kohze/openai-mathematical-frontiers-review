@@ -1,0 +1,290 @@
+{
+  "scope": "Curated own-review sources, PDF, evidence ledgers and reproduction scripts; excludes build intermediates and downloaded third-party papers. This manifest excludes its own hash.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 206,
+      "sha256": "3649966bbfddf897a6d7bdb2357dc77e67a3b9993c1e48193dc2e8d6bc726016"
+    },
+    {
+      "path": ".github/workflows/review.yml",
+      "bytes": 2836,
+      "sha256": "62e12220fc247ad1c540a62f1a6d6eb0f4e3860d23cf0f74a649c711f40f9308"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 345,
+      "sha256": "7a5fb667d79e944880571a053c591315d93445d64d4ff459529fd95bca6d473b"
+    },
+    {
+      "path": "audit/build.json",
+      "bytes": 182,
+      "sha256": "4f88e639d11e5a7dd82d15d03f67bfa5ecdfcdc1e15e872c4fe86e0c644d6711"
+    },
+    {
+      "path": "audit/citation-coverage.json",
+      "bytes": 416,
+      "sha256": "389916ebf7a470398ff1351ef2a51440a6604279dd95190544dba8e8d8ea7903"
+    },
+    {
+      "path": "audit/deep-audit-report.md",
+      "bytes": 11366,
+      "sha256": "e7f00a1b5bf6318d64cb75048eef9ded6b5d9cc343a3f16a9763b16154b2a796"
+    },
+    {
+      "path": "audit/deep-audit-summary.json",
+      "bytes": 2185,
+      "sha256": "545a26b2897e81a66cf908384146addf5c50e870fe168ae8e976d693e77b4cd6"
+    },
+    {
+      "path": "audit/deep-mathematics-review.json",
+      "bytes": 37944,
+      "sha256": "e134f7da8cb07e72b9ec4cf005d80b190339f43bdef11243229a95d005b88008"
+    },
+    {
+      "path": "audit/deep-prose-credibility-review.json",
+      "bytes": 30381,
+      "sha256": "02e4abe47f3c74527b5859a238285e573ff1a26fbb7628c914120ae6f4b48b31"
+    },
+    {
+      "path": "audit/deep-reader-value-review.json",
+      "bytes": 21724,
+      "sha256": "adc54fd2ac50f262e31441ba8fd38537578c37f936545d408f4a468460f49291"
+    },
+    {
+      "path": "audit/final-audit.json",
+      "bytes": 2823,
+      "sha256": "92de7dc27f3dbaefe38795f7fb90e07bb4924763a111596faa38d584f0ad2616"
+    },
+    {
+      "path": "audit/geometry-cross-review.json",
+      "bytes": 13159,
+      "sha256": "6a65f14885e46fbb273c7b52050447f95e7b275f63924926dfee1174033235d3"
+    },
+    {
+      "path": "audit/goal-completion-review.json",
+      "bytes": 10506,
+      "sha256": "651dd4a2bec4a4a0be7c9e5b594cedc7f38e14d3947f1b3f99234000e37b11c4"
+    },
+    {
+      "path": "audit/illustrative-examples.json",
+      "bytes": 15272,
+      "sha256": "184f401e907e69b63797e7c01e948ff4972002f39ab1a934b242cf0347746fcf"
+    },
+    {
+      "path": "audit/reference-index.json",
+      "bytes": 33664,
+      "sha256": "6b250572f148ba6cbda754100f27c4aef6a35dfb4e8cea5e26e4b64cee3d0883"
+    },
+    {
+      "path": "audit/reference-metadata.json",
+      "bytes": 87814,
+      "sha256": "aa1f5ebff5c639c0f3986980728b01bce84a2ccb32f14e6797f7708267b11395"
+    },
+    {
+      "path": "audit/review-resolution.json",
+      "bytes": 23522,
+      "sha256": "c53c4f42666e9b78449f88f890c0a47e2100e9ab6ed754710d20ea9c39658e32"
+    },
+    {
+      "path": "audit/round-2-arithmetic-review.json",
+      "bytes": 29816,
+      "sha256": "72c48bc036011b9b3ef17b1da25e6a7feb9c579a52cf72ba269be5f5dff6d8f9"
+    },
+    {
+      "path": "audit/round-2-combinatorics-review.json",
+      "bytes": 26336,
+      "sha256": "471c7d1f9bc9713500958d927c0032dd5d5c448c2b7c7146b6a4f7e7614a22e4"
+    },
+    {
+      "path": "audit/round-2-geometry-review.json",
+      "bytes": 30595,
+      "sha256": "63351c13f9ecba998beb2154ca0cfae7536dc164b035513fb6f74805024df3ee"
+    },
+    {
+      "path": "audit/visual-review.json",
+      "bytes": 525,
+      "sha256": "bf597f187daa99e1701ea1b5505bf1d5aa4cad8050463f11d952268d3bf2f21a"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1367,
+      "sha256": "3ece61a883c534788a88960c7ea44499880bc94cdac1fff5b00b7ed1d973e538"
+    },
+    {
+      "path": "FILE_MANIFEST.json",
+      "bytes": 9403,
+      "sha256": "6cb118fdffcd44f46af8e0a6f1cd566dd5d955bc6d9dc7048823c245368535da"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1240,
+      "sha256": "f4ddc24d80676246212fff18a29675af6596b7bec94e018baa3de66c34667e9c"
+    },
+    {
+      "path": "main.tex",
+      "bytes": 19350,
+      "sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2"
+    },
+    {
+      "path": "openai-mathematical-frontiers.pdf",
+      "bytes": 622496,
+      "sha256": "518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f"
+    },
+    {
+      "path": "overview.tex",
+      "bytes": 4415,
+      "sha256": "d7d6fa6454e20d90181709494a46ba4b378ef1b76fe1bcd414cad53b2bbe8549"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6180,
+      "sha256": "1965fbb1d0018bed06075e8456351ec9a37e077063ca1eb64b537e9d39751a0e"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 3419,
+      "sha256": "6c3e3e90f55b451d079a202db9e7f407e1969d10756e1a817c774bf0e8ee3b09"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 31108,
+      "sha256": "874ad0ff9330d23837092acf30b0fe5e9a2f6802055e251f5f040d7cef0c7a80"
+    },
+    {
+      "path": "reproduce/assemble_references.py",
+      "bytes": 2965,
+      "sha256": "10861b6e24768e8c71d8d2e942f4dbcf8eabf359243daa98318992791ef82357"
+    },
+    {
+      "path": "reproduce/build.py",
+      "bytes": 1941,
+      "sha256": "6038e45278d0735d03cb84b9369ded5fcdda04bc38625a4895a1ec0efb28a7b8"
+    },
+    {
+      "path": "reproduce/check_examples.py",
+      "bytes": 5317,
+      "sha256": "2363727fcfa77b2e5821f753d067dc36de824b04877d76aee66953a12ee4abc8"
+    },
+    {
+      "path": "reproduce/package_review.py",
+      "bytes": 8924,
+      "sha256": "c686f4848c414369759071a8fc5c36de5c88dd62cc1758bbf49d80745e0861fe"
+    },
+    {
+      "path": "reproduce/verify_reference_metadata.py",
+      "bytes": 3450,
+      "sha256": "6a25e19013182fd572178fe5062d03dcc6be43dff2396d5ee116acb897e83b11"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 172,
+      "sha256": "3eea2eb5e881a4587c97e4fe7249d85cb16d1ba116846108fb217f5571adb127"
+    },
+    {
+      "path": "research/arithmetic/cross-review.json",
+      "bytes": 7574,
+      "sha256": "8549f977d37b542dd796684a40f16251064e62e7d0319f30dec0f16775ddb3ac"
+    },
+    {
+      "path": "research/arithmetic/evidence.json",
+      "bytes": 38279,
+      "sha256": "1c3ed6211e758c66c5427c99e13fbd01aae82b08d40f65ac9392734a0318e9ae"
+    },
+    {
+      "path": "research/arithmetic/references.bib",
+      "bytes": 6943,
+      "sha256": "d704d723d03795283319e934d7e5213ec56649070dda703f97cb12f77d89d605"
+    },
+    {
+      "path": "research/arithmetic/round-2-additions.bib",
+      "bytes": 947,
+      "sha256": "57b5a7de8228116fb05bf4db821cef587b78bcf1550e22f0f104ba310e5dfee3"
+    },
+    {
+      "path": "research/arithmetic/section.tex",
+      "bytes": 11622,
+      "sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc"
+    },
+    {
+      "path": "research/combinatorics/deep-audit-additions.bib",
+      "bytes": 416,
+      "sha256": "6e34db2f4bc98e95103b90de8c9359a699d284d9b7f6aeb6d7ef4fe9d07a8e65"
+    },
+    {
+      "path": "research/combinatorics/deep-audit-additions.evidence.json",
+      "bytes": 2540,
+      "sha256": "adeb2d5d6b87f30248e00f84e7828d7c9feac7cf76e87e292668d3a247731670"
+    },
+    {
+      "path": "research/combinatorics/evidence.json",
+      "bytes": 16347,
+      "sha256": "7608f0670f30b80d705c1d63f0351e83b4a3e8f995b6f60966bd6d9eb31eb30b"
+    },
+    {
+      "path": "research/combinatorics/references.bib",
+      "bytes": 9420,
+      "sha256": "680b76cdc975b4539a5fede2d1f9041ea5f02683304183f0ef8e41c21cec0577"
+    },
+    {
+      "path": "research/combinatorics/section.tex",
+      "bytes": 13515,
+      "sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e"
+    },
+    {
+      "path": "research/comparison-register.json",
+      "bytes": 10050,
+      "sha256": "5215acada7f9e0af8dcb74218a1a4584365bf45ecb5a0116fb0fe2de91a0fa6c"
+    },
+    {
+      "path": "research/contrastive-tests.tex",
+      "bytes": 2972,
+      "sha256": "c8a509ed7bd42af437fedf7d6b780d7ab6574ce1402a97f21526dfdb3f7e39c9"
+    },
+    {
+      "path": "research/geometry-operators/evidence.json",
+      "bytes": 44245,
+      "sha256": "42045cc5c64109ba5ba985042b6bf343aa04171cef09889feb2e28f41b08abca"
+    },
+    {
+      "path": "research/geometry-operators/references.bib",
+      "bytes": 10207,
+      "sha256": "10850ac2195f31e4401e3e07909f8601b0247dd1a3f2b5560c9716144d0e4b24"
+    },
+    {
+      "path": "research/geometry-operators/section.tex",
+      "bytes": 15785,
+      "sha256": "de4da465c3c7cc0876eaf4e42c382f169c2d1ea097ffac39033ef1ad8d571187"
+    },
+    {
+      "path": "research/root-evidence.json",
+      "bytes": 17183,
+      "sha256": "5659609053c53d866d559a6d835659083d97e372a0f2d62e7591f7c5ff8b3f4e"
+    },
+    {
+      "path": "research/root-references.bib",
+      "bytes": 4040,
+      "sha256": "8cd28450305a521ab14264b82f1380ca8f6c14bd807a5351d8721669b6e59c37"
+    },
+    {
+      "path": "research/root-release.bib",
+      "bytes": 1787,
+      "sha256": "9d8baae7a95634b86fcd2e795b63802622ed4a0a9e3906d26b42cd8c62a210c7"
+    },
+    {
+      "path": "research/round-2-evidence.json",
+      "bytes": 8877,
+      "sha256": "d1c33cb51fd7ba2295b1cc2363179cbf03b80466dadb896cc9e6dc0c43d585b3"
+    },
+    {
+      "path": "research/verification-worksheet.json",
+      "bytes": 4460,
+      "sha256": "8565b7827b5225f877d007a000b955e6effafddb5f5c40eab5c05acff769e4ad"
+    },
+    {
+      "path": "synthesis.tex",
+      "bytes": 8265,
+      "sha256": "c63adb4111d53eaa26f4c441b42a5b108d491c380be3ffd3a39f834bdf4cd7f2"
+    }
+  ]
+}

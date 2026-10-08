@@ -1,0 +1,669 @@
+{
+  "scope": "Links each cited source to its bibliographic identity check and domain source-support ledger; does not certify theorem validity.",
+  "records": [
+    {
+      "key": "BouchutGolsePallard2003",
+      "title": "Classical solutions and the {Glassey--Strauss} theorem for the {3D Vlasov--Maxwell} system",
+      "primary_url": "https://doi.org/10.1007/s00205-003-0265-6",
+      "metadata_status": "matched",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "DiPernaLions1989",
+      "title": "Global weak solutions of {Vlasov--Maxwell} systems",
+      "primary_url": "https://doi.org/10.1002/cpa.3160420603",
+      "metadata_status": "matched",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "DykemaJuschenko2015",
+      "title": "On stable finiteness of group rings",
+      "primary_url": "https://admjournal.luguniv.edu.ua/index.php/adm/article/view/1174",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "ElekSzabo2004",
+      "title": "Sofic groups and direct finiteness",
+      "primary_url": "https://arxiv.org/abs/math/0305440v2",
+      "metadata_status": "matched",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "FrontALOV2024",
+      "title": "Log-concave polynomials {II}: High-dimensional walks and an {FPRAS} for counting bases of a matroid",
+      "primary_url": "https://annals.math.princeton.edu/2024/199-1/p04",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontAOV2021",
+      "title": "Log-concave polynomials, {I}: Entropy and a deterministic approximation algorithm for counting bases of matroids",
+      "primary_url": "https://arxiv.org/abs/1807.00929v2",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontBH2020",
+      "title": "Lorentzian polynomials",
+      "primary_url": "https://annals.math.princeton.edu/2020/192-3/p04",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontBKS2019",
+      "title": "Small-Set Expansion in Shortcode Graph and the 2-to-2 Conjecture",
+      "primary_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2019.9",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontCVY2026",
+      "title": "Faster {FPRAS} for the Permanent via Restricted {Poincar\\'e} Inequalities and Coupled Flows",
+      "primary_url": "https://arxiv.org/abs/2608.26599v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/deep-audit-additions.evidence.json"
+    },
+    {
+      "key": "FrontChenLiu2026",
+      "title": "An {FPRAS} for Counting Common Bases of Two Matroids",
+      "primary_url": "https://arxiv.org/abs/2610.06724v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontDKM1997",
+      "title": "Sampling contingency tables",
+      "primary_url": "https://www.math.cmu.edu/~af1p/Teaching/MCC17/Papers/contingency.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontGLMP2024",
+      "title": "Perfect sampling from rapidly mixing {Markov} chains",
+      "primary_url": "https://arxiv.org/abs/2410.00882v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontHastad2001",
+      "title": "Some optimal inapproximability results",
+      "primary_url": "https://people.kth.se/~johanh/optimalinap.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontJS1989",
+      "title": "Approximating the Permanent",
+      "primary_url": "https://people.eecs.berkeley.edu/~sinclair/perm.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontJSV2004",
+      "title": "A polynomial-time approximation algorithm for the permanent of a matrix with nonnegative entries",
+      "primary_url": null,
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontKMS2023",
+      "title": "Pseudorandom sets in {Grassmann} graph have near-perfect expansion",
+      "primary_url": "https://annals.math.princeton.edu/2023/198-1/p01",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontKhot2010",
+      "title": "On the {Unique Games Conjecture} (Invited Survey)",
+      "primary_url": "https://cs.nyu.edu/~khot/papers/UGCSurvey.pdf",
+      "metadata_status": "resolved_title_completion",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontKijimaMatsui2003",
+      "title": "Polynomial Time Perfect Sampling Algorithm for Two-rowed Contingency Tables",
+      "primary_url": "https://shuji-kijima.com/papers/METR2003-15.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontMorris2002",
+      "title": "Improved bounds for sampling contingency tables",
+      "primary_url": "https://www.math.cmu.edu/~af1p/Teaching/MCC17/Papers/contingency1.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontOpenAICommon",
+      "title": "Approximate counting of common bases of two matroids",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Approximate-counting-of-common-bases-of-two-matroids-September-23-2026/main.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontOpenAIMatching",
+      "title": "A Fully Polynomial Randomized Approximation Scheme for Perfect Matchings in General Graphs",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Fully-Polynomial-Randomized-Approximation-Scheme-for-Perfect-Matchings-in-General-Graphs-September-23-2026/main.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontOpenAITables",
+      "title": "Exact Uniform Sampling of Contingency Tables with Arbitrary Margins",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontOpenAIUGC",
+      "title": "The Unique Games Theorem",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Unique-Games-Theorem-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontRaghavendra2008",
+      "title": "Optimal algorithms and inapproximability results for every {CSP}?",
+      "primary_url": "https://www.cs.cornell.edu/~abrahao/tdg/papers/p245.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontSVW2017",
+      "title": "On Counting Perfect Matchings in General Graphs",
+      "primary_url": "https://arxiv.org/abs/1712.07504v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontScope102",
+      "title": "The Unique Games Conjecture and optimal approximation thresholds: {Lean} formalization scope",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/102.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontScope113",
+      "title": "Approximate counting and entropy of perfect matchings: {Lean} formalization scope",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/113.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontScope114",
+      "title": "Approximate counting of common integer polymatroid bases: {Lean} formalization scope",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/114.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "FrontScope115",
+      "title": "Sampling and counting contingency tables with arbitrary margins: {Lean} formalization scope",
+      "primary_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/115.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/combinatorics/references.bib",
+      "evidence_ledger": "research/combinatorics/evidence.json"
+    },
+    {
+      "key": "GOAhagCzyzVirtanen2026",
+      "title": "The Complete {Crouzeix} Conjecture in Dimension Three and the {Clou\\^atre--Ostermann--Ransford} conjecture",
+      "primary_url": "https://arxiv.org/abs/2608.27346v4",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOBadeaCrouzeixDelyon2006",
+      "title": "Convex domains and {$K$}-spectral sets",
+      "primary_url": "https://link.springer.com/article/10.1007/s00209-005-0857-y",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOBerndtsson2021",
+      "title": "Complex integrals and {Kuperberg}'s proof of the {Bourgain--Milman} theorem",
+      "primary_url": "https://arxiv.org/abs/2008.00838",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOChenLiXiXu2026",
+      "title": "The {Mahler} Conjecture in Three Dimensions",
+      "primary_url": "https://arxiv.org/abs/2605.09334v3",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOCrouzeixPalencia2017",
+      "title": "The Numerical Range is a $(1+\\sqrt{2})$-Spectral Set",
+      "primary_url": "https://epubs.siam.org/doi/10.1137/17M1116672",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GODelyonDelyon1999",
+      "title": "Generalization of von {Neumann}'s spectral sets and integral representation of operators",
+      "primary_url": "https://smf.emath.fr/node/42955",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GODemailly1993",
+      "title": "{Monge--Amp\\`ere} operators, {Lelong} numbers and intersection theory",
+      "primary_url": "https://link.springer.com/chapter/10.1007/978-1-4757-9771-8_4",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOGross2019",
+      "title": "A conformal {Skorokhod} embedding",
+      "primary_url": "https://arxiv.org/abs/1905.00852",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOHansenLima1981",
+      "title": "The structure of finite dimensional {Banach} spaces\nwith the 3.2. intersection property",
+      "primary_url": "https://doi.org/10.1007/BF02392457",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOHoudrePrivault2002",
+      "title": "Concentration and deviation inequalities in infinite dimensions via covariance representations",
+      "primary_url": "https://houdre.math.gatech.edu/research/papers/mbernoulli7aout.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOIriyehShibata2020",
+      "title": "Symmetric {Mahler}'s conjecture for the volume product\nin the 3-dimensional case",
+      "primary_url": "https://arxiv.org/abs/1706.01749v3",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOJin2026",
+      "title": "The Numerical Range Is a {2}-Spectral Set",
+      "primary_url": "https://www.preprints.org/manuscript/202607.1919/v4",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/round-2-evidence.json"
+    },
+    {
+      "key": "GOKimReisner2011",
+      "title": "Local minimality of the volume-product at the simplex",
+      "primary_url": "https://arxiv.org/abs/1001.0217",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOKlartag2018",
+      "title": "Isotropic constants and {Mahler} volumes",
+      "primary_url": "https://arxiv.org/abs/1710.08084",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOKuperberg2008",
+      "title": "From the {Mahler} Conjecture to {Gauss} Linking Integrals",
+      "primary_url": "https://arxiv.org/pdf/math/0610904v2",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/round-2-evidence.json"
+    },
+    {
+      "key": "GOLoristSchwenninger2026",
+      "title": "A solution to {Crouzeix}'s conjecture",
+      "primary_url": "https://arxiv.org/abs/2608.03841v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOLuo2026",
+      "title": "Two Boundary-Certificate Proofs of the {Crouzeix} Theorem: Fiberwise {Fourier} Recurrence and Defect-{Gram} Telescoping",
+      "primary_url": "https://www.preprints.org/manuscript/202608.1661/v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/round-2-evidence.json"
+    },
+    {
+      "key": "GOOpenAIDirectCrouzeix2026",
+      "title": "{A direct proof of the complete Crouzeix inequality}",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOOpenAIGeneralMahler2026",
+      "title": "{The Mahler Conjecture for General Convex Bodies}",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOOpenAIScope0872026",
+      "title": "The {Mahler} conjectures, functional inequalities and polar-product symplectic width: formalization scope",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/087.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOOpenAIScope3252026",
+      "title": "The complete {Crouzeix} conjecture: formalization scope",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/325.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOOpenAIStructuralCrouzeix2026",
+      "title": "{The complete Crouzeix theorem: optimal similarity and a common positive boundary representation}",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-complete-Crouzeix-theorem-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOOpenAISymmetricMahler2026",
+      "title": "{The symmetric Mahler conjecture and its equality cases}",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/geometry-operators/evidence.json"
+    },
+    {
+      "key": "GOPaulsen1984",
+      "title": "Completely bounded homomorphisms of operator algebras",
+      "primary_url": "https://www.researchgate.net/publication/318015254_Completely_bounded_homomorphisms_of_operator_algebras",
+      "metadata_status": "matched",
+      "bibliography": "research/geometry-operators/references.bib",
+      "evidence_ledger": "research/round-2-evidence.json"
+    },
+    {
+      "key": "GlasseyStrauss1986",
+      "title": "Singularity formation in a collisionless plasma could\noccur only at high velocities",
+      "primary_url": "https://link.springer.com/article/10.1007/BF00250732",
+      "metadata_status": "matched",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "LukStrain2014Continuation",
+      "title": "A new continuation criterion for the relativistic\n{Vlasov--Maxwell} system",
+      "primary_url": "https://arxiv.org/abs/1406.0165",
+      "metadata_status": "matched",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "Montgomery1969",
+      "title": "Left and right inverses in group algebras",
+      "primary_url": null,
+      "metadata_status": "matched",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "OAIDirectFinite",
+      "title": "A Counterexample to {Kaplansky}'s Direct-Finiteness Conjecture in Characteristic Two",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-release.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "OAIVlasov",
+      "title": "Global classical solutions of the three-dimensional relativistic {Vlasov--Maxwell} system",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-release.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "OpenAIComparator",
+      "title": "Comparator challenges: verification instructions",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/README.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-release.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "OpenAIRelease",
+      "title": "OpenAI mathematics research catalogue and manuscript collection",
+      "primary_url": "https://github.com/openai/math",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-release.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "OpenAIScope197",
+      "title": "Family 197: documented formalization scope",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/197.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-release.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "OpenAIScope362",
+      "title": "Family 362: documented formalization scope",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/362.md",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-release.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "Rein2004Weak",
+      "title": "Global weak solutions to the relativistic {Vlasov--Maxwell} system revisited",
+      "primary_url": "https://arxiv.org/abs/math-ph/0403002",
+      "metadata_status": "matched",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "Wang2026I",
+      "title": "Large Data Global Solution of the {3D RVM} System with\nCylindrical Symmetry {I}: Iterative Smoothing Scheme",
+      "primary_url": "https://arxiv.org/abs/2203.01199v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "Wang2026II",
+      "title": "Large Data Global Solution of the {3D RVM} System with\nCylindrical Symmetry {II}: Pointwise Estimates",
+      "primary_url": "https://arxiv.org/abs/2607.14685v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/root-references.bib",
+      "evidence_ledger": "research/root-evidence.json"
+    },
+    {
+      "key": "arithAGM2003",
+      "title": "Almost {$k$}-wise independence versus {$k$}-wise independence",
+      "primary_url": "https://www.math.tau.ac.il/~nogaa/PDFS/agolman6.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithAlekseyev2011",
+      "title": "On convergence of the {Flint Hills} series",
+      "primary_url": "https://arxiv.org/abs/1104.5100v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithBraverman2010",
+      "title": "Polylogarithmic independence fools {$AC^0$} circuits",
+      "primary_url": "https://www.cs.toronto.edu/~mbraverm/Papers/FoolAC0v7.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithDemailly1992",
+      "title": "Singular hermitian metrics on positive line bundles",
+      "primary_url": "https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/bayreuth.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithFarhi2006",
+      "title": "Un lemme de {Roth} sur les groupes alg{\\'e}briques commutatifs",
+      "primary_url": "https://arxiv.org/abs/math/0603257v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithHR2021",
+      "title": "Expansion, divisibility and parity",
+      "primary_url": "https://arxiv.org/abs/2103.06853v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithKMT2023",
+      "title": "On {Elliott}'s conjecture and applications",
+      "primary_url": "https://arxiv.org/abs/2304.05344v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/round-2-evidence.json"
+    },
+    {
+      "key": "arithLaurent2000",
+      "title": "Interpolation determinants of exponential polynomials",
+      "primary_url": "https://publi.math.unideb.hu/paper/599",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithMR2016",
+      "title": "Multiplicative functions in short intervals",
+      "primary_url": "https://annals.math.princeton.edu/2016/183-3/p06",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithMRT2015",
+      "title": "An averaged form of {Chowla}'s conjecture",
+      "primary_url": "https://arxiv.org/abs/1503.05121v3",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithMeiburg2022",
+      "title": "Bounds on Irrationality Measures and the {Flint-Hills} Series",
+      "primary_url": "https://arxiv.org/abs/2208.13356v1",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithOpenAI007",
+      "title": "Ordinary two-point correlations of multiplicative functions",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/final.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithOpenAI017",
+      "title": "The irrationality exponent of {$\\pi$} is {$2$}",
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithPilatte2026",
+      "title": "Improved bounds for the two-point logarithmic {Chowla} conjecture",
+      "primary_url": "https://arxiv.org/abs/2310.19357v3",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithTT2019",
+      "title": "The structure of correlations of multiplicative functions at almost all scales, with applications to the {Chowla} and {Elliott} conjectures",
+      "primary_url": "https://msp.org/ant/2019/13-9/ant-v13-n9-p06-s.pdf",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithTT2026",
+      "title": "Quantitative correlations and some problems on prime factors of consecutive integers",
+      "primary_url": "https://arxiv.org/abs/2512.01739v2",
+      "metadata_status": "primary_record_in_research_ledger",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/round-2-evidence.json"
+    },
+    {
+      "key": "arithTao2016",
+      "title": "The logarithmically averaged {Chowla} and {Elliott} conjectures for two-point correlations",
+      "primary_url": "https://arxiv.org/abs/1509.05422v4",
+      "metadata_status": "matched",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    },
+    {
+      "key": "arithZZ2020",
+      "title": "The irrationality measure of {$\\pi$} is at most {$7.103205334137\\ldots$}",
+      "primary_url": "https://arxiv.org/abs/1912.06345v2",
+      "metadata_status": "verified_primary_fallback",
+      "bibliography": "research/arithmetic/references.bib",
+      "evidence_ledger": "research/arithmetic/evidence.json"
+    }
+  ]
+}

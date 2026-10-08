@@ -1,0 +1,4 @@
+# Tested versions used by the review's reproduction scripts.
+# Python 3.11 or later; pdfLaTeX and BibTeX are separate system dependencies.
+bibtexparser==1.4.1
+pypdf==5.5.0

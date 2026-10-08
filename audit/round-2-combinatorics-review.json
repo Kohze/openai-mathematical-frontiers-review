@@ -1,0 +1,314 @@
+{
+  "schema": "internal-skeptical-review/2",
+  "review_date": "2026-10-07",
+  "manuscript": "Mathematical Frontiers in the OpenAI Research Release: Cancellation, Positivity, and Changes of Representation",
+  "report_author_role": "Internal Codex agent previously involved in the combinatorics fragment; adversarial second-round exposition and contribution assessment. External human reviewer independence is absent.",
+  "scope": {
+    "inspected": [
+      "main.tex",
+      "synthesis.tex",
+      "research/combinatorics/section.tex",
+      "research/arithmetic/section.tex",
+      "research/geometry-operators/section.tex",
+      "README.txt",
+      "audit/final-audit.json",
+      "audit/illustrative-examples.json",
+      "audit/citation-coverage.json"
+    ],
+    "primary_rechecks": [
+      "https://arxiv.org/abs/1712.07504v1",
+      "https://arxiv.org/abs/2410.00882v2",
+      "https://annals.math.princeton.edu/2020/192-3/p04"
+    ],
+    "limits": "This assesses review-owned arguments, source attribution, selection, synthesis, and publication positioning. It does not independently validate the released proofs, their formal dependency closure, or every theorem asserted in the source collection. No manuscript or frozen ledger edits were made."
+  },
+  "recommendation": {
+    "overall_score_out_of_10": 6.5,
+    "calibration": "A useful, unusually broad comparative narrative review with careful source-status distinctions and a reproducible evidence package. Its independent analytical contribution and selection rationale need development for a defensible journal survey. The score is an editorial assessment, not an arithmetic mean or probability of acceptance.",
+    "preprint": "Suitable as a clearly labelled comparative narrative preprint after minor attribution wording is tightened; the release conclusions must remain attributed proposals.",
+    "journal": "Major revision recommended before a specialist or interdisciplinary survey-journal submission. A research-article framing based on new mathematical theorems is unsupported by the current contribution.",
+    "demonstrated_new_mathematical_errors": 0,
+    "new_source_proof_validation": "None",
+    "priority_conclusion": "For the user's breakthrough question, the most valuable added content is four concise verdicts separating the size of the conclusion from the inherited machinery and the exact new compatibility. Review-method additions should support those verdicts, not replace them."
+  },
+  "category_scores": [
+    {
+      "category": "Correctness of review-owned mathematics and logical distinctions",
+      "score": 8,
+      "reason": "The sparse-interval example, characteristic-two cancellation, K2,2 Hessian obstruction, and conditional continuation argument are logically useful and their scope is stated. Full source-theorem correctness remains outside this score."
+    },
+    {
+      "category": "Attribution and assurance boundaries",
+      "score": 8,
+      "reason": "Release claims, established literature, comparator correspondence, and verification execution are mostly distinguished. Two local sentences imply stronger proof or formalization assurance than the review actually provides."
+    },
+    {
+      "category": "Literature relevance and historical comparison",
+      "score": 7.5,
+      "reason": "Primary-source comparisons include concrete obstacles and concurrent work, especially torpid mixing, Chen–Liu, scalar versus complete Crouzeix, and imperfect-completeness Unique Games. Targeted discovery seeded from release references remains vulnerable to missed independent approaches. Seventy-six references do not establish completeness."
+    },
+    {
+      "category": "Novelty of the review's synthesis",
+      "score": 5.5,
+      "reason": "The bottleneck map is useful and more informative than a catalogue of theorem statements. Cancellation, positivity, representation, and quantifier control are nevertheless broad motifs; their operational comparison is not developed enough to establish a distinctive reusable synthesis."
+    },
+    {
+      "category": "Depth of scholarly insight",
+      "score": 7,
+      "reason": "Named lemmas and precise transfer failures supply real mathematical insight, particularly restricted observable estimates versus full mixing and exact-law computability versus total variation. Several cross-field sections end at an audit priority rather than a comparative conclusion."
+    },
+    {
+      "category": "Selection method and bias control",
+      "score": 5.5,
+      "reason": "Purposive selection is disclosed, so a systematic-review protocol is unnecessary. The actual route from 372 families to the included cases and the role of theme-driven selection are not auditable; broad thematic prevalence cannot be inferred."
+    },
+    {
+      "category": "Practical significance",
+      "score": 6,
+      "reason": "Application pathways correctly require feasible constants, faithful laws, and competitive baselines. They remain conditional research proposals, with no demonstrated practical implementation advance from this review."
+    },
+    {
+      "category": "Reproducibility and evidence organization",
+      "score": 8.5,
+      "reason": "Pinned sources, ledgers, bibliography checks, build records, and exact illustrative examples support reproduction of the review and its small checks. Rebuilding the exposition is distinct from reproducing the released proofs."
+    },
+    {
+      "category": "Presentation, title and abstract",
+      "score": 8,
+      "reason": "The title and abstract identify a selected comparative review; the writing communicates difficult distinctions without collapsing disciplines. The synthesis table is useful but its interfaces would be clearer with standardized input/output properties and loss budgets."
+    },
+    {
+      "category": "Limitations and disclosure",
+      "score": 8.5,
+      "reason": "The narrative-review scope, conditional consequences, documentation-based formal assessment, and dedicated AI disclosure are clear. No external peer-review or independent formal-build status is asserted."
+    },
+    {
+      "category": "Preprint readiness",
+      "score": 8,
+      "reason": "A scholarly comparative preprint can be useful while the underlying release claims remain under scrutiny. This is a merit assessment, not a guarantee of platform acceptance."
+    },
+    {
+      "category": "Survey-journal defensibility",
+      "score": 6,
+      "reason": "A journal reviewer can reasonably ask why this selection and taxonomy produce a lasting contribution beyond a careful release commentary. The two substantial improvements below address that question without inventing a new theorem."
+    }
+  ],
+  "findings": [
+    {
+      "id": "R2C1",
+      "severity": "major",
+      "kind": "reviewer concern; not a demonstrated mathematical error",
+      "location": [
+        "main.tex:75",
+        "main.tex:86",
+        "main.tex:96",
+        "synthesis.tex:3"
+      ],
+      "issue": "Selection is intelligible but insufficiently auditable for the general synthesis. The manuscript selects identifiable obstacles and cases illustrating cancellation, positivity or representation, then reports those same themes as recurring. This can produce a valid contrastive essay, but does not support inference about the release as a whole.",
+      "evidence": "The method describes purposive selection and targeted searches but provides neither an actual candidate route nor an included/omitted scope record. The repository-wide counts give context, not a denominator for an exhaustive screen.",
+      "remedy": "Make selection explicitly theme-guided and contrastive. Record the actual included cases and genuinely considered omissions, selection reasons, and search limits. If no contemporaneous omission record exists, say so rather than reconstructing fictitious exhaustive screening. Identify whether the themes guided selection or emerged during comparison.",
+      "consequence": "The review should support claims about its selected cases, not corpus-wide frequency, representativeness, or dominant mathematical mechanism."
+    },
+    {
+      "id": "R2C2",
+      "severity": "major",
+      "kind": "reviewer concern; not a demonstrated mathematical error",
+      "location": [
+        "synthesis.tex:58",
+        "synthesis.tex:78",
+        "synthesis.tex:96",
+        "synthesis.tex:114",
+        "synthesis.tex:177"
+      ],
+      "issue": "The review's independent contribution is currently a useful map of proof bottlenecks, but its cross-case taxonomy remains too elastic. Nearly every difficult proof preserves information across an interface. The paper needs a testable comparison explaining which transfer is permitted, which is not, and what exactly the analogy predicts.",
+      "evidence": "The table names eight different bottlenecks and the prose carefully distinguishes their mechanisms. It does not yet apply a common operational profile or demonstrate a comparative inference that would be unavailable from eight separate summaries.",
+      "remedy": "Develop an operational bridge profile: input object, output object, preserved property, required quantifier order, and loss or cost budget. Apply it to a small contrastive subset and add elementary controls showing an invalid transfer. Existing examples can anchor this, with the four-state restricted-observable control described below providing a precise additional test.",
+      "consequence": "A sharpened profile can justify the review as scholarly synthesis rather than an expanded release annotation. No new mathematical-theorem claim is necessary."
+    },
+    {
+      "id": "R2C3",
+      "severity": "minor",
+      "kind": "local attribution ambiguity",
+      "location": [
+        "research/combinatorics/section.tex:39"
+      ],
+      "issue": "The sentence 'This is a proof of polynomial complexity with deliberately large parameters' locally reads as reviewer endorsement of the full matching proof.",
+      "evidence": "The surrounding paragraph discusses the released Theorem 1.1 and selected bottleneck passages; the review has not independently validated the full proof or executed its formal dependency build.",
+      "remedy": "Use positive attributed language, for example: 'The manuscript derives its claimed polynomial-complexity bound using deliberately large parameters.'",
+      "consequence": "This preserves the important distinction between a polynomial theorem-level bound and a practical implementation without adding defensive prose."
+    },
+    {
+      "id": "R2C4",
+      "severity": "minor",
+      "kind": "local assurance ambiguity",
+      "location": [
+        "research/combinatorics/section.tex:153"
+      ],
+      "issue": "'Scope-document evidence specifies which statements were formalized' is stronger than a documentation-based assessment of the supplied formal targets.",
+      "evidence": "The ledgers distinguish scope-document reading from Lean/Comparator execution. Correspondence of a target to a module does not alone reproduce proof or axiom checks.",
+      "remedy": "Prefer 'The scope documents identify the supplied formalization targets' or 'The scope documents report coverage of the specified statements.'",
+      "consequence": "The phrasing should match the evidence actually inspected."
+    },
+    {
+      "id": "R2C5",
+      "severity": "minor",
+      "kind": "abstract emphasis concern",
+      "location": [
+        "main.tex:43",
+        "main.tex:44",
+        "synthesis.tex:78"
+      ],
+      "issue": "The abstract's 'transferring local positivity to global control' is somewhat broader than the synthesis, which correctly distinguishes scalar positivity, operator positivity, and an indefinite one-positive-direction signature.",
+      "evidence": "The common-base example explicitly fails the Lorentzian signature condition for the intersection polynomial, and the proposed algorithm uses different weighted objects and selected observables. The synthesis expressly rejects a universal positivity principle.",
+      "remedy": "Align the abstract with that careful conclusion, for example 'using distinct forms of positivity or quadratic-signature control under their required transfer hypotheses.'",
+      "consequence": "This is a clarity improvement, not evidence of an incorrect theorem statement."
+    }
+  ],
+  "substantial_content_improvements": [
+    {
+      "id": "I1",
+      "title": "An actual contrastive selection and comparison record",
+      "addresses": [
+        "R2C1"
+      ],
+      "deliverable": "A short method paragraph plus a compact appendix/ledger recording included cases, reasons for inclusion, actually considered omissions where records exist, closest independent comparison, and search limits. State theme-guided selection directly and avoid invented exhaustive screening.",
+      "scientific_test": "Can a reader distinguish a case selected because it confirms a theme from a case included to test the theme's limits? Can the record explain why the chosen comparisons, rather than merely the most celebrated conclusions, serve the review question?"
+    },
+    {
+      "id": "I2",
+      "title": "Operational bridge profiles with explicit non-transfer controls",
+      "addresses": [
+        "R2C2",
+        "R2C5"
+      ],
+      "deliverable": "A standardized comparison on a small subset, retaining input/output objects, preserved property, quantifier order, and a quantitative loss budget. Use the existing sparse-interval, Lorentzian-Hessian, finite-field, and amplification examples as controls rather than adding many new cases.",
+      "scientific_tests": [
+        {
+          "name": "Restricted observable energy versus full mixing",
+          "construction": "On states (a,b) in {-1,+1}² with uniform law, let a flip at rate 1 and b at rate tau in continuous time.",
+          "derivation": "E_tau(f)=1/2 E[(f(-a,b)-f(a,b))²+tau(f(a,-b)-f(a,b))²]. For f=g(a), E_tau(f)=2 Var(f), uniformly in tau. For f=b, Var(f)=1 and E_tau(f)=2 tau. Hence the full spectral gap is 2 min(1,tau); at tau=0 the chain is reducible although the restricted observable inequality survives.",
+          "purpose": "An exact elementary control for why a restricted Poincare inequality cannot by itself establish full-chain mixing. It is not a model or proof of the released common-base algorithm, which has separate trace and return-control hypotheses.",
+          "verification": "The four-state generator and eigenvalues can be checked exactly; the derivation is review-owned elementary mathematics."
+        },
+        {
+          "name": "Rare correction probability versus expected work",
+          "construction": "Take correction probability delta=2^(-k). Compare correction costs T(s,k)=2^(s k) and T(s,k)=2^(C s) poly(k).",
+          "derivation": "The first gives delta T=2^((s-1)k), so increasing precision can worsen the expected correction work. In the second, allocating k on the input scale can suppress the exponential factor.",
+          "purpose": "A numerical budget control showing why a probability identity and high accuracy do not by themselves yield expected polynomial time. This does not construct a sampler, establish hardness, or replace computability/dominance hypotheses.",
+          "verification": "Exact exponent arithmetic suffices. The operational profile must state both the law-computation cost model and the precision schedule."
+        }
+      ],
+      "primary_grounding": [
+        {
+          "url": "https://arxiv.org/abs/1712.07504v1",
+          "support": "The specified weighted JSV chain has a torpid-mixing obstruction; this does not exclude all changed state spaces or algorithms."
+        },
+        {
+          "url": "https://arxiv.org/abs/2410.00882v2",
+          "support": "The perfect-sampling construction combines efficient approximate sampling with an output-distribution oracle; approximate accuracy alone is not its stated premise."
+        },
+        {
+          "url": "https://annals.math.princeton.edu/2020/192-3/p04",
+          "support": "Lorentzian Hessian structure is a one-positive-eigenvalue condition, not positive semidefiniteness."
+        }
+      ]
+    }
+  ],
+  "residual_uncertainties": [
+    "Independent completeness of the prior-literature search remains unestablished; no missing result is asserted without evidence.",
+    "The correctness of the released bottleneck lemmas and their downstream proof dependencies remains outside this assessment.",
+    "The report does not predict acceptance by a named journal or SSRN.",
+    "The score reflects a focused narrative review, not a systematic review or original theorem paper."
+  ],
+  "manuscript_edit_status": "No manuscript edits. Frozen evidence ledgers unchanged.",
+  "user_priority": "Identify which claimed advances cross a longstanding mathematical barrier, which machinery is inherited, and which precise new lemma or compatibility is proposed to cross it.",
+  "domain_breakthrough_assessment": [
+    {
+      "family": "113",
+      "case": "FPRAS for perfect matchings in general graphs",
+      "conclusion_size": "If valid, this crosses the central unrestricted nonbipartite approximation-counting barrier. It is substantially larger in scope than an improved bound for the existing weighted JSV chain.",
+      "closest_inherited_machinery": "Matching-walk approximation, hole-pattern weighting and annealing from Jerrum–Sinclair and Jerrum–Sinclair–Vigoda; combinatorial gadgets, variance decomposition and Markov-chain comparison are familiar tools. Stefankovic–Vigoda–Wilmes supplies a precise obstruction for the specified JSV-type chain, not an impossibility result for every representation.",
+      "proposed_new_lemma_or_compatibility": "Theorem 3.1's hole-capacity control must survive weighted subdivision and colored tree-bag enlargement. Theorem 6.1 then controls additive pair observables. Lemma 7.2 is the decisive proposed upgrade: ordered product residuals are uniquely assigned to coordinate pairs and absorbed using replicated adjacent weight tiers, yielding the full product-space estimate required by the sampler.",
+      "mechanism_verdict": "A proposed breakthrough in representation and gap transfer, rather than a routine optimization of a known chain. The novelty-bearing claim is the compatibility of hole capacity, enlargement and residual amplification; ANOVA or annealing alone is inherited machinery.",
+      "standard_advance_control": "A better mixing constant on an already tractable graph class, or an additive-pair estimate without its full-space upgrade, would be a standard advance and would not establish the unrestricted FPRAS.",
+      "assurance": "Selected bottleneck passages and statement scope were examined. Their complete proofs and dependency closure were not independently validated.",
+      "primary_sources": [
+        "https://arxiv.org/abs/1712.07504v1",
+        "https://doi.org/10.1145/1008731.1008738"
+      ],
+      "release_locations": [
+        "Theorem 1.1",
+        "Theorem 3.1",
+        "Theorem 6.1",
+        "Lemma 7.2"
+      ],
+      "source_key": "FrontOpenAIMatching"
+    },
+    {
+      "family": "114",
+      "case": "FPRAS for common bases of arbitrary equal-rank matroids",
+      "conclusion_size": "If valid, this extends the single-matroid counting frontier to arbitrary intersections in the exact independence-oracle model. The October 5 Chen–Liu preprint concurrently claims a common-base FPRAS, so a priority claim is unsupported by the comparison.",
+      "closest_inherited_machinery": "Single-matroid high-dimensional walks and Lorentzian polynomial signatures, matroid duality and direct sum, trace-chain analysis and annealing. The single-matroid generating-polynomial argument does not automatically survive intersection, as the K2,2 Hessian control demonstrates.",
+      "proposed_new_lemma_or_compatibility": "The paired M1 direct-sum M2-dual construction uses positive deficiency weights. Lemma 4.1 turns one-positive-direction quadratic control into missing-slot transport. Proposition 5.3 controls selected transversal values and defect-class means; Lemma 6.2 separately supplies transversal trace/return control. Fresh warm restarts connect those restricted analytic guarantees to adaptive counting.",
+      "mechanism_verdict": "A proposed substantial new transport/simulation compatibility, with a particularly useful distinction from full-chain rapid mixing. The novelty is not the Lorentzian inequality itself but making its selected control sufficient for the counting algorithm. The alternative curvature/field-selection route in Chen–Liu should remain part of any novelty verdict.",
+      "standard_advance_control": "A new proof of the single-matroid walk bound, or a restricted observable variance inequality without the required trace and restart guarantees, would not cross the common-base counting barrier.",
+      "assurance": "The claimed September algorithm and contemporaneous comparison are source-attributed. Documentation covers the equal-rank matroid independence-oracle target, not automatic validation of the broader binary-polymatroid extension.",
+      "primary_sources": [
+        "https://annals.math.princeton.edu/2024/199-1/p04",
+        "https://annals.math.princeton.edu/2020/192-3/p04",
+        "https://arxiv.org/html/2610.06724v1"
+      ],
+      "release_locations": [
+        "Theorem 1.1",
+        "Lemma 4.1",
+        "Proposition 5.3",
+        "Lemma 6.2"
+      ],
+      "source_key": "FrontOpenAICommon"
+    },
+    {
+      "family": "115",
+      "case": "Exact uniform sampling of unrestricted contingency tables",
+      "conclusion_size": "If valid, this removes dense-margin or fixed-row restrictions while keeping both dimensions variable and margin input binary, with expected polynomial work for the exact law. That is a major generality change, not merely improved dense-table mixing. Cell bounds and structural zeros remain a separate scope.",
+      "closest_inherited_machinery": "Dense-completion geometry and log-concavity from prior contingency-table sampling; exact sampling for two-row tables; the earlier Gobel–Liu–Manurangsi–Pappik residual-mixture conversion. Rare correction as a generic probability construction is inherited.",
+      "proposed_new_lemma_or_compatibility": "Small-margin defect states and padding create dense completion problems. Theorem 4.3 must control the resulting small-state law through conditional transport and repair. Proposition 6.3 computes the actual bounded sampler law, including fallbacks, with exponential input-size cost but polynomial precision dependence. Theorem 6.4 matches that law-computation model to the rare correction probability so expected work remains polynomial.",
+      "mechanism_verdict": "A proposed breakthrough in arbitrary-margin uniform sampling whose main new burden is the state-space/law-computation compatibility. It should not be presented as a new general theorem converting any approximate sampler to an efficient exact sampler.",
+      "standard_advance_control": "Improving a dense-margin sampler, implementing the old residual mixture, or obtaining tiny total-variation error without a usable law oracle would not establish this unrestricted expected-polynomial exact guarantee.",
+      "assurance": "The exact and approximate guarantees are source-attributed and restricted to unrestricted tables; no full implementation or independent theorem proof has been reproduced by this review.",
+      "primary_sources": [
+        "https://arxiv.org/abs/2410.00882v2",
+        "https://shuji-kijima.com/papers/METR2003-15.pdf",
+        "https://doi.org/10.1002/rsa.10049"
+      ],
+      "release_locations": [
+        "Theorem 1.1",
+        "Theorem 4.3",
+        "Proposition 6.3",
+        "Theorem 6.4"
+      ],
+      "source_key": "FrontOpenAITables"
+    },
+    {
+      "family": "102",
+      "case": "Unique Games with near-one completeness and arbitrarily small fixed soundness",
+      "conclusion_size": "If valid, this crosses the Unique Games near-perfect-completeness barrier with a deterministic polynomial reduction for every fixed error pair and an error-dependent, input-size-independent alphabet. It is much more consequential than another imperfect-completeness expansion result or a conditional SDP-threshold theorem.",
+      "closest_inherited_machinery": "The degree-two shortcode inverse/expansion framework, Grassmann expansion, Fourier decoding, and hardness amplification. Raghavendra's optimal-threshold consequences are already established conditional on Unique Games; they are not the newly proposed mechanism.",
+      "proposed_new_lemma_or_compatibility": "Lemma 3.1 supplies an equivariant nonlinear observable stable under noise while sufficiently high-rank linear observations detect it. The nonlinear/linear separation must survive the Fourier transfer, adaptive linear lifts, correlated row advice, and clean-coordinate repetition without giving either decoded strategy information it is not entitled to see.",
+      "mechanism_verdict": "The latent-alphabet separation and its compatibility with decoder information are a proposed genuinely unusual barrier-crossing mechanism. Routine repetition or reuse of the known shortcode inverse theorem does not explain near-one completeness. The specialist audit should concentrate on those uniformity and information constraints.",
+      "standard_advance_control": "An improved imperfect-completeness constant or a new exposition of conditional CSP/SDP hardness would be a standard advance rather than the stated Unique Games breakthrough.",
+      "assurance": "The theorem and selected roadmap/gadget passages were read; the complete soundness proof was not independently validated. The alphabet parameter s depends on the fixed errors, not globally on all errors and not on instance size.",
+      "primary_sources": [
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2019.9",
+        "https://annals.math.princeton.edu/2023/198-1/p01",
+        "https://cs.nyu.edu/~khot/papers/UGCSurvey.pdf"
+      ],
+      "release_locations": [
+        "Theorem 1.1",
+        "Lemma 3.1",
+        "Section 5 Fourier transfer and decoding",
+        "clean-coordinate repetition"
+      ],
+      "source_key": "FrontOpenAIUGC"
+    }
+  ]
+}

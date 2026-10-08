@@ -1,0 +1,397 @@
+{
+  "schema": "mathematical-frontiers-combinatorics-evidence/1",
+  "review_date": "2026-10-07",
+  "repository": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "review_method": "Printed theorem and selected bottleneck-proof reading, primary literature comparison, and repository scope-document assessment. No Lean/Comparator build performed for this fragment.",
+  "source_status": "Release and recent arXiv manuscripts are attributed proposals. Identifiable primary metadata is not independent theorem validation.",
+  "cases": [
+    {
+      "family": "113",
+      "hypotheses": "Finite simple undirected graph; rational0<epsilon<1 and0<delta<1/2.",
+      "mechanism": "Hole capacity → colored tree bags → additive pair energy → replicated product gap.",
+      "external_primary_keys": [
+        "FrontJS1989",
+        "FrontJSV2004",
+        "FrontSVW2017"
+      ],
+      "formal_scope_key": "FrontScope113"
+    },
+    {
+      "family": "114",
+      "hypotheses": "Equal-rank matroids on explicit ground set; fixed exact independence oracles.",
+      "mechanism": "Lorentzian omitted-element quadratics → signed missing-slot transport → observablePoincare + transversal trace + fresh warm restarts.",
+      "external_primary_keys": [
+        "FrontALOV2024",
+        "FrontAOV2021",
+        "FrontBH2020",
+        "FrontChenLiu2026"
+      ],
+      "formal_scope_key": "FrontScope114",
+      "formal_boundary": "Document covers matroids despite broader integer-polymatroid heading; October5 binary-capacity extension not inferred."
+    },
+    {
+      "family": "115",
+      "hypotheses": "Nonnegative equal-total binary integer margins, variable dimensions, no cell restrictions.",
+      "mechanism": "Explicit small-margin defects and padded completions; implemented-law tabulation separates accuracy from enumerated state spaces; priorGLMP correction.",
+      "external_primary_keys": [
+        "FrontDKM1997",
+        "FrontMorris2002",
+        "FrontKijimaMatsui2003",
+        "FrontGLMP2024"
+      ],
+      "formal_scope_key": "FrontScope115"
+    },
+    {
+      "family": "102",
+      "hypotheses": "For fixed0<epsilon,delta<1/2, deterministic3SAT reduction; alphabetF2^s depends only on errors.",
+      "mechanism": "Latent nonlinear stability versus high-rank linear detection; ordinary shortcode Fourier comparison; locally visible advice and clean-coordinate repetition.",
+      "external_primary_keys": [
+        "FrontBKS2019",
+        "FrontKMS2023",
+        "FrontKhot2010",
+        "FrontRaghavendra2008",
+        "FrontHastad2001"
+      ],
+      "formal_scope_key": "FrontScope102",
+      "review_target": "Uniformity over adaptive linear lifts and locally available information in soundness."
+    }
+  ],
+  "primary_repository_sources": [
+    {
+      "key": "FrontOpenAIMatching",
+      "path": "preprints/A-Fully-Polynomial-Randomized-Approximation-Scheme-for-Perfect-Matchings-in-General-Graphs-September-23-2026/main.pdf",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Fully-Polynomial-Randomized-Approximation-Scheme-for-Perfect-Matchings-in-General-Graphs-September-23-2026/main.pdf",
+      "sha256": "1510b15725ee7e92a6c543484c6c02ce7f26347a32c1a11cd66c5890b94c6de1",
+      "bytes": 617073,
+      "classification": "release_manuscript",
+      "pages": 45,
+      "selected_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        21,
+        22,
+        23,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "locators": [
+        "Theorem1.1",
+        "Theorem3.1",
+        "Theorem6.1",
+        "Lemma7.2",
+        "Definition2.1"
+      ],
+      "scope": "Finite simple undirected graphs; exact zero; worst-case bitFPRAS. Product gap is separate from additive pair inequality."
+    },
+    {
+      "key": "FrontOpenAICommon",
+      "path": "preprints/Approximate-counting-of-common-bases-of-two-matroids-September-23-2026/main.pdf",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Approximate-counting-of-common-bases-of-two-matroids-September-23-2026/main.pdf",
+      "sha256": "7ed3dfdefcfa677a2b06e7fcde5efefc1a26d3ff774a4b604166e21082ac2607",
+      "bytes": 472513,
+      "classification": "release_manuscript",
+      "pages": 26,
+      "selected_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "locators": [
+        "Theorem1.1",
+        "Theorem3.1",
+        "Lemma4.1",
+        "Proposition5.3",
+        "Lemma6.2",
+        "Section7.2"
+      ],
+      "scope": "Equal-rank exact independence oracles; observablePoincare and transversal trace, not a full defect-chain gap assertion."
+    },
+    {
+      "key": "FrontOpenAITables",
+      "path": "preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf",
+      "sha256": "be1d677ab515ceb23e7ee9fd369d705345ec0c9254585ac96ded3aa97732cd89",
+      "bytes": 525125,
+      "classification": "release_manuscript",
+      "pages": 31,
+      "selected_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "locators": [
+        "Theorem1.1",
+        "Theorem4.3",
+        "Theorem5.1",
+        "Proposition6.3",
+        "Theorem6.4"
+      ],
+      "scope": "Unrestricted margins without cell bounds; exact expected polynomial bit time. Precision-independent enumerated spaces in law tabulation are essential."
+    },
+    {
+      "key": "FrontOpenAIUGC",
+      "path": "preprints/The-Unique-Games-Theorem-September-23-2026/paper.pdf",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Unique-Games-Theorem-September-23-2026/paper.pdf",
+      "sha256": "04d0290a9cb7ee815060f82cf556cee893d32b5255613160ca8b8d02a5fe1289",
+      "bytes": 801214,
+      "classification": "release_manuscript",
+      "pages": 58,
+      "selected_pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "locators": [
+        "Theorem1.1",
+        "Lemma3.1",
+        "Lemmas3.2–3.6",
+        "Section1.4",
+        "Sections5–6 roadmap"
+      ],
+      "scope": "Fixed errors precede alphabet selection. Simple unweighted bipartite binary translation constraints. Soundness roadmap assessed; full58-pageproof not independently certified."
+    },
+    {
+      "key": "FrontScope102",
+      "path": "lean/docs/102.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/102.md",
+      "sha256": "c3e96a746042bf5aeb2f0ef8cdc8e27360785a7da8ac37ed69d6fd8c132f572f",
+      "bytes": 3958,
+      "classification": "repository_documentation",
+      "scope": "Original scope Markdown reviewed; no external proof build."
+    },
+    {
+      "key": "FrontScope113",
+      "path": "lean/docs/113.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/113.md",
+      "sha256": "988234abb376528ffa180cd07778d5349ed15190b9d21c961117dd9d011c7e00",
+      "bytes": 2781,
+      "classification": "repository_documentation",
+      "scope": "Original scope Markdown reviewed; no external proof build."
+    },
+    {
+      "key": "FrontScope114",
+      "path": "lean/docs/114.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/114.md",
+      "sha256": "cd25483c953693a061aeb0da2ea51c152a749c9026cf48df17755f8d45884190",
+      "bytes": 1050,
+      "classification": "repository_documentation",
+      "scope": "Original scope Markdown reviewed; no external proof build."
+    },
+    {
+      "key": "FrontScope115",
+      "path": "lean/docs/115.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/115.md",
+      "sha256": "7503f6655041af845dd16fb16746316e877356e75bcb3793ba68917585e02fb6",
+      "bytes": 2251,
+      "classification": "repository_documentation",
+      "scope": "Original scope Markdown reviewed; no external proof build."
+    }
+  ],
+  "external_primary_sources": [
+    {
+      "key": "FrontJS1989",
+      "classification": "published_article",
+      "url": "https://epubs.siam.org/doi/10.1137/0218077",
+      "evidence": "Publisher verifies issue1989,18(6),1149–1178 and DOI; matching-walk predecessor.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontJSV2004",
+      "classification": "published_article",
+      "url": "https://dl.acm.org/doi/10.1145/1008731.1008738",
+      "evidence": "Primary metadata and permanent guarantee verified in earlier source audit; publisher endpoint inaccessible on current fetch. Bipartite scope retained.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontSVW2017",
+      "classification": "versioned_preprint",
+      "url": "https://arxiv.org/abs/1712.07504v1",
+      "evidence": "Version1,20December2017. Full-version Definition2.1/Theorem2.2 supplies specified JSV-chain obstruction, not universal sampling impossibility.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontALOV2024",
+      "classification": "published_article",
+      "url": "https://annals.math.princeton.edu/2024/199-1/p04",
+      "evidence": "Publisher title/authors,199(1),259–299 and abstract verify single-matroid oracleFPRAS.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontAOV2021",
+      "classification": "published_article",
+      "url": "https://arxiv.org/abs/1807.00929v2",
+      "evidence": "Original abstract verifies deterministic2^{O(r)} approximation; journal fields previously audited against author institution list and deposited metadata.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontBH2020",
+      "classification": "published_article",
+      "url": "https://annals.math.princeton.edu/2020/192-3/p04",
+      "evidence": "Publisher identity and Lorentzian result. Release Theorem3.1 invokes original Theorem4.10,2.10 and Corollary2.11.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontChenLiu2026",
+      "classification": "versioned_preprint",
+      "url": "https://arxiv.org/html/2610.06724v1",
+      "evidence": "Actual primary title, authors XiaoyuChen/KuikuiLiu and submission5October2026 checked; Introduction1.1/1.4 and Theorem1.14 support curvature/Hadamard-product comparison.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontDKM1997",
+      "classification": "published_article",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291098-2418%28199707%2910%3A4%3C487%3A%3AAID-RSA4%3E3.0.CO%3B2-Q",
+      "evidence": "Publisher1997,10(4),487–506. Sufficiently large margins explicitly required; 1998 online date differs from journal issue year.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontMorris2002",
+      "classification": "published_article",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rsa.10049",
+      "evidence": "Earlier primary audit verifies2002,21(2),135–146 and improved dense-margin requirements.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontKijimaMatsui2003",
+      "classification": "technical_report",
+      "url": "https://shuji-kijima.com/papers/METR2003-15.pdf",
+      "evidence": "Original author PDF and UniversityTokyo report catalog identify April2003,METR2003-15. Exact sampling is two-row; pseudocode uses uniform real draws.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontGLMP2024",
+      "classification": "versioned_preprint",
+      "url": "https://arxiv.org/html/2410.00882v2",
+      "evidence": "Primaryv2,6December2024; Section3.1,Algorithm1/Theorem6 rare residual correction with output-law computation requirement.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontBKS2019",
+      "classification": "published_proceedings",
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2019.9",
+      "evidence": "OfficialpublisherBibTeX verifies title/authors/year,volume124,pages9:1–9:12. Expansion/inverse-shortcode bridge circulated2018,published2019.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontKMS2023",
+      "classification": "published_article",
+      "url": "https://annals.math.princeton.edu/2023/198-1/p01",
+      "evidence": "Publisher198(1),1–92. Abstract explicitly describes imperfect-completeness2-to-2 result.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontKhot2010",
+      "classification": "published_proceedings",
+      "url": "https://cs.nyu.edu/~khot/papers/UGCSurvey.pdf",
+      "evidence": "Author survey Conjecture2.5 independent-error quantifiers. Publisher-deposited metadata corrected to title with (Invited Survey); CCC2010,pages99–121,DOI10.1109/CCC.2010.19.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontRaghavendra2008",
+      "classification": "published_proceedings",
+      "url": "https://www.cs.cornell.edu/~abrahao/tdg/papers/p245.pdf",
+      "evidence": "Original publishedSTOCextendedabstract title/header,245–254. GenericCSP optimality explicitly UGC-conditional.",
+      "accessed": "2026-10-07"
+    },
+    {
+      "key": "FrontHastad2001",
+      "classification": "published_article",
+      "url": "https://people.kth.se/~johanh/optimalinap.pdf",
+      "evidence": "Author version18February2002; publishedJACM2001,48(4),798–859,DOI10.1145/502090.502098. Introduction contrasts strategy extraction with codeword recovery.",
+      "accessed": "2026-10-07"
+    }
+  ],
+  "counts": {
+    "total_bibliography": 24,
+    "repository_scope_documents": 4,
+    "scholarly_manuscripts_publications_reports": 20,
+    "independent_of_repository": 16
+  },
+  "independent_exposition": [
+    {
+      "item": "K2,2 intersection Hessian",
+      "construction": "Two rank2 vertex-partition matroids on four cycle edges have common polynomialx1x4+x2x3.",
+      "check": "Two disjoint2x2 exchange blocks give eigenvalues1,1,-1,-1, failing quadratic Lorentzian condition.",
+      "status": "Elementary analytic argument; root may add exact worked audit."
+    },
+    {
+      "item": "Expected-cost identity",
+      "identity": "E[T]=(1-delta)E[Tordinary|ordinary branch]+deltaE[Tcorrection|correction branch].",
+      "role": "Accounting identity requires actual correction cost; no generic efficient-exact conversion inferred."
+    }
+  ],
+  "root_editorial_changes": {
+    "status": "Applied by integrating root after fragment completion",
+    "items": [
+      "UndefinedN/D expression replaced with description of comparison parameterL and replication32L.",
+      "UGC alphabet dependence s(epsilon,delta), independent of input size, explicit.",
+      "Expected-cost ordinary term defined conditionally on branch.",
+      "Procedural Unique Games ending replaced with substantive audit targets."
+    ]
+  },
+  "limitations": [
+    "Focused mechanism selection, not exhaustive catalogue survey.",
+    "Text extraction was used for source-reading, not rendered proof-layout verification.",
+    "No external human theorem acceptance or independentLeanbuild attested.",
+    "No implementation/runtime benchmark of these new algorithms.",
+    "No priority inference from manuscript dates; concurrentChenLiu included.",
+    "Complete58-pageUniqueGames soundness proof remains a specialist review task."
+  ],
+  "source_access_notes": [
+    "DirectACM text fetches failed this pass; prior primary metadata audit and original author PDFs retained.",
+    "Pinned release PDFs fetched inRAM andSHA256checked; no third-party PDFs vendored."
+  ]
+}

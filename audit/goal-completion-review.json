@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-08",
+  "review_role": "Independent completion audit by a Codex agent who did not author this manuscript; not external human peer review",
+  "scope": "The current Mathematical Frontiers comparative narrative review, its completion audits and local release metadata. This report does not assess completion of other papers or certify the underlying release proofs.",
+  "overall_verdict": "Complete for the declared attributed comparative narrative-review purpose after the confirmed README reference-count correction. DMR4 remains an optional journal-oriented research extension, not an unresolved correctness or citation blocker.",
+  "requirements_evidence": [
+    {
+      "requirement": "Declare genre, unit of comparison and source-claim status honestly",
+      "status": "met",
+      "evidence": [
+        "main.tex:36–59 describes a comparative narrative review of claimed results and candidate mechanisms",
+        "main.tex:85–88 defines release claims and keeps consequences conditional",
+        "main.tex:100–138 describes purposive selection, primary-literature comparison and novelty axes",
+        "main.tex:147–152 distinguishes source binding from execution status"
+      ]
+    },
+    {
+      "requirement": "Compare specific mechanisms with close antecedents without treating established tools as new",
+      "status": "met_with_disclosed_limits",
+      "evidence": [
+        "research/arithmetic/section.tex:30–58 separates logarithmic, exceptional-scale and every-cutoff conclusions",
+        "research/combinatorics/section.tex:89–106 credits the inherited restricted-Poincare framework and concurrent common-base route",
+        "research/geometry-operators/section.tex:231–274 separates scalar, low-base-dimensional complete and arbitrary complete claims, and inherited similarity/density machinery",
+        "research/comparison-register.json records eight selected cases, ten families, baselines and transfer profiles, while disclaiming exhaustive screening"
+      ]
+    },
+    {
+      "requirement": "Give review-owned mathematical distinctions that support the synthesis",
+      "status": "met",
+      "evidence": [
+        "research/arithmetic/section.tex:78–95 computes shared-residue covariances",
+        "research/contrastive-tests.tex:7–58 proves restricted-gap, coefficient-dimension and finite-mesh controls",
+        "main.tex:157–169 distinguishes logarithmic and ordinary averaging",
+        "main.tex:209–230 gives characteristic-two and F4 controls",
+        "main.tex:303–334 derives the conditional energy-doubling and reciprocal-scale continuation inference",
+        "audit/illustrative-examples.json records passing exact elementary checks"
+      ]
+    },
+    {
+      "requirement": "Resolve demonstrated current exposition, hypothesis and attribution errors",
+      "status": "met_in_current_records",
+      "evidence": [
+        "audit/review-resolution.json has 35 resolved findings",
+        "All 35 resolution records match the hashes of their current target files",
+        "audit/deep-mathematics-review.json records zero unrepaired critical findings and zero current major factual findings",
+        "DMR1 attribution, DMR2 restriction-rank premise and DMR3 analytic normalization appear in current sections"
+      ]
+    },
+    {
+      "requirement": "Maintain citation identity and manuscript coverage",
+      "status": "met",
+      "evidence": [
+        "Recursive traversal of main.tex inputs yields exactly 83 distinct citation keys",
+        "references.bib has exactly 83 records with no duplicate keys",
+        "No missing or unused bibliography entries",
+        "audit/reference-metadata.json covers exactly the same 83 keys with accepted status values",
+        "Primary support ledgers and independent source assessments remain distinct from bibliographic identity checks"
+      ]
+    },
+    {
+      "requirement": "Provide a consistent local manuscript artifact and auditable metadata",
+      "status": "met_after_metadata_fix",
+      "evidence": [
+        "Current PDF has 25 pages and SHA256 518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f, matching audit/build.json and audit/final-audit.json",
+        "Build record reports no monitored issues; this audit did not rebuild or visually rerender the PDF",
+        "README.txt reference count corrected from 82 to 83",
+        "Artifact manifest refreshed only to reflect the README correction and this added audit record"
+      ]
+    },
+    {
+      "requirement": "Keep publication and licensing statements accurate at the point of release",
+      "status": "locally_consistent",
+      "evidence": [
+        "README.txt currently says the workflow has not submitted or published the review and that a manuscript reuse license has not been selected",
+        "No external publication was performed in this audit; these statements correctly describe the current local stage",
+        "A public GitHub release should describe the source/data release as public and preserve the distinction from journal submission or acceptance"
+      ]
+    }
+  ],
+  "dmr4_assessment": {
+    "id": "DMR4",
+    "classification": "optional_journal_oriented_extension",
+    "mandatory_for_current_genre": false,
+    "reason": "The request is to extract a portable conditional interface with complete numerical hypotheses and a nontrivial hypothesis check. That would strengthen specialist reuse and could be required by a future referee, but the present narrative review promises comparison and identification of candidate advances, not a new portable theorem or demonstrated cross-field application.",
+    "source_review_evidence": [
+      "audit/deep-mathematics-review.json, finding DMR4, calls it a proposal to increase reader value and explicitly says the current genre can be useful without it",
+      "audit/final-audit.json retains DMR4 as open_opportunity rather than hiding it among resolved findings",
+      "audit/deep-audit-report.md, Remaining limits and the strongest extension, names the incomplete extraction and journal-oriented status"
+    ],
+    "current_manuscript_alignment": [
+      "research/combinatorics/section.tex:155–163 calls interface extraction and prototypes a useful research program, and explicitly distinguishes proposals from performance conclusions",
+      "synthesis.tex:24–31 poses residual-budget closure as a research question",
+      "synthesis.tex:89–97 discusses further extraction as future work",
+      "Conclusion identifies candidate methodological contributions and compares proposed ways of crossing barriers, without claiming successful transfer to another problem"
+    ],
+    "disposition": "Keep the opportunity visible. Do not relabel it completed or require a manuscript extension merely to close the present review goal."
+  },
+  "independent_integrity_checks": {
+    "loaded_tex": [
+      "main.tex",
+      "overview.tex",
+      "research\\arithmetic\\section.tex",
+      "research\\geometry-operators\\section.tex",
+      "research\\combinatorics\\section.tex",
+      "synthesis.tex",
+      "research\\contrastive-tests.tex"
+    ],
+    "actual_citations": 83,
+    "bib_records": 83,
+    "duplicate_keys": 0,
+    "missing": [],
+    "unused": [],
+    "metadata_records": 83,
+    "metadata_key_match": true,
+    "metadata_statuses": [
+      "matched",
+      "primary_record_in_research_ledger",
+      "resolved_title_completion",
+      "verified_primary_fallback"
+    ],
+    "resolution_findings": 35,
+    "unresolved_statuses": [],
+    "resolution_hash_mismatches": [],
+    "artifact_manifest_mismatches": [],
+    "pdf_pages": 25,
+    "pdf_sha256": "518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f",
+    "phase": "Before the authorized README/report metadata edits"
+  },
+  "new_correctness_citation_or_scope_findings": [],
+  "metadata_fixes_performed": [
+    {
+      "path": "README.txt",
+      "old": "82 cited references",
+      "new": "83 cited references",
+      "basis": "83 distinct citations in the actual loaded manuscript, 83 bibliography records, matching final/citation-coverage audits"
+    }
+  ],
+  "remaining_mandatory_manuscript_issues": [],
+  "release_handoff": [
+    {
+      "action": "Assemble the public source/data package from the corrected current files",
+      "condition": "Required when publishing the source/data release; previously generated archives predate this README correction and added audit",
+      "scope": "Packaging synchronization, not new mathematical research"
+    },
+    {
+      "action": "Update publication-status metadata after an external release actually occurs",
+      "condition": "At release time",
+      "scope": "Distinguish a public repository release from journal submission or acceptance"
+    }
+  ],
+  "files_not_modified": "No TeX, PDF, bibliography or historical review findings were edited. No external publication was performed.",
+  "reviewed_manuscript_hashes": {
+    "main.tex": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+    "overview.tex": "d7d6fa6454e20d90181709494a46ba4b378ef1b76fe1bcd414cad53b2bbe8549",
+    "synthesis.tex": "c63adb4111d53eaa26f4c441b42a5b108d491c380be3ffd3a39f834bdf4cd7f2",
+    "research/arithmetic/section.tex": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc",
+    "research/combinatorics/section.tex": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e",
+    "research/geometry-operators/section.tex": "de4da465c3c7cc0876eaf4e42c382f169c2d1ea097ffac39033ef1ad8d571187",
+    "research/contrastive-tests.tex": "c8a509ed7bd42af437fedf7d6b780d7ab6574ce1402a97f21526dfdb3f7e39c9",
+    "references.bib": "874ad0ff9330d23837092acf30b0fe5e9a2f6802055e251f5f040d7cef0c7a80",
+    "openai-mathematical-frontiers.pdf": "518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f"
+  },
+  "concurrent_packaging_update": {
+    "path": "reproduce/package_review.py",
+    "observation": "This file changed while the completion audit was running; its hash initially matched the existing artifact manifest and differed after the README/report update.",
+    "required_resolution": "Regenerate the final artifact manifest and release package after the root agent finishes packaging-script edits.",
+    "classification": "Release synchronization; no manuscript correction"
+  }
+}

@@ -1,0 +1,7 @@
+# Retained audit records hash exact bytes, including original line endings.
+# Disable implicit checkout/check-in normalization on every platform.
+* -text
+*.pdf binary
+*.zip binary
+*.png binary
+*.jpg binary

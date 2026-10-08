@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the review manuscript below. When using the accompanying code or
+  evidence, also identify the repository commit or tag used.
+type: software
+title: >-
+  Mathematical Frontiers in the OpenAI Research Release: Review Source and
+  Evidence Package
+authors:
+  - family-names: Gounder
+    given-names: Robin
+    affiliation: Vaionex Corporation
+    email: robin@gounder.com
+repository-code: https://github.com/Kohze/openai-mathematical-frontiers-review
+url: https://github.com/Kohze/openai-mathematical-frontiers-review
+abstract: >-
+  Sources, evidence ledgers, and reproduction scripts for a comparative narrative
+  review of eight grouped mathematical case studies in the OpenAI research
+  release. Checks concern bibliography, source statements, elementary examples,
+  and document integrity; they do not independently verify the release proofs.
+keywords:
+  - mathematical review
+  - cancellation
+  - positivity
+  - changes of representation
+  - reproducible research
+preferred-citation:
+  type: unpublished
+  title: >-
+    Mathematical Frontiers in the OpenAI Research Release: Cancellation,
+    Positivity, and Changes of Representation
+  authors:
+    - family-names: Gounder
+      given-names: Robin
+      affiliation: Vaionex Corporation
+  year: 2026
+  url: https://github.com/Kohze/openai-mathematical-frontiers-review

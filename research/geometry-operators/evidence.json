@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-07",
+  "assigned_fragment": "papers/openai-mathematical-frontiers/research/geometry-operators/section.tex",
+  "bibliography": "papers/openai-mathematical-frontiers/research/geometry-operators/references.bib",
+  "pinned_repository": {
+    "owner": "openai",
+    "name": "math",
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "commit_date": "2026-10-06",
+    "date_interpretation": "Commit date, not inferred public-release timestamp.",
+    "commit_metadata_locator": "https://api.github.com/repos/openai/math/commits/adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+  },
+  "review_scope": {
+    "mode": "Mechanism-level reading and statement/literature comparison by an AI agent; not an external human referee report or a theorem-proof acceptance.",
+    "mathematical_claim_status": "Released manuscripts are treated as proposed proofs. Established prior theorems and preceding 2026 preprint claims are labeled separately.",
+    "reads": {
+      "symmetric_mahler": "Critical lens, holomorphic-mass, feasibility, simplex, zero-deficit, and median proofs read, together with introduction and selected convex preliminaries.",
+      "general_mahler": "Introduction, cone reduction, full simultaneous normalization, entropy-to-cone-product assembly, linear-field bound assembly/rigidity, finite scalar certificate section and strict-segment statement inspected. Quadratic/layer/long segment appendices were not exhaustively independently checked.",
+      "direct_crouzeix": "Main theorem, positive kernel and coefficient estimate, resolvent expansion, complete analytic-domain bound and approximation passages read.",
+      "structural_crouzeix": "Main structural/representation statements and ordered density-comparison proof inspected; the entire supporting density-separation/local-projection construction was not independently checked."
+    },
+    "executions": {
+      "general_mahler_ten_program_runner": false,
+      "lean_build": false,
+      "comparator_runner": false,
+      "standalone_jordan_control": "Parent's exact checker reported separately; the algebraic control in this fragment was independently derived directly."
+    },
+    "limits": [
+      "No claim that downloaded paper proofs were compiled or formally checked.",
+      "Comparator challenge templates contain intentional placeholder sorry proofs and declare targets; their placeholders are not evidence about the released solution proof's completeness.",
+      "A mechanism map and absence of a demonstrated defect do not certify these proposed solutions."
+    ]
+  },
+  "source_inventory": [
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/main.tex",
+      "sha256": "19a5eeb31ce0512e845704ca4c6054d5965f7965d568b83862fc8d59b69b3b6d",
+      "lines": 60
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/main.tex",
+      "sha256": "a73282588ba6b5e631237cd01dd2fdfe4a5e444e5d6e0b2e22a84e0e2097dba4",
+      "lines": 58
+    },
+    {
+      "path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+      "sha256": "54a429fe7129b4760b3015fabf2269d4de5fa38aba9539b18542c1df7e58333f",
+      "lines": 624
+    },
+    {
+      "path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+      "sha256": "8a5de532bd3bd4c0b84cc8114c22175968813a6e984ced0d1bf48011270e621c",
+      "lines": 1524
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/introduction.tex",
+      "sha256": "64a324e85b52d070a01ecc902b57ecabb8022c3521b322971620fbb0a8fad497",
+      "lines": 297
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/convex-preliminaries.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/convex-preliminaries.tex",
+      "sha256": "efa5f829591b516c45bf1258930f136c993df92a505e89dd74469f8332e9b08d",
+      "lines": 109
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/lens.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/lens.tex",
+      "sha256": "824d03973b4114f93f93168e25533abac5213a6435da30684b5236127ce24016",
+      "lines": 176
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/holomorphic-mass.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/holomorphic-mass.tex",
+      "sha256": "246bb7260f85588d8dac51372d2c5abbef14ffa747fe47a5f7ef8e04958f56bf",
+      "lines": 193
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/feasibility.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/feasibility.tex",
+      "sha256": "de2e0bef3cb59a6e918b26c9e5107872007c8c2c1354f50528acff3737552ba2",
+      "lines": 188
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/simplex.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/simplex.tex",
+      "sha256": "c33194abda2752b63c309a7fde6f245d546f803d4fd02716d065780cd80a8edd",
+      "lines": 221
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/zero-deficit.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/zero-deficit.tex",
+      "sha256": "acb001601f184b5dcf69a23e519b4570d6ae16e2256d326946004ac3789b1bbb",
+      "lines": 243
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/median.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/median.tex",
+      "sha256": "09e7103da72b36f0a42b5a935e082ed196b2a619b16616d38cb365a53b6ff075",
+      "lines": 231
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/abstract.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/abstract.tex",
+      "sha256": "42cff64862e210ca6a51de1a659c3e52305cd8b2ddc4e89516fcca734b90d62d",
+      "lines": 6
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/00-introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/00-introduction.tex",
+      "sha256": "1df137f2396178bde4cb84f0a0d08342ab84916e2cc54b3995ca907b9e7ff9cc",
+      "lines": 202
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/01-cones.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/01-cones.tex",
+      "sha256": "3336db65cf53a2a38d1ac37fccedd1acf5f9a246ba87c104dba9b166451a3344",
+      "lines": 213
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/02-projections.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/02-projections.tex",
+      "sha256": "d15e0babe32c2ef20a74db5be0364ea44bfe7c2c6ccb9794920db25555640ebb",
+      "lines": 334
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/03-entropy.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/03-entropy.tex",
+      "sha256": "00db56108fc6ad18d2c767be737a54ceba310cac323443d1a29054a2c31f3ce4",
+      "lines": 304
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/04-quadratic.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/04-quadratic.tex",
+      "sha256": "2e04748e941dc67332af59bb54ae18db3bf16fbe2aea5b9d57125a0a74a48d31",
+      "lines": 630
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/05-layers.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/05-layers.tex",
+      "sha256": "a84699adf25073ebb6f69fc90ae744545c73a2dee122cb2777901c18c25e212d",
+      "lines": 622
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/06-linear-equality.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/06-linear-equality.tex",
+      "sha256": "650cf930c2f49792795b334256b43e6755ce68c673e1394dc4142e0b04afb264",
+      "lines": 474
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/09-consequences.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/09-consequences.tex",
+      "sha256": "ec5d18c282285eb2c29ee63d145fde56f53198d744852b9fad45e19b72db8803",
+      "lines": 89
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/07-scalar.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/07-scalar.tex",
+      "sha256": "e665398d6b0f73581f7cfc186197f4612e01f72841b007c6df15c37559ab2969",
+      "lines": 1013
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/08-segments.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/08-segments.tex",
+      "sha256": "e8c784e04ffae0d9d5a0feff21ad5479ed7f2e6b8f0ebf15367b30849e6cd59b",
+      "lines": 1197
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/references.bib",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/references.bib",
+      "sha256": "6d364bd127bba7a3376a52be5502a1a8f47d2ca6765855380b248dcba5b9e0d1",
+      "lines": 359
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/references.bib",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/references.bib",
+      "sha256": "dc3b7c51226528096d1d492bc5477783fe3707d2907c9ebf200d30ced20c286d",
+      "lines": 307
+    },
+    {
+      "path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/references.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/references.tex",
+      "sha256": "6402be83926f774063d5e4e65a0075a68682419f388eb9c7c500231fb350b2b6",
+      "lines": 106
+    },
+    {
+      "path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/references.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-complete-Crouzeix-theorem-September-23-2026/build/references.tex",
+      "sha256": "f3b98c87d0d9f657061b21b80d14718fb211b366c60ad0d56af3a493f4dbc56b",
+      "lines": 126
+    },
+    {
+      "path": "lean/docs/087.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/087.md",
+      "sha256": "85fdda35b4d2c609d330331cde9972b51dcda6127eef31d42e451c1bb644b0eb",
+      "lines": 31
+    },
+    {
+      "path": "lean/docs/325.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/325.md",
+      "sha256": "e44548f4f54b1e408506529aac102b3a2bfcf930ddb5145afb4b193a97dee54b",
+      "lines": 25
+    },
+    {
+      "path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/verification/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/verification/README.md",
+      "sha256": "c2a06d8af16a6bb9f031b27fd365ad49a55c2d45abbfc135aac79ec508ff5cff",
+      "lines": 49
+    },
+    {
+      "path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/README.md",
+      "sha256": "426632be2836e24b94064689f7932c5ec321bf99c55b435b31cd53f3a0284153",
+      "lines": 19
+    },
+    {
+      "path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/README.md",
+      "sha256": "30acd8ce8494d76f343f2468bc5e4d3678f95ee9b1c97b20104ae389ed60a607",
+      "lines": 19
+    },
+    {
+      "path": "lean/ComparatorChallenges/GeneralMahler.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/GeneralMahler.lean",
+      "sha256": "4c2ff125052477b16e8ba2e85e641e65fc6790e08da7990fa309a5e9033f9364",
+      "lines": 39
+    },
+    {
+      "path": "lean/ComparatorChallenges/MahlerConjecture.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/MahlerConjecture.lean",
+      "sha256": "40718172f61fe01f6c96b4c28324a1d76491eb84af4776d8507d8cdcb3120ea0",
+      "lines": 27
+    },
+    {
+      "path": "lean/ComparatorChallenges/SymmetricMahlerEquality.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/SymmetricMahlerEquality.lean",
+      "sha256": "9b36525c55b50fc2fc75dc600d69d68683b57ffc9978622c3303d1cf02c3faf3",
+      "lines": 55
+    },
+    {
+      "path": "lean/ComparatorChallenges/DirectCrouzeix.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/DirectCrouzeix.lean",
+      "sha256": "6aff79e03dee428cf5a677dba39da0fe14fe3d9a989a7e6d4bc0f3bf2a148d22",
+      "lines": 45
+    },
+    {
+      "path": "lean/ComparatorChallenges/StructuralCrouzeix.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/StructuralCrouzeix.lean",
+      "sha256": "f7c09beafdb635221e63e9846043df4347994d7df7f8d7858ead113cf049f205",
+      "lines": 217
+    }
+  ],
+  "families": [
+    {
+      "id": "087-symmetric",
+      "statement": "For all n>=1, origin-symmetric compact convex K with nonempty interior: |K||K polar|>=4^n/n!; equality iff an invertible linear image of a Hanner body.",
+      "locations": [
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/introduction.tex",
+          "label": "thm:main",
+          "line_start": 34
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/lens.tex",
+          "label": "lem:planar-lens",
+          "line_start": 22
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/holomorphic-mass.tex",
+          "label": "lem:holomorphic-mass",
+          "line_start": 33
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/feasibility.tex",
+          "label": "lem:holomorphic-feasibility",
+          "line_start": 36
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/feasibility.tex",
+          "label": "lem:boundary-ties",
+          "line_start": 149
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/simplex.tex",
+          "label": "prop:simplex-integral / eq:simplex-integral",
+          "line_start": 46,
+          "line_end": 58
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/zero-deficit.tex",
+          "label": "prop:optimal-representation",
+          "line_start": 31
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/median.tex",
+          "label": "prop:metric-median",
+          "line_start": 14
+        },
+        {
+          "source_path": "preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/median.tex",
+          "label": "thm:hansen-lima / prop:equality-classification",
+          "line_start": 201,
+          "line_end": 231
+        }
+      ],
+      "reused_ingredients": [
+        "Gross conformal uniform-coordinate example",
+        "Generalized Lelong/Monge--Ampère mass framework",
+        "Hansen--Lima finite-dimensional classification"
+      ],
+      "proposed_step": "Sharp complex boundary-feasibility probability bound transferred through a disjoint polar-simplex identity; equality converted into metric medians through zero-deficit product-neighborhood and compactness arguments.",
+      "decisive_checks": [
+        "Exact mass/flux normalization and high-power boundary limit",
+        "Disjointness and Jacobian constant in the feasible-simplex identity",
+        "Integral zero deficit yielding a universal feasibility witness despite degenerating row bases",
+        "Endpoint lens asymptotic yielding the median property"
+      ],
+      "novelty_assessment": "Unusual synthesis with claimed all-dimensional sharp scope; no first-ever lens, complex volume-product method or norm classification claim."
+    },
+    {
+      "id": "087-general",
+      "statement": "For all n>=1, compact convex full-dimensional K: inf over interior z of |K||(K-z) polar| >= (n+1)^(n+1)/(n!)^2; equality iff K is a simplex.",
+      "locations": [
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/00-introduction.tex",
+          "label": "thm:mahler",
+          "line_start": 26
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/01-cones.tex",
+          "label": "lem:cone-reduction",
+          "line_start": 56
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/02-projections.tex",
+          "label": "prop:normalization",
+          "line_start": 175,
+          "line_end": 334
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/03-entropy.tex",
+          "label": "lem:cone-entropy-maps / prop:entropy",
+          "line_start": 167,
+          "line_end": 304
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/04-quadratic.tex",
+          "label": "lem:gaussian-covariance / prop:quadratic-decomposition",
+          "line_start": 48,
+          "line_end": 630
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/06-linear-equality.tex",
+          "label": "prop:linear-field-bound",
+          "line_start": 113
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/06-linear-equality.tex",
+          "label": "Assembly and equality argument",
+          "line_start": 315,
+          "line_end": 474
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/07-scalar.tex",
+          "label": "lem:scalar-certificates",
+          "line_start": 138,
+          "line_end": 268
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/07-scalar.tex",
+          "label": "lem:scalar-strip / lem:scalar-interpolation / lem:scalar-tail",
+          "line_start": 272,
+          "line_end": 1013
+        },
+        {
+          "source_path": "preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/08-segments.tex",
+          "label": "prop:segment-estimate",
+          "line_start": 16,
+          "line_end": 34
+        }
+      ],
+      "reused_ingredients": [
+        "Klartag cone/Laplace-product correspondence",
+        "Gaussian covariance representations and inverse Ornstein--Uhlenbeck operators",
+        "Log-determinant concavity and projection-derivative calculus"
+      ],
+      "proposed_step": "Simultaneous coordinate/covariance normalization with a noncommuting matrix quadratic; tuned auxiliary scalar curve absorbs the full spectral/layer error through a global strict segment inequality; zero errors force orthant geometry.",
+      "auxiliary_curve_parameters": {
+        "rotation_radius": 0.22,
+        "phase_multiplier": 4.6,
+        "arsinh_scale": 3.6,
+        "b": 0.602,
+        "c": 0.365,
+        "k": "sqrt(b-c)"
+      },
+      "decisive_checks": [
+        "Existence and invariance bounds for coupled normalization without assuming matrices commute",
+        "Whole-real-line strict segment absorption, including divided differences, interpolation and tails",
+        "Transfer from finite rational node witnesses to global scalar estimates",
+        "From zero commutator/layer errors to coordinatewise projection and orthant cone"
+      ],
+      "finite_arithmetic": "Supplied runner has ten programs, requires Python 3 and SymPy 1.14.0 with assertions enabled; JSON failure fields must be inspected separately from process exit status. Not run in this review.",
+      "novelty_assessment": "Proposed all-dimensional mechanism beyond prior local simplex minimality and preceding general three-dimensional preprint; no first cone reduction or Gaussian covariance formula claim."
+    },
+    {
+      "id": "325-direct-complete",
+      "statement": "For arbitrary positive integers n,m, A in M_n(C), every degree d>=0 and arbitrary B_k in M_m(C), norm(sum A^k tensor B_k)<=2 max over W(A) norm(sum z^k B_k). Points and segments included; universal sharpness already occurs at scalar coefficients.",
+      "locations": [
+        {
+          "source_path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+          "label": "thm:main",
+          "line_start": 58
+        },
+        {
+          "source_path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+          "label": "lem:faber",
+          "line_start": 182
+        },
+        {
+          "source_path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+          "label": "prop:coefficients",
+          "line_start": 246
+        },
+        {
+          "source_path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+          "label": "lem:resolvent",
+          "line_start": 295
+        },
+        {
+          "source_path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+          "label": "thm:domain",
+          "line_start": 323,
+          "line_end": 453
+        },
+        {
+          "source_path": "preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+          "label": "lem:approx",
+          "line_start": 457
+        }
+      ],
+      "reused_ingredients": [
+        "Convex double-layer positivity and mass normalization",
+        "Exterior conformal/Faber coefficient machinery",
+        "Positive 2-by-2 block inequalities"
+      ],
+      "proposed_step": "Fourier contraction gives weighted coefficient estimates compatible with separate FG and GF tests, supplying diagonal upper bounds and a cross lower bound uniform in independent coefficient size.",
+      "decisive_checks": [
+        "Unit-mass positive kernel and positive-to-negative Fourier contraction",
+        "Constant-term weight and both multiplication orders in the complete extremal argument",
+        "Matching diagonal/cross estimates before the elementary final block inequality",
+        "Analytic convex outer approximation for numerical ranges with empty interior"
+      ],
+      "established_comparison": "Crouzeix--Palencia complete constant 1+sqrt(2).",
+      "preceding_preprint_claims": [
+        "Lorist--Schwenninger scalar constant 2, v2 17 August 2026; their Section 3(iv) highlights the amplification obstruction.",
+        "Åhag--Czyż--Virtanen complete constant 2 for base order <=3, v4 21 September 2026."
+      ],
+      "novelty_assessment": "Claimed advance is arbitrary-dimensional complete constant 2; neither a first scalar constant-two claim nor a first positive boundary representation."
+    },
+    {
+      "id": "325-structural-complete",
+      "statement": "For finite matrices in bounded convex domains with regular real-analytic Jordan boundary, an attained optimal similarity has condition number <=2 and a single continuous positive density of mass identity represents all matrix-valued analytic tests. Companion also claims complete bounds for bounded operators on arbitrary complex Hilbert spaces and functions holomorphic near the closed numerical range.",
+      "locations": [
+        {
+          "source_path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "label": "thm:structural",
+          "line_start": 116
+        },
+        {
+          "source_path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "label": "thm:representation",
+          "line_start": 132
+        },
+        {
+          "source_path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "label": "prop:density",
+          "line_start": 316
+        },
+        {
+          "source_path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "label": "prop:extremal",
+          "line_start": 386
+        },
+        {
+          "source_path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "label": "prop:projection",
+          "line_start": 715
+        },
+        {
+          "source_path": "preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "label": "lem:comparison",
+          "line_start": 977,
+          "line_end": 1064
+        }
+      ],
+      "reused_ingredients": [
+        "Disk-coordinate contractive functional calculus",
+        "Positive boundary representation and similarity methods"
+      ],
+      "proposed_step": "Attained optimal metric linked to an ordered-density comparison yielding condition number <=2 and one representation common to independent coefficient sizes.",
+      "decisive_checks": [
+        "Extremal/supporting-density construction and local projection bridge",
+        "Ordered left/right module estimates in comparison lemma",
+        "Correct regular-domain hypotheses for the structural result",
+        "Finite-compression and functional-calculus passage to arbitrary Hilbert spaces"
+      ],
+      "novelty_assessment": "Stronger structural formulation of the claimed complete sharp bound; only selected decisive passages independently inspected."
+    }
+  ],
+  "primary_priors": [
+    {
+      "key": "GOGross2019",
+      "verified_identity": "Renan Gross; A conformal Skorokhod embedding; Electronic Communications in Probability 24 (2019); DOI 10.1214/19-ECP272; 11 pp. Article number omitted because original publisher access failed in this audit.",
+      "metadata_sources": [
+        "https://www.maths.cam.ac.uk/person/rg751",
+        "https://arxiv.org/abs/1905.00852v1"
+      ],
+      "content_sources": [
+        "https://arxiv.org/html/1905.00852v1"
+      ],
+      "content_location": "Section 3.2, Uniform distribution",
+      "supports": "Explicit conformal boundary construction for a uniform coordinate; released lens is its rotation. It does not itself prove the Mahler volume estimate.",
+      "date_checked": "2019-05-02 (arXiv v1)"
+    },
+    {
+      "key": "GODemailly1993",
+      "verified_identity": "Jean-Pierre Demailly; Monge--Ampère operators, Lelong numbers and intersection theory; Complex Analysis and Geometry (1993), pp. 115--193; DOI 10.1007/978-1-4757-9771-8_4.",
+      "metadata_sources": [
+        "https://link.springer.com/chapter/10.1007/978-1-4757-9771-8_4"
+      ],
+      "content_sources": [
+        "https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/trento.pdf"
+      ],
+      "content_location": "Sections 3 and 5: Monge--Ampère operators, generalized Lelong-number framework",
+      "supports": "Classical complex mass/flux framework behind the released isolated-zero estimate. The exact feasibility normalization remains a released-paper claim."
+    },
+    {
+      "key": "GOBerndtsson2021",
+      "verified_identity": "Bo Berndtsson; Complex integrals and Kuperberg's proof of the Bourgain-Milman theorem; Advances in Mathematics 388 (2021), article 107927; DOI 10.1016/j.aim.2021.107927.",
+      "metadata_sources": [
+        "https://research.chalmers.se/publication/525031",
+        "https://arxiv.org/abs/2008.00838"
+      ],
+      "content_sources": [
+        "https://research.chalmers.se/publication/525031/file/525031_Fulltext.pdf",
+        "https://arxiv.org/pdf/2008.00838v4"
+      ],
+      "content_location": "Introduction and Theorem 2.1; complex-analytic reverse volume-product proof",
+      "supports": "Prior use of complex methods for reverse volume products, including Kuperberg's pi constant; not a sharp all-dimensional Mahler theorem.",
+      "date_checked": "2021-07-05 (arXiv v4); published journal year 2021"
+    },
+    {
+      "key": "GOIriyehShibata2020",
+      "verified_identity": "Hiroshi Iriyeh and Masataka Shibata; Symmetric Mahler's conjecture for the volume product in the 3-dimensional case; Duke Mathematical Journal 169(6) (2020), 1077--1134; DOI 10.1215/00127094-2019-0072.",
+      "metadata_sources": [
+        "https://arxiv.org/abs/1706.01749"
+      ],
+      "content_sources": [
+        "https://arxiv.org/pdf/1706.01749v3"
+      ],
+      "content_location": "Main theorem and equality statement",
+      "supports": "Established symmetric three-dimensional inequality and extremal classification. Does not supply all-dimensional scope.",
+      "date_checked": "2019-07-10 (arXiv v3); published journal year 2020"
+    },
+    {
+      "key": "GOHansenLima1981",
+      "verified_identity": "Allan B. Hansen and Åsvald Lima; The structure of finite dimensional Banach spaces with the 3.2. intersection property; Acta Mathematica 146 (1981), 1--23; DOI 10.1007/BF02392457.",
+      "metadata_sources": [
+        "https://link.springer.com/article/10.1007/BF02392457"
+      ],
+      "content_sources": [
+        "https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6287-11511_2006_Article_BF02392457.pdf"
+      ],
+      "content_location": "Theorem 3.6 and Corollary 7.4",
+      "supports": "Classical finite-dimensional three-ball intersection/Hanner-space classification invoked after the released metric-median derivation."
+    },
+    {
+      "key": "GOKlartag2018",
+      "verified_identity": "Bo'az Klartag; Isotropic constants and Mahler volumes; Advances in Mathematics 330 (2018), 74--108; DOI 10.1016/j.aim.2018.03.009.",
+      "metadata_sources": [
+        "https://www.sciencedirect.com/science/article/am/pii/S0001870818300963",
+        "https://arxiv.org/abs/1710.08084v2"
+      ],
+      "content_sources": [
+        "https://arxiv.org/html/1710.08084v2"
+      ],
+      "content_location": "Lemma 2.1 and Corollary 4.1",
+      "supports": "Cone characteristic-function product / Mahler volume equivalence and the normalized Laplace-product formulation. It does not prove the new global lower bound.",
+      "date_checked": "2018-03-01 (arXiv v2); journal publication 25 May 2018"
+    },
+    {
+      "key": "GOHoudrePrivault2002",
+      "verified_identity": "Christian Houdré and Nicolas Privault; Concentration and deviation inequalities in infinite dimensions via covariance representations; Bernoulli 8(6) (2002), 697--720.",
+      "metadata_sources": [
+        "https://www3.ntu.edu.sg/home/nprivault/indexp.html",
+        "https://houdre.math.gatech.edu/research/papers/mbernoulli7aout.pdf"
+      ],
+      "content_sources": [
+        "https://houdre.math.gatech.edu/research/papers/mbernoulli7aout.pdf"
+      ],
+      "content_location": "Proposition 2.1",
+      "supports": "Gaussian covariance representations through inverse Ornstein--Uhlenbeck operators; not the released noncommuting layer absorption estimate."
+    },
+    {
+      "key": "GOKimReisner2011",
+      "verified_identity": "Jaegil Kim and Shlomo Reisner; Local minimality of the volume-product at the simplex; Mathematika 57(1) (2011), 121--134; DOI 10.1112/S0025579310001555.",
+      "metadata_sources": [
+        "https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0025579310001555"
+      ],
+      "content_sources": [
+        "https://arxiv.org/pdf/1001.0217v1"
+      ],
+      "content_location": "Main local minimality/stability theorem",
+      "supports": "Prior local simplex minimality; does not imply the released global inequality or all-body rigidity.",
+      "date_checked": "First online 13 December 2010; journal issue January 2011"
+    },
+    {
+      "key": "GOChenLiXiXu2026",
+      "verified_identity": "Shibing Chen, Yuanyuan Li, Dongmeng Xi and Zhe-Feng Xu; The Mahler Conjecture in Three Dimensions; arXiv:2605.09334v3.",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2605.09334v3"
+      ],
+      "content_sources": [
+        "https://arxiv.org/pdf/2605.09334v3"
+      ],
+      "content_location": "Main Result and Sections 3--6 on shadow flows",
+      "supports": "A preceding preprint claim of the general three-dimensional inequality and tetrahedron equality, distinguished from the all-dimensional release claim.",
+      "date_checked": "arXiv version 3 submitted 15 June 2026; PDF header 16 June 2026; bibliography uses submission date; no journal acceptance asserted"
+    },
+    {
+      "key": "GOCrouzeixPalencia2017",
+      "verified_identity": "Michel Crouzeix and César Palencia; The Numerical Range is a (1+sqrt(2))-Spectral Set; SIAM Journal on Matrix Analysis and Applications 38(2) (2017), 649--655; DOI 10.1137/17M1116672.",
+      "metadata_sources": [
+        "https://epubs.siam.org/doi/10.1137/17M1116672"
+      ],
+      "content_sources": [
+        "https://epubs.siam.org/doi/10.1137/17M1116672",
+        "https://perso.univ-rennes1.fr/michel.crouzeix/publis/CrouzeixPalencia2017.pdf"
+      ],
+      "content_location": "Complete spectral-set bound in abstract/theorem and proof framework",
+      "supports": "Established unconditional complete bound 1+sqrt(2), distinguished from the released claimed complete constant two.",
+      "date_checked": "Online 27 June 2017"
+    },
+    {
+      "key": "GODelyonDelyon1999",
+      "verified_identity": "Bernard Delyon and François Delyon; Generalization of von Neumann's spectral sets and integral representation of operators; Bulletin de la Société Mathématique de France 127(1) (1999), 25--41; DOI 10.24033/bsmf.2340.",
+      "metadata_sources": [
+        "https://numdam.org/articles/10.24033/bsmf.2340/"
+      ],
+      "content_sources": [
+        "https://numdam.org/item/10.24033/bsmf.2340.pdf"
+      ],
+      "content_location": "Convex-domain integral representation and positivity framework",
+      "supports": "Prior positive integral representation/spectral-set machinery; not arbitrary-dimensional complete sharp constant two."
+    },
+    {
+      "key": "GOBadeaCrouzeixDelyon2006",
+      "verified_identity": "Catalin Badea, Michel Crouzeix and Bernard Delyon; Convex domains and K-spectral sets; Mathematische Zeitschrift 252 (2006), 345--365; DOI 10.1007/s00209-005-0857-y.",
+      "metadata_sources": [
+        "https://link.springer.com/article/10.1007/s00209-005-0857-y"
+      ],
+      "content_sources": [
+        "https://arxiv.org/pdf/math/0501184"
+      ],
+      "content_location": "Introduction: scalar and complete spectral-set definitions; convex-domain methods",
+      "supports": "Prior convex spectral-set and complete spectral-set methods.",
+      "date_checked": "arXiv v2 14 April 2005; publisher online 16 August 2005; journal issue 2006"
+    },
+    {
+      "key": "GOLoristSchwenninger2026",
+      "verified_identity": "Emiel Lorist and Felix L. Schwenninger; A solution to Crouzeix's conjecture; arXiv:2608.03841v2.",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2608.03841v2"
+      ],
+      "content_sources": [
+        "https://arxiv.org/pdf/2608.03841v2"
+      ],
+      "content_location": "Lemma 1; Theorem 3; Section 3(iv)",
+      "supports": "Preceding scalar constant-two claim using perturbed 2-dilations and powers; explicit matrix-amplification commutativity obstruction. Not a general complete constant-two theorem.",
+      "date_checked": "v1 4 August 2026; inspected v2 17 August 2026; no journal acceptance asserted"
+    },
+    {
+      "key": "GOAhagCzyzVirtanen2026",
+      "verified_identity": "Per Åhag, Rafał Czyż and Jani Virtanen; The Complete Crouzeix Conjecture in Dimension Three and the Clouâtre--Ostermann--Ransford conjecture; arXiv:2608.27346v4.",
+      "metadata_sources": [
+        "https://arxiv.org/abs/2608.27346v4"
+      ],
+      "content_sources": [
+        "https://arxiv.org/pdf/2608.27346v4"
+      ],
+      "content_location": "Theorem 1.1 and row/column square-function argument (Theorem 1.5)",
+      "supports": "Preceding complete constant-two claim for base matrix order at most three, not arbitrary base dimension.",
+      "date_checked": "v1 27 August 2026; inspected v4 21 September 2026; no journal acceptance asserted"
+    }
+  ],
+  "documentation_findings": [
+    {
+      "id": "GO-DOC-087",
+      "status": "Confirmed documentation inconsistency; not a demonstrated mathematical or solution-proof defect.",
+      "source_path": "lean/docs/087.md",
+      "line_start": 13,
+      "line_end": 17,
+      "details": "The document says the nonsymmetric conjecture is not included, then asserts the general bound and simplex equality; it links GeneralMahler.lean, which declares precisely that target.",
+      "target_source": "lean/ComparatorChallenges/GeneralMahler.lean",
+      "target_lines": [
+        23,
+        32
+      ],
+      "interpretation": "General theorem statement correspondence is present. Formal proof success must be established by checking actual solution artifacts, not these placeholder challenge templates."
+    }
+  ],
+  "independent_controls": [
+    {
+      "id": "GO-JORDAN-SHARPNESS",
+      "input": "A=[[0,2],[0,0]], p(z)=z, coefficient size m=1.",
+      "derivation": "For a unit x in C^2, x*Ax=2 conjugate(x1) x2. Magnitudes fill [0,1] and phases are arbitrary, so W(A) is the closed unit disk. A*A=diag(0,4), hence norm(A)=2 and max_W |p|=1.",
+      "conclusion": "Every universal scalar or complete constant is at least 2. This sharpness control does not verify the claimed upper bound."
+    }
+  ],
+  "adversarial_review": {
+    "actual_proof_defects_identified": [],
+    "documentation_defects_identified": [
+      "GO-DOC-087"
+    ],
+    "unresolved_proof_obligations": "The checks listed per family are review focal points, not findings that their proofs fail.",
+    "scope_corrections_applied": [
+      "General and symmetric Mahler constants/extremal classes kept distinct.",
+      "Scalar Crouzeix C2 separated from complete C2 for arbitrary coefficient size.",
+      "Preceding 2026 arXiv versions dated explicitly, without peer-review acceptance claims.",
+      "Article number removed from Gross entry because original publisher access was blocked; publication identity corroborated by author's university page.",
+      "No finite runner or Lean success inferred from manuscript wording or linked templates.",
+      "The strip-polytope setup explicitly requires pairwise nonproportional rows, matching the released feasible-simplex identity; redundant parallel strips can be deleted."
+    ]
+  }
+}

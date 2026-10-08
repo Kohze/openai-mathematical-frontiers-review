@@ -1,0 +1,353 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,tabularx,longtable,array,microtype}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{3em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\F}{\mathbb F}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\N}{\mathbb N}
+\newcommand{\norm}[1]{\lVert#1\rVert}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\TV}{\operatorname{TV}}
+\newcommand{\poly}{\operatorname{poly}}
+\DeclareMathOperator{\vol}{vol}
+\DeclareMathOperator{\supp}{supp}
+\newtheorem{example}{Example}[section]
+\newtheorem{proposition}{Proposition}[section]
+\title{Mathematical Frontiers in the OpenAI Research Release:\
+Cancellation, Positivity, and Changes of Representation}
+\author{Robin Gounder\thanks{Correspondence: \href{mailto:robin@gounder.com}{robin@gounder.com}.}\\
+{\small Vaionex Corporation}}
+\date{7 October 2026}
+\hypersetup{pdfauthor={Robin Gounder},pdftitle={Mathematical Frontiers in the OpenAI Research Release: Cancellation, Positivity, and Changes of Representation}}
+\begin{document}
+\maketitle
+\begin{abstract}
+The OpenAI mathematics release includes manuscripts claiming solutions to
+longstanding problems. Their significance depends both on the barriers
+their conclusions would cross and on the mathematics introduced to cross
+them. This comparative
+narrative review examines eight cases, spanning arithmetic, convex and
+operator inequalities, counting and sampling, computational hardness,
+group algebras, and kinetic equations. Each case separates the claimed
+change in the theorem from the step intended to achieve it and compares
+that step with its closest primary-literature antecedents. The most
+interesting proposed advances concern cancellation at every averaging
+cutoff, interpolation weights chosen independently of approximation
+centres, compatible estimates under matrix amplification, and signed
+force bounds strong enough for global continuation. Several surrounding
+tools, including similarity theory, residual sampling correction, and
+matrix-to-scalar transfer, are already established. Worked examples show
+why these distinctions matter: logarithmic cancellation can miss an
+ordinary-average bias, restricted energy control can coexist with slow
+mixing, and finite positive certificates need control between their
+nodes. Across the cases, cancellation, positivity, and changes of
+representation explain where the manuscripts seek additional power.
+The resulting comparison identifies candidate methodological advances
+and the precise mathematical questions on which their broader
+significance depends.
+\end{abstract}
+\noindent\textbf{Keywords:} mathematical review; cancellation; positivity;
+Diophantine approximation; approximate counting; proof verification.
+
+\section{Introduction}
+An unexpected solution is most informative when it reveals why an earlier
+obstruction disappears. A stronger theorem may result from a new estimate,
+an altered state space, a sharper quantifier, or a construction in which
+two familiar objects acquire a previously unavailable compatibility.
+These possibilities call for different assessments of mathematical novelty.
+They also determine which parts of a proof may be reusable elsewhere.
+Here a \emph{candidate breakthrough} crosses a previously unresolved
+qualitative barrier, reaches a conjectured sharp endpoint, or changes
+the complexity status of a broad problem class. This distinguishes it
+from an improvement within an existing regime, such as a better
+nonsharp constant or a faster algorithm for an already tractable class.
+Proof novelty is a separate question: established tools can yield a major
+theorem once a difficult new estimate or compatibility is established.
+
+The OpenAI collection contains 722 manuscripts in 372 result families,
+distributed across 17 mathematical subject groups \citep{OpenAIRelease}.
+The repository describes a mixture of verification stages and supplies
+manuscripts, supporting formal artifacts, and selected reasoning summaries.
+This breadth creates a useful occasion for a comparative review, provided
+each case is considered through its precise statement and proof mechanism.
+Throughout this paper, a \emph{release claim} denotes a conclusion stated
+in an accompanying manuscript; established results from the primary
+literature supply the comparison baseline. Mathematical consequences that
+depend on a release claim retain that dependence.
+
+The selected cases address recognizable obstacles and give enough detail
+to locate the mathematical step carrying the claimed advance. They are
+connected by how their proofs organize difficult information: retain a
+signed sum, select the right notion of positivity, or move to a
+representation where a missing estimate becomes accessible. Table~\ref{tab:interfaces}
+provides the overview; the following sections explain the comparisons
+and work through the distinctions that theorem titles leave hidden.
+
+\input{overview}
+
+\section{Review method and meanings of novelty}\label{sec:method}
+This is a purposive comparative narrative review. The catalogue supplied
+the family identifiers, while the principal manuscripts and their source
+files supplied theorem hypotheses, intermediate lemmas, and proof
+dependencies. Prior literature was identified from the manuscripts'
+references and targeted searches for the closest earlier results.
+Comparison used primary papers, publisher records, author manuscripts,
+and archival preprints accessible on 7 October 2026. Bibliographic
+identities and supporting locations are recorded in the accompanying
+reference and source ledgers.
+
+The sample contains ten family identifiers, grouped into the eight cases
+in Table~\ref{tab:interfaces}: 007, 017, 087, 102, 113, 114, 115, 197,
+325, and 362. Selection was contrastive and theme-guided. Family 087
+supplies two distinct routes to sharp geometric inequalities; family 325
+supplies direct and structural formulations; families 113--115 compare
+three different algorithmic transfers. Cancellation, positivity, and
+representation are organizing categories for this sample. The unit of
+analysis is a stated theorem and the proposed intermediate step carrying
+its additional scope. The accompanying comparison register records each
+inclusion, its primary baseline, and the boundary tested by the comparison.
+
+Four questions guide each case. What is the mathematical obstruction?
+Which intermediate statement is intended to overcome it? Which tools were
+already available? Which additional scope, uniformity, or compatibility
+does the new argument require? This approach separates the \emph{novelty
+of a conclusion} from the \emph{novelty of its mechanism}. A familiar
+method can yield a major new theorem; an ingenious intermediate
+construction can remain valuable even if a subsequent implication needs
+revision. Historical comparison also separates a result's generality
+from priority: manuscript dates and repository order alone do not
+establish precedence over concurrent work.
+
+The comparison tracks what each construction must preserve: for example,
+an exact probability law, a nonzero algebraic defect, or an operator bound
+independent of coefficient dimension. It also tracks the order of
+quantifiers and the cost in dimension, precision, degree, or momentum.
+These details determine whether earlier results already achieve the same
+conclusion or whether a new estimate is needed.
+
+The contrastive tests in Section~\ref{subsec:contrastive-tests} make three
+of these boundaries explicit. A restricted energy inequality can coexist
+with arbitrarily slow global mixing; an entrywise operator argument incurs
+a dimension factor; positive values on a finite mesh require additional
+control between its nodes. Together with the averaging and finite-field
+examples, these tests give precise content to the cross-field comparison.
+
+Formal artifacts are considered through their documented mathematical
+statements and inspected source bindings. A comparator links a target
+statement to a solution module and permitted-axiom configuration
+\citep{OpenAIComparator}. The comparison asks whether its hypotheses
+and concrete objects match the manuscript theorem. Source ledgers record
+the statements, bindings, and execution status separately.
+
+\section{Arithmetic cancellation and Diophantine approximation}
+\input{research/arithmetic/section}
+\subsection{An elementary distinction between two averaging laws}
+\begin{example}[A logarithmic average can miss a terminal-scale bias]
+For $j\ge1$, let $M_j=2^{2^j}$, and put $a_n=1$ on the disjoint integer intervals
+$[M_j,2M_j]$ and $a_n=0$ elsewhere. Each occupied interval contributes at
+most a fixed constant to $\sum_{n\le X}a_n/n$, and there are
+$O(\log\log X)$ such intervals up to $X$. Consequently
+\[
+ \frac{1}{\log X}\sum_{n\le X}\frac{a_n}{n}\longrightarrow0.
+\]
+At $X=2M_j$, however, the ordinary mean is at least $1/2$. Thus
+logarithmic cancellation alone does not imply ordinary cancellation at
+every cutoff. This bounded-sequence illustration isolates the logical
+distinction; a multiplicative correlation requires its own arithmetic
+argument.
+\end{example}
+\input{research/geometry-operators/section}
+\input{research/combinatorics/section}
+
+\section{Finite incidence data and one-sided inverses in group algebras}
+\label{sec:algebra}
+A unital ring is directly finite when $ab=1$ implies $ba=1$.
+Finite-dimensional algebras satisfy this property by linear algebra.
+For group algebras in characteristic zero, finite tracial operator methods
+replace finite dimension \citep{Montgomery1969}. In positive characteristic,
+Elek and Szab\'o established direct finiteness for sofic groups using finite
+approximation and rank methods \citep{ElekSzabo2004}. Thus a genuine
+counterexample over a field of positive characteristic also tests the
+reach of finite approximate models of groups.
+
+The characteristic-two manuscript in family 197 states a scalar
+counterexample over a finite field $K$, with a finitely presented group
+containing odd-order torsion \citep{OAIDirectFinite}. Its construction
+uses a finite incidence system, local subgroup embeddings, and character
+packing. The inputs include vectors $x_v\in K^m$ with
+\begin{equation}\label{eq:incidence}
+ \sum_{v\in f}x_vx_v^{\mathsf T}=0\quad(f\in\mathcal F),\qquad
+ \sum_{v\in V}x_vx_v^{\mathsf T}=-I_m,\qquad
+ 0<m<|V|\le m\ell^2.
+\end{equation}
+The regular incidence degree is $\ell+1$, with $\ell$ an odd prime and
+$K$ containing a primitive $\ell$th root of unity,
+and the incidence graph has girth at least 12. Low-degree finite-field
+interpolation supplies the pairing identities; a punctured affine-line
+construction supplies the geometric compatibility. The girth condition
+preserves embedded local groups. Character idempotents then pack a
+rectangular inverse relation into square matrices, whose reverse defect
+is detected inside an embedded subgroup algebra. A finite auxiliary
+group converts the matrix obstruction into scalar elements. The difficult part is making these stages compatible: a local relation
+must survive embedding and still leave a detectable reverse defect.
+
+Two elementary observations help locate its mathematical substance.
+First, finite support does not mean finite dimension: multiplication can
+move outside the span of the original supports. Second, local cancellation
+can coexist with a nonzero total sum in characteristic two. If every
+point occurs in $D=\ell+1$ members, summing all local identities in
+\eqref{eq:incidence} gives
+\[
+ 0=D\sum_{v\in V}x_vx_v^{\mathsf T},
+\]
+and $D=0$ as a field scalar. There is therefore no contradiction with a
+nonzero total pairing. The construction makes essential use of the
+coefficient characteristic, rather than importing a real positive
+semidefinite interpretation of $x_vx_v^{\mathsf T}$.
+
+\begin{example}[A miniature finite-field cancellation]
+Write $\F_4=\{0,1,\alpha,1+\alpha\}$ with
+$\alpha^2+\alpha+1=0$. The degree-one interpolant $f(t)=1+t$ satisfies
+\[
+ \sum_{t\in\F_4}f(t)^2=0,\qquad
+ \sum_{t\in\F_4\setminus\{0\}}f(t)^2=1.
+\]
+Deleting the point at which $f(0)=1$ changes a vanishing full-field sum
+into a nonzero pairing. This illustrates the algebra behind puncturing.
+The high-girth regular incidence system and subgroup embeddings are the
+additional ingredients needed for the manuscript's counterexample.
+\end{example}
+
+Stable finiteness concerns every matrix ring and is stronger than direct
+finiteness of a fixed ring. Dykema and Juschenko proved that stable
+finiteness of $K[G]$ is equivalent to direct finiteness of $K[G\times H]$
+for every finite group $H$ \citep{DykemaJuschenko2015}. The transfer from
+matrices to scalars therefore has an established conceptual predecessor.
+The candidate new construction is the incidence system that supplies the
+defect while allowing all required subgroup embeddings and character
+packing. Its regularity and high girth serve different purposes: the
+first makes the characteristic-two cancellation possible, while the
+second protects local relations from unintended identifications. The
+documented selected formal scope covers the characteristic-two scalar
+defect; its nonsofic consequence follows mathematically from
+\citet{ElekSzabo2004} once that defect is established
+\citep{OpenAIScope197}. The original characteristic-two manuscript and
+the catalogue's later torsion-free companion address different group
+hypotheses and should be distinguished.
+
+\section{Signed impulse and large-data relativistic Vlasov--Maxwell}
+\label{sec:pde}
+For particle momentum $v$, put $q(v)=\sqrt{1+|v|^2}$ and
+$u(v)=v/q(v)$. The transport equation is
+\[
+ \partial_t f+u(v)\cdot\nabla_x f+
+ (E+u(v)\times B)\cdot\nabla_v f=0,
+\]
+coupled to Maxwell's equations with charge and current generated by $f$.
+Global weak existence and global classical regularity are different
+problems. The former has a longstanding theory
+\citep{DiPernaLions1989,Rein2004Weak}; the latter requires control that
+prevents concentration or unbounded momentum support.
+
+Glassey and Strauss established a bounded-momentum continuation
+criterion \citep{GlasseyStrauss1986}. Bouchut, Golse, and Pallard developed
+a physical-space proof \citep{BouchutGolsePallard2003}, and Luk and Strain
+weakened the required support control to its projection onto a fixed
+two-dimensional plane \citep{LukStrain2014Continuation}. Wang's July 2026
+two-paper treatment addresses arbitrarily large cylindrically symmetric
+localized data \citep{Wang2026I,Wang2026II}. This recent comparison matters:
+the proposed additional generality is removal of symmetry within the
+stated data class, rather than large-data existence as an undifferentiated
+label.
+
+Family 362 states global smooth classical existence and uniqueness for
+one-species three-dimensional data with nonnegative compactly supported
+smooth particle density, finite-energy smooth initial fields with bounded
+derivatives, and the Gauss constraints \citep{OAIVlasov}. Its key quantity
+is the \emph{signed impulse} along a particle characteristic,
+\[
+ V(t_2)-V(t_1)=\int_{t_1}^{t_2}
+ \bigl(E(t,X(t))+u(V(t))\times B(t,X(t))\bigr)\,dt.
+\]
+An asserted source-trajectory cancellation rewrites a singular retarded
+force contribution as a total derivative and residual terms. A direction
+estimate improves occupation control before the signed-force selection
+uses it. Fix a finite horizon $T_0$ and a compact classical solution
+prefix. The parameters $P$ and $w$ are dyadic, with $P$ above a fixed
+threshold and at least 1024 times the maximum supported particle energy
+on that prefix. On an interval throughout which
+$w/8\le q(V_X(t))\le8w$, the resulting bootstrap aims to prove
+\begin{equation}\label{eq:impulse}
+ |V(t_2)-V(t_1)|\le MP\sqrt{\Delta t}
+       +A\Delta t\,\frac{P^2\log(2+P)}{w},
+\end{equation}
+The constants $M,A$ may depend on the datum and $T_0$, but are uniform
+in the compact solution prefix and the parameter $P$. The decisive new
+burden is closing this estimate,
+including cutoff and receiver-acceleration errors.
+
+The terminal implication can be inspected separately. Suppose a finite
+maximal lifespan exists, fix that lifespan as $T_0$, and let $t_n$ be the
+first time the maximum supported energy reaches $2^n$. Choose a label
+attaining this maximum and let $s_n$ be its last crossing of $2^{n-1}$
+before $t_n$. Then $s_n\ge t_{n-1}$, and its energy stays in
+$[2^{n-1},2^n]$ on $[s_n,t_n]$. Take $P=1024\,2^n$, $w=2^n$, and
+$\Delta t=t_n-s_n$; all band and prefix hypotheses hold for sufficiently
+large $n$. Since $q$ is 1-Lipschitz, that energy increase requires a
+momentum increment at least $2^{n-1}$. Substituting in
+\eqref{eq:impulse} and cancelling $2^n$ gives
+\[
+ \tfrac12\le1024M\sqrt{\Delta t}
+       +1024^2A\Delta t\log(2+1024\,2^n).
+\]
+At least one term is at least $1/4$, so
+$t_n-t_{n-1}\ge\Delta t\ge c/(n+1)$. The sum diverges. Conditional on the
+uniform impulse estimate and continuation criterion, infinitely many
+doublings cannot occur in finite time. This isolates the analytic
+innovation from its final continuation consequence.
+
+The momentum loss enters this route through a summability test. Replacing
+$\log(2+P)$ in \eqref{eq:impulse} by an increasing $H(P)\ge1$ would give
+$t_n-t_{n-1}\ge c/H(1024\,2^n)$. Divergence of the reciprocal-scale series
+therefore suffices for the same continuation inference. In particular,
+the loss $\log^\beta(2+P)$ with $\beta>1$ would supply only summable
+lower bounds of order $(n+1)^{-\beta}$. A mildly larger loss of order
+$\log P\log\log P$, by contrast, still gives the divergent series
+$\sum_n1/(n\log n)$. The proposed methodological advance is the signed-force
+closure with a divergence-compatible budget and scale-uniform constants;
+the final summability argument is its elementary consequence.
+
+Taking absolute values before integration would replace the left side by
+an accumulated force norm and discard the cancellation. The general
+lesson is shared with correlation estimates in number theory, although
+the actual identities and geometric estimates are different. Here the distinction from a standard refinement is clear: a smaller
+constant in an absolute-force bound would retain the same obstacle,
+whereas a signed bound with a divergence-compatible momentum loss would
+change the continuation argument. Its validity depends on the
+source-time change of variables, angular sums, and bootstrap constants
+remaining uniform as momentum grows. The selected formal statement
+includes the smooth global solution and uniqueness class
+\citep{OpenAIScope362}.
+
+\input{synthesis}
+
+\section*{AI disclosure}
+OpenAI Codex agents contributed substantially to source discovery,
+literature synthesis, and mathematical exposition.
+\begingroup\small
+\bibliographystyle{plainnat}
+\bibliography{references}
+\endgroup
+\end{document}

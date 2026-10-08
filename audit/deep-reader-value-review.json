@@ -1,0 +1,250 @@
+{
+  "schema": "deep-reader-value-review/1",
+  "reviewed_on": "2026-10-07",
+  "manuscript": "Mathematical Frontiers in the OpenAI Research Release: Cancellation, Positivity, and Changes of Representation",
+  "reviewer": {
+    "role": "Internal Codex agent and prior author of the combinatorics fragment",
+    "bias": "I helped write and revise part of the paper. Familiarity with its intended argument can make missing explanations less visible and can bias this assessment favorably. I deliberately reread the complete current prose as an interdisciplinary reader, but this is not independent external peer review.",
+    "validation_scope": "Reader value, coherence, review-owned illustrations, novelty positioning, and selected primary-source support. No independent validation of the released proofs or formal builds."
+  },
+  "reviewed_artifact": {
+    "pages": 25,
+    "references": 82,
+    "main_text_extent": "The main discussion occupies approximately 18 pages; references begin on page 19 and continue through page 25.",
+    "hashes": {
+      "main.tex": "e6110a42df3a1903432bc64348dbe79f5b0ada4a285b98a5e92bb70588c13f24",
+      "synthesis.tex": "0614eb96797a30521300091434e1f90275ff2a7f0d980d85ed2627d4759fa599",
+      "research/contrastive-tests.tex": "6a8fa8473144b3717a81bc7b2655ff576456a455c89ab259368b1d55b04a251e",
+      "research/arithmetic/section.tex": "cfe0fdb31c1e26cc84b7d8f027876c18dd5bd22b63698143fcdb4df116a877f1",
+      "research/combinatorics/section.tex": "dc6c5f59b3c806210eeec3ae0e09ffef240f0ff0d5f995b1b2a27a55d3ba96e4",
+      "research/geometry-operators/section.tex": "bea8b61cc87ef8da635fe09941917f706b896df333544135f08d4ea93011853e",
+      "research/comparison-register.json": "9c1d9dc55b07120d4378353ce4ba41ec551816231e4a8a2b340d470a0c8459b8",
+      "references.bib": "42956c6d5fc0592d8e0b74c7b3d8c4d9fe1b14467edb0e3b638e7b0e8ef5d8d4",
+      "openai-mathematical-frontiers.pdf": "ba34bff8128aa1bbcfee18a4a118aa2aea3a1dacd2c5ee0807bdaee117b57a64"
+    }
+  },
+  "reading_coverage": [
+    "Complete current main.tex including group-algebra and kinetic sections",
+    "Complete current synthesis.tex and contrastive-tests.tex",
+    "Complete arithmetic, geometry/operators and combinatorics fragments",
+    "Comparison register and selected evidence/bibliography records",
+    "PDF text/page distribution; this was not a new visual-layout audit"
+  ],
+  "overall": {
+    "score_out_of_10": 7.2,
+    "confidence": 0.78,
+    "judgement": "Yes, this is worth reading for a mathematically trained reader seeking a careful map of candidate breakthroughs and the precise obstacles they purport to overcome. It now contains genuine synthesis and useful small mathematical controls. It is still less accessible and less natural than a strong interdisciplinary survey: several mechanism summaries assume specialist vocabulary, and repeated verification-oriented endings weaken the narrative payoff.",
+    "naturalness": "Professional, precise and mostly readable. Some passages feel assembled from domain reports rather than written around one reader's questions. That impression comes from repeated patterns of naming a proposed bridge, listing technical constructions, and ending with audit priorities; it is not a claim that prose style can determine authorship.",
+    "length": "The breadth can justify roughly 18 pages of discussion plus the source-rich bibliography. The current length is defensible, but 10–15% of generic method/verification repetition could be exchanged for short explanations of the few technical objects the argument actually needs. More citations or more case studies would not improve the paper at this stage.",
+    "recommendation": "Focused editorial revision, rather than another broad literature expansion. Prioritize explanatory entry points, a concrete reader promise in the introduction, and mathematical takeaways at case endings.",
+    "distinction_from_prior_audit": "The contrastive selection register, four-state control, amplification example, grid example, source-attribution fixes, and superlogarithmic-loss correction resolve the earlier specific concerns. They are not reopened here."
+  },
+  "scores": [
+    {
+      "category": "Reader value",
+      "score": 7.5,
+      "reason": "A reader gains a map of which additional compatibility or quantifier is doing the work, rather than merely learning that famous conjectures are claimed solved."
+    },
+    {
+      "category": "Concrete intellectual payoff",
+      "score": 7.5,
+      "reason": "The four-state chain, duplicate-row square, characteristic-two cancellation, scalar/amplified norm distinction, and dyadic summability analysis make several comparisons memorable."
+    },
+    {
+      "category": "Coherence across disciplines",
+      "score": 7.5,
+      "reason": "The input/property/quantifier/loss profile connects the cases without pretending their positivity notions are identical. The itinerary still needs a reader-facing preview before the specialist tours."
+    },
+    {
+      "category": "Accessibility to a mathematically trained interdisciplinary reader",
+      "score": 6.5,
+      "reason": "Jets, matroids/common bases, FPRAS, Unique Games, missing-slot transport and layer fields arrive with uneven explanation. A reader outside a case's field can often repeat the mechanism name without understanding the mathematical object."
+    },
+    {
+      "category": "Natural prose and narrative momentum",
+      "score": 6.5,
+      "reason": "Direct mathematical passages read well; recurring proposed-bridge and verification-target closures interrupt the exposition and make the sections feel templated."
+    },
+    {
+      "category": "Novelty assessment beyond source annotation",
+      "score": 7.5,
+      "reason": "The four-column table and comparisons with concurrent work clearly separate inherited ingredients from additional scope. Some section conclusions still list what to inspect instead of giving a concise authorial judgement about what would be new."
+    },
+    {
+      "category": "Selection and scope honesty",
+      "score": 8,
+      "reason": "Theme-guided contrastive selection and the absence of a historical exhaustive omission list are now explicit. The paper makes claims about its selected cases rather than prevalence across the corpus."
+    },
+    {
+      "category": "Source use and historical positioning",
+      "score": 8,
+      "reason": "Primary comparisons, fixed versions and explicit preprint status are strengths. The fresh source checks below support selected consequential contrasts; they do not establish comprehensive coverage or validate the released proofs."
+    },
+    {
+      "category": "Length efficiency",
+      "score": 7,
+      "reason": "The case breadth and bibliography justify the page count, but repeated methodology and source-binding detail compete with the explanations an interdisciplinary reader most needs."
+    },
+    {
+      "category": "Review-owned mathematics and evidential calibration",
+      "score": 8.5,
+      "reason": "The illustrative calculations are appropriately small and their inferential limits are clear. This score does not rate the correctness of the underlying breakthrough claims."
+    }
+  ],
+  "strongest_passages": [
+    {
+      "location": "research/geometry-operators/section.tex:88–104",
+      "value": "The square with duplicate rows makes a representation-dependent probability multiplicity tangible. This is a strong example of why a geometric object and its indexed encoding are different."
+    },
+    {
+      "location": "research/contrastive-tests.tex:6–26",
+      "value": "The four-state chain gives an exact, reusable explanation of why selected-observable control does not imply a full spectral gap."
+    },
+    {
+      "location": "main.tex:307–337",
+      "value": "The signed impulse estimate is followed through to dyadic doubling times, and the generalized reciprocal-scale test shows exactly which loss budgets preserve the consequence. This teaches an argument rather than only locating one."
+    },
+    {
+      "location": "research/geometry-operators/section.tex:216–260",
+      "value": "The scalar, small-base complete and arbitrary-dimensional complete scopes are compared, and classical similarity/attainment are separated from the proposed sharp bound."
+    },
+    {
+      "location": "research/combinatorics/section.tex:96–127",
+      "value": "The table-sampling discussion separates target law, precision dependence, exact law computation and expected branch cost. These distinctions have relevance beyond the source manuscript."
+    }
+  ],
+  "findings": [
+    {
+      "id": "DRV1",
+      "severity": "major",
+      "kind": "reader-accessibility concern, not a mathematical error",
+      "location": [
+        "research/arithmetic/section.tex:113–135",
+        "research/combinatorics/section.tex:53–78",
+        "research/combinatorics/section.tex:158–182",
+        "research/geometry-operators/section.tex:135–149"
+      ],
+      "passages": [
+        "'weighted transverse multiplicity ... positivity on an ordinary blow-up of finite-colength jet ideals'",
+        "'missing-slot conditional laws ... transversal trace'",
+        "'a latent-alphabet gadget: an equivariant nonlinear observable is stable under noise'",
+        "'compare the entire layer field with spectral thresholds of a linear Gaussian matrix'"
+      ],
+      "issue": "The prose moves from a precise theorem into a sequence of specialist objects before explaining the object or the problem each construction solves. The Unique Games case never defines the game/value; the arithmetic interpolation case never explains a jet; FPRAS is used without expansion. These omissions materially limit the promised cross-disciplinary readership.",
+      "reader_consequence": "A reader can learn which lemma to inspect but may not understand why its mathematical conclusion is unusual.",
+      "remedy": "Give two or three plain sentences at the point of first use, then retain only the technical details needed for the comparison. Pay for these sentences by compressing generic case-ending verification material. The Unique Games replacement below is a concrete example.",
+      "priority": "highest"
+    },
+    {
+      "id": "DRV2",
+      "severity": "major",
+      "kind": "narrative/payoff concern, not an accusation of unsupported source mathematics",
+      "location": [
+        "research/arithmetic/section.tex:86–95",
+        "research/combinatorics/section.tex:193–198",
+        "research/geometry-operators/section.tex:257–272",
+        "main.tex:246–253",
+        "synthesis.tex:173–199"
+      ],
+      "passages": [
+        "'The supplied comparator configuration selects three final declarations'",
+        "'Uniformity of the gadget and the decoder’s information constraints are therefore decisive verification targets'",
+        "'These conclusions warrant separate statement and proof audits'",
+        "'Verification should concentrate on this joint compatibility'"
+      ],
+      "issue": "Several sections end by turning back toward verification procedure rather than giving the reader a mathematical takeaway. The method already explains the evidential layers. Their repeated return makes the paper feel partly like an annotated source-audit package and dilutes the authorial comparison.",
+      "reader_consequence": "The reader reaches the end of a case knowing what to check next, but with a weaker sense of what the review itself concludes about the location and type of the proposed novelty.",
+      "remedy": "Keep the source-status distinctions, and retain exceptional scope facts that alter the mathematics, such as unrestricted versus cell-restricted table laws or the family087 statement conflict. Relocate routine exact declaration names and module bindings to the evidence appendix/ledger. End cases with the narrow novelty verdict; end the paper with the concrete lessons gained from the comparisons.",
+      "priority": "high"
+    },
+    {
+      "id": "DRV3",
+      "severity": "minor",
+      "kind": "opening and reader-orientation concern",
+      "location": [
+        "main.tex:64–96",
+        "main.tex:98–147",
+        "synthesis.tex:1–68"
+      ],
+      "issue": "The introduction and method explain several times how novelty will be assessed before demonstrating why the exercise is interesting. The most useful barrier/inherited-tool/new-bridge map appears on page15, after the reader has already navigated all eight grouped cases.",
+      "reader_consequence": "The paper's independent payoff is delayed; the early pages sound more procedural than the later mathematical examples.",
+      "remedy": "Replace the repeated selection/itinerary paragraph in the introduction with a short concrete contrast between exact table sampling and complete Crouzeix. Leave selection documentation in the method. Add a sentence telling readers where to find the synthesis table; moving the long table is optional.",
+      "priority": "medium"
+    },
+    {
+      "id": "DRV4",
+      "severity": "minor",
+      "kind": "application-section selectivity concern",
+      "location": [
+        "synthesis.tex:147–182"
+      ],
+      "issue": "The application discussion gives every domain a research program and several generic implementation requirements. These statements are responsible, but their breadth adds little prioritization for a reader asking which proposed ideas could be used first.",
+      "reader_consequence": "The reader receives another balanced list rather than a concrete distinction between implementable finite checks, enormous-constant theoretical algorithms, and primarily foundational consequences.",
+      "remedy": "Compress the domain-by-domain audit itinerary. Retain a short contrast: finite scalar/operator certificates offer immediately testable objects; counting algorithms require realistic enlargement and law-evaluation costs; the PDE theorem chiefly changes the analytical foundation. Any actual performance or feasibility ranking would require evidence beyond this review.",
+      "priority": "medium"
+    }
+  ],
+  "concrete_revision_text": [
+    {
+      "addresses": [
+        "DRV1"
+      ],
+      "location": "research/combinatorics/section.tex, replace the opening paragraph of the Unique Games section; the following release theorem remains unchanged",
+      "latex_text": "A Unique Game assigns labels to the vertices of a constraint graph. Each edge carries a permutation, so fixing the label at one endpoint determines the label that satisfies that edge at the other. The value of the game is the largest fraction of edges satisfied by a labeling. Perfect satisfiability can be checked by propagating labels; the difficult regime is almost satisfiability: distinguishing value at least \\(1-\\varepsilon\\) from value at most \\(\\delta\\), for fixed positive errors \\cite[Section~2.4]{FrontKhot2010}. The established shortcode and Grassmann-expansion line gives imperfect-completeness hardness \\cite{FrontBKS2019,FrontKMS2023}. Ordinary repetition reduces completeness as well as soundness, so it does not by itself reach the near-one regime. The claimed advance in family102 is a gadget that changes this tradeoff; the downstream SDP-threshold framework is already available conditionally \\cite{FrontRaghavendra2008}.",
+      "primary_support": "Khot's original author PDF, Definition2.4 and Conjecture2.5, pp.5–6; the immediately preceding discussion explains polynomial-time propagation when the optimum is exactly1.",
+      "implementation_note": "Use the existing FrontKhot2010 citation. No new bibliography item is needed. The text concerns the standard finite-alphabet constraint formulation, and does not claim that an almost-satisfiable instance can be decided by propagation.",
+      "additional_short_entry_point": "Before the arithmetic interpolation mechanism: 'A jet is a prescribed finite list of derivatives at a point. The interpolation step must meet many such prescriptions while controlling the polynomial degree and the later denominator cost. Its distinctive quantifier is that the weights are chosen before the approximation centres are known.' Expand FPRAS as 'fully polynomial randomized approximation scheme' at its first occurrence."
+    },
+    {
+      "addresses": [
+        "DRV3"
+      ],
+      "location": "main.tex, replace the final introduction paragraph beginning 'The case studies were selected for three reasons'; selection remains documented in the method",
+      "latex_text": "The review asks what would actually have to be new for these conclusions to follow. Exact table generation, for example, uses an earlier correction method; the proposed advance is computing the approximate sampler's law at a cost the rare correction can afford \\citep{FrontGLMP2024}. Complete Crouzeix draws on established spectral-set and similarity methods; its additional burden is keeping the sharp constant independent of the matrix-coefficient dimension \\citep{GOCrouzeixPalencia2017,GOPaulsen1984}. The remaining cases are read in the same way, separating the obstacle, the inherited route, and the additional estimate. Arithmetic and kinetic examples emphasize quantifiers and cancellation; convex and operator examples emphasize sharpness; counting and algebra emphasize what must be preserved when a representation changes. Table~\\ref{tab:interfaces} collects the resulting novelty judgements.",
+      "implementation_note": "This replaces procedural material rather than adding another introductory paragraph. It keeps the current conditional source-result status and existing citations."
+    },
+    {
+      "addresses": [
+        "DRV2"
+      ],
+      "location": "synthesis.tex, replace the present conclusion with a shorter reader-facing takeaway; routine verification advice remains in the method and evidence package",
+      "latex_text": "The comparison locates three recurring sources of added scope: retaining information that an earlier estimate discards, changing a representation while preserving a precise property, and keeping a loss uniform across the required parameters. The examples show why each qualifier matters. A restricted energy estimate can survive when global mixing fails; a scalar norm argument can lose a matrix-dimension factor; a positive mesh can miss a negative value between its nodes. For exact tables, the proposed law evaluator carries the additional algorithmic burden; for common bases, selected transport must be sufficient together with trace and return control; for complete Crouzeix, the ordered estimates must survive arbitrary amplification. These narrower intermediate statements are the mathematical objects through which the candidate breakthroughs should be understood. Their reconstruction would distinguish new reusable estimates from new combinations of established machinery.",
+      "implementation_note": "This proposal retains conditionality without repeating the full audit workflow. It is not a new theorem, a performance assertion, or certification of the release."
+    }
+  ],
+  "primary_source_checks": [
+    {
+      "url": "https://cs.nyu.edu/~khot/papers/UGCSurvey.pdf",
+      "location": "Definition2.4, Conjecture2.5 and preceding exact-satisfiability discussion, printed pp.5–6",
+      "supports": "The game/value definition, error-dependent fixed alphabet, and exact-satisfiability propagation used in the proposed explanatory paragraph.",
+      "result": "Primary text directly checked."
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.00882v2",
+      "location": "Abstract, fixed version dated6December2024",
+      "supports": "Earlier exact-sampling conversion combines approximation with an output-distribution oracle. This supports the review's distinction between inherited correction and the proposed table-law evaluator.",
+      "result": "Primary abstract rechecked. Detailed conversion hypotheses remain as previously recorded in the domain ledger."
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.03841v2",
+      "location": "Abstract and version history",
+      "supports": "The preceding scalar Crouzeix manuscript explicitly combines prior weaker-estimate tools with a perturbation lemma. Its existence supports the need to isolate complete amplification rather than characterize every constant-two claim as first.",
+      "result": "Primary metadata/abstract rechecked; no new proof validation."
+    },
+    {
+      "url": "https://arxiv.org/html/2610.06724v1",
+      "location": "Abstract and Section1, lines93–107 and163–165 in the browser extraction",
+      "supports": "The contemporaneous common-base FPRAS claim and alternative soft-intersection/curvature/external-field route.",
+      "result": "Actual title, authors, date and substantive theorem/method statements rechecked, not merely HTTP status."
+    }
+  ],
+  "unresolved_mathematical_errors": "No new demonstrated mathematical error was found in this reader-value review. The findings concern exposition, emphasis, and the independent payoff of the review.",
+  "retained_strengths_and_scope": [
+    "The contrastive selection is honest and does not claim a corpus-wide systematic screen.",
+    "Different meanings of positivity are separated rather than presented as one universal method.",
+    "The prior/concurrent preprints are labelled as claims; established literature supplies the baseline.",
+    "The finite illustrative checks are not used as evidence of the broad released algorithms or theorems.",
+    "AI disclosure remains in its dedicated section."
+  ],
+  "manuscript_edit_status": "No manuscript, bibliography, reproduction-code or frozen-ledger edits. Only this audit report was added."
+}

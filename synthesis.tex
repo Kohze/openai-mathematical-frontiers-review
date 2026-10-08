@@ -1,0 +1,139 @@
+\section{Methodological novelty across the selected cases}
+\label{sec:synthesis}
+The cases differ sharply in what would be new. In the arithmetic and
+kinetic problems, the central proposal is stronger cancellation with
+the right uniformity. In the operator problem, it is compatibility of
+ordered estimates under arbitrary amplification. In the algebraic and
+algorithmic cases, it is a construction that preserves a defect or a
+probability law through several changes of representation. These are
+more informative descriptions than the names of the conjectures alone.
+
+
+
+\subsection{Cancellation before irreversible estimates}
+The arithmetic and kinetic cases share an order-of-operations principle.
+An absolute-value estimate is irreversible: a small signed contribution
+can become a large positive contribution once its sign is discarded.
+In the correlation manuscripts, common prime residues and repeated labels
+retain dependencies that contribute to cancellation. In the kinetic
+manuscript, source-trajectory differentiation combines transport and
+acceleration terms before the force norm is estimated. Their detailed
+mechanisms differ, but in each case the proposed advance depends on
+keeping the relevant structure until the averaging or integration step.
+
+This observation suggests a disciplined search for transferable ideas.
+The candidate is a representation that makes a signed identity visible,
+together with a norm estimate for its residual terms. A cancellation
+identity alone does not control the boundary, cutoff, or dependence costs
+created by using it. The most useful research question is consequently
+whether the resulting residual budget closes with the quantifiers required
+by the application. The high-trace and angular-summation checkpoints offer
+concrete examples of this distinction.
+
+\subsection{Positivity has several mathematically distinct meanings}
+Positivity of a scalar expression, positivity of an operator block, and a
+one-positive-direction signature are different statements. The Crouzeix
+case uses operator positivity in a functional calculus that must remain
+valid under amplification. The matroid case uses an indefinite quadratic
+structure to transport selected observables. The convex-geometric cases
+convert projection or feasibility information into an integral inequality.
+These uses should be compared at the level of their exact hypotheses,
+rather than grouped under a universal positivity principle.
+
+The finite-field example offers a useful contrast. Transpose pairings in
+characteristic two have no real order structure: simultaneous vanishing
+local sums and a nonzero total sum are algebraically compatible. Treating
+the pairings as positive semidefinite matrices over the reals would destroy
+the intended construction. The review's connection is methodological:
+each argument chooses a structure whose composition rules can carry the
+desired global conclusion.
+
+\subsection{Changing representation changes the proof obligation}
+The counting case studies do more than optimize a familiar chain. They
+alter the state space, the observable family, or the precision model in
+which a transfer theorem is applied. The group-algebra construction moves
+from finite incidence to local groups, rectangular relations, square
+matrices, and finally scalar group-ring elements. The operator argument
+must retain the sharp constant under passage to matrix-valued functional
+calculus. Each movement creates an interface at which a property must be
+preserved.
+
+For sampling, that property is a probability law: copying labels can
+change how often an unlabelled object occurs. For algebra, it is a
+nonzero defect: a map available on a subgroup need not extend to the
+whole ring. For complete operator bounds, it is a dimension-independent
+norm statement: entrywise scalar estimates can introduce a coefficient
+dimension factor. A proposed reduction therefore deserves attention both
+for what it simplifies and for what it must preserve.
+
+\subsection{Uniformity can be the main mathematical advance}
+Several claims hinge on constants, quantifiers, or limits that are easy to
+lose in informal exposition. Ordinary cancellation at every cutoff is
+stronger than cancellation outside an exceptional set of scales. Selecting
+interpolation weights before the approximation centres are chosen is
+stronger than choosing a convenient weight after seeing those centres.
+A momentum estimate with constants independent of the current solution
+interval can rule out finite-time breakdown; a bound depending on that
+interval's uncontrolled force cannot supply the same continuation argument.
+
+Computational uniformity is equally substantive. A polynomial number of
+oracle calls, a polynomial bit bound, expected work, and a bounded-time
+algorithm describe different guarantees. An exact output distribution is
+a stronger law statement than a total-variation approximation, but its
+expected cost can include exceptionally expensive correction events.
+The question for a practical application is which of these quantities
+remains controlled on the intended instances.
+
+\input{research/contrastive-tests}
+
+\section{Research consequences and application pathways}
+The most promising further work begins with a specific mathematical
+object. In correlations it is the finite-law comparison that preserves
+shared prime residues; in kinetic theory it is the source-force identity
+and the size of its residual terms. The similarity and exact-correction
+arguments, by contrast, already have general theories. Their value here
+depends on new estimates or computable laws that meet those theories'
+hypotheses. This distinction helps identify which parts merit extraction
+as reusable lemmas.
+
+Three application routes have especially concrete tests. A matching
+prototype can measure how weighted subdivision and replication enlarge
+the input before its sampler is run. A table sampler can compare the
+uniform output law and expected correction cost against methods for
+restricted margins. An operator implementation can compare the sharp
+constant with the established $1+\sqrt2$ bound on the same numerical-range
+enclosure. In each case, the theoretical improvement matters only to the
+extent that its cost or error remains significant after the surrounding
+computation. The PDE claim would primarily change the analytical
+foundation; a numerical method would still need its own stability and
+convergence analysis.
+
+The finite examples suggest manageable first questions without replacing
+the main proofs. The Mahler scalar certificates can be examined together
+with the interpolation and tail estimates that extend them beyond their
+nodes. Common-base transport and curvature can be compared on the same
+oracle families. A finite incidence witness can be checked against the
+regularity, pairing, and embedding conditions simultaneously. Such
+studies would explain which parts of the proposed arguments travel to
+other problems and which rely on their original setting.
+
+\section{Conclusion}
+A large claimed theorem and a new mathematical method are different
+achievements. The selected release manuscripts would have major
+consequences if established, but much of their surrounding machinery is
+classical. Their candidate methodological contributions are more
+specific: retaining shared-residue cancellation at every cutoff,
+choosing interpolation weights before the centres, controlling ordered
+operator estimates in every coefficient dimension, constructing
+compatible incidence data, and closing a signed-force estimate across
+all momentum scales.
+
+The common lesson is that a seemingly small condition can mark a
+qualitative boundary. A restricted energy estimate is useful only for
+the observables an algorithm needs; a finite certificate reaches a
+continuum only through additional control; retaining a sharp scalar
+constant for matrix coefficients requires additional control under
+amplification.
+The review locates these boundaries and compares the proposed ways of
+crossing them. They offer a more useful guide to the release's interesting
+mathematics than treating every sophisticated ingredient as an innovation.

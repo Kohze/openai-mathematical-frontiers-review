@@ -1,0 +1,416 @@
+{
+  "date": "2026-10-07",
+  "scope": "Final authoring-workflow disposition of internal exposition reviews. Historical review snapshots are preserved; these resolutions identify the delivered text. Not external peer review or proof certification.",
+  "findings": [
+    {
+      "id": "GXR1",
+      "severity": "major",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "resolved_during_review",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc",
+      "resolution_evidence": "One fixed factor must satisfy, for every fixed Dirichlet character",
+      "resolution": "Name one fixed factor before the character quantifier."
+    },
+    {
+      "id": "GXR2",
+      "severity": "major",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/combinatorics/section.tex",
+      "current_sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e",
+      "resolution_evidence": "s=s(\\varepsilon,\\delta)",
+      "resolution": "State s=s(epsilon,delta), fixed independently of input size. For example: 'over F_2^{s(epsilon,delta)}, with alphabet dimension depending only on the errors'."
+    },
+    {
+      "id": "GXR3",
+      "severity": "minor",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "resolved_during_review",
+      "status": "resolved",
+      "current_file": "overview.tex",
+      "current_sha256": "d7d6fa6454e20d90181709494a46ba4b378ef1b76fe1bcd414cad53b2bbe8549",
+      "resolution_evidence": "every base and coefficient dimension",
+      "resolution": "State both base and coefficient dimensions."
+    },
+    {
+      "id": "GXR4",
+      "severity": "minor",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/combinatorics/section.tex",
+      "current_sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e",
+      "resolution_evidence": "actual correction-branch probability",
+      "resolution": "Define C as the correction event, delta=Pr(C), and use E[T]=(1-delta)E[T|C^c]+delta E[T|C], or define the existing symbols explicitly. State that delta is the actual mixture probability rather than merely the TV error."
+    },
+    {
+      "id": "GXR5",
+      "severity": "minor",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/combinatorics/section.tex",
+      "current_sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e",
+      "resolution_evidence": "polynomial comparison bound carried from the pair estimate",
+      "resolution": "Define N and D with the source construction's meanings, or replace the formula with a descriptive sentence about the explicitly large polynomial replication. Do not guess these meanings."
+    },
+    {
+      "id": "GXR6",
+      "severity": "minor",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc",
+      "resolution_evidence": "the growth exponents in the degree parameter are $m+1$",
+      "resolution": "Say 'the full-simplex row count has degree-growth exponent m+1, whereas the transverse-index count has exponent m', defining m if helpful."
+    },
+    {
+      "id": "GXR7",
+      "severity": "minor",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc",
+      "resolution_evidence": "The comparator selects \\texttt{OAI.PiExponent.main}",
+      "resolution": "Use 'the comparator configuration selects the declaration ...'. This states the inspected fact precisely without another defensive disclaimer."
+    },
+    {
+      "id": "GXR8",
+      "severity": "minor",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc",
+      "resolution_evidence": "q\\in\\mathbb N",
+      "resolution": "Declare a_i in Z_{>=1}, b_i in Z_{>=0}, and q in positive integers in the corresponding statement."
+    },
+    {
+      "id": "GXR9",
+      "severity": "minor",
+      "source_review": "audit/geometry-cross-review.json",
+      "original_snapshot_status": "advisory",
+      "status": "resolved",
+      "current_file": "synthesis.tex",
+      "current_sha256": "c63adb4111d53eaa26f4c441b42a5b108d491c380be3ffd3a39f834bdf4cd7f2",
+      "resolution_evidence": "must retain the sharp constant under passage to matrix-valued functional calculus",
+      "resolution": "Prefer 'the operator argument must retain the sharp constant under passage to matrix-valued functional calculus'."
+    },
+    {
+      "id": "AR-X1",
+      "severity": "major",
+      "source_review": "research/arithmetic/cross-review.json",
+      "original_snapshot_status": "resolved_and_reinspected",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution_evidence": "w/8\\le q(V_X(t))\\le8w",
+      "resolution": "State fixed datum/horizon dependence; dyadic P>=P0 with P>=1024 max prefix energy; receiver band w/8<=q<=8w. For first maximum hit t_n choose the maximizing label and its last crossing s_n of 2^(n-1), so s_n>=t_(n-1), use Delta=t_n-s_n and t_n-t_(n-1)>=Delta."
+    },
+    {
+      "id": "AR-X2",
+      "severity": "minor",
+      "source_review": "research/arithmetic/cross-review.json",
+      "original_snapshot_status": "resolved_and_reinspected",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution_evidence": "containing a primitive $\\ell$th root of unity",
+      "resolution": "Add 'with K chosen to contain a primitive ell-th root of unity' near the odd-prime ell/regularity description."
+    },
+    {
+      "id": "AR-X3",
+      "severity": "minor",
+      "source_review": "research/arithmetic/cross-review.json",
+      "original_snapshot_status": "resolved_and_reinspected",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution_evidence": "The difficult part is making these stages compatible",
+      "resolution": "Use 'principal interfaces emphasized in the construction' or attribute novelty to their joint compatibility."
+    },
+    {
+      "id": "AR-X4",
+      "severity": "major",
+      "source_review": "research/arithmetic/cross-review.json",
+      "original_snapshot_status": "resolved_and_reinspected",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc",
+      "resolution_evidence": "One fixed factor must satisfy, for every fixed Dirichlet character",
+      "resolution": "Write 'One fixed factor must satisfy, for every fixed Dirichlet character chi, ...'."
+    },
+    {
+      "id": "R2-A1",
+      "severity": "major",
+      "source_review": "audit/round-2-arithmetic-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc",
+      "resolution": "Added KMT full-upper-log-density/fixed-twist comparison and TT quantitative exceptional-scale/growing-form comparison; preserved release fixed-form and stronger growing-twist scopes.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2-A2",
+      "severity": "minor",
+      "source_review": "audit/round-2-arithmetic-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution": "Theme-guided contrastive design and eight-case/ten-family sample now explicit; concentration language removed from conclusion.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2-A3",
+      "severity": "minor",
+      "source_review": "audit/round-2-arithmetic-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution": "Abstract now describes proposed novelty and manuscripts claiming to cross barriers.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2-A4",
+      "severity": "minor",
+      "source_review": "audit/round-2-arithmetic-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution": "Completed formal comparison explicitly enters through documented statements and source bindings, with execution status in evidence ledgers.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2-A5",
+      "severity": "minor",
+      "source_review": "audit/round-2-arithmetic-review.json",
+      "original_snapshot_status": "optional_editorial_fix",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution": "Sparse intervals indexed by j>=1.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2C1",
+      "severity": "major",
+      "source_review": "audit/round-2-combinatorics-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "research/comparison-register.json",
+      "current_sha256": "5215acada7f9e0af8dcb74218a1a4584365bf45ecb5a0116fb0fe2de91a0fa6c",
+      "resolution": "Actual included cases, comparison rationale and outside scope recorded; historical exhaustive omission register explicitly absent. The manuscript makes a contrastive sample-level inference.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2C2",
+      "severity": "major",
+      "source_review": "audit/round-2-combinatorics-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "research/contrastive-tests.tex",
+      "current_sha256": "c8a509ed7bd42af437fedf7d6b780d7ab6574ce1402a97f21526dfdb3f7e39c9",
+      "resolution": "Operational input/target/property/quantifier/loss profiles, a barrier/inherited/bridge table, and three exact contrastive tests were added.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2C3",
+      "severity": "minor",
+      "source_review": "audit/round-2-combinatorics-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "research/combinatorics/section.tex",
+      "current_sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e",
+      "resolution": "Polynomial complexity statement is attributed to the manuscript.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2C4",
+      "severity": "minor",
+      "source_review": "audit/round-2-combinatorics-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "research/combinatorics/section.tex",
+      "current_sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e",
+      "resolution": "Scope documents identify supplied formalization targets.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2C5",
+      "severity": "minor",
+      "source_review": "audit/round-2-combinatorics-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "synthesis.tex",
+      "current_sha256": "c63adb4111d53eaa26f4c441b42a5b108d491c380be3ffd3a39f834bdf4cd7f2",
+      "resolution": "The synthesis explicitly separates scalar positivity, operator-block positivity, indefinite one-positive-direction signatures, and unordered finite-field pairings.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2G1",
+      "severity": "major",
+      "source_review": "audit/round-2-geometry-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "research/geometry-operators/section.tex",
+      "current_sha256": "de4da465c3c7cc0876eaf4e42c382f169c2d1ea097ffac39033ef1ad8d571187",
+      "resolution": "Paulsen, stable-contraction density and preceding Jin/Luo scalar routes are credited; candidate complete advance isolated at sharp ordered estimates/optimal similarity metric. Kuperberg nonsharp all-dimensional comparison added.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2G2",
+      "severity": "major",
+      "source_review": "audit/round-2-geometry-review.json",
+      "original_snapshot_status": "revision_recommended",
+      "status": "resolved",
+      "current_file": "research/verification-worksheet.json",
+      "current_sha256": "8565b7827b5225f877d007a000b955e6effafddb5f5c40eab5c05acff769e4ad",
+      "resolution": "Five exact geometry/operator source interfaces and admissible acceptance/failure predicates preserved; square/duplicate-row calibration added to the manuscript.",
+      "validation_scope": "Exposition, attribution and supplement-level correction; no underlying release-proof certification."
+    },
+    {
+      "id": "R2C6",
+      "severity": "minor",
+      "source_review": "Final targeted combinatorics reread, 2026-10-07",
+      "status": "resolved",
+      "current_file": "main.tex",
+      "current_sha256": "bdfefa67307bb18474c020f53505daf9a9da992fbca5e59aa8a6325dea919ca2",
+      "resolution": "Broad superlogarithmic wording replaced by reciprocal-dyadic-series convergence criterion; manuscript explicitly allows log(P)*loglog(P) and distinguishes log^beta(P), beta>1."
+    },
+    {
+      "id": "DRV1",
+      "severity": "major",
+      "source_review": "audit/deep-reader-value-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "resolution": "Added explanations of jets, CRT, matroids/common bases, FPRAS, complete bounds and Unique Games; explained the aggregate Mahler error. Specialist proof details remain appropriately condensed.",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc"
+    },
+    {
+      "id": "DRV2",
+      "severity": "major",
+      "source_review": "audit/deep-reader-value-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "synthesis.tex",
+      "resolution": "Routine formal bindings moved into notes; case endings and conclusion now state mathematical takeaways. Repeated generic verification instructions reduced.",
+      "current_sha256": "c63adb4111d53eaa26f4c441b42a5b108d491c380be3ffd3a39f834bdf4cd7f2"
+    },
+    {
+      "id": "DRV3",
+      "severity": "minor",
+      "source_review": "audit/deep-reader-value-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "overview.tex",
+      "resolution": "Overview table precedes method and cases, with larger outer gaps, thin full-width rules between all adjacent rows, seven-point padding on both sides of each separator, repeated headers and continuation label.",
+      "current_sha256": "d7d6fa6454e20d90181709494a46ba4b378ef1b76fe1bcd414cad53b2bbe8549"
+    },
+    {
+      "id": "DRV4",
+      "severity": "minor",
+      "source_review": "audit/deep-reader-value-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "synthesis.tex",
+      "resolution": "Replaced broad audit itineraries with concrete input-enlargement, law-correction and operator-bound comparisons.",
+      "current_sha256": "c63adb4111d53eaa26f4c441b42a5b108d491c380be3ffd3a39f834bdf4cd7f2"
+    },
+    {
+      "id": "DMR1",
+      "severity": "major",
+      "source_review": "audit/deep-mathematics-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/combinatorics/section.tex",
+      "resolution": "Credited Chen, Vigoda and Yang for the inherited restricted-Poincare/empirical-average framework; narrowed common-base novelty to matroid-specific compatible estimates; verified reference integrated.",
+      "current_sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e"
+    },
+    {
+      "id": "DMR2",
+      "severity": "minor",
+      "source_review": "audit/deep-mathematics-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/combinatorics/section.tex",
+      "resolution": "Detection hypothesis now explicitly requires restriction rank on the distinguished output subspace K.",
+      "current_sha256": "4e594add2f04c675cb4da619f5d1244e7fe845d7696877a126386c8b9bdc022e"
+    },
+    {
+      "id": "DMR3",
+      "severity": "minor",
+      "source_review": "audit/deep-mathematics-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/geometry-operators/section.tex",
+      "resolution": "Normalized the analytic test by sup over Omega of ||F||<=1 before concluding ||F[A]||<=2.",
+      "current_sha256": "de4da465c3c7cc0876eaf4e42c382f169c2d1ea097ffac39033ef1ad8d571187"
+    },
+    {
+      "id": "DEEP-PROSE1",
+      "severity": "minor",
+      "source_review": "audit/deep-prose-credibility-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "synthesis.tex",
+      "resolution": "Removed duplicate predecessor sentence, shortened section titles and clarified that amplification needs additional control without prescribing every possible proof mechanism.",
+      "current_sha256": "c63adb4111d53eaa26f4c441b42a5b108d491c380be3ffd3a39f834bdf4cd7f2"
+    },
+    {
+      "id": "DEEP-EXAMPLE1",
+      "severity": "minor",
+      "source_review": "audit/deep-prose-credibility-review.json",
+      "original_snapshot_status": "open_at_review_snapshot",
+      "status": "resolved",
+      "current_file": "research/arithmetic/section.tex",
+      "resolution": "Added an explicit shared-residue covariance calculation explaining one central arithmetic representation choice; exact finite enumeration checks agree. A full portable interface extraction remains a separate open opportunity.",
+      "current_sha256": "d790ababe4113fe147fb63e885938e15484c9e9f9d8d3cb7bfef6e1e932b3cfc"
+    }
+  ],
+  "bibliographic_corrections": [
+    {
+      "key": "FrontKhot2010",
+      "resolution": "Title completed to the registered On the Unique Games Conjecture (Invited Survey); author/year/pages/DOI agree."
+    },
+    {
+      "key": "arithZZ2020",
+      "resolution": "DOI service rate limit resolved against primary arXiv v2 record, including journal/year/pages/DOI."
+    }
+  ],
+  "underlying_source_proof_status": "Source claims remain attributed; no formal dependency build or complete source-proof reconstruction performed.",
+  "second_round_targeted_rechecks": {
+    "arithmetic": "No substantive issue remains in added KMT/TT scopes or revised method/PDE argument; pronoun ambiguity corrected.",
+    "geometry": "Classical attribution, scalar prior scope, Kuperberg baseline and square/duplicate-row calibration accepted; worksheet predicates match supplied report.",
+    "combinatorics": "Chain, block and grid controls and method/attribution fixes accepted; additional register overstatement corrected."
+  },
+  "remaining_reviewer_opportunities": [
+    {
+      "id": "DMR4",
+      "priority": "major journal-oriented extension",
+      "status": "open_opportunity",
+      "source_review": "audit/deep-mathematics-review.json",
+      "description": "Extract a central proposed interface with complete numerical hypotheses, source locator and a nontrivial hypothesis check.",
+      "disposition": "Retained explicitly in the reader audit. The new shared-residue miniature improves explanation but does not complete this stronger extraction. The reviewer identifies it as an extension rather than a demonstrated mathematical error or a requirement to validate all source proofs."
+    }
+  ],
+  "deep_audit_report": "audit/deep-audit-report.md",
+  "final_pdf_sha256": "518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f",
+  "layout_revisions": [
+    {
+      "date": "2026-10-07",
+      "change": "Table 1 row boundaries made explicit with seven thin horizontal rules and extra padding; content unchanged.",
+      "pdf_sha256": "518497203c879c159bd49cc0e5dcfe51dc3f9164e04bee66987b911d0605f44f",
+      "verification": "Clean compilation and full-size inspection of both table pages and following text; all final pages rendered and visually checked."
+    }
+  ]
+}

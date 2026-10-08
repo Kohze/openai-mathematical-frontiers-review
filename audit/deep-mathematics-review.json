@@ -1,0 +1,557 @@
+{
+  "schema": "internal-deep-mathematics-review/1",
+  "review_date": "2026-10-07",
+  "manuscript": "Mathematical Frontiers in the OpenAI Research Release: Cancellation, Positivity, and Changes of Representation",
+  "reviewer_role": "Internal Codex agent who authored the geometry/operator fragment and contributed to earlier mathematical and editorial audits. This adversarial reread is not independent external human peer review.",
+  "scope": {
+    "assessed": "Review-owned arguments, exact statement scope, source-to-description fidelity, closest-prior comparisons, specificity of proposed reusable interfaces, and strength of cross-field synthesis.",
+    "source_reading": "Read the full current review. Re-read pinned primary introductions and bottleneck proofs for arithmetic, common bases, matching amplification, the Unique Games gadget, direct finiteness, and Vlasov–Maxwell increment/closure. The geometry/operator manuscripts and their specified antecedents were inspected in earlier rounds and their corrected review text was rechecked here.",
+    "excluded": "No certification of all released proofs, no Lean/Comparator dependency or kernel build, no new solver-performance experiment, and no guarantee of historical completeness.",
+    "calibration": "Scores measure this manuscript as a comparative mathematical narrative review. They do not rate the truth of the source collection or imply that a survey needs to prove new theorems."
+  },
+  "current_snapshot": [
+    {
+      "path": "main.tex",
+      "sha256": "0998f7ec9d785b50e90c94272a62755dd178232df0fce6e1a3916b2bfa841c36",
+      "lines": 351,
+      "matches": [
+        {
+          "line": 177,
+          "text": "Finite-dimensional algebras satisfy this property by linear algebra."
+        },
+        {
+          "line": 268,
+          "text": "two-dimensional plane \\citep{LukStrain2014Continuation}. Wang's July 2026"
+        },
+        {
+          "line": 276,
+          "text": "one-species three-dimensional data with nonnegative compactly supported"
+        }
+      ]
+    },
+    {
+      "path": "overview.tex",
+      "sha256": "1f4c6dd744821ba23f22d3760a2d8e71d33f1d43e16a02e3fe90535a2128efe9",
+      "lines": 61,
+      "matches": []
+    },
+    {
+      "path": "synthesis.tex",
+      "sha256": "6b83c2ff53b174b1ca70d2ef8db9e8ad7f26af8cb9a32c380fe4731c3b7ed19c",
+      "lines": 139,
+      "matches": []
+    },
+    {
+      "path": "research/arithmetic/section.tex",
+      "sha256": "5a0dd4984faaeb1a4241c096f2eac5160a9048ba6afdf05d5b138dd3bbe696fd",
+      "lines": 175,
+      "matches": []
+    },
+    {
+      "path": "research/combinatorics/section.tex",
+      "sha256": "792d9566cc58a4adc2c0e9607391f7c29ee9ede7a12f00440737cdb6c936132e",
+      "lines": 223
+    },
+    {
+      "path": "research/geometry-operators/section.tex",
+      "sha256": "aa50c4b3cbae14eadfac0d6bb65574c7b665033bddd0b32cf73665eaf598827c",
+      "lines": 287
+    },
+    {
+      "path": "research/contrastive-tests.tex",
+      "sha256": "6a8fa8473144b3717a81bc7b2655ff576456a455c89ab259368b1d55b04a251e",
+      "lines": 58,
+      "matches": [
+        {
+          "line": 41,
+          "text": "the dimensional loss that this entrywise route leaves behind. The"
+        }
+      ]
+    },
+    {
+      "path": "research/comparison-register.json",
+      "sha256": "5215acada7f9e0af8dcb74218a1a4584365bf45ecb5a0116fb0fe2de91a0fa6c",
+      "lines": 189,
+      "matches": [
+        {
+          "line": 99,
+          "text": "        \"FrontCVY2026\""
+        }
+      ]
+    },
+    {
+      "path": "references.bib",
+      "sha256": "874ad0ff9330d23837092acf30b0fe5e9a2f6802055e251f5f040d7cef0c7a80",
+      "lines": 899
+    }
+  ],
+  "recommendation": {
+    "overall_score_out_of_10": 7.8,
+    "judgement": "Worth reading as a careful comparative review of proposed mechanisms. The strongest content identifies exact missing compatibility, quantifier order, or cost dependence rather than celebrating familiar techniques.",
+    "preprint": "Suitable as an attributed, bounded comparative preprint after the corrections recorded below; the current source incorporates them.",
+    "journal": "A survey or perspective submission is defensible, but major specialist review remains reasonable. The main remaining content opportunity is to state one or two proposed reusable interfaces precisely enough for a reader to apply or falsify them. A new-research-theorem framing would misdescribe the present contribution.",
+    "current_demonstrated_errors_in_review_owned_arguments": 0,
+    "unrepaired_critical_findings": 0,
+    "current_major_factual_findings": 0,
+    "limits": "Absence of a detected review error is not independent acceptance of the extraordinary release claims. Apparent methodological portability remains a proposal unless its hypotheses can be satisfied in another setting."
+  },
+  "category_scores": [
+    {
+      "category": "Review-owned mathematical correctness",
+      "score": 9,
+      "reason": "The averaging, finite-field, Hessian, restricted-gap, block-norm, continuum-grid and energy-doubling arguments were rederived and their stated conclusions follow. This score excludes unreproduced source theorem proofs."
+    },
+    {
+      "category": "Exact hypotheses and source-description fidelity",
+      "score": 8.5,
+      "reason": "The review preserves fixed versus growing twists, binary complexity, expected versus worst-case work, scalar versus complete scope, and solution-prefix uniformity. The newly found restriction-rank omission is now repaired."
+    },
+    {
+      "category": "Closest-prior and concurrent-result positioning",
+      "score": 8,
+      "reason": "The updated comparisons are unusually specific. The deep reread nevertheless uncovered a directly inherited restricted-Poincaré framework absent from the earlier text; it is now cited. Searches seeded by source bibliographies cannot establish exhaustive precedence."
+    },
+    {
+      "category": "Precision of methodological-novelty attribution",
+      "score": 8.2,
+      "reason": "The review now separates sharp compatibility from old similarity, density, ANOVA, Gaussian covariance, residual correction and continuation. It identifies candidate steps rather than asserting first invention. Some candidates remain a proof sketch rather than a fully stated portable lemma."
+    },
+    {
+      "category": "Originality of the review's own scholarly contribution",
+      "score": 6.8,
+      "reason": "The contribution is an operational comparative map and elementary controls. Cancellation, positivity and representation are classical broad motifs; the paper has no new specialist theorem and does not yet demonstrate a new application of an extracted interface."
+    },
+    {
+      "category": "Mathematical depth and reader value",
+      "score": 8.2,
+      "reason": "The named intermediate statements and their required uniformity explain why the claims would cross qualitative barriers. The conditional PDE scale calculation and scalar/complete distinction are particularly useful. Some high-level mechanism paragraphs omit the quantitative statement a specialist would want to reuse."
+    },
+    {
+      "category": "Substantiveness of cross-field connections",
+      "score": 7.4,
+      "reason": "The cancellation and preservation-of-property comparisons are meaningful at the level of order of operations, quantifiers and residual budgets. They do not yield an actual transfer theorem between arithmetic, PDE and operators; the current prose generally respects that limit."
+    },
+    {
+      "category": "Selection method and bias control",
+      "score": 7.5,
+      "reason": "Theme-guided contrastive selection and a comparison register are disclosed. There is no claim of corpus-wide frequency. The release-centered and internally authored design still narrows the evidence from which broader historical judgements can be made."
+    },
+    {
+      "category": "Reproducibility of the review and small checks",
+      "score": 8.5,
+      "reason": "Pinned primary files, hashes, locators, reference evidence, and explicit small arguments permit reproduction of the comparison. Reproducible exposition must remain separate from reproducing the source proofs."
+    },
+    {
+      "category": "Presentation and scientific scope",
+      "score": 8.4,
+      "reason": "The abstract, overview and synthesis convey mechanisms clearly and retain conditional provenance. Dedicated disclosure and the distinction between scope correspondence and proof execution are proportionate. The breadth requires a specialist reader to follow several abbreviated proof architectures."
+    },
+    {
+      "category": "Demonstrated practical significance",
+      "score": 5.5,
+      "reason": "The application pathways have sensible measurable tests but no demonstrated competitive application or runtime improvement from this review. Mathematical significance and implementation significance remain different questions."
+    },
+    {
+      "category": "Survey-journal suitability",
+      "score": 7.2,
+      "reason": "The manuscript provides a useful contemporary comparison, while lasting survey value depends on whether the candidate interfaces and antecedent judgements withstand field-specific review. Citation quantity does not settle that question."
+    }
+  ],
+  "findings": [
+    {
+      "id": "DMR1",
+      "severity": "major",
+      "kind": "Closest-prior attribution gap in the original snapshot",
+      "confidence": "high",
+      "original_location": "research/combinatorics/section.tex:80–92, before the present insertion",
+      "issue": "The earlier description made restricted-observable simulation appear as the distinctive general insight without citing its directly inherited framework.",
+      "primary_evidence": "The pinned common-base PDF, pages 13–14, explicitly credits CVY26 Definition 4 and Theorem 5(ii)/Section 3.6. The independently verified arXiv record is Chen–Vigoda–Yang, arXiv:2608.26599v1, submitted 27 August 2026.",
+      "mathematical_consequence": "The general restricted empirical-average idea cannot carry the novelty claim. The matroid transport, trace and compatible warm-start estimates can still be a substantive candidate advance.",
+      "actionable_fix": "Add the closest-prior attribution and narrow the proposed contribution to the matroid-specific estimates.",
+      "disposition": "Resolved in the current snapshot: the text cites FrontCVY2026 at line 91; canonical references.bib contains its verified record; comparison register includes it.",
+      "supporting_files": [
+        "research/combinatorics/deep-audit-additions.bib",
+        "research/combinatorics/deep-audit-additions.evidence.json"
+      ],
+      "prior_scope_boundary": "The referenced permanent result alone does not establish arbitrary-matroid common-base counting."
+    },
+    {
+      "id": "DMR2",
+      "severity": "minor",
+      "kind": "Exact hypothesis omission in the original snapshot",
+      "confidence": "high",
+      "original_location": "research/combinatorics/section.tex:189–192, before the present insertion",
+      "issue": "The latent-alphabet lemma was described using high rank without specifying restriction to the distinguished output subspace K.",
+      "primary_evidence": "Pinned Unique Games PDF pages 7–8, Lemma 3.1: the detection premise is dim(G|_K) >= r*, with r* fixed from the stability tolerance before sufficiently large output dimension. It is not a premise solely on dim(G) in V*.",
+      "mathematical_consequence": "Linear observations annihilating K need not fall under the stated guarantee merely because their ambient rank is large.",
+      "actionable_fix": "State restriction rank on K explicitly.",
+      "disposition": "Resolved in the current snapshot: research/combinatorics/section.tex:199–200 now states the output-subspace restriction condition."
+    },
+    {
+      "id": "DMR3",
+      "severity": "minor",
+      "kind": "Missing normalization in the original proof sketch; parent correction",
+      "confidence": "high",
+      "original_location": "research/geometry-operators/section.tex:211–225, before normalization was added",
+      "issue": "The sketch ended with ||F[A]|| <= 2 without explicitly normalizing the analytic test. A constant F=100I shows why normalization is required.",
+      "actionable_fix": "State sup_{z in Omega} ||F(z)|| <= 1 before the ordered coefficient argument.",
+      "disposition": "Resolved by the parent: current lines 211–214 include that normalization. The full displayed theorem already had the correct homogeneous right-hand side."
+    },
+    {
+      "id": "DMR4",
+      "severity": "major",
+      "kind": "Remaining reviewer concern and opportunity; not a demonstrated error",
+      "location": [
+        "research/arithmetic/section.tex:120–160",
+        "research/combinatorics/section.tex:35–41",
+        "synthesis.tex:24–31",
+        "synthesis.tex:89–97"
+      ],
+      "issue": "Several proposed reusable objects are mathematically identifiable but are described mainly by their role. The review does not yet give a specialist a complete portable hypothesis/conclusion for its most interesting candidates.",
+      "evidence": "The separated-weight interpolation discussion identifies the correct quantifier order but does not state its numerical conditions or jet spaces. The matching discussion names an additive-pair-to-full-gap upgrade but not the product-law and coordinate-order assumptions that make the residual charging work.",
+      "remedy": "For a journal-oriented extension, extract one precise conditional interface statement, with source locator and inherited components. A small boxed statement of the ordered additive-pair amplification, or the separated-weight jet-surjectivity conditions, would be more valuable than another broad thematic paragraph.",
+      "limit": "This is a proposal to increase reader value, not a requirement to prove all source theorems or to manufacture a novel theorem. The current narrative-review genre can be useful without it.",
+      "what_would_address_it": "An independently worked abstract statement plus a nontrivial check of its hypotheses, or an explicit counterexample showing which omitted hypothesis prevents transfer."
+    }
+  ],
+  "checked_review_arguments": [
+    {
+      "location": "main.tex:157–169",
+      "result": "Pass",
+      "calculation": "At X=2M_j the occupied block alone gives an ordinary mean at least 1/2. Its harmonic contribution is bounded while the number of occupied blocks is O(log log X), giving normalized logarithmic mean zero. This is a bounded-sequence control, not a multiplicative counterexample."
+    },
+    {
+      "location": "main.tex:209–218 and 220–230",
+      "result": "Pass",
+      "calculation": "The regularity scalar ell+1 vanishes in characteristic two. In F4, squaring is a permutation, so the full sum of f(t)^2 is zero; removing t=0 removes 1, leaving 1. No real positive-semidefinite interpretation is imported."
+    },
+    {
+      "location": "research/combinatorics/section.tex:63–72",
+      "result": "Pass",
+      "calculation": "The Hessian of x1*x4+x2*x3 has two +1 and two -1 eigenvalues. It fails the quadratic Lorentzian signature condition; the text correctly treats this as a structural obstruction, not a hardness proof."
+    },
+    {
+      "location": "research/contrastive-tests.tex:7–26",
+      "result": "Pass",
+      "calculation": "The product generator eigenfunctions 1,a,b,ab have eigenvalues 0,2,2tau,2(1+tau). First-coordinate observables have E=2Var despite gap 2min(1,tau). Reducibility at tau=0 does not destroy that restricted statement."
+    },
+    {
+      "location": "research/contrastive-tests.tex:28–44",
+      "result": "Pass",
+      "calculation": "Bounding each block by C sup||Q|| and using Cauchy–Schwarz across m input/output blocks gives mC. The example proves the loss in that route; it does not prove that every scalar-to-complete route must lose m."
+    },
+    {
+      "location": "research/contrastive-tests.tex:46–58",
+      "result": "Pass",
+      "calculation": "At every grid node the distance to h/2 is at least h/2, so r_h >= 3h^2/16, while the midpoint value is -h^2/16. A Lipschitz budget Lh/2 plus a covered h/2-net gives nonnegativity only on the covered interval; tails are separate."
+    },
+    {
+      "location": "research/geometry-operators/section.tex:197–205",
+      "result": "Pass",
+      "calculation": "For A=[[0,2],[0,0]], x*Ax=2 conjugate(x1)x2 fills the closed unit disk and ||A||2=2. This establishes scalar sharpness without establishing matrix-coefficient completeness."
+    },
+    {
+      "location": "research/geometry-operators/section.tex:94–104",
+      "result": "Pass",
+      "calculation": "The square has one indexed independent basis and normalized area product one. Duplicating e1 creates two indexed bases while leaving the geometric union unchanged. The example is explicitly outside the nonparallel-row disjointness hypothesis."
+    },
+    {
+      "location": "research/combinatorics/section.tex:123–133",
+      "result": "Pass",
+      "calculation": "The expectation decomposition uses the actual correction-branch probability and conditional costs. It does not identify that probability with a total-variation bound or infer tractability from accuracy alone."
+    },
+    {
+      "location": "main.tex:302–331",
+      "result": "Pass",
+      "calculation": "First hitting times make all prefix momentum and energy-band hypotheses valid; s_n >= t_{n-1}. After dividing by 2^n, one term gives a fixed positive time lower bound and the other gives c/log(2+1024*2^n). More generally increasing H>=1 gives c/H on dyadic scales. The log*loglog case diverges; log^beta with beta>1 supplies summable lower bounds only."
+    }
+  ],
+  "mechanism_assessments": [
+    {
+      "families": [
+        "007"
+      ],
+      "location": "research/arithmetic/section.tex:58–86",
+      "inherited": "Centered prime-product graph steps, nonbacktracking walks, low-wise bias repair and constant-depth circuit fooling.",
+      "specific_candidate": "A shared-prime residue finite-law comparison for the signed observables actually used in high traces, coupled to costs uniform when the number of prime supplies grows.",
+      "source_locator": "build/quantitative/02-finite-law.tex, Lemma q:finite-law; introduction fixed-form/every-cutoff statements.",
+      "scope_to_preserve": "Depth/size of the test circuits, interval length relative to L, coprimality of prime supplies, fixed forms, and dependence on supply count. The quantitative theorem and growing-twist qualitative theorem are distinct.",
+      "assessment": "A concrete arithmetic adaptation worth examining. Circuit fooling itself is not new; every-cutoff cancellation is a major conclusion only if the total error budget closes."
+    },
+    {
+      "families": [
+        "017"
+      ],
+      "location": "research/arithmetic/section.tex:120–161",
+      "inherited": "Ordinary blow-ups, curve positivity, Serre vanishing, denominator-cleared interpolation minors and Taylor-degree collisions.",
+      "specific_candidate": "Separated-weight logarithmic jet surjectivity with weights selected before coordinatewise distinct centres, then a two-alternative determinant saving.",
+      "source_locator": "build/sections/interpolation.tex, geom:interpolation; determinant.tex, det:translation, det:collision, det:comparison.",
+      "scope_to_preserve": "Fixed m,K,w0,v0,theta; K theta^m<1 and K(w0/v0)theta^m<1; successive sufficiently large weights before centres; degree threshold may depend on centres; H grows after all other parameters are fixed.",
+      "assessment": "One of the most precise and potentially reusable proposed bridges. The review faithfully identifies the quantifier improvement, but portability beyond this logarithmic-curve construction is not demonstrated."
+    },
+    {
+      "families": [
+        "087"
+      ],
+      "route": "symmetric",
+      "location": "research/geometry-operators/section.tex:15–123",
+      "inherited": "Conformal lens and complex mass techniques, old nonsharp reverse inequalities, three-dimensional sharp results, and classical norm rigidity classification.",
+      "specific_candidate": "Exact basis-probability to polar-simplex normalization followed by a zero-deficit-to-universal-median implication.",
+      "scope_to_preserve": "Centrally symmetric bodies, nonparallel strip preprocessing in the disjointness identity, dependent limiting bases, all interior points/directions and equality.",
+      "assessment": "The new burden is the exact bridge and rigidity, not the existence of a lens map or a volume-product theme. The duplicate-strip control makes one decisive hypothesis visible."
+    },
+    {
+      "families": [
+        "087"
+      ],
+      "route": "general",
+      "location": "research/geometry-operators/section.tex:125–178",
+      "inherited": "Cone–Laplace correspondence, Gaussian projection calculus, covariance identities and existing local or low-dimensional simplex results.",
+      "specific_candidate": "Simultaneous noncommuting normalization plus an all-segment auxiliary-curve absorption inequality controlling the complete error field.",
+      "scope_to_preserve": "Solid pointed convex cones and interior normalized dual vectors; all matrix/layer/commutator errors; continuum and tail bounds as well as finite node enclosures.",
+      "assessment": "A mathematically distinctive candidate, especially its noncommuting error budget. The review correctly leaves finite arithmetic enclosures and analytic extension as complementary, separate checks."
+    },
+    {
+      "families": [
+        "113"
+      ],
+      "location": "research/combinatorics/section.tex:30–48",
+      "inherited": "Weighted matching walks, replica/tempering constructions and orthogonal product ANOVA.",
+      "specific_candidate": "An ordered interaction-residual charging that converts additive pair inequalities into full product-space control after sufficiently many guide replicas.",
+      "source_locator": "Pinned matching PDF pp. 30–31, equations (7.8)–(7.13), Lemma 7.2.",
+      "scope_to_preserve": "A product stationary law; pair kernels independent of other coordinates; guide y follows x in the fixed order; additive-pair estimates on every such conditional slice; base refreshes.",
+      "independently_inspected_core": "Every ANOVA subset in r_xy has y last and x penultimate, so it is charged to a unique pair. Summing the pair estimate gives Var <= (4L/q)sum E_xy + (8L/q)Var + sum E_base; q=32L allows absorption and the stated 3/(8M) gap.",
+      "assessment": "This is a genuine, specific candidate reusable estimate. Replication alone would be a classical theme; unique residual charging is the interesting compatibility."
+    },
+    {
+      "families": [
+        "114"
+      ],
+      "location": "research/combinatorics/section.tex:74–107",
+      "inherited": "Lorentzian quadratic signatures, partition-restricted empirical-average theory, trace/Kac facts and trajectory-law warm-start domination.",
+      "specific_candidate": "Matroid conditional transport controlling transversal values and defect-class means, combined with a compatible transversal trace that supplies usable warm starts.",
+      "source_locator": "Pinned common-base PDF Lemma 4.1, Proposition 5.3, Lemmas 6.1–6.2.",
+      "scope_to_preserve": "Var_pi(QH) <= K E(H) for every full-state H, not merely a Poincaré bound on functions fixed by Q; good positive multipliers; exact independence oracles; a finite irreducible reversible lazy chain.",
+      "assessment": "The corrected attribution now locates the candidate advance properly. Neither a projection-chain gap nor restriction to test observables alone substitutes for the exact full-test/projected-variance inequality."
+    },
+    {
+      "families": [
+        "115"
+      ],
+      "location": "research/combinatorics/section.tex:109–145",
+      "inherited": "Dense-completion geometry and residual-mixture exact sampling correction.",
+      "specific_candidate": "Law computation for the actual bounded sampler, including fallbacks, with exponential input-size enumeration but polynomial precision dependence.",
+      "source_locator": "Pinned contingency-table PDF Propositions/Theorems 6.3–6.4, pp. 25–30.",
+      "scope_to_preserve": "Unrestricted nonnegative tables with variable dimensions and binary margins; no forbidden cells; actual output law; sufficiently small branch probability; exact integer draw with almost-sure termination.",
+      "assessment": "This computational interface is unusual and worth extracting. The probability identity is old; a usable finite-kernel law evaluator with the right dependence is the substantive candidate."
+    },
+    {
+      "families": [
+        "102"
+      ],
+      "location": "research/combinatorics/section.tex:194–223",
+      "inherited": "Degree-two shortcode/Grassmann inverse results, Fourier decoding, folding/virtual tables and repetition.",
+      "specific_candidate": "An equivariant nonlinear observable with arbitrarily small noise sensitivity while every family with sufficiently large restriction rank on K detects the same latent noise with probability at least 1/8.",
+      "source_locator": "Pinned Unique Games PDF Lemma 3.1, pp. 7–8; construction comparison pp. 3–5.",
+      "scope_to_preserve": "The rank threshold is chosen from the stability tolerance before output dimension; uniform input independent of noise; high restriction rank, not ambient rank; adaptive lift and permitted-advice conditions.",
+      "assessment": "A specific and potentially interesting separation, not ordinary amplification. Whether it remains compatible with the complete hardness reduction is the decisive burden; the review does not claim to have checked that entire reduction."
+    },
+    {
+      "families": [
+        "197"
+      ],
+      "location": "main.tex:185–248",
+      "inherited": "Finite-field interpolation, rank obstruction, embedded subgroup algebras, character idempotents and matrix-to-scalar transfer.",
+      "specific_candidate": "An actual incidence system simultaneously meeting regularity, girth, size and pairing identities so the reverse defect survives packing and embedding.",
+      "source_locator": "build/sections/02-criterion.tex, thm:criterion; source introduction thm:main.",
+      "scope_to_preserve": "Finite characteristic-two field with primitive ell-th root, ell odd prime, degree ell+1, incidence girth at least 12, 0<m<t<=m ell^2, local zero and global -I pairings.",
+      "assessment": "This compatibility, rather than the matrix-to-scalar trick, is the meaningful construction claim. The finite-field worked example is correctly illustrative and cannot replace the required incidence/embedding system."
+    },
+    {
+      "families": [
+        "325"
+      ],
+      "location": "research/geometry-operators/section.tex:183–278",
+      "inherited": "Positive double layers, Faber/Fourier and Gram estimates, completely bounded similarity and contraction boundary densities.",
+      "specific_candidate": "Compatible ordered diagonal/cross estimates with sharp constant two for arbitrary independent base and coefficient dimensions; structurally, sharp optimal similarity condition number.",
+      "scope_to_preserve": "Every n,m and matrix polynomial degree; noncommuting coefficient products; normalized analytic tests in the sketch; common independently chosen test functions; degenerate numerical ranges.",
+      "assessment": "The current attribution distinguishes scalar antecedents and small-base complete results from the full target. Classical similarity, attainment and density existence are not the novel part; the sharp bound and amplification-compatible comparison are."
+    },
+    {
+      "families": [
+        "362"
+      ],
+      "location": "main.tex:276–343",
+      "inherited": "Retarded fields, characteristic cancellation methods, bounded-momentum continuation and scale-doubling summation.",
+      "specific_candidate": "Closure of a signed receiver-force bootstrap with datum/horizon constants independent of compact prefix and momentum scale, with a divergence-compatible momentum loss.",
+      "source_locator": "build/sections/setup.tex, prop:increment; closure.tex, eq:strict-improvement.",
+      "scope_to_preserve": "Supported receiver remains in its band throughout the interval; dyadic P dominates the entire prefix; M,A,P0 fixed before prefix and P; compact-time force bounds used for continuity must not enter those constants.",
+      "assessment": "The review states the exact unusual burden and gives a sound terminal inference. The elementary harmonic argument is not the innovation; the source-force identity and uniform residual closure are."
+    }
+  ],
+  "cross_field_judgement": {
+    "substantive_connections": [
+      "Signed structures must be retained until averaging/integration, then residual costs must satisfy the application's quantifiers.",
+      "Changes of representation preserve different concrete properties: law, nonzero defect, or amplification-independent norm.",
+      "Restricted versus full control and fixed versus uniform parameter dependence can mark qualitative boundaries."
+    ],
+    "limits": [
+      "There is no demonstrated common theorem unifying all these constructions.",
+      "The existence of cancellation in two fields does not make either identity portable to the other.",
+      "Real/operator positivity, Lorentzian signature and characteristic-two pairings are explicitly different structures.",
+      "The useful transferable object is an exact interface with its assumptions, not the slogan attached to it."
+    ],
+    "narrowest_defensible_review_contribution": "An evidence-linked, contrastive map of the additional compatibility, quantifier order, and loss or computational budget claimed to cross each selected barrier, supported by elementary controls that show why weaker inputs do not suffice."
+  },
+  "further_primary_comparison": {
+    "status": "Useful follow-up, not a demonstrated duplication or mandatory correction",
+    "authors": [
+      "Dawn B. Woodard",
+      "Scott C. Schmidler",
+      "Mark Huber"
+    ],
+    "title": "Conditions for rapid mixing of parallel and simulated tempering on multimodal distributions",
+    "publication": "The Annals of Applied Probability 19(2), 617–640 (2009)",
+    "doi": "10.1214/08-AAP555",
+    "primary_url": "https://people.orie.cornell.edu/woodard/rapidMixTemper.pdf",
+    "locator": "Theorem 3.1, published p. 624; Sections 3 and 6",
+    "comparison": "Prior product-state tempering gap results use within-block mixing, high-temperature projection mixing and overlap/persistence quantities. An extracted matching amplification lemma should be compared against those hypotheses before a general first-method claim. This audit did not establish equivalence with the source's additive-pair/ordered-residual lemma."
+  },
+  "primary_source_manifest": [
+    {
+      "path": "matching",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Fully-Polynomial-Randomized-Approximation-Scheme-for-Perfect-Matchings-in-General-Graphs-September-23-2026/main.pdf",
+      "sha256": "1510b15725ee7e92a6c543484c6c02ce7f26347a32c1a11cd66c5890b94c6de1",
+      "total_pages": 45,
+      "inspected_pages": [
+        1,
+        3,
+        17,
+        21,
+        22,
+        23,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "path": "common",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Approximate-counting-of-common-bases-of-two-matroids-September-23-2026/main.pdf",
+      "sha256": "7ed3dfdefcfa677a2b06e7fcde5efefc1a26d3ff774a4b604166e21082ac2607",
+      "total_pages": 26,
+      "inspected_pages": [
+        1,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "tables",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Exact-Uniform-Sampling-of-Contingency-Tables-with-Arbitrary-Margins-September-24-2026/main.pdf",
+      "sha256": "be1d677ab515ceb23e7ee9fd369d705345ec0c9254585ac96ded3aa97732cd89",
+      "total_pages": 31,
+      "inspected_pages": [
+        1,
+        18,
+        19,
+        20,
+        21,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "path": "ugc",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Unique-Games-Theorem-September-23-2026/paper.pdf",
+      "sha256": "04d0290a9cb7ee815060f82cf556cee893d32b5255613160ca8b8d02a5fe1289",
+      "total_pages": 58,
+      "inspected_pages": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "path": "Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+      "sha256": "05f8ea23cd4d2f423e9a46dfc583813d30907159fb5a667dc2850740b7d32903"
+    },
+    {
+      "path": "Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+      "sha256": "473761422e03b4a185af34a2ec8aaf5cececff9d04fcf8d05a95f7e052757952"
+    },
+    {
+      "path": "The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+      "sha256": "44cfa0481fce5da64a64b83347513db707257a33cd9cb4af8e5fde84b05a3fc2"
+    },
+    {
+      "path": "The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+      "sha256": "719338e64a9554552f643a3ddf8463a85ab0f98684480f537d71872e4281fd89"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/01-introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/01-introduction.tex",
+      "sha256": "4abc0e82c2118a7d066af596d7f6eede2563e41789eadf42f09bbc8fc01f5de6",
+      "ledger_hash_match": true
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02-criterion.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02-criterion.tex",
+      "sha256": "6bdbad302b4fb8daae849fbe2395ea281996423d2d4989d017e8163b40276116",
+      "ledger_hash_match": true
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/closure.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/closure.tex",
+      "sha256": "499230223647c95c6e9d536c78e9cd5dd098a011d9213b733daaab3d8bba8e89",
+      "ledger_hash_match": true
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/setup.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/setup.tex",
+      "sha256": "40a7d4abe6fa5d9dc96a6ffd689e602a10bb7a1cf3bd9fd8f0caa70cf72a9cf7",
+      "ledger_hash_match": true
+    },
+    {
+      "path": "CVY2026 metadata and primary HTML",
+      "url": "https://arxiv.org/abs/2608.26599v1",
+      "content_url": "https://arxiv.org/html/2608.26599v1",
+      "locators": [
+        "Definition 4",
+        "Theorem 5(ii)",
+        "Section 3.6",
+        "Lemma 12"
+      ],
+      "version": "v1",
+      "submitted": "2026-08-27"
+    }
+  ],
+  "audit_integrity": {
+    "manuscript_edits_by_this_audit": "None",
+    "files_written": [
+      "audit/deep-mathematics-review.json",
+      "research/combinatorics/deep-audit-additions.bib",
+      "research/combinatorics/deep-audit-additions.evidence.json"
+    ],
+    "integration": "Parent integrated the staged prior reference and corrected the manuscript. Final canonical bibliography hash was reread after assembly.",
+    "independence": "Internal self-audit with an adversarial brief; prior participation is disclosed. The scores are qualitative editorial judgements, not empirical measurements or acceptance probabilities.",
+    "current_source_proof_acceptance": "No source theorem was promoted from an attributed claim to independently certified mathematics."
+  }
+}

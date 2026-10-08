@@ -1,0 +1,247 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "accessed": "2026-10-07",
+  "validation": {
+    "manuscript_source_inspection": true,
+    "independent_comparator_execution": false,
+    "illustrative_example_checks": "audit/illustrative-examples.json"
+  },
+  "claims": [
+    {
+      "family": "197",
+      "claim": "Characteristic-two scalar direct-finiteness counterexample",
+      "statement": "build/sections/01-introduction.tex thm:main; 02-criterion.tex thm:criterion",
+      "mechanisms": [
+        "03-pairing.tex prop:pairing",
+        "02a-embedding.tex lem:embedding",
+        "04-hypergraph.tex thm:hypergraph"
+      ],
+      "scope": "Finite field characteristic two, finitely presented group with odd-order torsion; not the later torsion-free companion",
+      "primary_prior_keys": [
+        "Montgomery1969",
+        "ElekSzabo2004",
+        "DykemaJuschenko2015"
+      ]
+    },
+    {
+      "family": "362",
+      "claim": "Global smooth one-species relativistic Vlasov-Maxwell",
+      "statement": "build/sections/introduction.tex thm:global",
+      "mechanisms": [
+        "setup.tex prop:increment",
+        "cancellation.tex can:identity",
+        "selection.tex sel:section",
+        "closure.tex eq:strict-improvement"
+      ],
+      "scope": "Compact smooth nonnegative initial particle density; C_b infinity finite-energy fields; Gauss constraints; no symmetry or smallness",
+      "primary_prior_keys": [
+        "GlasseyStrauss1986",
+        "BouchutGolsePallard2003",
+        "LukStrain2014Continuation",
+        "Wang2026I",
+        "Wang2026II"
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "path": "lean/ComparatorChallenges/KaplanskyDirectFiniteness.json",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/KaplanskyDirectFiniteness.json",
+      "sha256": "744022e6c6946f696745f8b781aa7adf5c1039f7bd617d100a17ead2ca719c34"
+    },
+    {
+      "path": "lean/ComparatorChallenges/KaplanskyDirectFiniteness.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/KaplanskyDirectFiniteness.lean",
+      "sha256": "f576c3207dcde3eeefd59aef6f2d5a8f28a1f6df4f35307399e38528dcb6c52a"
+    },
+    {
+      "path": "lean/ComparatorChallenges/VlasovMaxwell.json",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/VlasovMaxwell.json",
+      "sha256": "423df2cf9e072e1dc4bcdc848b1c37cb9a3b684109075c2122ea3f1825445a32"
+    },
+    {
+      "path": "lean/ComparatorChallenges/VlasovMaxwell.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/VlasovMaxwell.lean",
+      "sha256": "67941fd3f10cf129d42dc4ef6ea6b8585fb90ad942108d7d71827ce9960b9cf5"
+    },
+    {
+      "path": "lean/docs/197.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/197.md",
+      "sha256": "c9bd633a2d69dc39581a08db24f2a5ceac6d6395c47c938fc9f0f59b60fdca46"
+    },
+    {
+      "path": "lean/docs/362.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/362.md",
+      "sha256": "f3673d21484c486e032e6e4367da7927a1c0cb6899ebae657191dce4c731e693"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/paper.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/paper.tex",
+      "sha256": "1d5e34043bd1f80274d7f9ae949cafbf9ec951ddde9d67f0e67fe099ed7ff7b0"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/references.bib",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/references.bib",
+      "sha256": "8501ca9741cdcb39657e29927e03f3565be8ada5a095040f17b5ac48f8cc6ee1"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/01-introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/01-introduction.tex",
+      "sha256": "4abc0e82c2118a7d066af596d7f6eede2563e41789eadf42f09bbc8fc01f5de6"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02-criterion.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02-criterion.tex",
+      "sha256": "6bdbad302b4fb8daae849fbe2395ea281996423d2d4989d017e8163b40276116"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02a-embedding.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02a-embedding.tex",
+      "sha256": "defd6a890a4fa1909146a9024e819c464c2fae6624ae05b50cbd4a54d74a1efb"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/03-pairing.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/03-pairing.tex",
+      "sha256": "0b37e0f72c147a4ac0afc208763d4d2e52f52fed8b76f44b6bd8e0b59ec6e929"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/04-hypergraph.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/04-hypergraph.tex",
+      "sha256": "a838ae959b81069633be48f688486cdec573cf90b8cb54029a6b71bf383287a5"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/05-prescription.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/05-prescription.tex",
+      "sha256": "60fec4fcec7f20e1e158bb013fec219d781c43f6c84c5152aad18baf98a10794"
+    },
+    {
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/06-cellular-automata.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/06-cellular-automata.tex",
+      "sha256": "f24be1d93784302e0700c0223023c0f4f49a9c2e342e21be04a5627ae0492775"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/main.tex",
+      "sha256": "317160462afa0d68a6f8ba72cab9f29726b0f7903be3c12f4c8a0b3d54250236"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/references.bib",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/references.bib",
+      "sha256": "7d8b1f1bd74f759c8a1001abf572ad28870bbba572226cf6ca0118023b3d969e"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/cancellation.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/cancellation.tex",
+      "sha256": "6b615a3b4ba0fbb6d04ea2e88b441dabdd51f6b33fc976b23407413fc9ae162a"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/closure.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/closure.tex",
+      "sha256": "499230223647c95c6e9d536c78e9cd5dd098a011d9213b733daaab3d8bba8e89"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/continuation.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/continuation.tex",
+      "sha256": "82bd03affe1b8f623bac5725a57595289cb1caa0355c217c605c3a4bd27a4060"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/direct.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/direct.tex",
+      "sha256": "aed0cd43a04c66b5ffb4bb30de2377dafa1eaa58a6c5e7d0c40865662f9e6de1"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/direction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/direction.tex",
+      "sha256": "aeab95505df9a9d2b8bca153832ea69039eb0fa078788775ea15e34fb8531432"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/introduction.tex",
+      "sha256": "09040019b94a641c4a0c4e5deda7c16ee4855daf0f398e692e1825f831da3de4"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/occupation.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/occupation.tex",
+      "sha256": "c9bd0387061b620018c710dd9f660564adf8c38ff2385ee134923f86bf8d3307"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/retarded.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/retarded.tex",
+      "sha256": "eedf365c0be2cefacecc93c2825b4991ccad1d32826d83aa24eb4b63ccf37be2"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/selection.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/selection.tex",
+      "sha256": "1ece8e662bff978906fbc1ddc578ea09a89322accee598d043aa3a7403583445"
+    },
+    {
+      "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/setup.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/setup.tex",
+      "sha256": "40a7d4abe6fa5d9dc96a6ffd689e602a10bb7a1cf3bd9fd8f0caa70cf72a9cf7"
+    }
+  ],
+  "primary_reference_records": [
+    {
+      "bibkey": "Montgomery1969",
+      "primary_url": "https://dornsife.usc.edu/susan-montgomery/cv/",
+      "doi": "10.1090/S0002-9904-1969-12234-2",
+      "identity_verification": "Author publication record plus DOI content-negotiation CSL title, author, year",
+      "support": "Finite tracial closure method for complex group algebras; original article introduction."
+    },
+    {
+      "bibkey": "ElekSzabo2004",
+      "primary_url": "https://arxiv.org/abs/math/0305440v2",
+      "identity_verification": "Primary arXiv record and publisher DOI record",
+      "support": "Sofic groups satisfy direct finiteness."
+    },
+    {
+      "bibkey": "DykemaJuschenko2015",
+      "primary_url": "https://admjournal.luguniv.edu.ua/index.php/adm/article/view/1174",
+      "identity_verification": "Publisher title, authors, abstract; actual journal PDF gives 19(1),44-47",
+      "support": "Stable finiteness equivalent to direct finiteness after products with every finite group."
+    },
+    {
+      "bibkey": "DiPernaLions1989",
+      "primary_url": "https://onlinelibrary.wiley.com/doi/10.1002/cpa.3160420603",
+      "identity_verification": "Publisher record, authors, title, year, volume, pages, abstract",
+      "support": "Large-data global weak existence, distinguished from classical smoothness."
+    },
+    {
+      "bibkey": "Rein2004Weak",
+      "primary_url": "https://arxiv.org/abs/math-ph/0403002",
+      "identity_verification": "Primary arXiv record with journal reference",
+      "support": "Relativistic global weak solutions, charge conservation."
+    },
+    {
+      "bibkey": "GlasseyStrauss1986",
+      "primary_url": "https://link.springer.com/article/10.1007/BF00250732",
+      "identity_verification": "Publisher title/authors/year/volume/pages/abstract",
+      "support": "Bounded momentum support continuation context."
+    },
+    {
+      "bibkey": "BouchutGolsePallard2003",
+      "primary_url": "https://arxiv.org/abs/math/0301175",
+      "identity_verification": "Primary arXiv title/authors/journal reference/DOI",
+      "support": "Physical-space simplification of Glassey-Strauss continuation theorem."
+    },
+    {
+      "bibkey": "LukStrain2014Continuation",
+      "primary_url": "https://arxiv.org/abs/1406.0165",
+      "identity_verification": "Primary arXiv record and paper theorem context",
+      "support": "Two-dimensional projected momentum support suffices for continuation."
+    },
+    {
+      "bibkey": "Wang2026I",
+      "primary_url": "https://arxiv.org/abs/2203.01199v2",
+      "identity_verification": "Primary arXiv version dated July16,2026 title/author/abstract",
+      "support": "Large-data cylindrical symmetry iterative smoothing scheme."
+    },
+    {
+      "bibkey": "Wang2026II",
+      "primary_url": "https://arxiv.org/abs/2607.14685v1",
+      "identity_verification": "Primary arXiv July16,2026 title/author/abstract",
+      "support": "Independent pointwise field estimates with cylindrical symmetry."
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "schema": "openai-mathematical-frontiers/arithmetic-evidence-1",
+  "accessed": "2026-10-07",
+  "repository": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "author_of_release_manuscripts": "OpenAI",
+  "release_manuscript_date": "2026-09-24",
+  "inspection_scope": {
+    "actual_manuscript_tex_read": true,
+    "actual_pdf_text_inspected": true,
+    "primary_antecedents_inspected": true,
+    "formal_statement_and_solution_bindings_inspected": true,
+    "lean_comparator_executed": false,
+    "full_dependency_axiom_audit_executed": false,
+    "independent_validation_of_release_proofs": false,
+    "external_human_peer_review_asserted": false,
+    "interpretation": "Exact statements and mechanisms are attributed to the pinned release. Established antecedents are separate primary-source results; this review does not certify the new theorems."
+  },
+  "families": [
+    {
+      "family": "007",
+      "title": "Ordinary two-point correlations of multiplicative functions",
+      "bibkey": "arithOpenAI007",
+      "pdf": {
+        "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/final.pdf",
+        "sha256": "ccb6f339a7505db7ab158dae4b739164ed8dda32be4012b0310198dd32f5c70a",
+        "pages": 87
+      },
+      "exact_claims": [
+        {
+          "id": "A007-C1",
+          "statement": "There is an absolute c>0; for fixed a1,a2>=1, b1,b2>=0, a1*b2-a2*b1!=0 there is a form-dependent C bounding the absolute ordinary Liouville sum through X by C*X/(log X)^c for every real X>=3.",
+          "status": "release_claim",
+          "location": {
+            "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+            "lines": [
+              20,
+              43
+            ],
+            "label": "thm:q-affine"
+          },
+          "limits": [
+            "Fixed coefficients, not growing coefficient uniformity.",
+            "No coprimality restriction.",
+            "Form-dependent constants need not be effective."
+          ]
+        },
+        {
+          "id": "A007-C2",
+          "statement": "For unit-disc multiplicative f1,f2, if at least one satisfies inf_{|t|<=N} D(f,chi*n^{it};N)->infinity for every fixed Dirichlet character chi, ordinary binary correlations for distinct fixed nonnegative shifts tend to zero; fixed nonproportional affine forms also follow.",
+          "status": "release_claim",
+          "location": {
+            "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+            "lines": [
+              49,
+              98
+            ],
+            "labels": [
+              "thm:elliott",
+              "cor:affine"
+            ]
+          },
+          "limits": [
+            "The displayed binary sum has no conjugation; conjugate variants follow by replacing a function.",
+            "Nonpretentiousness condition lets the twist height grow with the cutoff.",
+            "No uniform rate across this class."
+          ]
+        }
+      ],
+      "prior_comparison": [
+        {
+          "bibkey": "arithMR2016",
+          "established_scope": "Multiplicative means in most short intervals; this is not fixed-shift zero correlation at every cutoff."
+        },
+        {
+          "bibkey": "arithMRT2015",
+          "established_scope": "Chowla cancellation averaged over shifts; corrected Elliott condition discussed in Appendix B."
+        },
+        {
+          "bibkey": "arithTao2016",
+          "established_scope": "Logarithmically averaged two-point affine correlations."
+        },
+        {
+          "bibkey": "arithTT2019",
+          "established_scope": "Ordinary binary correlations outside exceptional scales of zero logarithmic density."
+        },
+        {
+          "bibkeys": [
+            "arithHR2021",
+            "arithPilatte2026"
+          ],
+          "established_scope": "Divisibility expansion and centred prime-product/nonbacktracking graphs for logarithmic correlations; the composite graph mechanism predates this release."
+        }
+      ],
+      "unusual_mechanisms": [
+        {
+          "id": "A007-M1",
+          "description": "Finite integer-residue law compared only through bounded-depth circuit tests; encode residues with independent jitter, repair low-order biases to exact bounded-wise independence, apply Braverman, and retain a common prime residue across translated sites.",
+          "locations": [
+            {
+              "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+              "lines": [
+                24,
+                41
+              ],
+              "label": "q:finite-law",
+              "pdf_page": 10
+            },
+            {
+              "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+              "lines": [
+                43,
+                159
+              ]
+            },
+            {
+              "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/04-paths-trace.tex",
+              "lines": [
+                239,
+                284
+              ]
+            }
+          ],
+          "antecedents": [
+            "arithAGM2003",
+            "arithBraverman2010"
+          ]
+        },
+        {
+          "id": "A007-M2",
+          "description": "Qualitative graph scale is fixed before cutoff tends to infinity; nonzero-mean centre factors require vertex normalization and signed singleton cancellation, retaining return factors until integration.",
+          "locations": [
+            {
+              "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+              "lines": [
+                226,
+                255
+              ]
+            },
+            {
+              "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/qualitative/trace-count.tex",
+              "lines": [
+                304,
+                307
+              ]
+            },
+            {
+              "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/qualitative/trace-count.tex",
+              "lines": [
+                383,
+                386
+              ]
+            }
+          ]
+        }
+      ],
+      "decisive_bottleneck": {
+        "description": "Maintain absolute constants in finite-law/high-trace bounds as prime-supply count grows like log log X; rank-witness/forest bookkeeping must be uniform over padding values. Signed centering must precede absolute values.",
+        "locations": [
+          {
+            "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/04-paths-trace.tex",
+            "lines": [
+              208,
+              218
+            ],
+            "label": "q:trace",
+            "pdf_page": 24
+          },
+          {
+            "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/04-paths-trace.tex",
+            "lines": [
+              351,
+              386
+            ],
+            "label": "q:mixed-difference",
+            "pdf_page": 26
+          }
+        ]
+      },
+      "formalization": {
+        "selected_configuration": {
+          "challenge_module": "ComparatorChallenges.OrdinaryTwoPointCorrelations",
+          "solution_module": "OAI.NumberTheory.TwoPointCorrelations.FinalMain",
+          "theorem_names": [
+            "OAI.OrdinaryTwoPointCorrelations.liouville_log_saving",
+            "OAI.OrdinaryTwoPointCorrelations.binary_corrected_elliott",
+            "OAI.OrdinaryTwoPointCorrelations.affine_corrected_elliott"
+          ],
+          "definition_names": [],
+          "permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "enable_nanoda": false
+        },
+        "additional_configuration": {
+          "challenge_module": "ComparatorChallenges.OrdinaryElliott",
+          "solution_module": "OAI.NumberTheory.OrdinaryCorrelations.Elliott.Main",
+          "theorem_names": [
+            "OAI.OrdinaryCorrelations.binary_corrected_elliott"
+          ],
+          "definition_names": [],
+          "permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "enable_nanoda": false
+        },
+        "wrapper_location": {
+          "path": "lean/OAI/NumberTheory/TwoPointCorrelations/FinalMain.lean",
+          "lines": [
+            10,
+            32
+          ]
+        },
+        "status": "configuration and source bindings inspected; not rerun"
+      },
+      "potential_transfer": "A reusable finite-law comparison for bounded-complexity arithmetic residue observables; this is a mathematical method, not a demonstrated end-user application."
+    },
+    {
+      "family": "017",
+      "title": "The irrationality exponent of pi is 2",
+      "bibkey": "arithOpenAI017",
+      "pdf": {
+        "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+        "sha256": "26eec5de7ac9dc49d28183fdea458e0858bc3323b5ba93c3d41bb105d8e3eab6",
+        "pages": 23
+      },
+      "exact_claims": [
+        {
+          "id": "A017-C1",
+          "statement": "For every real nu>2 there is Q(nu) such that every integer p and denominator q>=Q(nu) satisfy |pi-p/q|>=q^(-nu); together with Dirichlet approximation this gives mu(pi)=2.",
+          "status": "release_claim",
+          "location": {
+            "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+            "lines": [
+              50,
+              78
+            ],
+            "label": "thm:main",
+            "pdf_page": 1
+          },
+          "limits": [
+            "pi itself, not pi squared.",
+            "Eventual threshold is ineffective.",
+            "No fixed c/q^2 bound or bounded partial quotients follows.",
+            "Unreduced rationals are included."
+          ]
+        },
+        {
+          "id": "A017-C2",
+          "statement": "The Flint Hills series converges as a consequence of the asserted exponent theorem and the established strict sufficient criterion mu(pi)<5/2.",
+          "status": "release_consequence_conditional_on_A017-C1",
+          "location": {
+            "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+            "lines": [
+              90,
+              100
+            ],
+            "pdf_page": 1
+          },
+          "antecedents": [
+            "arithAlekseyev2011",
+            "arithMeiburg2022"
+          ]
+        }
+      ],
+      "prior_comparison": [
+        {
+          "bibkey": "arithZZ2020",
+          "established_scope": "Salikhov-variant integral construction gives a quantitative irrationality-measure upper bound 7.103205334137..., above the claimed endpoint 2."
+        },
+        {
+          "bibkey": "arithLaurent2000",
+          "established_scope": "Taylor expansion of interpolation determinants; coinciding Taylor degrees annihilate terms. This cancellation identity is an antecedent."
+        },
+        {
+          "bibkey": "arithFarhi2006",
+          "established_scope": "Roth/product zero estimate on commutative algebraic groups using multiplicity; contextual antecedent, not the same centre-uniform logarithmic jet theorem."
+        },
+        {
+          "bibkey": "arithDemailly1992",
+          "established_scope": "Positivity on blow-ups and vanishing yield asymptotic jet generation; smooth projective setting does not itself prove the released weighted ordinary-ideal statement."
+        },
+        {
+          "bibkeys": [
+            "arithAlekseyev2011",
+            "arithMeiburg2022"
+          ],
+          "established_scope": "Necessary mu(pi)<=5/2 and sufficient strict mu(pi)<5/2 for Flint Hills convergence; no equality-case conclusion."
+        }
+      ],
+      "unusual_mechanisms": [
+        {
+          "id": "A017-M1",
+          "description": "Separated-weight logarithmic jet interpolation: choose weights successively independently of centres, then permit the sufficiently divisible degree cutoff to depend on centres; use weighted curve contact and positivity on the ordinary blow-up to obtain ordinary-ideal-power surjectivity.",
+          "locations": [
+            {
+              "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+              "lines": [
+                24,
+                57
+              ],
+              "label": "geom:interpolation",
+              "pdf_page": 4
+            },
+            {
+              "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+              "lines": [
+                241,
+                249
+              ],
+              "label": "geom:curve-inequality"
+            },
+            {
+              "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+              "lines": [
+                474,
+                582
+              ]
+            }
+          ],
+          "antecedents": [
+            "arithFarhi2006",
+            "arithDemailly1992"
+          ]
+        },
+        {
+          "id": "A017-M2",
+          "description": "Organize determinant Taylor collisions by transverse-index classes; full weighted simplex row counts have dimension growth m+1 versus m for the indices, yielding a collision/error-power dichotomy.",
+          "locations": [
+            {
+              "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+              "lines": [
+                196,
+                242
+              ]
+            },
+            {
+              "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+              "lines": [
+                267,
+                285
+              ],
+              "label": "det:collision",
+              "pdf_page": 15
+            },
+            {
+              "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+              "lines": [
+                353,
+                370
+              ],
+              "label": "det:comparison",
+              "pdf_page": 16
+            }
+          ],
+          "antecedents": [
+            "arithLaurent2000"
+          ]
+        }
+      ],
+      "decisive_bottleneck": {
+        "description": "Prove the centre-independent separated-weight interpolation quantifiers through the weighted curve inequality and ordinary-power vanishing; then the nonzero arithmetic minor must meet the uniform analytic collision upper bound. Dimension counts or integral-closure substitutes do not supply the stated jet theorem.",
+        "locations": [
+          {
+            "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+            "lines": [
+              24,
+              57
+            ]
+          },
+          {
+            "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+            "lines": [
+              474,
+              582
+            ]
+          },
+          {
+            "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+            "lines": [
+              83,
+              97
+            ],
+            "label": "det:arithmetic"
+          },
+          {
+            "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+            "lines": [
+              353,
+              370
+            ],
+            "label": "det:comparison"
+          }
+        ]
+      },
+      "formalization": {
+        "selected_configuration": {
+          "challenge_module": "ComparatorChallenges.PiExponent",
+          "solution_module": "OAI.NumberTheory.PiExponent.Main",
+          "theorem_names": [
+            "OAI.PiExponent.main"
+          ],
+          "definition_names": [],
+          "permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "enable_nanoda": false
+        },
+        "main_binding": {
+          "path": "lean/OAI/NumberTheory/PiExponent/Main.lean",
+          "lines": [
+            18,
+            27
+          ]
+        },
+        "interpolation_binding": {
+          "path": "lean/OAI/NumberTheory/PiExponent/Approximation/AdmissibleMatrixGeometry.lean",
+          "lines": [
+            32,
+            44
+          ]
+        },
+        "additional_unselected_source_declaration": {
+          "name": "flint_hills_summable",
+          "path": "lean/OAI/NumberTheory/PiExponent/Main.lean",
+          "lines": [
+            29,
+            32
+          ]
+        },
+        "status": "configuration and source bindings inspected; not rerun"
+      },
+      "potential_transfer": "A centre-uniform interpolation lemma for logarithmic curves and an explicit determinant collision budget, if independently validated, are broader research objects than this single endpoint assertion."
+    }
+  ],
+  "references": [
+    {
+      "key": "arithOpenAI007",
+      "title": "Ordinary two-point correlations of multiplicative functions",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2026,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/final.pdf",
+      "supporting_locations": [
+        "Theorems q-affine and elliott and affine corollary in introduction.tex",
+        "Finite-law lemma q:finite-law; trace lemma q:trace; mixed-difference lemma q:mixed-difference",
+        "Qualitative trace-count singleton integration"
+      ],
+      "identity_verification": "Manuscript title page and README citation block; actual TeX and PDF inspected."
+    },
+    {
+      "key": "arithOpenAI017",
+      "title": "The irrationality exponent of pi is 2",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2026,
+      "primary_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+      "supporting_locations": [
+        "Theorem 1.1 and Corollary 1.2, PDF page 1",
+        "Separated-weight interpolation, PDF page 4",
+        "Collision and determinant comparison, PDF pages 15-16"
+      ],
+      "identity_verification": "Manuscript title page and README citation block; actual TeX and PDF inspected."
+    },
+    {
+      "key": "arithMR2016",
+      "title": "Multiplicative functions in short intervals",
+      "authors": [
+        "Kaisa Matomäki",
+        "Maksym Radziwiłł"
+      ],
+      "year": 2016,
+      "doi": "10.4007/annals.2016.183.3.6",
+      "primary_url": "https://annals.math.princeton.edu/2016/183-3/p06",
+      "supporting_locations": [
+        "Publisher abstract; most short-interval multiplicative means"
+      ],
+      "identity_verification": "Official Annals metadata inspected.",
+      "content_verification": "Publisher abstract inspected; contextual short-interval comparison."
+    },
+    {
+      "key": "arithMRT2015",
+      "title": "An averaged form of Chowla’s conjecture",
+      "authors": [
+        "Kaisa Matomäki",
+        "Maksym Radziwiłł",
+        "Terence Tao"
+      ],
+      "year": 2015,
+      "doi": "10.2140/ant.2015.9.2167",
+      "primary_url": "https://arxiv.org/abs/1503.05121v3",
+      "supporting_locations": [
+        "Abstract and introduction: averaged shifts",
+        "Appendix B: corrected Elliott hypothesis"
+      ],
+      "identity_verification": "arXiv primary author record and DOI registrant metadata.",
+      "version_note": "Published 2015; corrected preprint v3 dated 2022-03-01."
+    },
+    {
+      "key": "arithTao2016",
+      "title": "The logarithmically averaged Chowla and Elliott conjectures for two-point correlations",
+      "authors": [
+        "Terence Tao"
+      ],
+      "year": 2016,
+      "doi": "10.1017/fmp.2016.6",
+      "primary_url": "https://arxiv.org/abs/1509.05422v4",
+      "additional_primary_url": "https://www.cambridge.org/core/journals/forum-of-mathematics-pi/article/logarithmically-averaged-chowla-and-elliott-conjectures-for-twopoint-correlations/48514F53D73B2C1277BD7232630F0694",
+      "supporting_locations": [
+        "Abstract",
+        "Theorem 1.3 and Corollary 1.5"
+      ],
+      "identity_verification": "Cambridge publisher and primary arXiv record; published DOI metadata.",
+      "content_verification": "Logarithmically weighted affine two-point statement inspected."
+    },
+    {
+      "key": "arithTT2019",
+      "title": "The structure of correlations of multiplicative functions at almost all scales, with applications to the Chowla and Elliott conjectures",
+      "authors": [
+        "Terence Tao",
+        "Joni Teräväinen"
+      ],
+      "year": 2019,
+      "doi": "10.2140/ant.2019.13.2103",
+      "primary_url": "https://msp.org/ant/2019/13-9/ant-v13-n9-p06-s.pdf",
+      "supporting_locations": [
+        "Corollary 1.13, PDF page 9, printed page 2110",
+        "Corollary 1.14 and Remark 1.11"
+      ],
+      "identity_verification": "Official MSP full PDF and DOI metadata.",
+      "content_verification": "Exact exceptional-scale two-point statement read."
+    },
+    {
+      "key": "arithHR2021",
+      "title": "Expansion, divisibility and parity",
+      "authors": [
+        "Harald Andrés Helfgott",
+        "Maksym Radziwiłł"
+      ],
+      "year": 2021,
+      "primary_url": "https://arxiv.org/abs/2103.06853v2",
+      "additional_primary_url": "https://webusers.imj-prg.fr/~harald.helfgott/Expansion_1.html",
+      "supporting_locations": [
+        "Preprint abstract",
+        "Author exposition, operator square-root bound and Corollary 1.5",
+        "Author exposition Sections 2-7 and 9.1-9.2"
+      ],
+      "identity_verification": "Primary arXiv record; author-hosted exposition.",
+      "content_verification": "Weighted divisibility-graph/logarithmic bound and antecedent mechanisms read."
+    },
+    {
+      "key": "arithPilatte2026",
+      "title": "Improved bounds for the two-point logarithmic Chowla conjecture",
+      "authors": [
+        "Cédric Pilatte"
+      ],
+      "year": 2026,
+      "doi": "10.1090/jams/1084",
+      "primary_url": "https://arxiv.org/html/2310.19357v3",
+      "supporting_locations": [
+        "Theorem 1.1",
+        "Section 1.2: centred composite steps and nonbacktracking walks",
+        "Remark 2.8: almost-all-scale consequence"
+      ],
+      "identity_verification": "Primary arXiv v3 and journal DOI registrant metadata.",
+      "version_note": "Preprint began 2023; v3 2026-08-25; published electronically 2026-09-10.",
+      "content_verification": "Actual HTML theorem and method description read."
+    },
+    {
+      "key": "arithBraverman2010",
+      "title": "Polylogarithmic independence fools AC0 circuits",
+      "authors": [
+        "Mark Braverman"
+      ],
+      "year": 2010,
+      "doi": "10.1145/1754399.1754401",
+      "primary_url": "https://www.cs.toronto.edu/~mbraverm/Papers/FoolAC0v7.pdf",
+      "additional_primary_url": "https://mbraverm.princeton.edu/research/all-papers/",
+      "supporting_locations": [
+        "Author manuscript Corollary 2, PDF page 1",
+        "Author publication list entry: Journal of the ACM 57(5), 2010"
+      ],
+      "identity_verification": "Primary author manuscript and author publication list; DOI title/volume/page metadata.",
+      "content_verification": "Exact bounded-wise independence circuit-fooling statement read.",
+      "metadata_caution": "Crossref published date returned 2008-06-25; journal year 2010 resolved using author publication list. No claim that 2008 is the journal year."
+    },
+    {
+      "key": "arithAGM2003",
+      "title": "Almost k-wise independence versus k-wise independence",
+      "authors": [
+        "Noga Alon",
+        "Oded Goldreich",
+        "Yishay Mansour"
+      ],
+      "year": 2003,
+      "doi": "10.1016/S0020-0190(03)00359-4",
+      "primary_url": "https://www.math.tau.ac.il/~nogaa/PDFS/agolman6.pdf",
+      "supporting_locations": [
+        "Theorem 2.1, PDF page 3",
+        "Section 3.1, PDF page 4"
+      ],
+      "identity_verification": "Author-hosted full paper and DOI publisher metadata.",
+      "content_verification": "Low-order Fourier bias correction and total-variation bound read; no efficient construction claim inferred."
+    },
+    {
+      "key": "arithZZ2020",
+      "title": "The irrationality measure of π is at most 7.103205334137…",
+      "authors": [
+        "Doron Zeilberger",
+        "Wadim Zudilin"
+      ],
+      "year": 2020,
+      "doi": "10.2140/moscow.2020.9.407",
+      "primary_url": "https://arxiv.org/abs/1912.06345v2",
+      "supporting_locations": [
+        "Abstract and integral-method introduction"
+      ],
+      "identity_verification": "Primary arXiv author/title record and publisher DOI metadata.",
+      "content_verification": "Quantitative bound and variant of Salikhov integral method read."
+    },
+    {
+      "key": "arithLaurent2000",
+      "title": "Interpolation determinants of exponential polynomials",
+      "authors": [
+        "Michel Laurent"
+      ],
+      "year": 2000,
+      "doi": "10.5486/PMD.2000.2310",
+      "primary_url": "https://publi.math.unideb.hu/paper/599",
+      "pdf_url": "https://publi.math.unideb.hu/paper/599/download/10_5486_PMD_2000_2310.pdf",
+      "supporting_locations": [
+        "Theorem 1, printed page 459, PDF page 3",
+        "Section 2: expansion over strictly increasing Taylor degrees"
+      ],
+      "identity_verification": "Official journal metadata and full PDF; DOI metadata.",
+      "content_verification": "Taylor-degree determinant expansion/cancellation read."
+    },
+    {
+      "key": "arithFarhi2006",
+      "title": "Un lemme de Roth sur les groupes algébriques commutatifs",
+      "authors": [
+        "Bakir Farhi"
+      ],
+      "year": 2006,
+      "primary_url": "https://arxiv.org/abs/math/0603257v1",
+      "supporting_locations": [
+        "Abstract",
+        "Section 5.2, product zero estimate; PDF pages 35-42"
+      ],
+      "identity_verification": "Primary arXiv record and full PDF.",
+      "content_verification": "Quantitative Roth/product zero-estimate context read; not claimed to imply the release's particular interpolation theorem."
+    },
+    {
+      "key": "arithDemailly1992",
+      "title": "Singular hermitian metrics on positive line bundles",
+      "authors": [
+        "Jean-Pierre Demailly"
+      ],
+      "year": 1992,
+      "doi": "10.1007/BFb0094512",
+      "primary_url": "https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/bayreuth.pdf",
+      "additional_primary_url": "https://www-fourier.ujf-grenoble.fr/~demailly/source_files/notice/publications/demailly_publi_mathscinet.pdf",
+      "supporting_locations": [
+        "Section 6",
+        "Theorem 6.4 and proof, author PDF pages 11-12: blow-up positivity and jet surjectivity",
+        "Remark 6.6: two-point jets"
+      ],
+      "identity_verification": "Author PDF title/authorship and author-hosted publication list; Springer book/DOI metadata.",
+      "content_verification": "Actual proof of positivity-to-jet-generation passage read.",
+      "metadata_caution": "Crossref/Springer spell the author 'Damailly'; corrected to Demailly from the actual author manuscript. The smooth setting is not conflated with the release's possibly singular ordinary blow-up."
+    },
+    {
+      "key": "arithAlekseyev2011",
+      "title": "On convergence of the Flint Hills series",
+      "authors": [
+        "Max A. Alekseyev"
+      ],
+      "year": 2011,
+      "primary_url": "https://arxiv.org/abs/1104.5100v1",
+      "supporting_locations": [
+        "Corollary 4, PDF page 3"
+      ],
+      "identity_verification": "Primary arXiv record and full PDF.",
+      "content_verification": "Necessary inequality mu(pi)<=5/2 read."
+    },
+    {
+      "key": "arithMeiburg2022",
+      "title": "Bounds on Irrationality Measures and the Flint-Hills Series",
+      "authors": [
+        "Alex Meiburg"
+      ],
+      "year": 2022,
+      "primary_url": "https://arxiv.org/abs/2208.13356v1",
+      "supporting_locations": [
+        "Theorem 2.5, PDF pages 4 and 9",
+        "Theorem 2.1, good-approximation sparsity, PDF pages 7-8"
+      ],
+      "identity_verification": "Primary arXiv record and full PDF.",
+      "content_verification": "Strict sufficient inequality mu(alpha)<1+u/v for sine-like series read; with u=3,v=2 gives 5/2."
+    }
+  ],
+  "source_snapshots": [
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/README.md",
+      "bytes": 655,
+      "sha256": "919914473e87dd8f9667b8b153816ee1fff49debe338ce35db224492ed6bfa88",
+      "lines": 18
+    },
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/introduction.tex",
+      "bytes": 14064,
+      "sha256": "05f8ea23cd4d2f423e9a46dfc583813d30907159fb5a667dc2850740b7d32903",
+      "lines": 278
+    },
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/02-finite-law.tex",
+      "bytes": 10952,
+      "sha256": "473761422e03b4a185af34a2ec8aaf5cececff9d04fcf8d05a95f7e052757952",
+      "lines": 239
+    },
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/04-paths-trace.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/quantitative/04-paths-trace.tex",
+      "bytes": 19651,
+      "sha256": "23d5baceae023e57898c8b41299ed81df2de4860d46abe6fe99de5b99207889e",
+      "lines": 421
+    },
+    {
+      "path": "preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/qualitative/trace-count.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026/build/qualitative/trace-count.tex",
+      "bytes": 28824,
+      "sha256": "26287c969afde99a6363a56eea8962c7610d1cb21f0500dc50bf4962afda4fcf",
+      "lines": 626
+    },
+    {
+      "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/README.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/README.md",
+      "bytes": 550,
+      "sha256": "91a4f24b4576c3fb2f13341ea946947c9f16ba613d57ebb09b0ea14bec068c1e",
+      "lines": 18
+    },
+    {
+      "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+      "bytes": 12659,
+      "sha256": "1479652f0081d4326911800cd2f8f68045f06d27861f7d1feb275db90cad7d8d",
+      "lines": 264
+    },
+    {
+      "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+      "bytes": 26655,
+      "sha256": "44cfa0481fce5da64a64b83347513db707257a33cd9cb4af8e5fde84b05a3fc2",
+      "lines": 584
+    },
+    {
+      "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+      "bytes": 14595,
+      "sha256": "719338e64a9554552f643a3ddf8463a85ab0f98684480f537d71872e4281fd89",
+      "lines": 432
+    },
+    {
+      "path": "lean/ComparatorChallenges/OrdinaryTwoPointCorrelations.json",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/OrdinaryTwoPointCorrelations.json",
+      "bytes": 503,
+      "sha256": "166093d8e0bc3344008d1fc2a29b14de8327b1a1c98fda6aa9a10393f76ca182",
+      "lines": 16,
+      "configuration": {
+        "challenge_module": "ComparatorChallenges.OrdinaryTwoPointCorrelations",
+        "solution_module": "OAI.NumberTheory.TwoPointCorrelations.FinalMain",
+        "theorem_names": [
+          "OAI.OrdinaryTwoPointCorrelations.liouville_log_saving",
+          "OAI.OrdinaryTwoPointCorrelations.binary_corrected_elliott",
+          "OAI.OrdinaryTwoPointCorrelations.affine_corrected_elliott"
+        ],
+        "definition_names": [],
+        "permitted_axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "enable_nanoda": false
+      }
+    },
+    {
+      "path": "lean/ComparatorChallenges/OrdinaryElliott.json",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/OrdinaryElliott.json",
+      "bytes": 359,
+      "sha256": "0eecc8b3ace4771b457e829af30c8e5d086c0a5eb42d10e8ea4bac58dcf7731d",
+      "lines": 14,
+      "configuration": {
+        "challenge_module": "ComparatorChallenges.OrdinaryElliott",
+        "solution_module": "OAI.NumberTheory.OrdinaryCorrelations.Elliott.Main",
+        "theorem_names": [
+          "OAI.OrdinaryCorrelations.binary_corrected_elliott"
+        ],
+        "definition_names": [],
+        "permitted_axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "enable_nanoda": false
+      }
+    },
+    {
+      "path": "lean/ComparatorChallenges/PiExponent.json",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PiExponent.json",
+      "bytes": 306,
+      "sha256": "1e3e4707e73becd09872768b103547c68491199fe2c76d17b237a4f114f2c8a1",
+      "lines": 14,
+      "configuration": {
+        "challenge_module": "ComparatorChallenges.PiExponent",
+        "solution_module": "OAI.NumberTheory.PiExponent.Main",
+        "theorem_names": [
+          "OAI.PiExponent.main"
+        ],
+        "definition_names": [],
+        "permitted_axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "enable_nanoda": false
+      }
+    },
+    {
+      "path": "lean/OAI/NumberTheory/TwoPointCorrelations/FinalMain.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/TwoPointCorrelations/FinalMain.lean",
+      "bytes": 1461,
+      "sha256": "5c03b192161ba203e82cfededd01b435f390a8cc03a430ef408734342161c7df",
+      "lines": 36
+    },
+    {
+      "path": "lean/OAI/NumberTheory/PiExponent/Main.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PiExponent/Main.lean",
+      "bytes": 1361,
+      "sha256": "51a034738b1a61a17b076f19b0e12e4297e3974299bbca186b65f6e0826f0933",
+      "lines": 36
+    },
+    {
+      "path": "lean/OAI/NumberTheory/PiExponent/Approximation/AdmissibleMatrixGeometry.lean",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PiExponent/Approximation/AdmissibleMatrixGeometry.lean",
+      "bytes": 2173,
+      "sha256": "cdadf6373be1c7117c99c9d096f22ee402bc9cbd959c0e7328196cee6a98b48a",
+      "lines": 50
+    },
+    {
+      "path": "lean/docs/007.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/007.md",
+      "bytes": 1331,
+      "sha256": "0ad2938aa412b0521890c05327e30567c815e781a9381b8c5ede9bf0553d3397",
+      "lines": 18
+    },
+    {
+      "path": "lean/docs/017.md",
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/017.md",
+      "bytes": 893,
+      "sha256": "a738f64b79494db1ed2deacb26a8c0a2c0babe85c8153f75bcba388bc46a534c",
+      "lines": 17
+    }
+  ],
+  "review_priorities": [
+    "007: verify uniform finite-law error and high-trace constants through J growing with log log X, including padding.",
+    "007: independently trace signed singleton/return-factor cancellation in the qualitative nonzero-mean environment.",
+    "017: audit quantifier order in centre-independent separated weights and the weighted curve inequality.",
+    "017: audit ordinary Rees ideal powers, sufficiently large vanishing, and denominator-cleared determinant comparison.",
+    "Both: execute the selected comparator declarations under the pinned toolchain and inspect transitive dependencies and axioms separately from these source-level observations."
+  ]
+}

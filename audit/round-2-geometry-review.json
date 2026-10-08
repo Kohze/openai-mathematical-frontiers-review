@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "round-2-geometry-review",
+  "review_date": "2026-10-07",
+  "review_type": "Internal skeptical exposition and novelty-positioning review",
+  "reviewer": {
+    "agent": "/root/crouzeix_paper",
+    "independence": "The reviewing agent contributed to the geometry/operator fragment and earlier source audit. This is a fresh adversarial internal review, not independent human refereeing or certification of the released theorems."
+  },
+  "scope": {
+    "included": [
+      "main.tex",
+      "synthesis.tex",
+      "research/geometry-operators/section.tex",
+      "research/contrastive-tests.tex"
+    ],
+    "underlying_sources": "Revisited the source statements and central interfaces of both Mahler manuscripts and both Crouzeix manuscripts at the pinned release commit; checked additional primary antecedents.",
+    "excluded": "No complete rederivation of the released proofs, no Lean or Comparator execution, no execution of the general-Mahler ten-program runner, and no claim of external mathematical acceptance."
+  },
+  "source_snapshot": [
+    {
+      "path": "papers/openai-mathematical-frontiers/main.tex",
+      "sha256": "72cab662e90f89d63da828a1a59c5f9fba5abbf32c7140dc9f75f3ce9ce8f739",
+      "lines": 353
+    },
+    {
+      "path": "papers/openai-mathematical-frontiers/synthesis.tex",
+      "sha256": "15dab38022e98f03701fa380467920ffe571a21bfd79579e579fdf874581c3f3",
+      "lines": 199
+    },
+    {
+      "path": "papers/openai-mathematical-frontiers/research/geometry-operators/section.tex",
+      "sha256": "28df00eec18a99d220314eaebcc47b0a82dafecf3dfbb9b8703291bd9d41b4f0",
+      "lines": 232
+    },
+    {
+      "path": "papers/openai-mathematical-frontiers/research/contrastive-tests.tex",
+      "sha256": "6a8fa8473144b3717a81bc7b2655ff576456a455c89ab259368b1d55b04a251e",
+      "lines": 58
+    }
+  ],
+  "overall": {
+    "score_out_of_10": 7.8,
+    "calibration": "Comparative narrative/technical review of a recent mathematical release. This score evaluates the review's exposition, attribution, boundaries and usefulness; it does not score the correctness or breakthrough status of the released theorems.",
+    "recommendation": "Suitable as a carefully labelled research review/preprint after the two content recommendations below. A research-journal contribution would need expert verification of the central interfaces or a demonstrated reusable transfer beyond this source taxonomy.",
+    "actual_mathematical_exposition_defects_found": 0,
+    "qualification": "No new false implication or counterexample was found in the current worked controls. The closest-prior gap is established; the underlying proof bottlenecks remain verification priorities."
+  },
+  "category_scores": [
+    {
+      "category": "Mathematical statements and hypothesis precision",
+      "score": 8.5,
+      "justification": "The two Mahler constants, symmetry/equality classes, cone interior hypotheses, scalar versus complete Crouzeix scope, and base/coefficient dimensions are correctly separated. The examples inspected are elementary and correct. This is not a proof-correctness assessment of the source manuscripts."
+    },
+    {
+      "category": "Novelty attribution",
+      "score": 7.5,
+      "justification": "The current barrier/inherited/bridge table is a major improvement. The structural operator paragraph still needs explicit Paulsen and classical resolvent-density positioning, and two preceding scalar boundary/Gram routes are missing."
+    },
+    {
+      "category": "Original contribution of the review",
+      "score": 7,
+      "justification": "The release-specific source comparisons and quantifier/loss-budget register are useful editorial research contributions. The organizing principles themselves are familiar, and the review currently proves no new cross-field transfer or reusable mathematical lemma."
+    },
+    {
+      "category": "Substance of cross-field connections",
+      "score": 7,
+      "justification": "The comparison is substantive where it tracks preserved laws, defects, norm constants and uniform quantifiers. Cancellation and positivity are deliberately distinguished across settings. The connections remain methodological, rather than mathematical equivalences or established transfers between fields."
+    },
+    {
+      "category": "Falsifiability of verification priorities",
+      "score": 7.5,
+      "justification": "Named bottlenecks and contrastive controls give concrete targets. Exact source hypotheses and acceptance/failure predicates in a small supplement would turn the remaining broad inspection priorities into a reproducible checklist."
+    },
+    {
+      "category": "Worked demonstrations",
+      "score": 8.5,
+      "justification": "The logarithmic/ordinary averaging control, Jordan sharpness, entrywise dimension loss, finite-field puncturing, restricted-gap chain and positive-node counterexample correctly expose logical boundaries. They are calibration examples rather than proof evidence for the central release bridges."
+    },
+    {
+      "category": "Primary literature and concurrent positioning",
+      "score": 7.5,
+      "justification": "The geometric comparison includes Gross, complex mass, Klartag, covariance, rigidity and current three-dimensional work. Current operator comparisons include Lorist–Schwenninger and Ahag–Czyz–Virtanen but omit Paulsen, Jin and Luo, whose scopes directly constrain the novelty description."
+    },
+    {
+      "category": "Presentation and title/abstract alignment",
+      "score": 8.5,
+      "justification": "The title and revised abstract accurately describe a comparative review; the expanded table now foregrounds qualitative barriers and inherited tools. The breadth is readable but warrants the precise source-level supplement proposed below."
+    },
+    {
+      "category": "Research/application usefulness",
+      "score": 7.5,
+      "justification": "The paper supplies plausible reconstruction and implementation targets without claiming immediate numerical or algorithmic superiority. A sharper operator constant is only one error-budget factor, and PDE existence is appropriately separated from a numerical method."
+    },
+    {
+      "category": "Provenance, limits and disclosure",
+      "score": 8.5,
+      "justification": "Pinned sources, statement correspondence, execution ledgers and end-section AI disclosure distinguish the evidence types. Internal authorship/audit limitations should remain explicit in the audit record; the review should not imply external theorem certification."
+    }
+  ],
+  "major_recommendations": [
+    {
+      "id": "R2G1",
+      "severity": "major",
+      "classification": "Established closest-prior and novelty-attribution gap",
+      "title": "Attribute similarity, attainment and the contraction density to their classical sources; compare preceding scalar boundary certificates",
+      "locations": [
+        {
+          "path": "research/geometry-operators/section.tex",
+          "lines": "196–220",
+          "scope": "Concurrent scalar discussion and structural companion"
+        },
+        {
+          "path": "synthesis.tex",
+          "lines": "Complete Crouzeix row and representation discussion",
+          "scope": "Inherited machinery versus proposed new bridge"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "locator": "Proposition prop:density, lines 316–331",
+          "fact": "The common positive representation is proved before any bound on kappa and explicitly credited to Delyon–Delyon Section 2 equation (7), with dilation antecedents."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-complete-Crouzeix-theorem-September-23-2026/build/main.tex",
+          "locator": "Lemma lem:comparison, lines 977 onward; equations diagonal-bound and cross-bound",
+          "fact": "The sharp metric bound is obtained through the ordered density comparison, which is the intended new burden."
+        },
+        {
+          "url": "https://www.researchgate.net/publication/318015254_Completely_bounded_homomorphisms_of_operator_algebras",
+          "locator": "Original article pp. 225–226, THEOREM on p. 226",
+          "fact": "A unital completely bounded homomorphism is similar to a completely contractive one by an invertible S with condition number equal to its cb norm. The matching infimum is attained."
+        },
+        {
+          "url": "https://www.numdam.org/item/10.24033/bsmf.2340.pdf",
+          "locator": "Section 2, p. 30, equation (7)",
+          "fact": "For a contraction with spectrum inside the disk, a positive boundary measure of mass I represents the scalar analytic calculus; the same density gives all coefficient sizes by tensor integration."
+        },
+        {
+          "url": "https://www.preprints.org/manuscript/202607.1919/v4",
+          "locator": "Theorem 1; Theorem 2; Section 7",
+          "fact": "Earlier scalar constant-two announcement with an auxiliary positive-real completion and ordered weighted Gramians; complete matrix-valued scope remains listed as open."
+        },
+        {
+          "url": "https://www.preprints.org/manuscript/202608.1661/v2",
+          "locator": "Theorem 1; Sections 3–5; Section 10",
+          "fact": "Earlier scalar Fourier and defect-Gram boundary certificates use positive double layers and top singular vectors; the paper explicitly excludes a complete endpoint."
+        }
+      ],
+      "required_fix": "State that complete boundedness/similarity equivalence, attained optimal similarity and the stable-contraction boundary density are inherited. Isolate the release's proposed improvement as proving kappa<=2 (or the direct complete bound) through compatible ordered estimates uniformly in both dimensions. Add a short Jin/Luo comparison without treating their announcements as accepted complete results.",
+      "suggested_prose": "Paulsen's similarity theorem already identifies the completely bounded norm of a unital homomorphism with the attained least condition number of a similarity to a completely contractive homomorphism. Once a stable contraction is available, the common continuous boundary density follows from the classical disk-resolvent representation. The structural manuscript's proposed advance is therefore its ordered comparison yielding the sharp bound kappa<=2. Earlier scalar preprints of Jin and Luo also use positive boundary or Gram certificates; their stated endpoints do not supply arbitrary matrix-coefficient amplification.",
+      "strengthening_evidence": "Provide a proof-level comparison of the source lem:comparison with these scalar completion/recurrence mechanisms, identifying the precise estimates that remain uniform for noncommuting coefficient matrices.",
+      "novelty_consequence": "Generic positivity, Fourier cancellation, Gram matrices, similarity and density existence cannot individually substantiate a first-mechanism claim."
+    },
+    {
+      "id": "R2G2",
+      "severity": "major",
+      "classification": "Substantive review-strengthening recommendation; not a demonstrated theorem error",
+      "title": "Give the central bridges exact acceptance predicates and a geometric normalization calibration",
+      "locations": [
+        {
+          "path": "research/geometry-operators/section.tex",
+          "lines": "54–98, 112–148, 178–220",
+          "scope": "Named proof interfaces"
+        },
+        {
+          "path": "synthesis.tex",
+          "lines": "Research consequences and source-package scrutiny",
+          "scope": "Reconstruction priorities"
+        }
+      ],
+      "required_fix": "Add a compact supplemental worksheet keyed to the exact source labels, recording inputs/hypotheses, quantitative output, what finite checks establish, and the independent analytic implication still required. A brief square/duplicate-strip example can calibrate the symmetric identity. The supplement is preferable to another broad prose section.",
+      "evidence": "The current contrastive tests successfully demonstrate why weaker evidence can fail, but they do not evaluate the central feasibility or scalar-to-matrix bridges. The source interfaces below make this evaluation falsifiable without pretending to have certified them.",
+      "acceptance_worksheet": [
+        {
+          "interface": "Symmetric boundary feasibility",
+          "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/feasibility.tex",
+          "locator": "lem:holomorphic-feasibility, lines 36–42",
+          "inputs": "Any positive dimension; finite nonzero real rows spanning the dual; biholomorphism of disk onto a bounded planar D, continuous on the closed disk, F(0)=0.",
+          "output": "The sum over independent row-index bases of all-row closed-boundary feasibility probabilities is at least 1.",
+          "failure_predicate": "A rigorously evaluated admissible row/domain example with sum below 1, or a failure in the normalized holomorphic-mass/Fatou inference. Duplicate rows are permitted here."
+        },
+        {
+          "interface": "Symmetric simplex normalization",
+          "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/simplex.tex",
+          "locator": "prop:simplex-integral, lines 46–60",
+          "inputs": "The special lens boundary law plus nonzero, pairwise nonproportional spanning rows.",
+          "output": "S=(d!/4^d) integral_A |Sigma_X| <= (d!/4^d)|A||A^polar|.",
+          "failure_predicate": "A violation for admissible rows of the probability-to-integral formula, null-tie argument or disjoint-interior statement; coincident simplices after duplicate rows do not qualify."
+        },
+        {
+          "interface": "General simultaneous normalization",
+          "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/02-projections.tex",
+          "locator": "prop:normalization, lines 175–184",
+          "inputs": "The source cone/projection data and the fixed scalar profiles satisfying their prescribed scalar bounds.",
+          "output": "A coordinate change and T in the prescribed spectral box with E A=0, lambda T^2+C circ T+K=0, and H=-C-2lambda T >= m_* I.",
+          "failure_predicate": "An unproved continuity/coercivity/fixed-point boundary step or an exact admissible instance without the asserted normalization; scalar coefficient positivity alone is insufficient."
+        },
+        {
+          "interface": "General all-segment absorption",
+          "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/08-segments.tex",
+          "locator": "prop:segment-estimate, lines 16–34, with the source scalar-input/profile definitions",
+          "inputs": "Every ordered noncoincident real endpoint pair; the exact fixed profiles, averages, error terms and constants.",
+          "output": "The strict displayed segment deficit inequality for all real pairs, with equality zero at coincident endpoints.",
+          "failure_predicate": "An exact admissible pair whose deficit is nonpositive; or an uncovered interpolation/tail regime. Node positivity alone does not establish the required predicate."
+        },
+        {
+          "interface": "Direct complete sharp operator bound",
+          "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+          "locator": "prop:coefficients lines 246–252; thm:domain lines 323–324; ordered-products, weighted-dual, diagonal-L2 and cross-L2",
+          "inputs": "Any positive n,m; analytic convex enclosing domain; W(A) inside it; matrix polynomial F bounded by 1 on the boundary.",
+          "output": "Compatible diagonal upper bounds 4a^2/gamma^2 and cross lower bound a^2, from positive compressed fields, forcing gamma<=2.",
+          "failure_predicate": "An invalid coefficient/resolvent estimate or admissible amplified test for which the claimed compatible bounds fail. Scalar tests and the Jordan sharpness example do not establish this upper bound."
+        }
+      ],
+      "worked_calibration": {
+        "status": "Independently derived exact elementary control, not a release theorem counterexample",
+        "data": "A=[-1,1]^2, rows e1,e2. The one indexed basis has P=1. Four signed triangles fill the polar diamond of area 2 for interior X. |A|=4, product=8, and (2!/4^2) integral_A |Sigma_X|=(1/8)*4*2=1.",
+        "excluded_hypothesis_test": "Replacing the rows by e1,e1,e2 gives two labelled independent index bases {1,3} and {2,3}, each P=1. Their simplex union is still the same diamond. The probability sum is 2 but the normalized union integral is 1. Thus the simplex identity needs its stated nonproportional-row preprocessing; the feasibility sum>=1 remains valid.",
+        "source_basis_indexing": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/feasibility.tex, lines 19–21; simplex.tex, lines 46–55"
+      },
+      "strengthening_evidence": "An independently executed worksheet with exact small controls, faithful source labels and explicit analytic transfer dependencies would make the review's original comparison reusable by other readers."
+    }
+  ],
+  "per_family_judgments": [
+    {
+      "family": "087 symmetric",
+      "prior_barrier": "All-dimensional sharp volume product 4^n/n! and the full Hanner equality class, beyond established three-dimensional sharp results and weaker all-dimensional reverse bounds.",
+      "inherited_mechanism": [
+        "Gross's conformal lens with the prescribed uniform imaginary-coordinate law",
+        "Holomorphic isolated-zero/Lelong mass machinery",
+        "Polar strip geometry and finite simplex volumes",
+        "Hansen–Lima classification once the three-ball/median norm property is obtained"
+      ],
+      "precise_candidate_novelty": "Boundary-basis feasibility with exact dimension-independent mass normalization, coupled to a disjoint signed-simplex identity giving the sharp factor; a separate zero-deficit compactness passage produces universal metric-median witnesses even through rank degeneration.",
+      "potential_reusable_lemma": "The boundary-feasibility lemma is stated for any bounded biholomorphic planar image with F(0)=0, not merely the tuned Mahler lens. A independently established version retaining this domain and row-set generality would be a methodological contribution. Zero-deficit-to-universal-witness transfer is a second candidate, provided its compactness and rank-degeneration hypotheses are preserved.",
+      "standard_vs_breakthrough": "If correct, the sharp global conclusion crosses a major barrier. The lens and final norm classification are standard inherited tools; their use is not the novel step. The proposed reusable content is the feasibility and rigidity bridge, rather than a new classification theorem.",
+      "primary_comparison": "Kuperberg's Corollary 1.5 already gives an all-dimensional lower bound equal to the cube volume product times (pi/4)^n gamma_n, with gamma_n bounded below by 4/pi and tending to sqrt(2). The release seeks the sharp factor 1 and equality rigidity. This quantifies the barrier without calling complex geometry a new entrance to the field.",
+      "decisive_verification": "Mass normalization and upper-Fatou passage; probability/simplex normalization and null ties; zero-deficit transfer to every point and direction.",
+      "verification_status": "Source-level comparison and simple controls only; central proof not independently certified."
+    },
+    {
+      "family": "087 general",
+      "prior_barrier": "The global all-dimensional general Mahler bound (n+1)^(n+1)/(n!)^2 with simplex-only equality, beyond local simplex minimality and preceding three-dimensional announcements.",
+      "inherited_mechanism": [
+        "Cone–Laplace correspondence",
+        "Convex projection derivatives between zero and I",
+        "Gaussian integration by parts and inverse Ornstein–Uhlenbeck covariance",
+        "Log-determinant concavity and fixed-point tools",
+        "Finite rational scalar enclosure and Bernstein positivity methods"
+      ],
+      "precise_candidate_novelty": "The joint coordinate/covariance normalization solves a noncommuting quadratic while preserving spectral coercivity, then a whole-layer-to-spectral comparison and a strict all-real segment deficit absorb the commutator, divided-difference and variance costs.",
+      "potential_reusable_lemma": "A normalization theorem for paired cone-projection fields with the stated spectral box and coercivity, together with a layer-to-spectral error-transfer theorem parameterized by explicit scalar profile conditions, would be the reusable methodological advance. The release's tuned curve is a witness for those conditions; a successful decimal/rational certificate alone is a specialized verification device.",
+      "standard_vs_breakthrough": "The global inequality and equality rigidity would be a major conclusion if correct. Gaussian smoothing, covariance formulas and cone lifting are inherited. The genuinely difficult candidate step is their quantitatively compatible noncommutative comparison.",
+      "decisive_verification": "Continuity and coercivity in the simultaneous fixed point; faithful reduction of matrix error to scalar budgets; every segment regime including interpolation/tails; equality forcing deterministic commutation and an orthant.",
+      "verification_status": "Source interfaces inspected. No independent execution of the ten-program runner or reconstruction of the complete analytic implication."
+    },
+    {
+      "family": "325 complete Crouzeix",
+      "prior_barrier": "Published unconditional complete bound 1+sqrt(2); preceding scalar constant-two announcements and low-base-dimensional complete claims do not yield sharp 2 uniformly for every base and coefficient dimension.",
+      "inherited_mechanism": [
+        "Positive double-layer and contraction-resolvent boundary calculus",
+        "Fourier/Parseval and Hilbert–Schmidt coefficient estimates",
+        "Positive block inequalities",
+        "Paulsen's complete-bounded similarity theorem, including matching condition number and attainment",
+        "Common positive contraction density valid for every coefficient size"
+      ],
+      "precise_candidate_novelty": "The direct proof claims compatible ordered FG/GF diagonal estimates and a constant-term-preserving cross estimate with no base- or coefficient-dimensional loss. The structural proof claims an ordered density comparison yielding kappa<=2; neither abstract similarity nor density existence alone is the advance.",
+      "potential_reusable_lemma": "An independently proved ordered coefficient/density-comparison lemma retaining both product orders, the exact Fourier weights and uniformity in n and m would be a substantive methodological advance. Any extension to other functional calculi would require the same kernel and resolvent hypotheses; no blanket portability follows from the present review.",
+      "standard_vs_breakthrough": "Sharp scalar constant two and the generic use of boundary/Gram positivity have preceding 2026 announcements. Arbitrary-dimensional sharp complete C2 remains the precise release-specific proposed endpoint. The Jordan example demonstrates necessity of 2, not sufficiency under amplification.",
+      "decisive_verification": "Coefficient norm bounds and positive resolvent field; both ordered multiplication tests; reciprocal weights including the constant term; positivity-to-L2 block comparison; outer-domain and Hilbert-space extensions separately.",
+      "verification_status": "Source-level scope/proof-interface audit only. Preceding preprints are treated as announcements, and no theorem certification or priority conclusion is inferred."
+    }
+  ],
+  "cross_field_assessment": {
+    "substantive_content": "The same review questions can be applied to different proof interfaces: which object is preserved, which quantifier becomes uniform, and which quantitative loss must remain controlled. Current examples make several distinctions operational.",
+    "limit": "No actual transfer theorem from convex geometry to operator theory, arithmetic to PDE, or counting to algebra is established. Positive operators, an indefinite Lorentzian signature and characteristic-two transpose pairings are mathematically distinct structures.",
+    "defensible_review_novelty": "A source-specific comparison register that isolates candidate reusable central lemmas and their hypothesis/quantifier/loss contracts across the release. It is not a claim to have discovered a universal positivity or representation principle."
+  },
+  "primary_additions": [
+    {
+      "key": "GOPaulsen1984",
+      "bibtex": "@article{GOPaulsen1984,\n  author = {Paulsen, Vern I.},\n  title = {Completely bounded homomorphisms of operator algebras},\n  journal = {Proceedings of the American Mathematical Society},\n  volume = {92},\n  number = {2},\n  pages = {225--228},\n  year = {1984},\n  doi = {10.1090/S0002-9939-1984-0754708-X},\n  url = {https://doi.org/10.1090/S0002-9939-1984-0754708-X}\n}",
+      "metadata_status": "Verified from the original AMS article header and author-uploaded original pages; DOI matches the original AMS record.",
+      "primary_content_url": "https://www.researchgate.net/publication/318015254_Completely_bounded_homomorphisms_of_operator_algebras",
+      "author_provenance": "The page marks the complete text as content uploaded by Vern Paulsen on 25 June 2021.",
+      "publisher_url": "https://doi.org/10.1090/S0002-9939-1984-0754708-X",
+      "access_limit": "Direct AMS content was blocked; original author-uploaded published pages and the primary Davidson–Paulsen–Woerdeman manuscript independently support the theorem.",
+      "locator": "p. 225 introduction and p. 226 THEOREM",
+      "scope": "Any unital completely bounded homomorphism of an operator algebra into B(H); matching condition number and completely contractive similarity. Supplies attainment, not a new universal numerical-range constant."
+    },
+    {
+      "key": "GOJin2026",
+      "bibtex": "@misc{GOJin2026,\n  author = {Jin, Shanmu},\n  title = {The Numerical Range Is a {2}-Spectral Set},\n  year = {2026},\n  howpublished = {Preprints.org preprint 202607.1919},\n  note = {Version 4, posted 7 August 2026; not peer-reviewed},\n  doi = {10.20944/preprints202607.1919.v4},\n  url = {https://www.preprints.org/manuscript/202607.1919/v4}\n}",
+      "metadata_status": "Primary Preprints.org version record verifies author/title/version and submitted 6 August versus posted 7 August 2026; the DOI link is explicitly present in Luo's primary reference list and resolves to the correct Jin title/version.",
+      "primary_content_url": "https://www.preprints.org/manuscript/202607.1919/v4",
+      "locator": "Theorem 1; Section 3 Theorem 2; Section 7 last paragraph",
+      "scope": "Scalar polynomial/holomorphic numerical-range endpoint for arbitrary finite base size, with a scalar Hilbert-space extension. Its matrix-valued Herglotz kernel is an auxiliary base-space object, not a complete matrix-coefficient Crouzeix theorem.",
+      "publication_status": "Version 4 is expressly not peer-reviewed; no correctness or priority judgment is adopted."
+    },
+    {
+      "key": "GOLuo2026",
+      "bibtex": "@misc{GOLuo2026,\n  author = {Luo, Qinyu},\n  title = {Two Boundary-Certificate Proofs of the {Crouzeix} Theorem: Fiberwise {Fourier} Recurrence and Defect-{Gram} Telescoping},\n  year = {2026},\n  howpublished = {Preprints.org preprint 202608.1661},\n  note = {Version 2, posted 28 August 2026; not peer-reviewed},\n  url = {https://www.preprints.org/manuscript/202608.1661/v2}\n}",
+      "metadata_status": "Primary Preprints.org version record verifies author/title/version and submitted 27 August versus posted 28 August 2026.",
+      "primary_content_url": "https://www.preprints.org/manuscript/202608.1661/v2",
+      "locator": "Theorem 1; Sections 3, 4 and 5; Section 10 final scope statement",
+      "scope": "Finite-dimensional scalar polynomial and pole-free rational endpoint. The primary text explicitly excludes infinite-dimensional, matrix-valued and completely bounded endpoints.",
+      "publication_status": "Version 2 is expressly not peer-reviewed; kernel-check claims in its text were not independently executed in this review.",
+      "doi_handling": "No version-2 DOI was inserted without direct version-2 metadata verification."
+    }
+  ],
+  "optional_geometric_baseline": {
+    "key": "GOKuperberg2008",
+    "bibtex": "@article{GOKuperberg2008,\n  author = {Kuperberg, Greg},\n  title = {From the {Mahler} Conjecture to {Gauss} Linking Integrals},\n  journal = {Geometric and Functional Analysis},\n  volume = {18},\n  number = {3},\n  pages = {870--892},\n  year = {2008},\n  doi = {10.1007/s00039-008-0669-4},\n  eprint = {math/0610904},\n  archivePrefix = {arXiv},\n  url = {https://link.springer.com/article/10.1007/s00039-008-0669-4}\n}",
+    "primary_metadata_url": "https://link.springer.com/article/10.1007/s00039-008-0669-4",
+    "primary_content_url": "https://arxiv.org/pdf/math/0610904v2",
+    "metadata": "Publisher verifies Geometric and Functional Analysis 18(3), 870–892, 2008, DOI 10.1007/s00039-008-0669-4; original version 2 source is dated 14 December 2006.",
+    "locator": "Corollary 1.5; Theorem 1.4",
+    "scope": "All-dimensional symmetric reverse volume-product bound with explicit exponential gap from the sharp cube factor, using indefinite geometry and linking integrals. Optional comparison, not citation-count padding."
+  },
+  "no_source_mutation": true
+}
+

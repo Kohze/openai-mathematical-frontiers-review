@@ -1,0 +1,14 @@
+{
+  "reference_count": 83,
+  "all_references_cited": true,
+  "missing": [],
+  "unused_research_entries": [],
+  "bibliographies": [
+    "research\\root-references.bib",
+    "research\\root-release.bib",
+    "research\\arithmetic\\references.bib",
+    "research\\combinatorics\\references.bib",
+    "research\\geometry-operators\\references.bib"
+  ],
+  "non_release_published_scholarly_references": 43
+}

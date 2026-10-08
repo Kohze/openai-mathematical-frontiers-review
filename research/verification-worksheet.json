@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "scope": "Exact geometry/operator source interfaces and admissible acceptance/failure predicates. These predicates specify a future proof-level assessment; they do not record completed proof verification.",
+  "interfaces": [
+    {
+      "interface": "Symmetric boundary feasibility",
+      "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/feasibility.tex",
+      "locator": "lem:holomorphic-feasibility, lines 36–42",
+      "inputs": "Any positive dimension; finite nonzero real rows spanning the dual; biholomorphism of disk onto a bounded planar D, continuous on the closed disk, F(0)=0.",
+      "output": "The sum over independent row-index bases of all-row closed-boundary feasibility probabilities is at least 1.",
+      "failure_predicate": "A rigorously evaluated admissible row/domain example with sum below 1, or a failure in the normalized holomorphic-mass/Fatou inference. Duplicate rows are permitted here."
+    },
+    {
+      "interface": "Symmetric simplex normalization",
+      "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026/build/sections/simplex.tex",
+      "locator": "prop:simplex-integral, lines 46–60",
+      "inputs": "The special lens boundary law plus nonzero, pairwise nonproportional spanning rows.",
+      "output": "S=(d!/4^d) integral_A |Sigma_X| <= (d!/4^d)|A||A^polar|.",
+      "failure_predicate": "A violation for admissible rows of the probability-to-integral formula, null-tie argument or disjoint-interior statement; coincident simplices after duplicate rows do not qualify."
+    },
+    {
+      "interface": "General simultaneous normalization",
+      "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/02-projections.tex",
+      "locator": "prop:normalization, lines 175–184",
+      "inputs": "The source cone/projection data and the fixed scalar profiles satisfying their prescribed scalar bounds.",
+      "output": "A coordinate change and T in the prescribed spectral box with E A=0, lambda T^2+C circ T+K=0, and H=-C-2lambda T >= m_* I.",
+      "failure_predicate": "An unproved continuity/coercivity/fixed-point boundary step or an exact admissible instance without the asserted normalization; scalar coefficient positivity alone is insufficient."
+    },
+    {
+      "interface": "General all-segment absorption",
+      "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026/build/sections/08-segments.tex",
+      "locator": "prop:segment-estimate, lines 16–34, with the source scalar-input/profile definitions",
+      "inputs": "Every ordered noncoincident real endpoint pair; the exact fixed profiles, averages, error terms and constants.",
+      "output": "The strict displayed segment deficit inequality for all real pairs, with equality zero at coincident endpoints.",
+      "failure_predicate": "An exact admissible pair whose deficit is nonpositive; or an uncovered interpolation/tail regime. Node positivity alone does not establish the required predicate."
+    },
+    {
+      "interface": "Direct complete sharp operator bound",
+      "source": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026/build/main.tex",
+      "locator": "prop:coefficients lines 246–252; thm:domain lines 323–324; ordered-products, weighted-dual, diagonal-L2 and cross-L2",
+      "inputs": "Any positive n,m; analytic convex enclosing domain; W(A) inside it; matrix polynomial F bounded by 1 on the boundary.",
+      "output": "Compatible diagonal upper bounds 4a^2/gamma^2 and cross lower bound a^2, from positive compressed fields, forcing gamma<=2.",
+      "failure_predicate": "An invalid coefficient/resolvent estimate or admissible amplified test for which the claimed compatible bounds fail. Scalar tests and the Jordan sharpness example do not establish this upper bound."
+    }
+  ]
+}
